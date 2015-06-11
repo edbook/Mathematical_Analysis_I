@@ -36,7 +36,7 @@ Sagan
 Sett fram samtímis, en óháð, af Isaac Newton og Gottfried Leibniz í lok
 17. aldar.
 
-|image|
+|image1|
 
 Ítarefni
 ~~~~~~~~
@@ -190,7 +190,7 @@ Mengið :math:`X` kallast *skilgreiningarmengi* :math:`f`, mengið
 :math:`Y` kallast *bakmengi* :math:`f` og mengið
 :math:`f(X) = \{ f(x); x \in X \}` kallast *myndmengi* :math:`f`.
 
-|image|
+|image2|
 
 Samskeyting
 ~~~~~~~~~~~
@@ -202,7 +202,7 @@ Látum :math:`f:X \to Y` og :math:`g:Y \to Z` vera varpanir. Vörpunin
 vörpuninni :math:`f` á stakið :math:`x` og síðan vörpuninni :math:`g` á
 stakið :math:`f(x)`.
 
-|image|
+|image3|
 
 Eintækni/átækni
 ~~~~~~~~~~~~~~~
@@ -222,7 +222,7 @@ Segjum að vörpunin :math:`f` sé *eintæk* ef :math:`f(x_1) = f(x_2)`
 hefur í för með sér að :math:`x_1=x_2`, þ.e. sérhvert gildi sem vörpunin
 tekur er bara tekið einu sinni.
 
-|image|
+|image4|
 
 Andhverfa
 ~~~~~~~~~
@@ -241,7 +241,7 @@ samskeyting varpananna :math:`f` og :math:`f^{-1}` annars vegar og
 :math:`f^{-1}` og :math:`f` hins vegar sé viðeigandi samsemdarvörpun,
 þ.e. \ :math:`f^{-1}\circ f=id_X` og :math:`f\circ f^{-1} = id_Y`.
 
-|image|
+|image5|
 
 Graf
 ~~~~
@@ -261,7 +261,7 @@ mengi af rauntölum. *Graf* fallsins :math:`f` er þá mengi allra punkta í
 planinu :math:`{\mathbb  R}^2` af gerðinni :math:`(x,f(x))` þar sem
 :math:`x\in X`. Notum oft :math:`y` í stað :math:`f(x)`.
 
-|image|
+|image6|
 
 Markgildi
 ---------
@@ -470,7 +470,7 @@ Mikilvæg markgildi
 Markgildi þegar :math:`x` stefnir á :math:`\infty`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-|image|
+|image7|
 
 Gerum ráð fyrir að fall :math:`f` sé skilgreint á bili
 :math:`(a, \infty)`. Segjum að :math:`f(x)` *stefni á tölu :math:`L`
@@ -783,7 +783,7 @@ milli :math:`a` og :math:`b` þannig að :math:`f(c)=s`.
 src=“https://tube.geogebra.org/material/iframe/id/zEQQcGcQ/width/1075/height/767/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto”
 width=“1075px” height=“767px” style=“border:0px;”> </iframe>>
 
-|image|
+|image8|
 
 Fylgisetning
 ^^^^^^^^^^^^
@@ -802,11 +802,11 @@ oddatölu stigi, þá er til rauntala :math:`c` þannig að :math:`P(c)=0`.
 Ef :math:`a_n < 0` þá víxlast markgildin að ofan en röksemdafærslan er
 að öðru leyti eins.
 
-.. |image| image:: ./myndir/kafli01/01_NewtonLeibniz.jpg
-.. |image| image:: ./myndir/kafli01/02_Mynd_vorpunar.png
-.. |image| image:: ./myndir/kafli01/02_Samskeyting.png
-.. |image| image:: ./myndir/kafli01/02_Mynd_vorpunar.png
-.. |image| image:: ./myndir/kafli01/02_Andhverfa.png
-.. |image| image:: ./myndir/kafli01/02_Graf.png
-.. |image| image:: ./myndir/kafli01/03_liminf.png
-.. |image| image:: ./myndir/kafli01/04_Milligildissetn.png
+.. |image1| image:: ./myndir/kafli01/01_NewtonLeibniz.jpg
+.. |image2| image:: ./myndir/kafli01/02_Mynd_vorpunar.png
+.. |image3| image:: ./myndir/kafli01/02_Samskeyting.png
+.. |image4| image:: ./myndir/kafli01/02_Mynd_vorpunar.png
+.. |image5| image:: ./myndir/kafli01/02_Andhverfa.png
+.. |image6| image:: ./myndir/kafli01/02_Graf.png
+.. |image7| image:: ./myndir/kafli01/03_liminf.png
+.. |image8| image:: ./myndir/kafli01/04_Milligildissetn.png
