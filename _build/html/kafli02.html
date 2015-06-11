@@ -1,345 +1,661 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
-    <title>3. Námskeiðið &mdash; Stærðfræðigreining I 0.1 documentation</title>
-    
-    <link rel="stylesheet" href="_static/default.css" type="text/css" />
-    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    './',
-        VERSION:     '0.1',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true
-      };
-    </script>
-    <script type="text/javascript" src="_static/jquery.js"></script>
-    <script type="text/javascript" src="_static/underscore.js"></script>
-    <script type="text/javascript" src="_static/doctools.js"></script>
-    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <link rel="top" title="Stærðfræðigreining I 0.1 documentation" href="index.html" />
-    <link rel="prev" title="1. Section Title" href="kafli01.html" /> 
-  </head>
-  <body>
-    <div class="related">
-      <h3>Navigation</h3>
-      <ul>
-        <li class="right" style="margin-right: 10px">
-          <a href="genindex.html" title="General Index"
-             accesskey="I">index</a></li>
-        <li class="right" >
-          <a href="kafli01.html" title="1. Section Title"
-             accesskey="P">previous</a> |</li>
-        <li><a href="index.html">Stærðfræðigreining I 0.1 documentation</a> &raquo;</li> 
-      </ul>
-    </div>  
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>2. Markgildi og samfelldni &mdash; Mathematical Analysis I 0.1</title>
+  
 
-    <div class="document">
-      <div class="documentwrapper">
-        <div class="bodywrapper">
-          <div class="body">
+  
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="top" title="Mathematical Analysis I 0.1" href="index.html"/>
+        <link rel="next" title="3. Section Title" href="kafli99.html"/>
+        <link rel="prev" title="1. Tölur og föll" href="kafli01.html"/> 
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-nav-search">
+        <a href="index.html" class="fa fa-home"> Mathematical Analysis I</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        
+        
+            <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="kafli01.html">1. Tölur og föll</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="kafli01.html#inngangur">1.1. Inngangur</a></li>
+<li class="toctree-l2"><a class="reference internal" href="kafli01.html#skiladaemi">1.2. Skiladæmi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="kafli01.html#tolur">1.3. Tölur</a></li>
+<li class="toctree-l2"><a class="reference internal" href="kafli01.html#foll">1.4. Föll</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">2. Markgildi og samfelldni</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#inngangur">2.1. Inngangur</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#markgildi">2.2. Markgildi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#markgildi-fra-haegri">2.3. Markgildi frá hægri</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#markgildi-fra-vinstri">2.4. Markgildi frá vinstri</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#reiknireglur-fyrir-markgildi">2.5. Reiknireglur fyrir markgildi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#algeng-markgildi">2.6. Algeng markgildi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#markgildi-egar-stefnir-a-og">2.7. Markgildi þegar <span class="math">\(x\)</span> stefnir á <span class="math">\(\infty\)</span> og <span class="math">\(-\infty\)</span></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#og-sem-markgildi">2.8. <span class="math">\(\infty\)</span> og <span class="math">\(-\infty\)</span> sem markgildi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#sem-markgildi">2.9. <span class="math">\(-\infty\)</span> sem markgildi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#mikilvaeg-markgildi">2.10. Mikilvæg markgildi</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#samfelldni">2.11. Samfelldni</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#haegri-vinstri-samfelldni">2.12. Hægri/vinstri samfelldni</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#setningar-um-samfelld-foll">2.13. Setningar um samfelld föll</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="kafli99.html">3. Section Title</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="kafli99.html#id1">3.1. Section Title</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="kafli99.html#namskeii">4. Námskeiðið</a></li>
+</ul>
+
+        
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="index.html">Mathematical Analysis I</a>
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="index.html">Docs</a> &raquo;</li>
+      
+    <li>2. Markgildi og samfelldni</li>
+      <li class="wy-breadcrumbs-aside">
+        
+          <a href="_sources/kafli02.txt" rel="nofollow"> View page source</a>
+        
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
             
-  <div class="section" id="namskeii">
-<h1>3. Námskeiðið<a class="headerlink" href="#namskeii" title="Permalink to this headline">¶</a></h1>
-<p>Viðfangsefnið</p>
-<p><em>There is a theory which states that if ever anybody discovers exactly
-what the Universe is for and why it is here, it will instantly disappear
-and be replaced by something even more bizarre and inexplicable. There
-is another theory which states that this has already happened.</em> -Douglas
-Adams</p>
-<p>Stærðfræðigreining</p>
-<p>Grunnhugmyndin Stærðfræðigreining grundvallast á því að mæla breytingu
-(oft með tilliti til tíma)</p>
-<ul class="simple">
-<li>Eðlisfræði; hraði, hröðun, massi, orka, vinna, afl, þrýstingur</li>
-<li>Rúmmál; flatarmál, rúmmál, lengd, massamiðja</li>
-<li>Hagnýtingar; hagfræði, stofnstærðir, hámörkun/lágmörkun</li>
-<li>Stærðfræði; markgildi, hermun, jafnvægisástand</li>
-</ul>
-<p>Sagan Sett fram samtímis, en óháð, af Isaac Newton og Gottfried Leibniz
-í lok 17.&nbsp;aldar.</p>
-<p><img alt="image" src="_images/Graf_Deiling-eps-converted-to.pdf" /></p>
-<p>Ítarefni Fyrir nánari útlistun á hugtökunum sem við fjöllum um þá er
-hægt að skoða</p>
-<ul class="simple">
-<li><a class="reference external" href="http://stae.is">http://stæ.is</a> (hugtakasafn og orðaskrá)</li>
-<li><a class="reference external" href="http://planetmath.org">http://planetmath.org</a></li>
-<li><a class="reference external" href="http://mathworld.wolfram.com">http://mathworld.wolfram.com</a></li>
-<li><a class="reference external" href="http://en.wikipedia.org">http://en.wikipedia.org</a> (ath.&nbsp;enska útgáfan)</li>
-</ul>
-<p>Forrit</p>
-<ul class="simple">
-<li>GeoGebra <a class="reference external" href="http://www.geogebra.org">http://www.geogebra.org</a></li>
-<li>WolframAlpha <a class="reference external" href="http://www.wolframalpha.com">http://www.wolframalpha.com</a></li>
-</ul>
-</div>
-<div class="section" id="foll">
-<h1>4. Föll<a class="headerlink" href="#foll" title="Permalink to this headline">¶</a></h1>
-<p>Tölur</p>
-<p>1.1 Skilgreining</p>
-<p>(i) <em>Náttúrlegu tölurnar</em> eru tölurnar <span class="math">\(1, 2, 3, 4, \ldots\)</span> og
-mengi þeirra er táknað með <span class="math">\({\mathbb  N}\)</span>.</p>
-<p>(ii) Mengi <em>heiltalna</em> er táknað með <span class="math">\({\mathbb Z}\)</span>.
-<span class="math">\({\mathbb Z}= \ldots,-2,-1,0,1,2,3,\ldots\)</span></p>
-<div class="line-block">
-<div class="line">(iii) Mengi <em>ræðra talna</em> er táknað með <span class="math">\({\mathbb Q}\)</span>.</div>
-<div class="line"><span class="math">\({\mathbb Q}= \{ \frac pq ; p,q \in {\mathbb Z}\}\)</span>.</div>
-</div>
-<ol class="lowerroman simple" start="4">
-<li>Mengi <em>rauntalna</em> er táknað með <span class="math">\({\mathbb  R}\)</span>.</li>
-<li>Mengi <em>tvinntalna</em> er táknað með <span class="math">\({\mathbb  C}\)</span>.</li>
-</ol>
-<p>1.2 Athugasemd Margir vilja telja <span class="math">\(0\)</span> með sem náttúrlega tölu. Það
-er eðlilegt ef maður lítur á náttúrlegu tölurnar þannig að þær tákni
-fjölda. Ef maður lítur hins vegar þannig á að þær séu notaðar til að
-númera hluti þá er 0 ekki með.</p>
-<p>1.3 Smíði rauntalna Rauntölur eru smíðaðar úr ræðu tölunum með því að
-fylla upp í götin.</p>
-<p>T.d.&nbsp;eru</p>
-<div class="math">
-\[\begin{split}\begin{aligned}
-\pi &amp;=&amp; 3,1415926\ldots, \qquad \text{og}\\
-\sqrt 2 -4  &amp;=&amp; -2,58578\ldots\end{aligned}\end{split}\]</div>
-<p>ekki ræðar tölur (það er ekki hægt að skrifa þær sem brot
-<span class="math">\(\frac ab\)</span>, þar sem <span class="math">\(a\)</span> og <span class="math">\(b\)</span> eru heilar tölur), en
-þær eru rauntölur.</p>
-<p>1.4 Frumsendan um efra mark Látum <span class="math">\(A\)</span> vera mengi af rauntölum sem
-er þannig að til er tala <span class="math">\(x\)</span>, þannig að fyrir allar tölur
-<span class="math">\(a \in A\)</span> þá er</p>
-<div class="math">
-\[a\leq x.\]</div>
-<p>Þá er til rauntala <span class="math">\(x_0\)</span> sem kallast <em>minnsta efra mark</em> fyrir
-<span class="math">\(A\)</span>, sem er þannig að <span class="math">\(a\leq x_0\)</span> fyrir allar tölur
-<span class="math">\(a\in
-A\)</span> og ef <span class="math">\(x&lt;x_0\)</span> þá er til tala <span class="math">\(a\in A\)</span> þannig að
-<span class="math">\(a&gt;x\)</span>.</p>
-<p>Bil</p>
-<p>1.5 Skilgreining Látum <span class="math">\(a\)</span> og <span class="math">\(b\)</span> vera rauntölur þannig að
-<span class="math">\(a&lt;b\)</span>. Skilgreinum</p>
-<ol class="lowerroman simple">
-<li><em>opið bil</em>&nbsp;&nbsp;<span class="math">\((a,b)=\{x\in {\mathbb  R}; a&lt;x&lt;b\}\)</span></li>
-<li><em>lokað bil</em>&nbsp;&nbsp;<span class="math">\([a,b]=\{x\in {\mathbb  R}; a\leq x\leq b\}\)</span></li>
-<li><em>hálf opið bil</em>&nbsp;&nbsp;<span class="math">\([a,b)=\{x\in {\mathbb  R}; a\leq x&lt;b\}\)</span></li>
-<li><em>hálf opið bil</em>&nbsp;&nbsp;<span class="math">\((a,b]=\{x\in {\mathbb  R}; a&lt; x\leq b\}\)</span></li>
-</ol>
-<p>Þessi bil sem er skilgreind hér fyrir ofan eru kölluð endanleg. Til eru
-fleiri gerðir af bilum:</p>
-<p>(v) <em>opið óendanlegt bil</em>
-<span class="math">\((a,\infty)=\{x\in {\mathbb  R}; a&lt;x\}\)</span></p>
-<p>(vi) <em>opið óendanlegt bil</em>
-<span class="math">\((-\infty, a)=\{x\in {\mathbb  R}; x&lt;a\}\)</span></p>
-<ol class="lowerroman simple" start="7">
-<li><em>lokað óendanlegt bil</em></li>
-</ol>
-<p>&nbsp;&nbsp;<span class="math">\([a,\infty)=\{x\in {\mathbb  R}; a\leq x\}\)</span></p>
-<p>(viii) <em>lokað óendanlegt bil</em>
-<span class="math">\((-\infty, a]=\{x\in {\mathbb  R}; x\leq a\}\)</span></p>
-<ol class="lowerroman simple" start="9">
-<li><em>allur rauntalnaásinn</em>&nbsp;&nbsp; <span class="math">\((-\infty, \infty)\)</span>.</li>
-</ol>
-<p>1.6 Skilgreining Mengi <span class="math">\(A\)</span> af rauntölum kallast bil ef um allar
-tölur <span class="math">\(a&lt;b\)</span> sem eru í menginu <span class="math">\(A\)</span> gildir að ef <span class="math">\(a&lt;x&lt;b\)</span>
-þá er <span class="math">\(x\)</span> líka í menginu <span class="math">\(A\)</span>. Þ.e.&nbsp;<em>engin göt</em>.</p>
-<p>1.7 Athugasemd</p>
-<p>(i) Sérhvert bil á rauntalnaásnum er af einni þeirra gerða sem talin er
-upp í Skilgreiningu 1.5. (Þessi staðhæfing er jafngild frumsendunni um
-efra mark.)</p>
-<ol class="lowerroman simple" start="2">
-<li>Það er jafngilt að segja</li>
-</ol>
-<div class="math">
-\[x \in (a-\eta,a+\eta)\]</div>
-<p>og</p>
-<div class="math">
-\[\begin{split}|x-a| &lt; \eta.\end{split}\]</div>
-<p>Vörpun</p>
-<p>1.8 Skilgreining <em>Vörpun</em> frá mengi <span class="math">\(X\)</span> yfir í mengi <span class="math">\(Y\)</span> er
-regla sem úthlutar sérhverju staki <span class="math">\(x\)</span> í <span class="math">\(X\)</span> nákvæmlega einu
-staki <span class="math">\(f(x)\)</span> í <span class="math">\(Y\)</span>. Táknum þetta með <span class="math">\(f:X \to Y\)</span>.</p>
-<p>Stakið <span class="math">\(f(x)\)</span> kallast <em>gildi</em> vörpunarinnar (í punktinum
-<span class="math">\(x\)</span>).</p>
-<div class="line-block">
-<div class="line">1.9 Skilgreining Mengið <span class="math">\(X\)</span> kallast <em>skilgreiningarmengi</em></div>
-</div>
-<p><span class="math">\(f\)</span>,
-| mengið <span class="math">\(Y\)</span> kallast <em>bakmengi</em> <span class="math">\(f\)</span> og
-| mengið <span class="math">\(f(X) = \{ f(x); x \in X \}\)</span> kallast <em>myndmengi</em>
-<span class="math">\(f\)</span>.</p>
-<p><img alt="image" src="_images/Graf_Deiling-eps-converted-to.pdf" /></p>
-<p>Samskeyting</p>
-<p>1.10 Skilgreining Látum <span class="math">\(f:X \to Y\)</span> og <span class="math">\(g:Y \to Z\)</span> vera
-varpanir. Vörpunin <span class="math">\(g\circ f:X \to Z\)</span> sem skilgreind er með
-<span class="math">\((g\circ f)(x)=g(f(x))\)</span> kallast <em>samskeyting</em> <span class="math">\(f\)</span> og
-<span class="math">\(g\)</span>. Stakið <span class="math">\(g(f(x)) \in Z\)</span> fæst með því að beita fyrst
-vörpuninni <span class="math">\(f\)</span> á stakið <span class="math">\(x\)</span> og síðan vörpuninni <span class="math">\(g\)</span> á
-stakið <span class="math">\(f(x)\)</span>.</p>
-<p>&lt;1&gt;</p>
-<p>&lt;2&gt;</p>
-<p>Eintækni/átækni</p>
-<div class="line-block">
-<div class="line">1.11 Athugasemd Það er ekki víst að öll gildin í <span class="math">\(Y\)</span> séu tekin</div>
-</div>
-<p>(þ.e.&nbsp;<span class="math">\(f(X)\)</span> getur verið minna en <span class="math">\(Y\)</span>).
-| Eins þá er mögulegt að <span class="math">\(f\)</span> taki sama gildið oftar en einu sinni.</p>
-<p>1.12 Skilgreining Við segjum að vörpunin <span class="math">\(f\)</span> sé <em>átæk</em> ef
-<span class="math">\(f(X)=Y\)</span>, það þýðir að fyrir sérhvert stak <span class="math">\(y\)</span> í <span class="math">\(Y\)</span>
-þá er til (amk.&nbsp;eitt) stak <span class="math">\(x\)</span> í <span class="math">\(X\)</span> þannig að
-<span class="math">\(f(x)=y\)</span>.</p>
-<p>Segjum að vörpunin <span class="math">\(f\)</span> sé <em>eintæk</em> ef <span class="math">\(f(x_1) = f(x_2)\)</span>
-hefur í för með sér að <span class="math">\(x_1=x_2\)</span>, þ.e.&nbsp;sérhvert gildi sem vörpunin
-tekur er bara tekið einu sinni.</p>
-<p><img alt="image" src="_images/Graf_Deiling-eps-converted-to.pdf" /></p>
-<p>Andhverfa</p>
-<p>1.13 Skilgreining Vörpun sem er bæði eintæk og átæk kallast <em>gagntæk</em>.</p>
-<p>1.14 Setning Látum <span class="math">\(f:X \to Y\)</span> vera vörpun. Sagt er að <span class="math">\(f\)</span>
-sé andhverfanleg ef til er vörpun <span class="math">\(f^{-1}:Y \to X\)</span> þannig að
-samskeyting varpananna <span class="math">\(f\)</span> og <span class="math">\(f^{-1}\)</span> annars vegar og
-<span class="math">\(f^{-1}\)</span> og <span class="math">\(f\)</span> hins vegar sé viðeigandi samsemdarvörpun,
-þ.e.&nbsp;<span class="math">\(f^{-1}\circ f=id_X\)</span> og <span class="math">\(f\circ f^{-1} = id_Y\)</span>.</p>
-<p>&lt;1&gt;</p>
-<p>&lt;2&gt;</p>
-<p>Graf</p>
-<p>1.15 Athugasemd Venjulega hjá okkur þá eru mengin <span class="math">\(X\)</span> og <span class="math">\(Y\)</span>
-mengi af rauntölum. Þegar <span class="math">\(Y\)</span> er mengi af tölum þá er notast við
-orðið <em>fall</em> í stað orðsins <em>vörpun</em>.</p>
-<p>1.16 Skilgreining Látum <span class="math">\(f:X \to Y\)</span> vera fall þannig að <span class="math">\(X\)</span>
-og <span class="math">\(Y\)</span> eru mengi af rauntölum. <em>Graf</em> fallsins <span class="math">\(f\)</span> er þá
-mengi allra punkta í planinu <span class="math">\({\mathbb  R}^2\)</span> af gerðinni
-<span class="math">\((x,f(x))\)</span> þar sem <span class="math">\(x\in X\)</span>. Notum oft <span class="math">\(y\)</span> í stað
-<span class="math">\(f(x)\)</span>.</p>
-<p><img alt="image" src="_images/Graf_Deiling-eps-converted-to.pdf" /></p>
-</div>
-<div class="section" id="markgildi">
-<h1>5. Markgildi<a class="headerlink" href="#markgildi" title="Permalink to this headline">¶</a></h1>
-<p>Markgildi</p>
-<p>1.17 Óformleg skilgreining Segjum að <span class="math">\(f(x)\)</span> <em>stefni á tölu
-:math:`L` þegar :math:`x` stefnir á :math:`a`</em>, og ritum
-<span class="math">\(\lim_{x\rightarrow a} f(x)=L\)</span>, ef við getum tryggt að
-<span class="math">\(f(x)\)</span> sé <em>eins nálægt</em> <span class="math">\(L\)</span> og við viljum bara með því að
-velja <span class="math">\(x\)</span> <em>nógu nálægt</em> <span class="math">\(a\)</span>.</p>
-<p>1.18 Skilgreining Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé skilgreint á opnu
-bili umhverfis punktinn <span class="math">\(a\)</span>, nema hvað hugsanlega er <span class="math">\(f(a)\)</span>
-ekki skilgreint. Við segjum að <span class="math">\(f(x)\)</span> <em>stefni á tölu :math:`L`
-þegar :math:`x` stefnir á :math:`a`</em>, og ritum
-<span class="math">\(\lim_{x\rightarrow a} f(x)=L\)</span>, ef eftirfarandi skilyrði er
-uppfyllt:</p>
-<p><em>Fyrir sérhverja tölu :math:`varepsilon&gt;0` er til tala :math:`delta&gt;0`
-þannig að um öll :math:`x` þannig að</em></p>
-<div class="math">
-\[\begin{split}0&lt;|x-a|&lt;\delta,\quad \text{ þá er } \quad |f(x)-L|&lt;\varepsilon.\end{split}\]</div>
-<p>1.19 Athugasemd Þegar athugað er hvort markgildið
-<span class="math">\(\lim_{x\rightarrow a} f(x)\)</span> er til og hvert gildi þess er þá
-skiptir ekki máli hvort <span class="math">\(f(a)\)</span> er skilgreint eða ekki.</p>
-<p>Markgildi frá hægri</p>
-<p>1.20 Óformleg skilgreining Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé
-skilgreint á opnu bili <span class="math">\((a,b)\)</span>. Segjum að <span class="math">\(f(x)\)</span> <em>stefni á
-tölu :math:`L` þegar :math:`x` stefnir á :math:`a` frá hægri</em>, og ritum
-<span class="math">\(\lim_{x\rightarrow a^+} f(x)=L\)</span>, ef við getum tryggt að
-<span class="math">\(f(x)\)</span> sé <em>eins nálægt</em> <span class="math">\(L\)</span> og við viljum bara með því að
-velja <span class="math">\(x&gt;a\)</span> <em>nógu nálægt</em> <span class="math">\(a\)</span>.</p>
-<p>1.21 Skilgreining Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé skilgreint á opnu
-bili <span class="math">\((a,b)\)</span>. Við segjum að <span class="math">\(f(x)\)</span> <em>stefni á tölu :math:`L`
-þegar :math:`x` stefnir á :math:`a` frá hægri</em>, og ritum
-<span class="math">\(\lim_{x\rightarrow a^+} f(x)=L\)</span>, ef eftirfarandi skilyrði er
-uppfyllt.</p>
-<p><em>Fyrir sérhverja tölu :math:`varepsilon&gt;0` er til tala :math:`delta&gt;0`
-þannig að um öll :math:`x` þannig að</em></p>
-<div class="math">
-\[\begin{split}a&lt;x&lt;a+\delta,\quad \text{ þá er } \quad |f(x)-L|&lt;\varepsilon.\end{split}\]</div>
-<p>Markgildi frá vinstri</p>
-<p>1.22 Óformleg skilgreining Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé
-skilgreint á opnu bili <span class="math">\((b,a)\)</span>. Segjum að <span class="math">\(f(x)\)</span> <em>stefni á
-tölu :math:`L` þegar :math:`x` stefnir á :math:`a` frá vinstri</em>, og
-ritum <span class="math">\(\lim_{x\rightarrow a^-} f(x)=L\)</span>, ef við getum tryggt að
-<span class="math">\(f(x)\)</span> sé <em>eins nálægt</em> <span class="math">\(L\)</span> og við viljum bara með því að
-velja <span class="math">\(x&lt;a\)</span> <em>nógu nálægt</em> <span class="math">\(a\)</span>.</p>
-<p>1.23 Skilgreining Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé skilgreint á opnu
-bili <span class="math">\((b,a)\)</span>. Við segjum að <span class="math">\(f(x)\)</span> <em>stefni á tölu :math:`L`
-þegar :math:`x` stefnir á :math:`a` frá vinstri</em>, og ritum
-<span class="math">\(\lim_{x\rightarrow a^-} f(x)=L\)</span>, ef eftirfarandi skilyrði er
-uppfyllt.</p>
-<p><em>Fyrir sérhverja tölu :math:`varepsilon&gt;0` er til tala :math:`delta&gt;0`
-þannig að um öll :math:`x` þannig að</em></p>
-<div class="math">
-\[\begin{split}a-\delta&lt;x&lt;a,\quad \text{ þá er } \quad |f(x)-L|&lt;\varepsilon.\end{split}\]</div>
-<p>1.24 Setning Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé skilgreint á opnu bili
-umhverfis punktinn <span class="math">\(a\)</span>, nema hvað hugsanlega er <span class="math">\(f(a)\)</span> ekki
-skilgreint. Þá er</p>
-<div class="math">
-\[\lim_{x\rightarrow a} f(x)=L\]</div>
-<p>ef og aðeins ef</p>
-<div class="math">
-\[\lim_{x\rightarrow a^-} f(x)=L=\lim_{x\rightarrow a^+} f(x).\]</div>
-<p>Önnur efnisatriði sem þið þurfið að skoða</p>
+  <div class="section" id="markgildi-og-samfelldni">
+<h1>2. Markgildi og samfelldni<a class="headerlink" href="#markgildi-og-samfelldni" title="Varanlegur hlekkur á titilinn">¶</a></h1>
+<div class="section" id="inngangur">
+<h2>2.1. Inngangur<a class="headerlink" href="#inngangur" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="section" id="nausynleg-undirstaa">
+<h3>2.1.1. Nauðsynleg undirstaða<a class="headerlink" href="#nausynleg-undirstaa" title="Varanlegur hlekkur á titilinn">¶</a></h3>
 <ul class="simple">
 <li>Jafna línu, P.2</li>
 <li>Jafna hrings, P.3</li>
 <li>Hliðrun og skölun grafs, P.3</li>
 <li>(Stranglega) minnkandi og (stranglega) vaxandi föll, 2.8</li>
 <li>Jafnstæð og oddstæð föll, P.4</li>
+<li>Margliður; deiling, þáttun og rætur, P.6</li>
+<li>Tölugildisfallið, P.1</li>
+<li>Þríhyrningsójafnan, P.1</li>
+<li>Formerkjafallið, <span class="math">\(sgn(x)\)</span>, P.5</li>
 </ul>
+</div>
+</div>
+<div class="section" id="markgildi">
+<h2>2.2. Markgildi<a class="headerlink" href="#markgildi" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="section" id="oformleg-skilgreining-a-markgildi">
+<h3>2.2.1. Óformleg skilgreining á markgildi<a class="headerlink" href="#oformleg-skilgreining-a-markgildi" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Segjum að <span class="math">\(f(x)\)</span> <em>stefni á tölu :math:`L` þegar :math:`x` stefnir
+á :math:`a`</em>, og ritum <span class="math">\(\lim_{x\rightarrow a} f(x)=L\)</span>, ef við
+getum tryggt að <span class="math">\(f(x)\)</span> sé <em>eins nálægt</em> <span class="math">\(L\)</span> og við viljum
+bara með því að velja <span class="math">\(x\)</span> <em>nógu nálægt</em> <span class="math">\(a\)</span>.</p>
+</div>
+<div class="section" id="skilgreining-markgildi">
+<h3>2.2.2. Skilgreining: Markgildi<a class="headerlink" href="#skilgreining-markgildi" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé skilgreint á opnu bili umhverfis
+punktinn <span class="math">\(a\)</span>, nema hvað hugsanlega er <span class="math">\(f(a)\)</span> ekki
+skilgreint. Við segjum að <span class="math">\(f(x)\)</span> <em>stefni á tölu :math:`L` þegar
+:math:`x` stefnir á :math:`a`</em>, og ritum
+<span class="math">\(\lim_{x\rightarrow a} f(x)=L\)</span>, ef eftirfarandi skilyrði er
+uppfyllt:</p>
+<p><em>Fyrir sérhverja tölu :math:`epsilon&gt;0` er til tala :math:`delta&gt;0`
+þannig að um öll :math:`x` þannig að</em></p>
+<div class="math">
+\[\begin{split}0&lt;|x-a|&lt;\delta,\quad \text{ þá er } \quad |f(x)-L|&lt;\epsilon.\end{split}\]</div>
+<p>Við segjum að talan <span class="math">\(L\)</span> sé <em>markgildi</em> <span class="math">\(f(x)\)</span> þegar
+<span class="math">\(x\)</span> stefnir á <span class="math">\(a\)</span>.</p>
+</div>
+<div class="section" id="athugasemd">
+<h3>2.2.3. Athugasemd<a class="headerlink" href="#athugasemd" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Þegar athugað er hvort markgildið <span class="math">\(\lim_{x\rightarrow a} f(x)\)</span> er
+til og hvert gildi þess er þá skiptir ekki máli hvort <span class="math">\(f(a)\)</span> er
+skilgreint eða ekki.</p>
+</div>
+</div>
+<div class="section" id="markgildi-fra-haegri">
+<h2>2.3. Markgildi frá hægri<a class="headerlink" href="#markgildi-fra-haegri" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="section" id="oformleg-skilgreining">
+<h3>2.3.1. Óformleg skilgreining<a class="headerlink" href="#oformleg-skilgreining" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé skilgreint á opnu bili
+<span class="math">\((a,b)\)</span>. Segjum að <span class="math">\(f(x)\)</span> <em>stefni á tölu :math:`L` þegar
+:math:`x` stefnir á :math:`a` frá hægri</em>, og ritum
+<span class="math">\(\lim_{x\rightarrow a^+} f(x)=L\)</span>, ef við getum tryggt að
+<span class="math">\(f(x)\)</span> sé <em>eins nálægt</em> <span class="math">\(L\)</span> og við viljum bara með því að
+velja <span class="math">\(x&gt;a\)</span> <em>nógu nálægt</em> <span class="math">\(a\)</span>.</p>
+</div>
+<div class="section" id="skilgreining-markgildi-fra-haegri">
+<h3>2.3.2. Skilgreining (Markgildi frá hægri)<a class="headerlink" href="#skilgreining-markgildi-fra-haegri" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé skilgreint á opnu bili
+<span class="math">\((a,b)\)</span>. Við segjum að <span class="math">\(f(x)\)</span> <em>stefni á tölu :math:`L` þegar
+:math:`x` stefnir á :math:`a` frá hægri</em>, og ritum
+<span class="math">\(\lim_{x\rightarrow a^+} f(x)=L\)</span>, ef eftirfarandi skilyrði er
+uppfyllt.</p>
+<p><em>Fyrir sérhverja tölu :math:`epsilon&gt;0` er til tala :math:`delta&gt;0`
+þannig að um öll :math:`x` þannig að</em></p>
+<div class="math">
+\[\begin{split}a&lt;x&lt;a+\delta,\quad \text{ þá er } \quad |f(x)-L|&lt;\epsilon.\end{split}\]</div>
+</div>
+</div>
+<div class="section" id="markgildi-fra-vinstri">
+<h2>2.4. Markgildi frá vinstri<a class="headerlink" href="#markgildi-fra-vinstri" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="section" id="id1">
+<h3>2.4.1. Óformleg skilgreining<a class="headerlink" href="#id1" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé skilgreint á opnu bili
+<span class="math">\((b,a)\)</span>. Segjum að <span class="math">\(f(x)\)</span> <em>stefni á tölu :math:`L` þegar
+:math:`x` stefnir á :math:`a` frá vinstri</em>, og ritum
+<span class="math">\(\lim_{x\rightarrow a^-} f(x)=L\)</span>, ef við getum tryggt að
+<span class="math">\(f(x)\)</span> sé <em>eins nálægt</em> <span class="math">\(L\)</span> og við viljum bara með því að
+velja <span class="math">\(x&lt;a\)</span> <em>nógu nálægt</em> <span class="math">\(a\)</span>.</p>
+</div>
+<div class="section" id="skilgreining-markgildi-fra-vinstri">
+<h3>2.4.2. Skilgreining – Markgildi frá vinstri<a class="headerlink" href="#skilgreining-markgildi-fra-vinstri" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé skilgreint á opnu bili
+<span class="math">\((b,a)\)</span>. Við segjum að <span class="math">\(f(x)\)</span> <em>stefni á tölu :math:`L` þegar
+:math:`x` stefnir á :math:`a` frá vinstri</em>, og ritum
+<span class="math">\(\lim_{x\rightarrow a^-} f(x)=L\)</span>, ef eftirfarandi skilyrði er
+uppfyllt.</p>
+<p><em>Fyrir sérhverja tölu :math:`epsilon&gt;0` er til tala :math:`delta&gt;0`
+þannig að um öll :math:`x` þannig að</em></p>
+<div class="math">
+\[\begin{split}a-\delta&lt;x&lt;a,\quad \text{ þá er } \quad |f(x)-L|&lt;\epsilon.\end{split}\]</div>
+</div>
+</div>
+<div class="section" id="reiknireglur-fyrir-markgildi">
+<h2>2.5. Reiknireglur fyrir markgildi<a class="headerlink" href="#reiknireglur-fyrir-markgildi" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="section" id="setning">
+<h3>2.5.1. Setning<a class="headerlink" href="#setning" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé skilgreint á opnu bili umhverfis
+punktinn <span class="math">\(a\)</span>, nema hvað hugsanlega er <span class="math">\(f(a)\)</span> ekki
+skilgreint. Þá er</p>
+<div class="math">
+\[\lim_{x\rightarrow a} f(x)=L\]</div>
+<p>ef og aðeins ef</p>
+<div class="math">
+\[\lim_{x\rightarrow a^-} f(x)=L=\lim_{x\rightarrow a^+} f(x).\]</div>
+</div>
+<div class="section" id="id2">
+<h3>2.5.2. Setning<a class="headerlink" href="#id2" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Gerum ráð fyrir að <span class="math">\(\lim_{x\rightarrow a}f(x)=L\)</span> og að
+<span class="math">\(\lim_{x\rightarrow a}g(x)=M\)</span>. Þá gildir</p>
+<ol class="lowerroman simple">
+<li><span class="math">\(\lim_{x\rightarrow a}\Big(f(x)+g(x)\Big)=L+M\)</span>;</li>
+<li><span class="math">\(\lim_{x\rightarrow a}\Big(f(x)-g(x)\Big)=L-M\)</span>;</li>
+<li><span class="math">\(\lim_{x\rightarrow a}f(x)g(x)=LM\)</span>;</li>
+<li><span class="math">\(\lim_{x\rightarrow a}kf(x)=kL\)</span>, þar sem <span class="math">\(k\)</span> fasti;</li>
+<li><span class="math">\(\lim_{x\rightarrow a}f(x)/g(x)=L/M\)</span>, að því gefnu að
+<span class="math">\(M\neq 0\)</span>;</li>
+<li>Gerum ráð fyrir að <span class="math">\(m\)</span> og <span class="math">\(n\)</span> séu heiltölur þannig að
+<span class="math">\(f(x)^{m/n}\)</span> sé skilgreint fyrir öll <span class="math">\(x\)</span> á bili
+<span class="math">\((b,c)\)</span> umhverfis <span class="math">\(a\)</span> (en ekki endilega fyrir
+<span class="math">\(x=a\)</span>) og að <span class="math">\(L^{m/n}\)</span> sé skilgreint. Þá er
+<span class="math">\(\lim_{x\rightarrow a}f(x)^{m/n}=L^{m/n}\)</span>.</li>
+<li>Ef til er bil <span class="math">\((b,c)\)</span> sem inniheldur <span class="math">\(a\)</span> þannig að
+<span class="math">\(f(x)\leq g(x)\)</span> fyrir öll <span class="math">\(x\in (b,c)\)</span>, nema kannski
+<span class="math">\(x=a\)</span>, þá er
+<span class="math">\(\lim_{x\rightarrow a}f(x)=L\leq M=\lim_{x\rightarrow a}g(x)\)</span>.</li>
+</ol>
+</div>
+<div class="section" id="athugasemd-varu">
+<h3>2.5.3. Athugasemd – Varúð<a class="headerlink" href="#athugasemd-varu" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Liður (i) í setningunni á undan segir að ef markgildin
+<span class="math">\(\lim_{x\to a} f(x)\)</span> og <span class="math">\(\lim_{x\to a} g(x)\)</span> eru til þá sé
+markgildið <span class="math">\(\lim_{x\to a} (f(x)+g(x))\)</span> einnig til.</p>
+<p>En hún segir <strong>ekki</strong> að ef <span class="math">\(f\)</span> og <span class="math">\(g\)</span> eru föll þannig að
+markgildið <span class="math">\(\lim_{x\to a} (f(x)+g(x))\)</span> er til, að þá séu
+markgildin <span class="math">\(\lim_{x\to a} f(x)\)</span> og <span class="math">\(\lim_{x\to a} g(x)\)</span>
+einnig til.</p>
+</div>
+<div class="section" id="setning-klemmureglan">
+<h3>2.5.4. Setning – Klemmureglan<a class="headerlink" href="#setning-klemmureglan" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Gerum ráð fyrir að <span class="math">\(f(x)\leq
+g(x)\leq h(x)\)</span> fyrir öll <span class="math">\(x\)</span> á bili <span class="math">\((b, c)\)</span> sem inniheldur
+<span class="math">\(a\)</span>, nema kannski <span class="math">\(x=a\)</span>. Gerum enn fremur ráð fyrir að</p>
+<div class="math">
+\[\lim_{x\rightarrow a}f(x)=\lim_{x\rightarrow a}h(x)=L.\]</div>
+<p>Þá er <span class="math">\(\lim_{x\rightarrow a}g(x)=L\)</span>.</p>
+</div>
+</div>
+<div class="section" id="algeng-markgildi">
+<h2>2.6. Algeng markgildi<a class="headerlink" href="#algeng-markgildi" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="section" id="daemi">
+<h3>2.6.1. Dæmi<a class="headerlink" href="#daemi" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<ol class="lowerroman simple">
+<li><span class="math">\(\lim_{x \to a} c = c\)</span>, <span class="math">\(c\)</span> fasti</li>
+<li><span class="math">\(\lim_{x \to a} x = a\)</span></li>
+<li><span class="math">\(\lim_{x \to a} |x| = |a|\)</span></li>
+<li><span class="math">\(\lim_{x \to 0} \frac{|x|}{x}\)</span> er ekki til</li>
+<li><span class="math">\(\lim_{x \to 0^-} \frac{|x|}{x} = -1\)</span></li>
+<li><span class="math">\(\lim_{x \to 0^+} \frac{|x|}{x} = 1\)</span></li>
+</ol>
+</div>
+</div>
+<div class="section" id="markgildi-egar-stefnir-a-og">
+<h2>2.7. Markgildi þegar <span class="math">\(x\)</span> stefnir á <span class="math">\(\infty\)</span> og <span class="math">\(-\infty\)</span><a class="headerlink" href="#markgildi-egar-stefnir-a-og" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<p><img alt="image" src="_images/04_Milligildissetn.png" /></p>
+<div class="section" id="id3">
+<h3>2.7.1. Óformleg skilgreining<a class="headerlink" href="#id3" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé skilgreint á bili
+<span class="math">\((a, \infty)\)</span>. Segjum að <span class="math">\(f(x)\)</span> <em>stefni á tölu :math:`L`
+þegar :math:`x` stefnir á :math:`infty`</em>, og ritum
+<span class="math">\(\lim_{x\rightarrow \infty} f(x)=L\)</span>, ef við getum tryggt að
+<span class="math">\(f(x)\)</span> sé eins <em>nálægt</em> <span class="math">\(L\)</span> og við viljum bara með því að
+velja <span class="math">\(x\)</span> <em>nógu stórt</em>.</p>
+</div>
+<div class="section" id="skilgreining">
+<h3>2.7.2. Skilgreining<a class="headerlink" href="#skilgreining" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé skilgreint á bili
+<span class="math">\((a,\infty)\)</span>. Við segjum að <span class="math">\(f(x)\)</span> <em>stefni á tölu :math:`L`
+þegar :math:`x` stefnir á :math:`infty`</em>, og ritum
+<span class="math">\(\lim_{x\rightarrow \infty} f(x)=L\)</span>, ef eftirfarandi skilyrði er
+uppfyllt:</p>
+<p><em>Fyrir sérhverja tölu :math:`epsilon&gt;0` er til tala :math:`R` þannig að
+um öll :math:`x&gt;R` * *gildir að :math:`|f(x)-L|&lt;epsilon`.</em></p>
+<p>Fyrir <span class="math">\(-\infty\)</span> er þetta gert með sama sniði.</p>
+</div>
+<div class="section" id="oformlega-skilgreining">
+<h3>2.7.3. Óformlega skilgreining<a class="headerlink" href="#oformlega-skilgreining" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé skilgreint á bili
+<span class="math">\((-\infty, a)\)</span>. Segjum að <span class="math">\(f(x)\)</span> <em>stefni á tölu :math:`L`
+þegar :math:`x` stefnir á :math:`-infty`</em>, og ritum
+<span class="math">\(\lim_{x\rightarrow -\infty} f(x)=L\)</span>, ef við getum tryggt að
+<span class="math">\(f(x)\)</span> sé eins <em>nálægt</em> <span class="math">\(L\)</span> og við viljum bara með því að
+velja <span class="math">\(x\)</span> sem <em>nógu stóra</em> mínus tölu.</p>
+</div>
+<div class="section" id="id4">
+<h3>2.7.4. Skilgreining<a class="headerlink" href="#id4" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé skilgreint á bili
+<span class="math">\((-\infty,a)\)</span>. Við segjum að <span class="math">\(f(x)\)</span> <em>stefni á tölu :math:`L`
+þegar :math:`x` stefnir á :math:`-infty`</em>, og ritum
+<span class="math">\(\lim_{x\rightarrow -\infty} f(x)=L\)</span>, ef eftirfarandi skilyrði er
+uppfyllt:</p>
+<p><em>Fyrir sérhverja tölu :math:`epsilon&gt;0` er til tala :math:`R` þannig að
+um öll :math:`x&lt;R` * *gildir að :math:`|f(x)-L|&lt;epsilon`.</em></p>
+</div>
+</div>
+<div class="section" id="og-sem-markgildi">
+<h2>2.8. <span class="math">\(\infty\)</span> og <span class="math">\(-\infty\)</span> sem markgildi<a class="headerlink" href="#og-sem-markgildi" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="section" id="id5">
+<h3>2.8.1. Óformleg skilgreining<a class="headerlink" href="#id5" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé skilgreint á opnu bili umhverfis
+punktinn <span class="math">\(a\)</span>, nema hvað hugsanlega er <span class="math">\(f(a)\)</span> ekki
+skilgreint. Segjum að <span class="math">\(f(x)\)</span> <em>stefni á :math:`infty` þegar
+:math:`x` stefnir á :math:`a`</em>, og ritum
+<span class="math">\(\lim_{x\rightarrow a} f(x)=\infty\)</span>, ef við getum tryggt að
+<span class="math">\(f(x)\)</span> sé <em>hversu stórt sem við viljum</em> bara með því að velja
+<span class="math">\(x\)</span> <em>nógu nálægt</em> <span class="math">\(a\)</span>.</p>
+</div>
+<div class="section" id="id6">
+<h3>2.8.2. Skilgreining<a class="headerlink" href="#id6" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé skilgreint á opnu bili umhverfis
+punktinn <span class="math">\(a\)</span>, nema hvað hugsanlega er <span class="math">\(f(a)\)</span> ekki
+skilgreint. Við segjum að <span class="math">\(f(x)\)</span> <em>stefni á :math:`infty` þegar
+:math:`x` stefnir á :math:`a`</em>, og ritum
+<span class="math">\(\lim_{x\rightarrow a} f(x)=\infty\)</span>, ef eftirfarandi skilyrði er
+uppfyllt</p>
+<p><em>fyrir sérhverja tölu :math:`B` er til tala :math:`delta&gt;0` þannig að
+um öll :math:`x` þannig að</em> <em>:math:`0&lt;|x-a|&lt;delta` gildir að
+:math:`f(x)&gt;B`.</em></p>
+</div>
+<div class="section" id="athugasemd-malvenja">
+<h3>2.8.3. Athugasemd – Málvenja<a class="headerlink" href="#athugasemd-malvenja" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Athugið að <span class="math">\(\infty\)</span> er <strong>ekki</strong> tala. Þó að
+<span class="math">\(\lim_{x\rightarrow a} f(x)=\infty\)</span> þá er samt sagt að markgildið
+<span class="math">\(\lim_{x\rightarrow a} f(x)\)</span> sé ekki til.</p>
+</div>
+</div>
+<div class="section" id="sem-markgildi">
+<h2>2.9. <span class="math">\(-\infty\)</span> sem markgildi<a class="headerlink" href="#sem-markgildi" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="section" id="id7">
+<h3>2.9.1. Óformleg skilgreining<a class="headerlink" href="#id7" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé skilgreint á opnu bili umhverfis
+punktinn <span class="math">\(a\)</span>, nema hvað hugsanlega er <span class="math">\(f(a)\)</span> ekki
+skilgreint. Segjum að <span class="math">\(f(x)\)</span> <em>stefni á :math:`-infty` þegar
+:math:`x` stefnir á :math:`a`</em>, og ritum
+<span class="math">\(\lim_{x\rightarrow a} f(x)=-\infty\)</span>, ef við getum tryggt að
+<span class="math">\(f(x)\)</span> sé <em>hversu lítið sem við viljum</em> bara með því að velja
+<span class="math">\(x\)</span> <em>nógu nálægt</em> <span class="math">\(a\)</span>.</p>
+</div>
+<div class="section" id="id8">
+<h3>2.9.2. Skilgreining<a class="headerlink" href="#id8" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé skilgreint á opnu bili umhverfis
+punktinn <span class="math">\(a\)</span>, nema hvað hugsanlega er <span class="math">\(f(a)\)</span> ekki
+skilgreint. Við segjum að <span class="math">\(f(x)\)</span> <em>stefni á :math:`-infty` þegar
+:math:`x` stefnir á :math:`a`</em>, og ritum
+<span class="math">\(\lim_{x\rightarrow a} f(x)=-\infty\)</span>, ef eftirfarandi skilyrði er
+uppfyllt</p>
+<p><em>fyrir sérhverja tölu :math:`B` er til tala :math:`delta&gt;0` þannig að
+um öll :math:`x` þannig að</em></p>
+<p><em>:math:`0&lt;|x-a|&lt;delta` gildir að :math:`f(x)&lt;B`.</em></p>
+</div>
+<div class="section" id="id9">
+<h3>2.9.3. Athugasemd – Málvenja<a class="headerlink" href="#id9" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Athugið að <span class="math">\(-\infty\)</span> er <strong>ekki</strong> tala. Þó að
+<span class="math">\(\lim_{x\rightarrow a} f(x)=-\infty\)</span> þá er samt sagt að markgildið
+<span class="math">\(\lim_{x\rightarrow a} f(x)\)</span> sé ekki til.</p>
+</div>
+</div>
+<div class="section" id="mikilvaeg-markgildi">
+<h2>2.10. Mikilvæg markgildi<a class="headerlink" href="#mikilvaeg-markgildi" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="section" id="synidaemi-markgildi-me">
+<h3>2.10.1. Sýnidæmi – Markgildi með <span class="math">\(\sin\)</span><a class="headerlink" href="#synidaemi-markgildi-me" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<ol class="lowerroman">
+<li><div class="first math">
+\[\lim_{x\to 0} \sin\left(\frac 1x\right) \quad \text{er ekki til}\]</div>
+</li>
+<li><div class="first math">
+\[\lim_{x\to 0} x\sin\left(\frac 1x\right) = 0\]</div>
+</li>
+<li><div class="first math">
+\[\lim_{x \to 0} \frac{\sin(x)}{x} = 1\]</div>
+</li>
+</ol>
+</div>
+<div class="section" id="id10">
+<h3>2.10.2. Sýnidæmi – Markgildi með <span class="math">\(|x|\)</span><a class="headerlink" href="#id10" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<ol class="lowerroman">
+<li><div class="first math">
+\[\lim_{x\to 0^+} \frac x{|x|} = 1\]</div>
+</li>
+<li><div class="first math">
+\[\lim_{x\to 0^-} \frac x{|x|} = -1\]</div>
+</li>
+<li><div class="first math">
+\[\lim_{x\to 0} \frac x{|x|} \quad \text{er ekki til}\]</div>
+</li>
+</ol>
+</div>
+</div>
+<div class="section" id="samfelldni">
+<h2>2.11. Samfelldni<a class="headerlink" href="#samfelldni" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="section" id="id11">
+<h3>2.11.1. Skilgreining<a class="headerlink" href="#id11" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(A\subseteq {{\mathbb  R}}\)</span> og <span class="math">\(x\in A\)</span>. Við segjum að
+<span class="math">\(x\)</span> sé <em>innri punktur</em> <span class="math">\(A\)</span> ef <span class="math">\(A\)</span> inniheldur opið bil
+umhverfis <span class="math">\(x\)</span>, það er að segja til er tala <span class="math">\(\delta&gt;0\)</span> þannig
+að <span class="math">\((x-\delta, x+\delta)\subseteq
+A\)</span>.</p>
+<p>Ef <span class="math">\(x\)</span> er ekki innri punktur <span class="math">\(A\)</span> og <span class="math">\(x\in A\)</span> þá segjum
+við að <span class="math">\(x\)</span> sé <em>jaðarpunktur</em> <span class="math">\(A\)</span>.</p>
+</div>
+<div class="section" id="id12">
+<h3>2.11.2. Skilgreining<a class="headerlink" href="#id12" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(f\)</span> vera fall og <span class="math">\(c\)</span> innri punkt skilgreiningarsvæðis
+<span class="math">\(f\)</span>. Sagt er að <span class="math">\(f\)</span> sé <em>samfellt í punktinum</em> <span class="math">\(c\)</span> ef</p>
+<div class="math">
+\[\lim_{x\rightarrow c}f(x)=f(c).\]</div>
+</div>
+<div class="section" id="id13">
+<h3>2.11.3. Setning<a class="headerlink" href="#id13" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(f\)</span> og <span class="math">\(g\)</span> vera föll. Gerum ráð fyrir að <span class="math">\(c\)</span> sé
+innri punktur skilgreiningarsvæðis beggja fallanna og að bæði föllin séu
+samfelld í punktinum <span class="math">\(c\)</span>. Þá eru eftirfarandi föll samfelld í
+<span class="math">\(c\)</span>:</p>
+<ol class="lowerroman simple">
+<li><span class="math">\(f+g\)</span></li>
+<li><span class="math">\(f-g\)</span></li>
+<li><span class="math">\(fg\)</span></li>
+<li><span class="math">\(kf\)</span>, þar sem <span class="math">\(k\)</span> er fasti</li>
+<li><span class="math">\(f/g\)</span>, ef <span class="math">\(g(c)\neq 0\)</span></li>
+<li><span class="math">\(\Big(f(x)\Big)^{1/n}\)</span>, að því gefnu að <span class="math">\(f(c)&gt;0\)</span> ef
+<span class="math">\(n\)</span> er slétt tala og <span class="math">\(f(c)\neq 0\)</span> ef <span class="math">\(n&lt;0\)</span>.</li>
+</ol>
+</div>
+<div class="section" id="setning-samskeyting-samfelldra-falla">
+<h3>2.11.4. Setning – Samskeyting samfelldra falla<a class="headerlink" href="#setning-samskeyting-samfelldra-falla" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(g\)</span> vera fall sem er skilgreint á opnu bili umhverfis
+<span class="math">\(c\)</span> og samfellt í <span class="math">\(c\)</span> og látum <span class="math">\(f\)</span> vera fall sem er
+skilgreint á opnu bili umhverfis <span class="math">\(g(c)\)</span> og samfellt í
+<span class="math">\(g(c)\)</span>. Þá er fallið <span class="math">\(f\circ g\)</span> skilgreint á opnu bili
+umhverfis <span class="math">\(c\)</span> og er samfellt í <span class="math">\(c\)</span>.</p>
+</div>
+<div class="section" id="athugasemd-hef">
+<h3>2.11.5. Athugasemd – Hefð<a class="headerlink" href="#athugasemd-hef" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Ef fall er skilgreint með formúlu og skilgreingamengið er ekki tilgreint
+sérstaklega, þá er venjan að líta alla þá punkta þar sem formúlan gildir
+sem skilgreingarmengi fallsins</p>
+</div>
+<div class="section" id="id14">
+<h3>2.11.6. Skilgreining<a class="headerlink" href="#id14" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Við segjum að fall <span class="math">\(f\)</span> sé <em>samfellt</em> ef það er samfellt í
+sérhverjum punkti skilgreingarmengisins.</p>
+</div>
+<div class="section" id="id15">
+<h3>2.11.7. Dæmi<a class="headerlink" href="#id15" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Eftirfarandi föll eru samfelld</p>
+<ol class="lowerroman simple">
+<li>margliður</li>
+<li>ræð föll</li>
+<li>ræð veldi</li>
+<li>hornaföll; <span class="math">\(\sin\)</span>, <span class="math">\(\cos\)</span>, <span class="math">\(\tan\)</span></li>
+<li>tölugildisfallið <span class="math">\(|x|\)</span></li>
+</ol>
+</div>
+<div class="section" id="athugasemd-a-bua-til-samfelld-foll">
+<h3>2.11.8. Athugasemd – Að búa til samfelld föll<a class="headerlink" href="#athugasemd-a-bua-til-samfelld-foll" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Með því að nota föllin úr dæminu á undan sem efnivið þá getum við búið
+til fjölda samfelldra fall með því að beita aðgerðunum úr Setningu 3.14
+og Setningu 3.15.</p>
+</div>
+</div>
+<div class="section" id="haegri-vinstri-samfelldni">
+<h2>2.12. Hægri/vinstri samfelldni<a class="headerlink" href="#haegri-vinstri-samfelldni" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<p>Rifjum upp skilgreininguna á samfelldni.</p>
+<div class="section" id="id16">
+<h3>2.12.1. Skilgreining<a class="headerlink" href="#id16" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(f\)</span> vera fall og <span class="math">\(c\)</span> innri punkt skilgreiningarsvæðis
+<span class="math">\(f\)</span>. Sagt er að <span class="math">\(f\)</span> sé <em>samfellt í punktinum</em> <span class="math">\(c\)</span> ef</p>
+<div class="math">
+\[\lim_{x\rightarrow c}f(x)=f(c).\]</div>
+</div>
+<div class="section" id="id17">
+<h3>2.12.2. Athugasemd<a class="headerlink" href="#id17" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Þessi skilgreining virkar aðeins fyrir innri punkta
+skilgreiningarsvæðisins. Þannig að ef ætlunin er að rannsaka samfelldni
+í jaðarpunktum þá gengur þessi skilgreining ekki. Hins vegar getum við
+útvíkkað skilgreininguna á samfelldni fyrir hægri og vinstri endapunkta
+bila með því að einskorða okkur við markgildi frá vinstri og hægri.</p>
+</div>
+<div class="section" id="id18">
+<h3>2.12.3. Skilgreining<a class="headerlink" href="#id18" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<ol class="lowerroman">
+<li><p class="first">Fall <span class="math">\(f\)</span> er <em>samfellt frá hægri í punkti</em> <span class="math">\(c\)</span> ef
+<span class="math">\(\lim_{x\rightarrow c^+}f(x)=f(c)\)</span>.</p>
+<p>Hér er gert ráð fyrir að fallið <span class="math">\(f\)</span> sé amk.&nbsp;skilgreint á
+bilinu <span class="math">\([c, a)\)</span>.</p>
+</li>
+<li><p class="first">Fall <span class="math">\(f\)</span> er <em>samfellt frá vinstri í punkti</em> <span class="math">\(c\)</span> ef
+<span class="math">\(\lim_{x\rightarrow c^-}f(x)=f(c)\)</span>.</p>
+<p>Hér er gert ráð fyrir að fallið <span class="math">\(f\)</span> sé amk.&nbsp;skilgreint á
+bilinu <span class="math">\((a, c]\)</span>.</p>
+</li>
+</ol>
+<p>Uppfærum nú skilgreiningu [skilgr:samfellt:sub:<cite>f</cite>all].</p>
+</div>
+<div class="section" id="skilgreining-uppfaer">
+<h3>2.12.4. Skilgreining (uppfærð)<a class="headerlink" href="#skilgreining-uppfaer" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Gerum ráð fyrir að <span class="math">\(f\)</span> sé fall sem er skilgreint á mengi
+<span class="math">\(A\)</span>, þar sem <span class="math">\(A\)</span> er sammengi endanlega margra bila. Við
+segjum að fallið <span class="math">\(f\)</span> sé <em>samfellt</em> ef það er samfellt í öllum
+innri punktum skilgreingarmengisins, og ef það er samfellt frá
+hægri/vinstri í jaðarpunktum skilgreingarmengisins, eftir því sem við á.</p>
+</div>
+<div class="section" id="id19">
+<h3>2.12.5. Athugasemd<a class="headerlink" href="#id19" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Ef fall er samfellt á opnu bili <span class="math">\((a,b)\)</span>, og ef <span class="math">\(a&lt;c&lt;d&lt;b\)</span>, þá
+er fallið einnig samfellt á bilinu <span class="math">\([c,d]\)</span>.</p>
+</div>
+</div>
+<div class="section" id="setningar-um-samfelld-foll">
+<h2>2.13. Setningar um samfelld föll<a class="headerlink" href="#setningar-um-samfelld-foll" title="Varanlegur hlekkur á titilinn">¶</a></h2>
+<div class="section" id="setning-ha-og-laggildislogmali">
+<h3>2.13.1. Setning – Há- og lággildislögmálið<a class="headerlink" href="#setning-ha-og-laggildislogmali" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(f\)</span> vera samfellt fall skilgreint á lokuðu takmörkuðu bili
+<span class="math">\([a,b]\)</span>. Þá eru til tölur <span class="math">\(x_1\)</span> og <span class="math">\(x_2\)</span> í
+<span class="math">\([a,b]\)</span> þannig að fyrir allar tölur <span class="math">\(x\)</span> í <span class="math">\([a,b]\)</span> er</p>
+<div class="math">
+\[f(x_1)\leq f(x)\leq f(x_2).\]</div>
+<p>Þetta þýðir að samfellt fall <span class="math">\(f\)</span> á lokuðu og takmörkuðu bili
+<span class="math">\([a,b]\)</span> tekur bæði hæsta og lægsta gildi á bilinu. Hæsta gildið er
+þá <span class="math">\(f(x_2)\)</span> og lægsta gildið er <span class="math">\(f(x_1)\)</span>.</p>
+</div>
+<div class="section" id="id20">
+<h3>2.13.2. Athugasemd<a class="headerlink" href="#id20" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Það er mögulegt að fallið taki há/lággildi sitt í fleiri en einum
+punkti.</p>
+</div>
+<div class="section" id="setning-milligildissetningin">
+<h3>2.13.3. Setning – Milligildissetningin<a class="headerlink" href="#setning-milligildissetningin" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Látum <span class="math">\(f\)</span> vera samfellt fall skilgreint á lokuðu takmörkuðu bili
+<span class="math">\([a,b]\)</span>. Gerum ráð fyrir að <span class="math">\(s\)</span> sé tala sem liggur á milli
+<span class="math">\(f(a)\)</span> og <span class="math">\(f(b)\)</span>. Þá er til tala <span class="math">\(c\)</span> sem liggur á
+milli <span class="math">\(a\)</span> og <span class="math">\(b\)</span> þannig að <span class="math">\(f(c)=s\)</span>.</p>
+<p>&lt;iframe scrolling=“no”
+src=“<a class="reference external" href="https://tube.geogebra.org/material/iframe/id/zEQQcGcQ/width/1075/height/767/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto">https://tube.geogebra.org/material/iframe/id/zEQQcGcQ/width/1075/height/767/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto</a>”
+width=“1075px” height=“767px” style=“border:0px;”&gt; &lt;/iframe&gt;&gt;</p>
+<p><img alt="image" src="_images/04_Milligildissetn.png" /></p>
+</div>
+<div class="section" id="fylgisetning">
+<h3>2.13.4. Fylgisetning<a class="headerlink" href="#fylgisetning" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Ef <span class="math">\(P(x)=a_nx^n+a_{n-1}x^{n-1}+\cdots+a_1x+a_0\)</span> er margliða af
+oddatölu stigi, þá er til rauntala <span class="math">\(c\)</span> þannig að <span class="math">\(P(c)=0\)</span>.</p>
+</div>
+<div class="section" id="sonnun">
+<h3>2.13.5. Sönnun<a class="headerlink" href="#sonnun" title="Varanlegur hlekkur á titilinn">¶</a></h3>
+<p>Gerum ráð fyrir að <span class="math">\(a_n&gt;0\)</span>. Þá er
+<span class="math">\(\lim_{x\to -\infty} P(x) = -\infty\)</span> og
+<span class="math">\(\lim_{x\to \infty} P(x) = \infty\)</span>. Það þýðir að til eru tölur
+<span class="math">\(a\)</span> og <span class="math">\(b\)</span> þannig að <span class="math">\(P(a)&lt;0\)</span> og <span class="math">\(P(b)&gt;0\)</span>. Með
+því að beita Milligildissetningunni á fallið <span class="math">\(P\)</span> á bilinu
+<span class="math">\([a,b]\)</span> og með <span class="math">\(s=0\)</span> þá fæst að til er núllstöð á bilinu
+<span class="math">\([a,b]\)</span>.</p>
+<p>Ef <span class="math">\(a_n &lt; 0\)</span> þá víxlast markgildin að ofan en röksemdafærslan er
+að öðru leyti eins.</p>
+</div>
+</div>
 </div>
 
 
           </div>
-        </div>
-      </div>
-      <div class="sphinxsidebar">
-        <div class="sphinxsidebarwrapper">
-  <h3><a href="index.html">Table Of Contents</a></h3>
-  <ul>
-<li><a class="reference internal" href="#">3. Námskeiðið</a></li>
-<li><a class="reference internal" href="#foll">4. Föll</a></li>
-<li><a class="reference internal" href="#markgildi">5. Markgildi</a></li>
-</ul>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="kafli99.html" class="btn btn-neutral float-right" title="3. Section Title"/>Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="kafli01.html" class="btn btn-neutral" title="1. Tölur og föll"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
 
-  <h4>Previous topic</h4>
-  <p class="topless"><a href="kafli01.html"
-                        title="previous chapter">1. Section Title</a></p>
-  <h3>This Page</h3>
-  <ul class="this-page-menu">
-    <li><a href="_sources/kafli02.txt"
-           rel="nofollow">Show Source</a></li>
-  </ul>
-<div id="searchbox" style="display: none">
-  <h3>Quick search</h3>
-    <form class="search" action="search.html" method="get">
-      <input type="text" name="q" />
-      <input type="submit" value="Go" />
-      <input type="hidden" name="check_keywords" value="yes" />
-      <input type="hidden" name="area" value="default" />
-    </form>
-    <p class="searchtip" style="font-size: 90%">
-    Enter search terms or a module, class or function name.
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Höfundarréttur 2015, Benedikt Steinar Magnusson.
     </p>
-</div>
-<script type="text/javascript">$('#searchbox').show(0);</script>
+  </div>
+
+  <a href="https://github.com/snide/sphinx_rtd_theme">Sphinx theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>
+</footer>
         </div>
       </div>
-      <div class="clearer"></div>
-    </div>
-    <div class="related">
-      <h3>Navigation</h3>
-      <ul>
-        <li class="right" style="margin-right: 10px">
-          <a href="genindex.html" title="General Index"
-             >index</a></li>
-        <li class="right" >
-          <a href="kafli01.html" title="1. Section Title"
-             >previous</a> |</li>
-        <li><a href="index.html">Stærðfræðigreining I 0.1 documentation</a> &raquo;</li> 
-      </ul>
-    </div>
-    <div class="footer">
-        &copy; Copyright 2015, Benedikt Steinar Magnússon.
-      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.2.
-    </div>
-  </body>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'./',
+            VERSION:'0.1',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true
+        };
+    </script>
+      <script type="text/javascript" src="_static/jquery.js"></script>
+      <script type="text/javascript" src="_static/underscore.js"></script>
+      <script type="text/javascript" src="_static/doctools.js"></script>
+      <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
 </html>

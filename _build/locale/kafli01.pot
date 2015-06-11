@@ -1,0 +1,811 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Benedikt Steinar Magnusson
+# This file is distributed under the same license as the Mathematical Analysis I package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mathematical Analysis I 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-09 12:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../kafli01.rst:2
+msgid "Markgildi og samfelldni"
+msgstr ""
+
+#: ../../kafli01.rst:5
+msgid "Inngangur"
+msgstr ""
+
+#: ../../kafli01.rst:7
+msgid "Viðfangsefnið"
+msgstr ""
+
+#: ../../kafli01.rst:9
+msgid "*There is a theory which states that if ever anybody discovers exactly what the Universe is for and why it is here, it will instantly disappear and be replaced by something even more bizarre and inexplicable. There is another theory which states that this has already happened.* -Douglas Adams"
+msgstr ""
+
+#: ../../kafli01.rst:15
+msgid "Stærðfræðigreining"
+msgstr ""
+
+#: ../../kafli01.rst:17
+msgid "Grunnhugmyndin"
+msgstr ""
+
+#: ../../kafli01.rst:19
+msgid "Stærðfræðigreining grundvallast á því að mæla breytingu (oft með tilliti til tíma)"
+msgstr ""
+
+#: ../../kafli01.rst:22
+msgid "Eðlisfræði; hraði, hröðun, massi, orka, vinna, afl, þrýstingur"
+msgstr ""
+
+#: ../../kafli01.rst:24
+msgid "Rúmmál; flatarmál, rúmmál, lengd, massamiðja"
+msgstr ""
+
+#: ../../kafli01.rst:26
+msgid "Hagnýtingar; hagfræði, stofnstærðir, hámörkun/lágmörkun"
+msgstr ""
+
+#: ../../kafli01.rst:28
+msgid "Stærðfræði; markgildi, hermun, jafnvægisástand"
+msgstr ""
+
+#: ../../kafli01.rst:30
+msgid "Sagan Sett fram samtímis, en óháð, af Isaac Newton og Gottfried Leibniz í lok 17. aldar."
+msgstr ""
+
+#: ../../kafli01.rst:33
+#: ../../kafli01.rst:165
+#: ../../kafli01.rst:176
+#: ../../kafli01.rst:193
+#: ../../kafli01.rst:205
+#: ../../kafli01.rst:219
+#: ../../kafli01.rst:416
+#: ../../kafli01.rst:675
+msgid "|image|"
+msgstr ""
+
+#: ../../kafli01.rst:35
+msgid "Ítarefni Fyrir nánari útlistun á hugtökunum sem við fjöllum um þá er hægt að skoða"
+msgstr ""
+
+#: ../../kafli01.rst:38
+msgid "`http://stæ.is <http://stae.is>`__ (hugtakasafn og orðaskrá)"
+msgstr ""
+
+#: ../../kafli01.rst:40
+msgid "http://planetmath.org"
+msgstr ""
+
+#: ../../kafli01.rst:42
+msgid "http://mathworld.wolfram.com"
+msgstr ""
+
+#: ../../kafli01.rst:44
+msgid "http://en.wikipedia.org (ath. enska útgáfan)"
+msgstr ""
+
+#: ../../kafli01.rst:46
+msgid "Forrit"
+msgstr ""
+
+#: ../../kafli01.rst:48
+msgid "GeoGebra http://www.geogebra.org"
+msgstr ""
+
+#: ../../kafli01.rst:50
+msgid "WolframAlpha http://www.wolframalpha.com"
+msgstr ""
+
+#: ../../kafli01.rst:53
+msgid "Föll"
+msgstr ""
+
+#: ../../kafli01.rst:55
+msgid "Tölur"
+msgstr ""
+
+#: ../../kafli01.rst:57
+msgid "1.1 Skilgreining"
+msgstr ""
+
+#: ../../kafli01.rst:59
+msgid "*Náttúrlegu tölurnar* eru tölurnar :math:`1, 2, 3, 4, \\ldots` og mengi þeirra er táknað með :math:`{{\\mathbb  N}}`."
+msgstr ""
+
+#: ../../kafli01.rst:62
+msgid "Mengi *heiltalna* er táknað með :math:`{{\\mathbb Z}}`. :math:`{{\\mathbb Z}}= \\ldots,-2,-1,0,1,2,3,\\ldots`"
+msgstr ""
+
+#: ../../kafli01.rst:65
+msgid "Mengi *ræðra talna* er táknað með :math:`{{\\mathbb Q}}`. :math:`{{\\mathbb Q}}= \\{ \\frac pq ; p,q \\in {{\\mathbb Z}}\\}`."
+msgstr ""
+
+#: ../../kafli01.rst:68
+msgid "Mengi *rauntalna* er táknað með :math:`{{\\mathbb  R}}`."
+msgstr ""
+
+#: ../../kafli01.rst:70
+msgid "Mengi *tvinntalna* er táknað með :math:`{{\\mathbb  C}}`."
+msgstr ""
+
+#: ../../kafli01.rst:72
+msgid "1.2 Athugasemd Margir vilja telja :math:`0` með sem náttúrlega tölu. Það er eðlilegt ef maður lítur á náttúrlegu tölurnar þannig að þær tákni fjölda. Ef maður lítur hins vegar þannig á að þær séu notaðar til að númera hluti þá er 0 ekki með."
+msgstr ""
+
+#: ../../kafli01.rst:77
+msgid "1.3 Smíði rauntalna Rauntölur eru smíðaðar úr ræðu tölunum með því að fylla upp í götin."
+msgstr ""
+
+#: ../../kafli01.rst:80
+msgid "T.d. eru"
+msgstr ""
+
+#: ../../kafli01.rst:88
+msgid "ekki ræðar tölur (það er ekki hægt að skrifa þær sem brot :math:`\\frac ab`, þar sem :math:`a` og :math:`b` eru heilar tölur), en þær eru rauntölur."
+msgstr ""
+
+#: ../../kafli01.rst:92
+msgid "1.4 Frumsendan um efra mark Látum :math:`A` vera mengi af rauntölum sem er þannig að til er tala :math:`x`, þannig að fyrir allar tölur :math:`a \\in A` þá er"
+msgstr ""
+
+#: ../../kafli01.rst:98
+msgid "Þá er til rauntala :math:`x_0` sem kallast *minnsta efra mark* fyrir :math:`A`, sem er þannig að :math:`a\\leq x_0` fyrir allar tölur :math:`a\\in A` og ef :math:`x<x_0` þá er til tala :math:`a\\in A` þannig að :math:`a>x`."
+msgstr ""
+
+#: ../../kafli01.rst:104
+msgid "Bil"
+msgstr ""
+
+#: ../../kafli01.rst:106
+msgid "1.5 Skilgreining Látum :math:`a` og :math:`b` vera rauntölur þannig að :math:`a<b`. Skilgreinum"
+msgstr ""
+
+#: ../../kafli01.rst:109
+msgid "*opið bil*  :math:`(a,b)=\\{x\\in {{\\mathbb  R}}; a<x<b\\}`"
+msgstr ""
+
+#: ../../kafli01.rst:111
+msgid "*lokað bil*  :math:`[a,b]=\\{x\\in {{\\mathbb  R}}; a\\leq x\\leq b\\}`"
+msgstr ""
+
+#: ../../kafli01.rst:113
+msgid "*hálf opið bil*  :math:`[a,b)=\\{x\\in {{\\mathbb  R}}; a\\leq x<b\\}`"
+msgstr ""
+
+#: ../../kafli01.rst:115
+msgid "*hálf opið bil*  :math:`(a,b]=\\{x\\in {{\\mathbb  R}}; a< x\\leq b\\}`"
+msgstr ""
+
+#: ../../kafli01.rst:117
+msgid "Þessi bil sem er skilgreind hér fyrir ofan eru kölluð endanleg. Til eru fleiri gerðir af bilum:"
+msgstr ""
+
+#: ../../kafli01.rst:120
+msgid "(v) *opið óendanlegt bil* :math:`(a,\\infty)=\\{x\\in {{\\mathbb  R}}; a<x\\}`"
+msgstr ""
+
+#: ../../kafli01.rst:123
+msgid "(vi) *opið óendanlegt bil* :math:`(-\\infty, a)=\\{x\\in {{\\mathbb  R}}; x<a\\}`"
+msgstr ""
+
+#: ../../kafli01.rst:126
+msgid "(vii) *lokað óendanlegt bil* :math:`[a,\\infty)=\\{x\\in {{\\mathbb  R}}; a\\leq x\\}`"
+msgstr ""
+
+#: ../../kafli01.rst:129
+msgid "(viii) *lokað óendanlegt bil* :math:`(-\\infty, a]=\\{x\\in {{\\mathbb  R}}; x\\leq a\\}`"
+msgstr ""
+
+#: ../../kafli01.rst:132
+msgid "*allur rauntalnaásinn*   :math:`(-\\infty, \\infty)`."
+msgstr ""
+
+#: ../../kafli01.rst:134
+msgid "1.6 Skilgreining Mengi :math:`A` af rauntölum kallast bil ef um allar tölur :math:`a<b` sem eru í menginu :math:`A` gildir að ef :math:`a<x<b` þá er :math:`x` líka í menginu :math:`A`. Þ.e. \\ *engin göt*."
+msgstr ""
+
+#: ../../kafli01.rst:138
+msgid "1.7 Athugasemd"
+msgstr ""
+
+#: ../../kafli01.rst:140
+msgid "(i) Sérhvert bil á rauntalnaásnum er af einni þeirra gerða sem talin er upp í Skilgreiningu 1.5. (Þessi staðhæfing er jafngild frumsendunni um efra mark.)"
+msgstr ""
+
+#: ../../kafli01.rst:144
+msgid "Það er jafngilt að segja"
+msgstr ""
+
+#: ../../kafli01.rst:148
+msgid "og"
+msgstr ""
+
+#: ../../kafli01.rst:152
+msgid "Vörpun"
+msgstr ""
+
+#: ../../kafli01.rst:154
+msgid "1.8 Skilgreining *Vörpun* frá mengi :math:`X` yfir í mengi :math:`Y` er regla sem úthlutar sérhverju staki :math:`x` í :math:`X` nákvæmlega einu staki :math:`f(x)` í :math:`Y`. Táknum þetta með :math:`f:X \\to Y`."
+msgstr ""
+
+#: ../../kafli01.rst:158
+msgid "Stakið :math:`f(x)` kallast *gildi* vörpunarinnar (í punktinum :math:`x`)."
+msgstr ""
+
+#: ../../kafli01.rst:161
+msgid "1.9 Skilgreining Mengið :math:`X` kallast *skilgreiningarmengi* :math:`f`, mengið :math:`Y` kallast *bakmengi* :math:`f` og mengið :math:`f(X) = \\{ f(x); x \\in X \\}` kallast *myndmengi* :math:`f`."
+msgstr ""
+
+#: ../../kafli01.rst:167
+msgid "Samskeyting"
+msgstr ""
+
+#: ../../kafli01.rst:169
+msgid "1.10 Skilgreining Látum :math:`f:X \\to Y` og :math:`g:Y \\to Z` vera varpanir. Vörpunin :math:`g\\circ f:X \\to Z` sem skilgreind er með :math:`(g\\circ f)(x)=g(f(x))` kallast *samskeyting* :math:`f` og :math:`g`. Stakið :math:`g(f(x)) \\in Z` fæst með því að beita fyrst vörpuninni :math:`f` á stakið :math:`x` og síðan vörpuninni :math:`g` á stakið :math:`f(x)`."
+msgstr ""
+
+#: ../../kafli01.rst:178
+msgid "Eintækni/átækni"
+msgstr ""
+
+#: ../../kafli01.rst:180
+msgid "1.11 Athugasemd Það er ekki víst að öll gildin í :math:`Y` séu tekin (þ.e. :math:`f(X)` getur verið minna en :math:`Y`). Eins þá er mögulegt að :math:`f` taki sama gildið oftar en einu sinni."
+msgstr ""
+
+#: ../../kafli01.rst:184
+msgid "1.12 Skilgreining Við segjum að vörpunin :math:`f` sé *átæk* ef :math:`f(X)=Y`, það þýðir að fyrir sérhvert stak :math:`y` í :math:`Y` þá er til (amk. eitt) stak :math:`x` í :math:`X` þannig að :math:`f(x)=y`."
+msgstr ""
+
+#: ../../kafli01.rst:189
+msgid "Segjum að vörpunin :math:`f` sé *eintæk* ef :math:`f(x_1) = f(x_2)` hefur í för með sér að :math:`x_1=x_2`, þ.e. sérhvert gildi sem vörpunin tekur er bara tekið einu sinni."
+msgstr ""
+
+#: ../../kafli01.rst:195
+msgid "Andhverfa"
+msgstr ""
+
+#: ../../kafli01.rst:197
+msgid "1.13 Skilgreining Vörpun sem er bæði eintæk og átæk kallast *gagntæk*."
+msgstr ""
+
+#: ../../kafli01.rst:199
+msgid "1.14 Setning Látum :math:`f:X \\to Y` vera vörpun. Sagt er að :math:`f` sé andhverfanleg ef til er vörpun :math:`f^{-1}:Y \\to X` þannig að samskeyting varpananna :math:`f` og :math:`f^{-1}` annars vegar og :math:`f^{-1}` og :math:`f` hins vegar sé viðeigandi samsemdarvörpun, þ.e. \\ :math:`f^{-1}\\circ f=id_X` og :math:`f\\circ f^{-1} = id_Y`."
+msgstr ""
+
+#: ../../kafli01.rst:207
+msgid "Graf"
+msgstr ""
+
+#: ../../kafli01.rst:209
+msgid "1.15 Athugasemd Venjulega hjá okkur þá eru mengin :math:`X` og :math:`Y` mengi af rauntölum. Þegar :math:`Y` er mengi af tölum þá er notast við orðið *fall* í stað orðsins *vörpun*."
+msgstr ""
+
+#: ../../kafli01.rst:213
+msgid "1.16 Skilgreining Látum :math:`f:X \\to Y` vera fall þannig að :math:`X` og :math:`Y` eru mengi af rauntölum. *Graf* fallsins :math:`f` er þá mengi allra punkta í planinu :math:`{{\\mathbb  R}}^2` af gerðinni :math:`(x,f(x))` þar sem :math:`x\\in X`. Notum oft :math:`y` í stað :math:`f(x)`."
+msgstr ""
+
+#: ../../kafli01.rst:222
+#: ../../kafli01.rst:224
+#: ../../kafli01.rst:311
+msgid "Markgildi"
+msgstr ""
+
+#: ../../kafli01.rst:226
+msgid "1.17 Óformleg skilgreining Segjum að :math:`f(x)` *stefni á tölu :math:`L` þegar :math:`x` stefnir á :math:`a`*, og ritum :math:`\\lim_{x\\rightarrow a} f(x)=L`, ef við getum tryggt að :math:`f(x)` sé *eins nálægt* :math:`L` og við viljum bara með því að velja :math:`x` *nógu nálægt* :math:`a`."
+msgstr ""
+
+#: ../../kafli01.rst:232
+msgid "1.18 Skilgreining Gerum ráð fyrir að fall :math:`f` sé skilgreint á opnu bili umhverfis punktinn :math:`a`, nema hvað hugsanlega er :math:`f(a)` ekki skilgreint. Við segjum að :math:`f(x)` *stefni á tölu :math:`L` þegar :math:`x` stefnir á :math:`a`*, og ritum :math:`\\lim_{x\\rightarrow a} f(x)=L`, ef eftirfarandi skilyrði er uppfyllt:"
+msgstr ""
+
+#: ../../kafli01.rst:239
+#: ../../kafli01.rst:263
+#: ../../kafli01.rst:283
+msgid "*Fyrir sérhverja tölu :math:`\\epsilon>0` er til tala :math:`\\delta>0` þannig að um öll :math:`x` þannig að*"
+msgstr ""
+
+#: ../../kafli01.rst:244
+msgid "1.19 Athugasemd Þegar athugað er hvort markgildið :math:`\\lim_{x\\rightarrow a} f(x)` er til og hvert gildi þess er þá skiptir ekki máli hvort :math:`f(a)` er skilgreint eða ekki."
+msgstr ""
+
+#: ../../kafli01.rst:248
+msgid "Markgildi frá hægri"
+msgstr ""
+
+#: ../../kafli01.rst:250
+msgid "1.20 Óformleg skilgreining Gerum ráð fyrir að fall :math:`f` sé skilgreint á opnu bili :math:`(a,b)`. Segjum að :math:`f(x)` *stefni á tölu :math:`L` þegar :math:`x` stefnir á :math:`a` frá hægri*, og ritum :math:`\\lim_{x\\rightarrow a^+} f(x)=L`, ef við getum tryggt að :math:`f(x)` sé *eins nálægt* :math:`L` og við viljum bara með því að velja :math:`x>a` *nógu nálægt* :math:`a`."
+msgstr ""
+
+#: ../../kafli01.rst:257
+msgid "1.21 Skilgreining Gerum ráð fyrir að fall :math:`f` sé skilgreint á opnu bili :math:`(a,b)`. Við segjum að :math:`f(x)` *stefni á tölu :math:`L` þegar :math:`x` stefnir á :math:`a` frá hægri*, og ritum :math:`\\lim_{x\\rightarrow a^+} f(x)=L`, ef eftirfarandi skilyrði er uppfyllt."
+msgstr ""
+
+#: ../../kafli01.rst:268
+msgid "Markgildi frá vinstri"
+msgstr ""
+
+#: ../../kafli01.rst:270
+msgid "1.22 Óformleg skilgreining Gerum ráð fyrir að fall :math:`f` sé skilgreint á opnu bili :math:`(b,a)`. Segjum að :math:`f(x)` *stefni á tölu :math:`L` þegar :math:`x` stefnir á :math:`a` frá vinstri*, og ritum :math:`\\lim_{x\\rightarrow a^-} f(x)=L`, ef við getum tryggt að :math:`f(x)` sé *eins nálægt* :math:`L` og við viljum bara með því að velja :math:`x<a` *nógu nálægt* :math:`a`."
+msgstr ""
+
+#: ../../kafli01.rst:277
+msgid "1.23 Skilgreining Gerum ráð fyrir að fall :math:`f` sé skilgreint á opnu bili :math:`(b,a)`. Við segjum að :math:`f(x)` *stefni á tölu :math:`L` þegar :math:`x` stefnir á :math:`a` frá vinstri*, og ritum :math:`\\lim_{x\\rightarrow a^-} f(x)=L`, ef eftirfarandi skilyrði er uppfyllt."
+msgstr ""
+
+#: ../../kafli01.rst:288
+msgid "1.24 Setning Gerum ráð fyrir að fall :math:`f` sé skilgreint á opnu bili umhverfis punktinn :math:`a`, nema hvað hugsanlega er :math:`f(a)` ekki skilgreint. Þá er"
+msgstr ""
+
+#: ../../kafli01.rst:294
+msgid "ef og aðeins ef"
+msgstr ""
+
+#: ../../kafli01.rst:298
+#: ../../kafli01.rst:398
+msgid "Önnur efnisatriði sem þið þurfið að skoða"
+msgstr ""
+
+#: ../../kafli01.rst:300
+msgid "Jafna línu, P.2"
+msgstr ""
+
+#: ../../kafli01.rst:302
+msgid "Jafna hrings, P.3"
+msgstr ""
+
+#: ../../kafli01.rst:304
+msgid "Hliðrun og skölun grafs, P.3"
+msgstr ""
+
+#: ../../kafli01.rst:306
+msgid "(Stranglega) minnkandi og (stranglega) vaxandi föll, 2.8"
+msgstr ""
+
+#: ../../kafli01.rst:308
+msgid "Jafnstæð og oddstæð föll, P.4"
+msgstr ""
+
+#: ../../kafli01.rst:313
+msgid "Algeng markgildi"
+msgstr ""
+
+#: ../../kafli01.rst:315
+msgid "2.1 Dæmi"
+msgstr ""
+
+#: ../../kafli01.rst:317
+msgid ":math:`\\lim_{x \\to a} c = c`, :math:`c` fasti"
+msgstr ""
+
+#: ../../kafli01.rst:319
+msgid ":math:`\\lim_{x \\to a} x = a`"
+msgstr ""
+
+#: ../../kafli01.rst:321
+msgid ":math:`\\lim_{x \\to a} |x| = |a|`"
+msgstr ""
+
+#: ../../kafli01.rst:323
+msgid ":math:`\\lim_{x \\to 0} \\frac{|x|}{x}` er ekki til"
+msgstr ""
+
+#: ../../kafli01.rst:325
+msgid ":math:`\\lim_{x \\to 0^-} \\frac{|x|}{x} = -1`"
+msgstr ""
+
+#: ../../kafli01.rst:327
+msgid ":math:`\\lim_{x \\to 0^+} \\frac{|x|}{x} = 1`"
+msgstr ""
+
+#: ../../kafli01.rst:329
+msgid "Reiknireglur fyrir markgildi"
+msgstr ""
+
+#: ../../kafli01.rst:331
+msgid "2.2 Setning Gerum ráð fyrir að :math:`\\lim_{x\\rightarrow a}f(x)=L` og að :math:`\\lim_{x\\rightarrow a}g(x)=M`. Þá gildir"
+msgstr ""
+
+#: ../../kafli01.rst:334
+msgid "(i)  :math:`\\lim_{x\\rightarrow a}\\Big(f(x)+g(x)\\Big)=L+M`;"
+msgstr ""
+
+#: ../../kafli01.rst:336
+msgid "(ii)   :math:`\\lim_{x\\rightarrow a}\\Big(f(x)-g(x)\\Big)=L-M`;"
+msgstr ""
+
+#: ../../kafli01.rst:338
+msgid "(iii)   :math:`\\lim_{x\\rightarrow a}f(x)g(x)=LM`;"
+msgstr ""
+
+#: ../../kafli01.rst:340
+msgid "(iv)   :math:`\\lim_{x\\rightarrow a}kf(x)=kL`, þar sem :math:`k` fasti;"
+msgstr ""
+
+#: ../../kafli01.rst:342
+msgid "(v)   :math:`\\lim_{x\\rightarrow a}f(x)/g(x)=L/M`, að því gefnu að :math:`M\\neq 0`;"
+msgstr ""
+
+#: ../../kafli01.rst:345
+msgid "(vi)  Gerum ráð fyrir að :math:`m` og :math:`n` séu heiltölur þannig að :math:`f(x)^{m/n}` sé skilgreint fyrir öll :math:`x` á bili :math:`(b,c)` umhverfis :math:`a` (en ekki endilega fyrir :math:`x=a`) og að :math:`L^{m/n}` sé skilgreint. Þá er :math:`\\lim_{x\\rightarrow a}f(x)^{m/n}=L^{m/n}`."
+msgstr ""
+
+#: ../../kafli01.rst:351
+msgid "(vii)   Ef til er bil :math:`(b,c)` sem inniheldur :math:`a` þannig að :math:`f(x)\\leq g(x)` fyrir öll :math:`x\\in (b,c)`, nema kannski :math:`x=a`, þá er :math:`\\lim_{x\\rightarrow a}f(x)=L\\leq M=\\lim_{x\\rightarrow a}g(x)`."
+msgstr ""
+
+#: ../../kafli01.rst:356
+msgid "VARÚÐ"
+msgstr ""
+
+#: ../../kafli01.rst:358
+msgid "2.3 Athugasemd Liður (i) í setningunni á undan segir að ef markgildin :math:`\\lim_{x\\to a} f(x)` og :math:`\\lim_{x\\to a} g(x)` eru til þá sé markgildið :math:`\\lim_{x\\to a} (f(x)+g(x))` einnig til."
+msgstr ""
+
+#: ../../kafli01.rst:362
+msgid "En hún segir **ekki** að ef :math:`f` og :math:`g` eru föll þannig að markgildið :math:`\\lim_{x\\to a} (f(x)+g(x))` er til, að þá séu markgildin :math:`\\lim_{x\\to a} f(x)` og :math:`\\lim_{x\\to a} g(x)` einnig til."
+msgstr ""
+
+#: ../../kafli01.rst:367
+msgid "Klemmureglan"
+msgstr ""
+
+#: ../../kafli01.rst:369
+msgid "(iv)-liður í setningu 2.2 að ofan Ef til er bil :math:`(b,c)` sem inniheldur :math:`a` þannig að :math:`f(x)\\leq g(x)` fyrir öll :math:`x\\in (b,c)`, nema kannski :math:`x=a`, þá er :math:`\\lim_{x\\rightarrow a}f(x)=L\\leq M=\\lim_{x\\rightarrow a}g(x)`."
+msgstr ""
+
+#: ../../kafli01.rst:374
+msgid "2.4 Setning. Gerum ráð fyrir að :math:`f(x)\\leq h(x)\\leq g(x)` fyrir öll :math:`x` á bili :math:`(b, c)` sem inniheldur :math:`a`, nema kannski :math:`x=a`. Gerum enn fremur ráð fyrir að"
+msgstr ""
+
+#: ../../kafli01.rst:380
+msgid "Þá er :math:`\\lim_{x\\rightarrow a}h(x)=L`."
+msgstr ""
+
+#: ../../kafli01.rst:382
+msgid "Skiladæmi"
+msgstr ""
+
+#: ../../kafli01.rst:384
+msgid "Frágangur skiladæma"
+msgstr ""
+
+#: ../../kafli01.rst:386
+msgid "Skrifið upp **dæmið** og lausnina snyrtilega"
+msgstr ""
+
+#: ../../kafli01.rst:388
+msgid "Vísið í setningar sem þið notið"
+msgstr ""
+
+#: ../../kafli01.rst:390
+msgid "Notið ekki rökfræðitákn eins og :math:`\\Leftarrow`, :math:`\\Rightarrow`, :math:`\\Leftrightarrow`, :math:`\\wedge`, :math:`\\vee`"
+msgstr ""
+
+#: ../../kafli01.rst:394
+msgid "Textinn á að vera samfelldur og læsilegur (lesið hann sjálf yfir)"
+msgstr ""
+
+#: ../../kafli01.rst:396
+msgid "Skýrt svar/niðurstaða"
+msgstr ""
+
+#: ../../kafli01.rst:400
+msgid "Margliður; deiling, þáttun og rætur, P.6"
+msgstr ""
+
+#: ../../kafli01.rst:402
+msgid "Tölugildisfallið, P.1"
+msgstr ""
+
+#: ../../kafli01.rst:404
+msgid "Þríhyrningsójafnan, P.1"
+msgstr ""
+
+#: ../../kafli01.rst:406
+msgid "Formerkjafallið, :math:`sgn(x)`, P.5"
+msgstr ""
+
+#: ../../kafli01.rst:409
+msgid "Mikilvægt markgildi"
+msgstr ""
+
+#: ../../kafli01.rst:412
+msgid "Markgildi í :math:`-\\infty` og :math:`\\infty`"
+msgstr ""
+
+#: ../../kafli01.rst:414
+msgid "Markgildi þegar :math:`x` stefnir á :math:`\\infty`"
+msgstr ""
+
+#: ../../kafli01.rst:418
+msgid "3.1 Óformleg skilgreining Gerum ráð fyrir að fall :math:`f` sé skilgreint á bili :math:`(a, \\infty)`. Segjum að :math:`f(x)` *stefni á tölu :math:`L` þegar :math:`x` stefnir á :math:`\\infty`*, og ritum :math:`\\lim_{x\\rightarrow \\infty} f(x)=L`, ef við getum tryggt að :math:`f(x)` sé eins *nálægt* :math:`L` og við viljum bara með því að velja :math:`x` *nógu stórt*."
+msgstr ""
+
+#: ../../kafli01.rst:425
+msgid "Markgildi þegar :math:`x` stefnir á :math:`\\infty` (framh)"
+msgstr ""
+
+#: ../../kafli01.rst:427
+msgid "3.2 Skilgreining Gerum ráð fyrir að fall :math:`f` sé skilgreint á bili :math:`(a,\\infty)`. Við segjum að :math:`f(x)` *stefni á tölu :math:`L` þegar :math:`x` stefnir á :math:`\\infty`*, og ritum :math:`\\lim_{x\\rightarrow \\infty} f(x)=L`, ef eftirfarandi skilyrði er uppfyllt"
+msgstr ""
+
+#: ../../kafli01.rst:433
+msgid "*fyrir sérhverja tölu* :math:`\\epsilon>0` *er til tala* :math:`R` *þannig að um öll* :math:`R<x`"
+msgstr ""
+
+#: ../../kafli01.rst:436
+msgid "*gildir að* :math:`|f(x)-L|<\\epsilon`."
+msgstr ""
+
+#: ../../kafli01.rst:438
+msgid "Markgildi þegar :math:`x` stefnir á :math:`-\\infty` Fyrir :math:`-\\infty` er þetta gert með sama sniði."
+msgstr ""
+
+#: ../../kafli01.rst:441
+msgid "3.3 Óformlega skilgreining Gerum ráð fyrir að fall :math:`f` sé skilgreint á bili :math:`(-\\infty, a)`. Segjum að :math:`f(x)` *stefni á tölu :math:`L` þegar :math:`x` stefnir á :math:`-\\infty`*, og ritum :math:`\\lim_{x\\rightarrow -\\infty} f(x)=L`, ef við getum tryggt að :math:`f(x)` sé eins *nálægt* :math:`L` og við viljum bara með því að velja :math:`x` sem *nógu stóra* mínus tölu."
+msgstr ""
+
+#: ../../kafli01.rst:448
+msgid "3.4 Skilgreining Gerum ráð fyrir að fall :math:`f` sé skilgreint á bili :math:`(-\\infty,a)`. Við segjum að :math:`f(x)` *stefni á tölu :math:`L` þegar :math:`x` stefnir á :math:`-\\infty`*, og ritum :math:`\\lim_{x\\rightarrow -\\infty} f(x)=L`, ef eftirfarandi skilyrði er uppfyllt"
+msgstr ""
+
+#: ../../kafli01.rst:454
+msgid "*fyrir sérhverja tölu* :math:`\\epsilon>0` *er til tala* :math:`R` *þannig að um öll* :math:`x<R`"
+msgstr ""
+
+#: ../../kafli01.rst:457
+msgid "*gildir að :math:`|f(x)-L|<\\epsilon`.*"
+msgstr ""
+
+#: ../../kafli01.rst:459
+msgid ":math:`\\infty` sem markgildi"
+msgstr ""
+
+#: ../../kafli01.rst:461
+msgid "3.5 Óformleg skilgreining. Gerum ráð fyrir að fall :math:`f` sé skilgreint á opnu bili umhverfis punktinn :math:`a`, nema hvað hugsanlega er :math:`f(a)` ekki skilgreint. Segjum að :math:`f(x)` *stefni á :math:`\\infty` þegar :math:`x` stefnir á :math:`a`*, og ritum :math:`\\lim_{x\\rightarrow a} f(x)=\\infty`, ef við getum tryggt að :math:`f(x)` sé *hversu stórt sem við viljum* bara með því að velja :math:`x` *nógu nálægt* :math:`a`."
+msgstr ""
+
+#: ../../kafli01.rst:469
+msgid "3.6 Skilgreining. Gerum ráð fyrir að fall :math:`f` sé skilgreint á opnu bili umhverfis punktinn :math:`a`, nema hvað hugsanlega er :math:`f(a)` ekki skilgreint. Við segjum að :math:`f(x)` *stefni á :math:`\\infty` þegar :math:`x` stefnir á :math:`a`*, og ritum :math:`\\lim_{x\\rightarrow a} f(x)=\\infty`, ef eftirfarandi skilyrði er uppfyllt"
+msgstr ""
+
+#: ../../kafli01.rst:476
+#: ../../kafli01.rst:504
+msgid "*fyrir sérhverja tölu :math:`B` er til tala :math:`\\delta>0` þannig að um öll :math:`x` þannig að*"
+msgstr ""
+
+#: ../../kafli01.rst:479
+msgid "*:math:`0<|x-a|<\\delta` gildir að :math:`f(x)>B`.*"
+msgstr ""
+
+#: ../../kafli01.rst:481
+#: ../../kafli01.rst:509
+msgid "Málvenja"
+msgstr ""
+
+#: ../../kafli01.rst:483
+msgid "3.7 Athugasemd. Athugið að :math:`\\infty` er **ekki** tala. Þó að :math:`\\lim_{x\\rightarrow a} f(x)=\\infty` þá er samt sagt að markgildið :math:`\\lim_{x\\rightarrow a} f(x)` sé ekki til."
+msgstr ""
+
+#: ../../kafli01.rst:487
+msgid ":math:`-\\infty` sem markgildi"
+msgstr ""
+
+#: ../../kafli01.rst:489
+msgid "3.8 Óformleg skilgreining. Gerum ráð fyrir að fall :math:`f` sé skilgreint á opnu bili umhverfis punktinn :math:`a`, nema hvað hugsanlega er :math:`f(a)` ekki skilgreint. Segjum að :math:`f(x)` *stefni á :math:`-\\infty` þegar :math:`x` stefnir á :math:`a`*, og ritum :math:`\\lim_{x\\rightarrow a} f(x)=-\\infty`, ef við getum tryggt að :math:`f(x)` sé *hversu lítið sem við viljum* bara með því að velja :math:`x` *nógu nálægt* :math:`a`."
+msgstr ""
+
+#: ../../kafli01.rst:497
+msgid "3.9 Skilgreining. Gerum ráð fyrir að fall :math:`f` sé skilgreint á opnu bili umhverfis punktinn :math:`a`, nema hvað hugsanlega er :math:`f(a)` ekki skilgreint. Við segjum að :math:`f(x)` *stefni á :math:`-\\infty` þegar :math:`x` stefnir á :math:`a`*, og ritum :math:`\\lim_{x\\rightarrow a} f(x)=-\\infty`, ef eftirfarandi skilyrði er uppfyllt"
+msgstr ""
+
+#: ../../kafli01.rst:507
+msgid "*:math:`0<|x-a|<\\delta` gildir að :math:`f(x)<B`.*"
+msgstr ""
+
+#: ../../kafli01.rst:511
+msgid "3.10 Athugasemd. Athugið að :math:`-\\infty` er **ekki** tala. Þó að :math:`\\lim_{x\\rightarrow a} f(x)=-\\infty` þá er samt sagt að markgildið :math:`\\lim_{x\\rightarrow a} f(x)` sé ekki til."
+msgstr ""
+
+#: ../../kafli01.rst:515
+msgid "Markgildi með :math:`\\sin`"
+msgstr ""
+
+#: ../../kafli01.rst:517
+msgid "3.11 Sýnidæmi"
+msgstr ""
+
+#: ../../kafli01.rst:532
+#: ../../kafli01.rst:534
+#: ../../kafli01.rst:607
+msgid "Samfelldni"
+msgstr ""
+
+#: ../../kafli01.rst:536
+msgid "3.12 Skilgreining. Látum :math:`A\\subseteq {{\\mathbb  R}}` og :math:`x\\in A`. Við segjum að :math:`x` sé *innri punktur* :math:`A` ef :math:`A` inniheldur opið bil umhverfis :math:`x`, það er að segja til er tala :math:`\\delta>0` þannig að :math:`(x-\\delta, x+\\delta)\\subseteq A`."
+msgstr ""
+
+#: ../../kafli01.rst:542
+msgid "Ef :math:`x` er ekki innri punktur :math:`A` og :math:`x\\in A` þá segjum við að :math:`x` sé *jaðarpunktur* :math:`A`."
+msgstr ""
+
+#: ../../kafli01.rst:545
+msgid "3.13 Skilgreining. Látum :math:`f` vera fall og :math:`c` innri punkt skilgreiningarsvæðis :math:`f`. Sagt er að :math:`f` sé *samfellt í punktinum* :math:`c` ef"
+msgstr ""
+
+#: ../../kafli01.rst:551
+msgid "3.14 Setning Látum :math:`f` og :math:`g` vera föll. Gerum ráð fyrir að :math:`c` sé innri punktur skilgreiningarsvæðis beggja fallanna og að bæði föllin séu samfelld í punktinum :math:`c`. Þá eru eftirfarandi föll samfelld í :math:`c`:"
+msgstr ""
+
+#: ../../kafli01.rst:556
+msgid ":math:`f+g`"
+msgstr ""
+
+#: ../../kafli01.rst:558
+msgid ":math:`f-g`"
+msgstr ""
+
+#: ../../kafli01.rst:560
+msgid ":math:`fg`"
+msgstr ""
+
+#: ../../kafli01.rst:562
+msgid ":math:`kf`, þar sem :math:`k` er fasti"
+msgstr ""
+
+#: ../../kafli01.rst:564
+msgid ":math:`f/g`, ef :math:`g(c)\\neq 0`"
+msgstr ""
+
+#: ../../kafli01.rst:566
+msgid ":math:`\\Big(f(x)\\Big)^{1/n}`, að því gefnu að :math:`f(c)>0` ef :math:`n` er slétt tala og :math:`f(c)\\neq 0` ef :math:`n<0`."
+msgstr ""
+
+#: ../../kafli01.rst:569
+msgid "Samskeyting samfelldra falla"
+msgstr ""
+
+#: ../../kafli01.rst:571
+msgid "3.15 Setning Látum :math:`g` vera fall sem er skilgreint á opnu bili umhverfis :math:`c` og samfellt í :math:`c` og látum :math:`f` vera fall sem er skilgreint á opnu bili umhverfis :math:`g(c)` og samfellt í :math:`g(c)`. Þá er fallið :math:`f\\circ g` skilgreint á opnu bili umhverfis :math:`c` og er samfellt í :math:`c`."
+msgstr ""
+
+#: ../../kafli01.rst:577
+msgid "Hefð"
+msgstr ""
+
+#: ../../kafli01.rst:579
+msgid "3.16 Athugasemd Ef fall er skilgreint með formúlu og skilgreingamengið er ekki tilgreint sérstaklega, þá er venjan að líta alla þá punkta þar sem formúlan gildir sem skilgreingarmengi fallsins"
+msgstr ""
+
+#: ../../kafli01.rst:583
+#: ../../kafli01.rst:636
+msgid "Samfelld föll"
+msgstr ""
+
+#: ../../kafli01.rst:585
+msgid "3.17 Skilgreining Við segjum að fall :math:`f` sé *samfellt* ef það er samfellt í sérhverjum punkti skilgreingarmengisins."
+msgstr ""
+
+#: ../../kafli01.rst:588
+msgid "3.18 Dæmi Eftirfarandi föll eru samfelld"
+msgstr ""
+
+#: ../../kafli01.rst:590
+msgid "margliður"
+msgstr ""
+
+#: ../../kafli01.rst:592
+msgid "ræð föll"
+msgstr ""
+
+#: ../../kafli01.rst:594
+msgid "ræð veldi"
+msgstr ""
+
+#: ../../kafli01.rst:596
+msgid "hornaföll; :math:`\\sin`, :math:`\\cos`, :math:`\\tan`"
+msgstr ""
+
+#: ../../kafli01.rst:598
+msgid "tölugildisfallið :math:`|x|`"
+msgstr ""
+
+#: ../../kafli01.rst:600
+msgid "Að búa til samfelld föll"
+msgstr ""
+
+#: ../../kafli01.rst:602
+msgid "3.19 Athugasemd Með því að nota föllin úr Dæmi 3.18 sem efnivið þá getum við búið til fjölda samfelldra fall með því að beita aðgerðunum úr Setningu 3.14 og Setningu 3.15."
+msgstr ""
+
+#: ../../kafli01.rst:609
+msgid "Upprifjun"
+msgstr ""
+
+#: ../../kafli01.rst:611
+msgid "4.1 Skilgreining Látum :math:`f` vera fall og :math:`c` innri punkt skilgreiningarsvæðis :math:`f`. Sagt er að :math:`f` sé *samfellt í punktinum* :math:`c` ef"
+msgstr ""
+
+#: ../../kafli01.rst:617
+msgid "4.2 Athugasemd Þessi skilgreining virkað aðeins fyrir innri punkta skilgreiningarsvæðisins. Hins vegar getum við útvíkkað skilgreininguna á samfelldni fyrir hægri og vinstri endapunkta bila með því að einskorða okkur við markgildi frá vinstri og hægri."
+msgstr ""
+
+#: ../../kafli01.rst:622
+msgid "Hægri/vinstri samfelldni"
+msgstr ""
+
+#: ../../kafli01.rst:624
+msgid "4.3 Skilgreining (i) Fall :math:`f` er *samfellt frá hægri í punkti* :math:`c` ef :math:`\\lim_{x\\rightarrow c^+}f(x)=f(c)`."
+msgstr ""
+
+#: ../../kafli01.rst:627
+msgid "Hér er gert ráð fyrir að fallið :math:`f` sé amk. skilgreint á bilinu :math:`[c, a)`."
+msgstr ""
+
+#: ../../kafli01.rst:630
+msgid "(ii) Fall :math:`f` er *samfellt frá vinstri í punkti* :math:`c` ef :math:`\\lim_{x\\rightarrow c^-}f(x)=f(c)`."
+msgstr ""
+
+#: ../../kafli01.rst:633
+msgid "Hér er gert ráð fyrir að fallið :math:`f` sé amk. skilgreint á bilinu :math:`(a, c]`."
+msgstr ""
+
+#: ../../kafli01.rst:638
+msgid "4.4 Skilgreining (uppfærð) Gerum ráð fyrir að :math:`f` sé fall sem er skilgreint á mengi :math:`A`, þar sem :math:`A` er sammengi endanlega margra bila. Við segjum að fallið :math:`f` sé *samfellt* ef það er samfellt í öllum innri punktum skilgreingarmengisins, og ef það er samfellt frá hægri/vinstri í jaðarpunktum skilgreingarmengisins, eftir því sem við á."
+msgstr ""
+
+#: ../../kafli01.rst:645
+msgid "4.5 Athugasemd Ef fall er samfellt á opnu bili :math:`(a,b)`, og ef :math:`a<c<d<b`, þá er fallið einnig samfellt á bilinu :math:`[c,d]`."
+msgstr ""
+
+#: ../../kafli01.rst:648
+msgid "Há- og lággildislögmálið"
+msgstr ""
+
+#: ../../kafli01.rst:650
+msgid "4.6 Setning Látum :math:`f` vera samfellt fall skilgreint á lokuðu takmörkuðu bili :math:`[a,b]`. Þá eru til tölur :math:`x_1` og :math:`x_2` í :math:`[a,b]` þannig að fyrir allar tölur :math:`x` í :math:`[a,b]` er"
+msgstr ""
+
+#: ../../kafli01.rst:657
+msgid "Þetta þýðir að samfellt fall :math:`f` á lokuðu og takmörkuðu bili :math:`[a,b]` tekur bæði hæsta og lægsta gildi á bilinu. Hæsta gildið er þá :math:`f(x_2)` og lægsta gildið er :math:`f(x_1)`."
+msgstr ""
+
+#: ../../kafli01.rst:661
+msgid "4.7 Athugasemd Það er mögulegt að fallið taki há/lággildi sitt í fleiri en einum punkti."
+msgstr ""
+
+#: ../../kafli01.rst:664
+msgid "Milligildissetningin"
+msgstr ""
+
+#: ../../kafli01.rst:666
+msgid "4.8 Setning Látum :math:`f` vera samfellt fall skilgreint á lokuðu takmörkuðu bili :math:`[a,b]`. Gerum ráð fyrir að :math:`s` sé tala sem liggur á milli :math:`f(a)` og :math:`f(b)`. Þá er til tala :math:`c` sem liggur á milli :math:`a` og :math:`b` þannig að :math:`f(c)=s`."
+msgstr ""
+
+#: ../../kafli01.rst:671
+msgid "<iframe scrolling=“no” src=“https://tube.geogebra.org/material/iframe/id/zEQQcGcQ/width/1075/height/767/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto” width=“1075px” height=“767px” style=“border:0px;”> </iframe>"
+msgstr ""
+
+#: ../../kafli01.rst:677
+msgid "4.9 Fylgisetning Ef :math:`P(x)=a_nx^n+a_{n-1}x^{n-1}+\\cdots+a_1x+a_0` er margliða af oddatölu stigi, þá er til rauntala :math:`c` þannig að :math:`P(c)=0`."
+msgstr ""
+
+#: ../../kafli01.rst:681
+msgid "Sönnun Gerum ráð fyrir að :math:`a_n>0`. Þá er :math:`\\lim_{x\\to -\\infty} P(x) = -\\infty` og :math:`\\lim_{x\\to \\infty} P(x) = \\infty`.Það þýður að til eru tölur :math:`a` og :math:`b` þannig að :math:`P(a)<0` og :math:`P(b)>0`. Með því að beita Milligildissetningunni á fallið :math:`P` á bilinu :math:`[a,b]` og með :math:`s=0` þá fæst að til er núllstöð á bilinu :math:`[a,b]`."
+msgstr ""
+
+#: ../../kafli01.rst:689
+msgid "Ef :math:`a_n < 0` þá víxlast markgildin að ofan en röksemdafærslan er að öðru leyti eins."
+msgstr ""
+

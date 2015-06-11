@@ -1,0 +1,470 @@
+%\documentclass[icelandic]{beamer}
+
+\documentclass[icelandic,a4paper,12pt]{article}
+\usepackage{beamerarticle}
+
+\input{beamer.tex}\lecture[1]{2. Markgildi og samfelldni}{lecture-text}
+\date{29. ágúst 2015}
+
+\newcommand{\C}{{\mathbb  C}}
+\newcommand{\Z}{{\mathbb Z}}
+\newcommand{\R}{{\mathbb  R}}
+\newcommand{\N}{{\mathbb  N}}
+\newcommand{\Q}{{\mathbb Q}}
+
+\begin{document}
+\section{Markgildi og samfelldni}
+
+\subsection{Inngangur}
+\subsubsection{Nauðsynleg undirstaða}
+\begin{itemize}
+  \item Jafna línu, P.2
+  \item Jafna hrings, P.3
+  \item Hliðrun og skölun grafs, P.3
+  \item (Stranglega) minnkandi og (stranglega) vaxandi föll, 2.8
+  \item Jafnstæð og oddstæð föll, P.4
+  \item Margliður; deiling, þáttun og rætur, P.6
+  \item Tölugildisfallið, P.1
+  \item Þríhyrningsójafnan, P.1
+  \item Formerkjafallið, $sgn(x)$, P.5
+\end{itemize}
+
+
+\subsection{Markgildi}
+\subsubsection{Óformleg skilgreining á markgildi}  
+%Gerum ráð fyrir að fall $f$ sé
+%skilgreint á opnu bili umhverfis punktinn $a$, nema hvað hugsanlega er
+%$f(a)$ ekki skilgreint.  
+Segjum að  $f(x)$
+{\it stefni á tölu $L$ þegar $x$ stefnir á $a$}, og ritum
+$\lim_{x\rightarrow a} f(x)=L$, ef við getum tryggt að  $f(x)$ sé \emph{eins nálægt}
+$L$ og við viljum bara með því að velja $x$ \emph{nógu nálægt} $a$.  
+
+\pause
+
+\subsubsection{Skilgreining: Markgildi} Gerum ráð fyrir að fall $f$ sé
+skilgreint á opnu bili umhverfis punktinn $a$, nema hvað hugsanlega er
+$f(a)$ ekki skilgreint. \pause 
+Við segjum að $f(x)$
+\emph{stefni á tölu $L$ þegar $x$ stefnir á $a$}, og ritum
+$\lim_{x\rightarrow a} f(x)=L$, ef eftirfarandi skilyrði er uppfyllt:
+
+\emph{Fyrir sérhverja tölu $\epsilon>0$ er til tala $\delta>0$ 
+þannig að um öll $x$ þannig að}
+$$
+0<|x-a|<\delta,\quad \text{ þá er } \quad |f(x)-L|<\epsilon.
+$$
+
+Við segjum að talan $L$ sé \emph{markgildi} $f(x)$ þegar $x$ stefnir á $a$.
+
+\pause
+
+\subsubsection{Athugasemd}  Þegar athugað er hvort markgildið
+$\lim_{x\rightarrow a} f(x)$ er til og hvert gildi þess er þá skiptir
+ekki máli hvort $f(a)$ er skilgreint eða ekki.
+
+\subsection{Markgildi frá hægri}
+\subsubsection{Óformleg skilgreining}   
+Gerum ráð fyrir að fall $f$ sé
+skilgreint á opnu bili $(a,b)$.  Segjum að  $f(x)$
+{\it stefni á tölu $L$ þegar $x$ stefnir á $a$ frá hægri}, og ritum
+$\lim_{x\rightarrow a^+} f(x)=L$, ef við getum tryggt að  $f(x)$ sé 
+\emph{eins nálægt}
+$L$ og við viljum bara með því að velja $x>a$ \emph{nógu nálægt} $a$. 
+
+\pause
+
+\subsubsection{Skilgreining (Markgildi frá hægri)} Gerum ráð fyrir að fall $f$ sé
+skilgreint á opnu bili $(a,b)$.  Við segjum að $f(x)$
+{\it stefni á tölu $L$ þegar $x$ stefnir á $a$ frá hægri}, og ritum
+$\lim_{x\rightarrow a^+} f(x)=L$, ef eftirfarandi skilyrði er uppfyllt.
+
+{\it Fyrir sérhverja tölu $\epsilon>0$ er til tala $\delta>0$ þannig 
+að um öll $x$ þannig að} 
+$$
+a<x<a+\delta,\quad \text{ þá er } \quad |f(x)-L|<\epsilon.
+$$
+
+\subsection{Markgildi frá vinstri}
+\subsubsection{Óformleg skilgreining}   
+Gerum ráð fyrir að fall $f$ sé
+skilgreint á opnu bili $(b,a)$.  Segjum að  $f(x)$
+{\it stefni á tölu $L$ þegar $x$ stefnir á $a$ frá vinstri}, og ritum
+$\lim_{x\rightarrow a^-} f(x)=L$, ef við getum tryggt að  $f(x)$ sé 
+\emph{eins nálægt}
+$L$ og við viljum bara með því að velja $x<a$ \emph{nógu nálægt} $a$. 
+
+\pause
+
+\subsubsection{Skilgreining -- Markgildi frá vinstri} Gerum ráð fyrir að fall $f$ sé
+skilgreint á opnu bili $(b,a)$.  Við segjum að $f(x)$
+{\it stefni á tölu $L$ þegar $x$ stefnir á $a$ frá vinstri}, og ritum
+$\lim_{x\rightarrow a^-} f(x)=L$, ef eftirfarandi skilyrði er uppfyllt.
+
+{\it Fyrir sérhverja tölu $\epsilon>0$ er til tala $\delta>0$ þannig
+  að um öll $x$ þannig að} 
+$$
+a-\delta<x<a,\quad \text{ þá er } \quad |f(x)-L|<\epsilon.
+$$
+
+\subsection{Reiknireglur fyrir markgildi}
+\subsubsection{Setning} Gerum ráð fyrir að fall $f$ sé
+skilgreint á opnu bili umhverfis punktinn $a$, nema hvað hugsanlega er
+$f(a)$ ekki skilgreint.  Þá er 
+$$\lim_{x\rightarrow a} f(x)=L$$
+ef og aðeins ef 
+$$\lim_{x\rightarrow a^-} f(x)=L=\lim_{x\rightarrow a^+} f(x).$$
+
+\subsubsection{Setning}   Gerum ráð fyrir að
+$\lim_{x\rightarrow a}f(x)=L$ og að   $\lim_{x\rightarrow a}g(x)=M$.
+Þá gildir
+
+\begin{enumerate}[(i)]
+  \item $\lim_{x\rightarrow a}\Big(f(x)+g(x)\Big)=L+M$;
+  \item $\lim_{x\rightarrow a}\Big(f(x)-g(x)\Big)=L-M$;
+  \item $\lim_{x\rightarrow a}f(x)g(x)=LM$;
+  \item $\lim_{x\rightarrow a}kf(x)=kL$, þar sem $k$ fasti;
+  \item $\lim_{x\rightarrow a}f(x)/g(x)=L/M$, að því gefnu að $M\neq 0$;
+  \item Gerum ráð fyrir að $m$ og $n$ séu 
+heiltölur þannig að $f(x)^{m/n}$ sé
+skilgreint fyrir öll $x$ á bili $(b,c)$ umhverfis $a$ (en ekki
+endilega fyrir $x=a$) og að $L^{m/n}$ sé skilgreint.
+Þá er $\lim_{x\rightarrow a}f(x)^{m/n}=L^{m/n}$.
+  \item Ef til er bil $(b,c)$ sem inniheldur $a$ þannig að 
+$f(x)\leq g(x)$ fyrir öll $x\in (b,c)$, nema kannski $x=a$, þá er
+$\lim_{x\rightarrow a}f(x)=L\leq M=\lim_{x\rightarrow a}g(x)$.
+\end{enumerate}
+
+\subsubsection{Athugasemd -- Varúð}
+Liður (i) í setningunni á undan segir að ef markgildin
+$\lim_{x\to a} f(x)$ og $\lim_{x\to a} g(x)$ eru til þá
+sé markgildið $\lim_{x\to a} (f(x)+g(x))$ einnig til.
+
+\pause
+En hún segir {\bf ekki} að ef 
+$f$ og $g$ eru föll þannig að markgildið
+$\lim_{x\to a} (f(x)+g(x))$ er til, að þá séu markgildin
+$\lim_{x\to a} f(x)$ og $\lim_{x\to a} g(x)$ einnig til.
+
+\subsubsection{Setning -- Klemmureglan}Gerum ráð fyrir að $f(x)\leq
+g(x)\leq h(x)$ fyrir öll $x$ á bili $(b, c)$ sem
+inniheldur $a$, nema kannski $x=a$.  Gerum enn fremur ráð fyrir að 
+$$\lim_{x\rightarrow a}f(x)=\lim_{x\rightarrow a}h(x)=L.$$
+Þá er $\lim_{x\rightarrow a}g(x)=L$.
+
+
+\subsection{Algeng markgildi}
+\subsubsection{Dæmi}
+\begin{enumerate}[(i)] 
+  \item $\lim_{x \to a} c = c$, $c$ fasti
+\pause
+  \item $\lim_{x \to a} x = a$
+  \item $\lim_{x \to a} |x| = |a|$
+\pause
+  \item $\lim_{x \to 0} \frac{|x|}{x}$ er ekki til
+\pause
+  \item $\lim_{x \to 0^-} \frac{|x|}{x} = -1$
+  \item $\lim_{x \to 0^+} \frac{|x|}{x} = 1$
+\end{enumerate}
+ 
+%\subsection{Mikilvægt markgildi}
+%\subsection{Markgildi í $-\infty$ og $\infty$}
+
+\subsection{Markgildi þegar $x$ stefnir á $\infty$ og $-\infty$}
+\begin{center}
+  \includegraphics[width=8cm,keepaspectratio=true]{./myndir/kafli01/03_liminf.png}
+  % Mynd_vorpunar.eps: 277x122 pixel, 300dpi, 2.35x1.03 cm, bb=0 0 277 122
+\end{center}
+\pause
+\subsubsection{Óformleg skilgreining}
+Gerum ráð fyrir að fall $f$ sé
+skilgreint á bili $(a, \infty)$.  Segjum að  $f(x)$
+{\it stefni á tölu $L$ þegar $x$ stefnir á $\infty$}, og ritum
+$\lim_{x\rightarrow \infty} f(x)=L$, ef við getum tryggt að  $f(x)$ sé eins
+\emph{nálægt}
+$L$ og við viljum bara með því að velja $x$ \emph{nógu stórt}.
+
+\subsubsection{Skilgreining}
+Gerum ráð fyrir að fall $f$ sé
+skilgreint á bili $(a,\infty)$.  Við segjum að $f(x)$
+{\it stefni á tölu $L$ þegar $x$ stefnir á $\infty$}, og ritum
+$\lim_{x\rightarrow \infty} f(x)=L$, ef eftirfarandi skilyrði er uppfyllt:
+
+{\it Fyrir sérhverja tölu $\epsilon>0$ er til tala $R$ þannig að um öll $x>R$ } 
+\emph{gildir að  $|f(x)-L|<\epsilon$.}
+
+
+Fyrir $-\infty$ er þetta gert með sama sniði.
+
+\subsubsection{Óformlega skilgreining}
+Gerum ráð fyrir að fall $f$ sé
+skilgreint á bili $(-\infty, a)$.  Segjum að  $f(x)$
+{\it stefni á tölu $L$ þegar $x$ stefnir á $-\infty$}, og ritum
+$\lim_{x\rightarrow -\infty} f(x)=L$, ef við getum tryggt að  $f(x)$ sé eins
+\emph{nálægt} $L$ og við viljum bara með því að velja $x$ sem \emph{nógu stóra} mínus tölu.
+
+\pause
+ 
+\subsubsection{Skilgreining}
+Gerum ráð fyrir að fall $f$ sé
+skilgreint á bili $(-\infty,a)$.  Við segjum að $f(x)$
+{\it stefni á tölu $L$ þegar $x$ stefnir á $-\infty$}, og ritum
+$\lim_{x\rightarrow -\infty} f(x)=L$, ef eftirfarandi skilyrði er uppfyllt:
+
+{\it Fyrir sérhverja tölu $\epsilon>0$ er til tala $R$ þannig að um öll $x<R$ } 
+\emph{gildir að  $|f(x)-L|<\epsilon$.} 
+
+\subsection{$\infty$ og $-\infty$ sem markgildi}
+\subsubsection{Óformleg skilgreining}
+Gerum ráð fyrir að fall $f$ sé
+skilgreint á opnu bili umhverfis punktinn $a$, nema hvað hugsanlega er
+$f(a)$ ekki skilgreint.  Segjum að  $f(x)$
+{\it stefni á $\infty$ þegar $x$ stefnir á $a$}, og ritum
+$\lim_{x\rightarrow a} f(x)=\infty$, ef við getum tryggt að  $f(x)$ sé {\em
+hversu stórt sem við viljum}  bara með því að velja $x$ \emph{nógu nálægt} $a$.  
+ 
+\pause
+\subsubsection{Skilgreining}
+Gerum ráð fyrir að fall $f$ sé
+skilgreint á opnu bili umhverfis punktinn $a$, nema hvað hugsanlega er
+$f(a)$ ekki skilgreint.  Við segjum að $f(x)$
+{\it stefni á $\infty$ þegar $x$ stefnir á $a$}, og ritum
+$\lim_{x\rightarrow a} f(x)=\infty$, ef eftirfarandi skilyrði er uppfyllt
+
+{\it fyrir sérhverja tölu $B$ er til tala $\delta>0$ þannig
+  að um öll $x$ þannig að} 
+\emph{$0<|x-a|<\delta$ 
+gildir að  $f(x)>B$.}
+
+
+\subsubsection{Athugasemd -- Málvenja}  Athugið að $\infty$ er {\bf ekki} tala.  Þó 
+að  $\lim_{x\rightarrow a} f(x)=\infty$ þá er samt sagt að
+markgildið $\lim_{x\rightarrow a} f(x)$ sé ekki til.
+
+\subsection{$-\infty$ sem markgildi}
+\subsubsection{Óformleg skilgreining}  Gerum ráð fyrir að fall $f$ sé
+skilgreint á opnu bili umhverfis punktinn $a$, nema hvað hugsanlega er
+$f(a)$ ekki skilgreint.  Segjum að  $f(x)$
+{\it stefni á $-\infty$ þegar $x$ stefnir á $a$}, og ritum
+$\lim_{x\rightarrow a} f(x)=-\infty$, ef við getum tryggt að  $f(x)$ sé {\em
+  hversu lítið sem við viljum}
+ bara með því að velja $x$ \emph{nógu nálægt} $a$.  
+ 
+\pause
+\subsubsection{Skilgreining}
+ Gerum ráð fyrir að fall $f$ sé
+skilgreint á opnu bili umhverfis punktinn $a$, nema hvað hugsanlega er
+$f(a)$ ekki skilgreint.  Við segjum að $f(x)$
+{\it stefni á $-\infty$ þegar $x$ stefnir á $a$}, og ritum
+$\lim_{x\rightarrow a} f(x)=-\infty$, ef eftirfarandi skilyrði er uppfyllt
+
+{\it fyrir sérhverja tölu $B$ er til tala $\delta>0$ þannig
+  að um öll $x$ þannig að} 
+
+\emph{$0<|x-a|<\delta$ 
+gildir að  $f(x)<B$.}
+
+\subsubsection{Athugasemd -- Málvenja}  Athugið að $-\infty$ er {\bf ekki} tala.  Þó 
+að  $\lim_{x\rightarrow a} f(x)=-\infty$ þá er samt sagt að
+markgildið $\lim_{x\rightarrow a} f(x)$ sé ekki til.
+ 
+\subsection{Mikilvæg markgildi}
+\subsubsection{Sýnidæmi -- Markgildi með $\sin$}
+\begin{enumerate}[(i)] 
+  \item $$\lim_{x\to 0} \sin\left(\frac 1x\right) \quad \text{er ekki til}$$
+  \pause
+  \item $$\lim_{x\to 0} x\sin\left(\frac 1x\right) = 0$$
+  \pause
+  \item $$\lim_{x \to 0} \frac{\sin(x)}{x} = 1$$
+\end{enumerate}
+
+\subsubsection{Sýnidæmi -- Markgildi með $|x|$}
+\begin{enumerate}[(i)] 
+  \item $$\lim_{x\to 0^+} \frac x{|x|} = 1$$
+  \pause
+  \item $$\lim_{x\to 0^-} \frac x{|x|} = -1$$
+  \pause
+  \item $$\lim_{x\to 0} \frac x{|x|} \quad \text{er ekki til}$$
+\end{enumerate}
+
+
+\subsection{Samfelldni}
+\subsubsection{Skilgreining}
+Látum $A\subseteq \R$ og $x\in A$.  Við segjum að $x$ sé \emph{innri
+punktur} $A$ ef $A$ inniheldur opið bil umhverfis $x$, það er að
+segja til er tala $\delta>0$ þannig að $(x-\delta, x+\delta)\subseteq
+A$. 
+
+\pause
+
+Ef $x$ er ekki innri punktur $A$ og $x\in A$ þá segjum við að $x$ sé
+\emph{jaðarpunktur} $A$.
+
+\pause
+
+\subsubsection{Skilgreining}
+Látum $f$ vera fall og $c$ innri punkt skilgreiningarsvæðis $f$.  Sagt
+er að $f$ sé \emph{samfellt í punktinum} $c$ ef
+$$\lim_{x\rightarrow c}f(x)=f(c).$$
+
+\subsubsection{Setning}
+Látum $f$ og $g$ vera föll.  Gerum ráð fyrir að $c$ sé innri punktur
+skilgreiningarsvæðis beggja fallanna og að bæði föllin séu samfelld í
+punktinum $c$.  Þá eru eftirfarandi föll samfelld í $c$:
+\begin{enumerate}[(i)] 
+\pause
+\item $f+g$ %(Fallið $f+g$ er skilgreint þannig að $(f+g)(x)=f(x)+g(x)$.)
+\pause
+\item $f-g$
+\pause
+\item $fg$
+\pause
+\item $kf$, þar sem $k$ er fasti
+\pause
+\item $f/g$, ef $g(c)\neq 0$
+\pause
+\item $\Big(f(x)\Big)^{1/n}$, að því gefnu að 
+$f(c)>0$ ef $n$ er slétt tala og $f(c)\neq 0$ ef $n<0$.
+\end{enumerate} 
+
+\subsubsection{Setning -- Samskeyting samfelldra falla}
+Látum $g$ vera fall sem er skilgreint á opnu bili umhverfis $c$ og
+samfellt í $c$ og látum $f$ vera fall sem er skilgreint á opnu bili
+umhverfis $g(c)$ og samfellt í $g(c)$.  Þá er fallið $f\circ g$
+skilgreint á opnu bili umhverfis $c$ og er samfellt í $c$.  
+%[Fallið $f\circ g$ er skilgreint þannig að $(f\circ g)(x)=f(g(x))$ fyrir þau
+%gildi á $x$ þar sem bæði $g(x)$ og $f(g(x))$ eru skilgreind.]
+% 
+% Ef $f$ er samfellt í punkti $L$ og $\lim_{x\rightarrow c}g(x)=L$ þá er
+% $$\lim_{x\rightarrow c}f\big(g(x)\big)=f(L)=f\bigg(\lim_{x\rightarrow c}g(x)\bigg).$$
+% [Ekki forsenda varðandi þetta síðasta atriði að $g$ sé samfellt í $c$.]
+ 
+
+
+\subsubsection{Athugasemd -- Hefð}
+Ef fall er skilgreint með formúlu og skilgreingamengið er ekki
+tilgreint sérstaklega, þá er venjan að líta alla þá punkta þar
+sem formúlan gildir sem skilgreingarmengi fallsins
+ 
+\subsubsection{Skilgreining}\label{skilgr:samfellt_fall}
+ Við segjum að fall $f$ sé \emph{samfellt} ef það er samfellt í sérhverjum
+punkti skilgreingarmengisins.
+
+\subsubsection{Dæmi}
+Eftirfarandi föll eru samfelld
+\begin{enumerate}[(i)] 
+\pause
+  \item margliður
+\pause
+  \item ræð föll
+\pause
+  \item ræð veldi
+\pause
+  \item hornaföll; $\sin$, $\cos$, $\tan$
+\pause
+  \item tölugildisfallið $|x|$
+\end{enumerate}
+
+\subsubsection{Athugasemd -- Að búa til samfelld föll}
+Með því að nota föllin úr dæminu á undan sem efnivið þá getum við búið til 
+fjölda samfelldra fall með því að beita aðgerðunum úr Setningu 3.14 og 
+Setningu 3.15.
+
+\subsection{Hægri/vinstri samfelldni}	
+Rifjum upp skilgreininguna á samfelldni.
+\subsubsection{Skilgreining}
+Látum $f$ vera fall og $c$ innri punkt skilgreiningarsvæðis $f$.  Sagt
+er að $f$ sé \emph{samfellt í punktinum} $c$ ef
+$$\lim_{x\rightarrow c}f(x)=f(c).$$
+ 
+\pause
+\subsubsection{Athugasemd}
+Þessi skilgreining virkar aðeins fyrir innri punkta skilgreiningarsvæðisins.
+Þannig að ef ætlunin er að rannsaka samfelldni í jaðarpunktum þá gengur
+þessi skilgreining ekki. Hins vegar getum við útvíkkað skilgreininguna á samfelldni fyrir 
+hægri og vinstri endapunkta bila með því að einskorða okkur
+við markgildi frá vinstri og hægri.
+
+\subsubsection{Skilgreining}
+\begin{enumerate}[(i)]
+\item Fall $f$ er \emph{samfellt frá hægri í punkti} $c$ ef
+$\lim_{x\rightarrow c^+}f(x)=f(c)$.
+  
+Hér er gert ráð fyrir að fallið $f$ sé amk.~skilgreint á bilinu $[c, a)$.
+\pause
+\item Fall $f$ er \emph{samfellt frá vinstri í punkti} $c$ ef
+$\lim_{x\rightarrow c^-}f(x)=f(c)$.
+  
+Hér er gert ráð fyrir að fallið $f$ sé amk.~skilgreint á bilinu $(a, c]$.
+\end{enumerate}
+
+Uppfærum nú skilgreiningu \ref{skilgr:samfellt_fall}.
+ \subsubsection{Skilgreining (uppfærð)}
+ Gerum ráð fyrir að $f$ sé fall sem er skilgreint á
+ mengi $A$, þar sem $A$ er sammengi endanlega margra bila.
+ Við segjum að fallið $f$ sé \emph{samfellt} ef það er samfellt í 
+ öllum innri punktum skilgreingarmengisins, og ef það er samfellt
+ frá hægri/vinstri í jaðarpunktum skilgreingarmengisins,
+ eftir því sem við á.
+
+\pause
+\subsubsection{Athugasemd}
+Ef fall er samfellt á opnu bili $(a,b)$, og ef $a<c<d<b$, þá er fallið einnig samfellt á bilinu $[c,d]$.
+
+\subsection{Setningar um samfelld föll}
+\subsubsection{Setning -- Há- og lággildislögmálið}
+Látum $f$ vera samfellt fall skilgreint á lokuðu takmörkuðu bili
+$[a,b]$.  Þá eru til tölur $x_1$ og $x_2$ í $[a,b]$ þannig að 
+fyrir allar tölur $x$ í $[a,b]$ er $$f(x_1)\leq f(x)\leq f(x_2).$$
+
+\pause
+
+Þetta þýðir að samfellt fall $f$ á lokuðu og takmörkuðu
+bili $[a,b]$ tekur bæði hæsta og lægsta gildi á bilinu. \pause
+Hæsta
+gildið er þá $f(x_2)$ og lægsta gildið er $f(x_1)$.
+
+
+\pause
+ 
+\subsubsection{4.7 Athugasemd}
+ Það er mögulegt að fallið taki há/lággildi
+ sitt í fleiri en einum punkti.
+
+
+
+\subsection{Milligildissetningin}
+ \subsubsection{4.8 Setning}
+ Látum $f$ vera samfellt fall skilgreint á lokuðu takmörkuðu bili
+$[a,b]$.  Gerum ráð fyrir að $s$ sé tala sem liggur á milli $f(a)$ og
+$f(b)$.  Þá er til tala $c$ sem liggur á milli $a$ og $b$ þannig að
+$f(c)=s$. 
+ 
+<iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/zEQQcGcQ/width/1075/height/767/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="1075px" height="767px" style="border:0px;"> </iframe>>
+%  {\only{
+\begin{center}
+ \includegraphics[width=8cm,keepaspectratio=true]{./myndir/kafli01/04_Milligildissetn.png}
+ % Mynd_vorpunar-eps-converted-to.pdf: 277x122 pixel, 300dpi, 2.35x1.03 cm, bb=0 0 277 122
+\end{center}
+%}<1,2>}
+
+
+\subsubsection{4.9 Fylgisetning}
+Ef $P(x)=a_nx^n+a_{n-1}x^{n-1}+\cdots+a_1x+a_0$ er margliða af
+oddatölu stigi, þá er til rauntala $c$ þannig að $P(c)=0$.
+ 
+\pause
+\subsubsection{Sönnun}
+	Gerum ráð fyrir að $a_n>0$. \pause
+	Þá er $\lim_{x\to -\infty} P(x) = -\infty$ og
+	$\lim_{x\to \infty} P(x) = \infty$.\pause
+	Það þýður að til eru tölur $a$ og $b$ 
+	þannig að $P(a)<0$ og $P(b)>0$. \pause
+	Með því að beita Milligildissetningunni á fallið $P$ á 
+	bilinu $[a,b]$ og með $s=0$ þá fæst að til er núllstöð 
+	á bilinu $[a,b]$.\pause
+	
+	Ef $a_n < 0$ þá víxlast markgildin að ofan en röksemdafærslan er
+	að öðru leyti eins.
+	 %þegar $x\to -\infty$ og $x \to \infty$.
+\end{document}

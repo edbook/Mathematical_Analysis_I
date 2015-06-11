@@ -1,5 +1,5 @@
-Markgildi og samfelldni
-=======================
+Tölur og föll
+=============
 
 Inngangur
 ---------
@@ -49,8 +49,34 @@ Forrit
 
 -  WolframAlpha http://www.wolframalpha.com
 
-Föll
-----
+Skiladæmi
+---------
+
+Frágangur skiladæma
+~~~~~~~~~~~~~~~~~~~
+
+-  Skrifið upp **dæmið** og lausnina snyrtilega
+
+-  Vísið í setningar sem þið notið
+
+-  Notið ekki rökfræðitákn eins og :math:`\Leftarrow`,
+   :math:`\Rightarrow`, :math:`\Leftrightarrow`, :math:`\wedge`,
+   :math:`\vee`
+
+-  Textinn á að vera samfelldur og læsilegur (lesið hann sjálf yfir)
+
+-  Skýrt svar/niðurstaða
+
+*“Forty-two!” yelled Loonquawl. “Is that all you’ve got to show for
+seven and a half million years’ work?”*
+
+*“I checked it very thoroughly,” said the computer, “and that quite
+definitely is the answer. I think the problem, to be quite honest with
+you, is that you’ve never actually known what the question is.”*
+-Douglas Adams
+
+Tölur
+-----
 
 Tölur
 
@@ -149,6 +175,9 @@ og
 
 .. math:: |x-a| < \eta.
 
+Föll
+----
+
 Vörpun
 
 1.8 Skilgreining *Vörpun* frá mengi :math:`X` yfir í mengi :math:`Y` er
@@ -218,482 +247,9 @@ mengi allra punkta í planinu :math:`{{\mathbb  R}}^2` af gerðinni
 
 |image|
 
-Markgildi
----------
-
-Markgildi
-
-1.17 Óformleg skilgreining Segjum að :math:`f(x)` *stefni á tölu
-:math:`L` þegar :math:`x` stefnir á :math:`a`*, og ritum
-:math:`\lim_{x\rightarrow a} f(x)=L`, ef við getum tryggt að
-:math:`f(x)` sé *eins nálægt* :math:`L` og við viljum bara með því að
-velja :math:`x` *nógu nálægt* :math:`a`.
-
-1.18 Skilgreining Gerum ráð fyrir að fall :math:`f` sé skilgreint á opnu
-bili umhverfis punktinn :math:`a`, nema hvað hugsanlega er :math:`f(a)`
-ekki skilgreint. Við segjum að :math:`f(x)` *stefni á tölu :math:`L`
-þegar :math:`x` stefnir á :math:`a`*, og ritum
-:math:`\lim_{x\rightarrow a} f(x)=L`, ef eftirfarandi skilyrði er
-uppfyllt:
-
-*Fyrir sérhverja tölu :math:`\epsilon>0` er til tala :math:`\delta>0`
-þannig að um öll :math:`x` þannig að*
-
-.. math:: 0<|x-a|<\delta,\quad \text{ þá er } \quad |f(x)-L|<\epsilon.
-
-1.19 Athugasemd Þegar athugað er hvort markgildið
-:math:`\lim_{x\rightarrow a} f(x)` er til og hvert gildi þess er þá
-skiptir ekki máli hvort :math:`f(a)` er skilgreint eða ekki.
-
-Markgildi frá hægri
-
-1.20 Óformleg skilgreining Gerum ráð fyrir að fall :math:`f` sé
-skilgreint á opnu bili :math:`(a,b)`. Segjum að :math:`f(x)` *stefni á
-tölu :math:`L` þegar :math:`x` stefnir á :math:`a` frá hægri*, og ritum
-:math:`\lim_{x\rightarrow a^+} f(x)=L`, ef við getum tryggt að
-:math:`f(x)` sé *eins nálægt* :math:`L` og við viljum bara með því að
-velja :math:`x>a` *nógu nálægt* :math:`a`.
-
-1.21 Skilgreining Gerum ráð fyrir að fall :math:`f` sé skilgreint á opnu
-bili :math:`(a,b)`. Við segjum að :math:`f(x)` *stefni á tölu :math:`L`
-þegar :math:`x` stefnir á :math:`a` frá hægri*, og ritum
-:math:`\lim_{x\rightarrow a^+} f(x)=L`, ef eftirfarandi skilyrði er
-uppfyllt.
-
-*Fyrir sérhverja tölu :math:`\epsilon>0` er til tala :math:`\delta>0`
-þannig að um öll :math:`x` þannig að*
-
-.. math:: a<x<a+\delta,\quad \text{ þá er } \quad |f(x)-L|<\epsilon.
-
-Markgildi frá vinstri
-
-1.22 Óformleg skilgreining Gerum ráð fyrir að fall :math:`f` sé
-skilgreint á opnu bili :math:`(b,a)`. Segjum að :math:`f(x)` *stefni á
-tölu :math:`L` þegar :math:`x` stefnir á :math:`a` frá vinstri*, og
-ritum :math:`\lim_{x\rightarrow a^-} f(x)=L`, ef við getum tryggt að
-:math:`f(x)` sé *eins nálægt* :math:`L` og við viljum bara með því að
-velja :math:`x<a` *nógu nálægt* :math:`a`.
-
-1.23 Skilgreining Gerum ráð fyrir að fall :math:`f` sé skilgreint á opnu
-bili :math:`(b,a)`. Við segjum að :math:`f(x)` *stefni á tölu :math:`L`
-þegar :math:`x` stefnir á :math:`a` frá vinstri*, og ritum
-:math:`\lim_{x\rightarrow a^-} f(x)=L`, ef eftirfarandi skilyrði er
-uppfyllt.
-
-*Fyrir sérhverja tölu :math:`\epsilon>0` er til tala :math:`\delta>0`
-þannig að um öll :math:`x` þannig að*
-
-.. math:: a-\delta<x<a,\quad \text{ þá er } \quad |f(x)-L|<\epsilon.
-
-1.24 Setning Gerum ráð fyrir að fall :math:`f` sé skilgreint á opnu bili
-umhverfis punktinn :math:`a`, nema hvað hugsanlega er :math:`f(a)` ekki
-skilgreint. Þá er
-
-.. math:: \lim_{x\rightarrow a} f(x)=L
-
-ef og aðeins ef
-
-.. math:: \lim_{x\rightarrow a^-} f(x)=L=\lim_{x\rightarrow a^+} f(x).
-
-Önnur efnisatriði sem þið þurfið að skoða
-
--  Jafna línu, P.2
-
--  Jafna hrings, P.3
-
--  Hliðrun og skölun grafs, P.3
-
--  (Stranglega) minnkandi og (stranglega) vaxandi föll, 2.8
-
--  Jafnstæð og oddstæð föll, P.4
-
-Markgildi
----------
-
-Algeng markgildi
-
-2.1 Dæmi
-
--  :math:`\lim_{x \to a} c = c`, :math:`c` fasti
-
--  :math:`\lim_{x \to a} x = a`
-
--  :math:`\lim_{x \to a} |x| = |a|`
-
--  :math:`\lim_{x \to 0} \frac{|x|}{x}` er ekki til
-
--  :math:`\lim_{x \to 0^-} \frac{|x|}{x} = -1`
-
--  :math:`\lim_{x \to 0^+} \frac{|x|}{x} = 1`
-
-Reiknireglur fyrir markgildi
-
-2.2 Setning Gerum ráð fyrir að :math:`\lim_{x\rightarrow a}f(x)=L` og að
-:math:`\lim_{x\rightarrow a}g(x)=M`. Þá gildir
-
-(i)  :math:`\lim_{x\rightarrow a}\Big(f(x)+g(x)\Big)=L+M`;
-
-(ii)   :math:`\lim_{x\rightarrow a}\Big(f(x)-g(x)\Big)=L-M`;
-
-(iii)   :math:`\lim_{x\rightarrow a}f(x)g(x)=LM`;
-
-(iv)   :math:`\lim_{x\rightarrow a}kf(x)=kL`, þar sem :math:`k` fasti;
-
-(v)   :math:`\lim_{x\rightarrow a}f(x)/g(x)=L/M`, að því gefnu að
-:math:`M\neq 0`;
-
-(vi)  Gerum ráð fyrir að :math:`m` og :math:`n` séu heiltölur þannig að
-:math:`f(x)^{m/n}` sé skilgreint fyrir öll :math:`x` á bili
-:math:`(b,c)` umhverfis :math:`a` (en ekki endilega fyrir :math:`x=a`)
-og að :math:`L^{m/n}` sé skilgreint. Þá er
-:math:`\lim_{x\rightarrow a}f(x)^{m/n}=L^{m/n}`.
-
-(vii)   Ef til er bil :math:`(b,c)` sem inniheldur :math:`a` þannig að
-:math:`f(x)\leq g(x)` fyrir öll :math:`x\in (b,c)`, nema kannski
-:math:`x=a`, þá er
-:math:`\lim_{x\rightarrow a}f(x)=L\leq M=\lim_{x\rightarrow a}g(x)`.
-
-VARÚÐ
-
-2.3 Athugasemd Liður (i) í setningunni á undan segir að ef markgildin
-:math:`\lim_{x\to a} f(x)` og :math:`\lim_{x\to a} g(x)` eru til þá sé
-markgildið :math:`\lim_{x\to a} (f(x)+g(x))` einnig til.
-
-En hún segir **ekki** að ef :math:`f` og :math:`g` eru föll þannig að
-markgildið :math:`\lim_{x\to a} (f(x)+g(x))` er til, að þá séu
-markgildin :math:`\lim_{x\to a} f(x)` og :math:`\lim_{x\to a} g(x)`
-einnig til.
-
-Klemmureglan
-
-(iv)-liður í setningu 2.2 að ofan Ef til er bil :math:`(b,c)` sem
-inniheldur :math:`a` þannig að :math:`f(x)\leq g(x)` fyrir öll
-:math:`x\in (b,c)`, nema kannski :math:`x=a`, þá er
-:math:`\lim_{x\rightarrow a}f(x)=L\leq M=\lim_{x\rightarrow a}g(x)`.
-
-2.4 Setning. Gerum ráð fyrir að :math:`f(x)\leq
-h(x)\leq g(x)` fyrir öll :math:`x` á bili :math:`(b, c)` sem inniheldur
-:math:`a`, nema kannski :math:`x=a`. Gerum enn fremur ráð fyrir að
-
-.. math:: \lim_{x\rightarrow a}f(x)=\lim_{x\rightarrow a}g(x)=L.
-
-Þá er :math:`\lim_{x\rightarrow a}h(x)=L`.
-
-Skiladæmi
-
-Frágangur skiladæma
-
--  Skrifið upp **dæmið** og lausnina snyrtilega
-
--  Vísið í setningar sem þið notið
-
--  Notið ekki rökfræðitákn eins og :math:`\Leftarrow`,
-   :math:`\Rightarrow`, :math:`\Leftrightarrow`, :math:`\wedge`,
-   :math:`\vee`
-
--  Textinn á að vera samfelldur og læsilegur (lesið hann sjálf yfir)
-
--  Skýrt svar/niðurstaða
-
-Önnur efnisatriði sem þið þurfið að skoða
-
--  Margliður; deiling, þáttun og rætur, P.6
-
--  Tölugildisfallið, P.1
-
--  Þríhyrningsójafnan, P.1
-
--  Formerkjafallið, :math:`sgn(x)`, P.5
-
-Mikilvægt markgildi
--------------------
-
-Markgildi í :math:`-\infty` og :math:`\infty`
----------------------------------------------
-
-Markgildi þegar :math:`x` stefnir á :math:`\infty`
-
-|image|
-
-3.1 Óformleg skilgreining Gerum ráð fyrir að fall :math:`f` sé
-skilgreint á bili :math:`(a, \infty)`. Segjum að :math:`f(x)` *stefni á
-tölu :math:`L` þegar :math:`x` stefnir á :math:`\infty`*, og ritum
-:math:`\lim_{x\rightarrow \infty} f(x)=L`, ef við getum tryggt að
-:math:`f(x)` sé eins *nálægt* :math:`L` og við viljum bara með því að
-velja :math:`x` *nógu stórt*.
-
-Markgildi þegar :math:`x` stefnir á :math:`\infty` (framh)
-
-3.2 Skilgreining Gerum ráð fyrir að fall :math:`f` sé skilgreint á bili
-:math:`(a,\infty)`. Við segjum að :math:`f(x)` *stefni á tölu :math:`L`
-þegar :math:`x` stefnir á :math:`\infty`*, og ritum
-:math:`\lim_{x\rightarrow \infty} f(x)=L`, ef eftirfarandi skilyrði er
-uppfyllt
-
-*fyrir sérhverja tölu :math:`\epsilon>0` er til tala :math:`R` þannig að
-um öll :math:`R<x` *
-
-*gildir að :math:`|f(x)-L|<\epsilon`.*
-
-Markgildi þegar :math:`x` stefnir á :math:`-\infty` Fyrir
-:math:`-\infty` er þetta gert með sama sniði.
-
-3.3 Óformlega skilgreining Gerum ráð fyrir að fall :math:`f` sé
-skilgreint á bili :math:`(-\infty, a)`. Segjum að :math:`f(x)` *stefni á
-tölu :math:`L` þegar :math:`x` stefnir á :math:`-\infty`*, og ritum
-:math:`\lim_{x\rightarrow -\infty} f(x)=L`, ef við getum tryggt að
-:math:`f(x)` sé eins *nálægt* :math:`L` og við viljum bara með því að
-velja :math:`x` sem *nógu stóra* mínus tölu.
-
-3.4 Skilgreining Gerum ráð fyrir að fall :math:`f` sé skilgreint á bili
-:math:`(-\infty,a)`. Við segjum að :math:`f(x)` *stefni á tölu :math:`L`
-þegar :math:`x` stefnir á :math:`-\infty`*, og ritum
-:math:`\lim_{x\rightarrow -\infty} f(x)=L`, ef eftirfarandi skilyrði er
-uppfyllt
-
-*fyrir sérhverja tölu :math:`\epsilon>0` er til tala :math:`R` þannig að
-um öll :math:`x<R` *
-
-*gildir að :math:`|f(x)-L|<\epsilon`.*
-
-:math:`\infty` sem markgildi
-
-3.5 Óformleg skilgreining. Gerum ráð fyrir að fall :math:`f` sé
-skilgreint á opnu bili umhverfis punktinn :math:`a`, nema hvað
-hugsanlega er :math:`f(a)` ekki skilgreint. Segjum að :math:`f(x)`
-*stefni á :math:`\infty` þegar :math:`x` stefnir á :math:`a`*, og ritum
-:math:`\lim_{x\rightarrow a} f(x)=\infty`, ef við getum tryggt að
-:math:`f(x)` sé *hversu stórt sem við viljum* bara með því að velja
-:math:`x` *nógu nálægt* :math:`a`.
-
-3.6 Skilgreining. Gerum ráð fyrir að fall :math:`f` sé skilgreint á opnu
-bili umhverfis punktinn :math:`a`, nema hvað hugsanlega er :math:`f(a)`
-ekki skilgreint. Við segjum að :math:`f(x)` *stefni á :math:`\infty`
-þegar :math:`x` stefnir á :math:`a`*, og ritum
-:math:`\lim_{x\rightarrow a} f(x)=\infty`, ef eftirfarandi skilyrði er
-uppfyllt
-
-*fyrir sérhverja tölu :math:`B` er til tala :math:`\delta>0` þannig að
-um öll :math:`x` þannig að*
-
-*:math:`0<|x-a|<\delta` gildir að :math:`f(x)>B`.*
-
-Málvenja
-
-3.7 Athugasemd. Athugið að :math:`\infty` er **ekki** tala. Þó að
-:math:`\lim_{x\rightarrow a} f(x)=\infty` þá er samt sagt að markgildið
-:math:`\lim_{x\rightarrow a} f(x)` sé ekki til.
-
-:math:`-\infty` sem markgildi
-
-3.8 Óformleg skilgreining. Gerum ráð fyrir að fall :math:`f` sé
-skilgreint á opnu bili umhverfis punktinn :math:`a`, nema hvað
-hugsanlega er :math:`f(a)` ekki skilgreint. Segjum að :math:`f(x)`
-*stefni á :math:`-\infty` þegar :math:`x` stefnir á :math:`a`*, og ritum
-:math:`\lim_{x\rightarrow a} f(x)=-\infty`, ef við getum tryggt að
-:math:`f(x)` sé *hversu lítið sem við viljum* bara með því að velja
-:math:`x` *nógu nálægt* :math:`a`.
-
-3.9 Skilgreining. Gerum ráð fyrir að fall :math:`f` sé skilgreint á opnu
-bili umhverfis punktinn :math:`a`, nema hvað hugsanlega er :math:`f(a)`
-ekki skilgreint. Við segjum að :math:`f(x)` *stefni á :math:`-\infty`
-þegar :math:`x` stefnir á :math:`a`*, og ritum
-:math:`\lim_{x\rightarrow a} f(x)=-\infty`, ef eftirfarandi skilyrði er
-uppfyllt
-
-*fyrir sérhverja tölu :math:`B` er til tala :math:`\delta>0` þannig að
-um öll :math:`x` þannig að*
-
-*:math:`0<|x-a|<\delta` gildir að :math:`f(x)<B`.*
-
-Málvenja
-
-3.10 Athugasemd. Athugið að :math:`-\infty` er **ekki** tala. Þó að
-:math:`\lim_{x\rightarrow a} f(x)=-\infty` þá er samt sagt að markgildið
-:math:`\lim_{x\rightarrow a} f(x)` sé ekki til.
-
-Markgildi með :math:`\sin`
-
-3.11 Sýnidæmi
-
--  
-
-   .. math:: \lim_{x\to 0} \sin\left(\frac 1x\right) \quad \text{er ekki til}
-
--  
-
-   .. math:: \lim_{x\to 0} x\sin\left(\frac 1x\right) = 0
-
--  
-
-   .. math:: \lim_{x \to 0} \frac{\sin(x)}{x} = 1
-
-Samfelldni
-----------
-
-Samfelldni
-
-3.12 Skilgreining. Látum :math:`A\subseteq {{\mathbb  R}}` og
-:math:`x\in A`. Við segjum að :math:`x` sé *innri punktur* :math:`A` ef
-:math:`A` inniheldur opið bil umhverfis :math:`x`, það er að segja til
-er tala :math:`\delta>0` þannig að :math:`(x-\delta, x+\delta)\subseteq
-A`.
-
-Ef :math:`x` er ekki innri punktur :math:`A` og :math:`x\in A` þá segjum
-við að :math:`x` sé *jaðarpunktur* :math:`A`.
-
-3.13 Skilgreining. Látum :math:`f` vera fall og :math:`c` innri punkt
-skilgreiningarsvæðis :math:`f`. Sagt er að :math:`f` sé *samfellt í
-punktinum* :math:`c` ef
-
-.. math:: \lim_{x\rightarrow c}f(x)=f(c).
-
-3.14 Setning Látum :math:`f` og :math:`g` vera föll. Gerum ráð fyrir að
-:math:`c` sé innri punktur skilgreiningarsvæðis beggja fallanna og að
-bæði föllin séu samfelld í punktinum :math:`c`. Þá eru eftirfarandi föll
-samfelld í :math:`c`:
-
--  :math:`f+g`
-
--  :math:`f-g`
-
--  :math:`fg`
-
--  :math:`kf`, þar sem :math:`k` er fasti
-
--  :math:`f/g`, ef :math:`g(c)\neq 0`
-
--  :math:`\Big(f(x)\Big)^{1/n}`, að því gefnu að :math:`f(c)>0` ef
-   :math:`n` er slétt tala og :math:`f(c)\neq 0` ef :math:`n<0`.
-
-Samskeyting samfelldra falla
-
-3.15 Setning Látum :math:`g` vera fall sem er skilgreint á opnu bili
-umhverfis :math:`c` og samfellt í :math:`c` og látum :math:`f` vera fall
-sem er skilgreint á opnu bili umhverfis :math:`g(c)` og samfellt í
-:math:`g(c)`. Þá er fallið :math:`f\circ g` skilgreint á opnu bili
-umhverfis :math:`c` og er samfellt í :math:`c`.
-
-Hefð
-
-3.16 Athugasemd Ef fall er skilgreint með formúlu og skilgreingamengið
-er ekki tilgreint sérstaklega, þá er venjan að líta alla þá punkta þar
-sem formúlan gildir sem skilgreingarmengi fallsins
-
-Samfelld föll
-
-3.17 Skilgreining Við segjum að fall :math:`f` sé *samfellt* ef það er
-samfellt í sérhverjum punkti skilgreingarmengisins.
-
-3.18 Dæmi Eftirfarandi föll eru samfelld
-
--  margliður
-
--  ræð föll
-
--  ræð veldi
-
--  hornaföll; :math:`\sin`, :math:`\cos`, :math:`\tan`
-
--  tölugildisfallið :math:`|x|`
-
-Að búa til samfelld föll
-
-3.19 Athugasemd Með því að nota föllin úr Dæmi 3.18 sem efnivið þá getum
-við búið til fjölda samfelldra fall með því að beita aðgerðunum úr
-Setningu 3.14 og Setningu 3.15.
-
-Samfelldni
-----------
-
-Upprifjun
-
-4.1 Skilgreining Látum :math:`f` vera fall og :math:`c` innri punkt
-skilgreiningarsvæðis :math:`f`. Sagt er að :math:`f` sé *samfellt í
-punktinum* :math:`c` ef
-
-.. math:: \lim_{x\rightarrow c}f(x)=f(c).
-
-4.2 Athugasemd Þessi skilgreining virkað aðeins fyrir innri punkta
-skilgreiningarsvæðisins. Hins vegar getum við útvíkkað skilgreininguna á
-samfelldni fyrir hægri og vinstri endapunkta bila með því að einskorða
-okkur við markgildi frá vinstri og hægri.
-
-Hægri/vinstri samfelldni
-
-4.3 Skilgreining (i) Fall :math:`f` er *samfellt frá hægri í punkti*
-:math:`c` ef :math:`\lim_{x\rightarrow c^+}f(x)=f(c)`.
-
-Hér er gert ráð fyrir að fallið :math:`f` sé amk. skilgreint á bilinu
-:math:`[c, a)`.
-
-(ii) Fall :math:`f` er *samfellt frá vinstri í punkti* :math:`c` ef
-:math:`\lim_{x\rightarrow c^-}f(x)=f(c)`.
-
-Hér er gert ráð fyrir að fallið :math:`f` sé amk. skilgreint á bilinu
-:math:`(a, c]`.
-
-Samfelld föll
-
-4.4 Skilgreining (uppfærð) Gerum ráð fyrir að :math:`f` sé fall sem er
-skilgreint á mengi :math:`A`, þar sem :math:`A` er sammengi endanlega
-margra bila. Við segjum að fallið :math:`f` sé *samfellt* ef það er
-samfellt í öllum innri punktum skilgreingarmengisins, og ef það er
-samfellt frá hægri/vinstri í jaðarpunktum skilgreingarmengisins, eftir
-því sem við á.
-
-4.5 Athugasemd Ef fall er samfellt á opnu bili :math:`(a,b)`, og ef
-:math:`a<c<d<b`, þá er fallið einnig samfellt á bilinu :math:`[c,d]`.
-
-Há- og lággildislögmálið
-
-4.6 Setning Látum :math:`f` vera samfellt fall skilgreint á lokuðu
-takmörkuðu bili :math:`[a,b]`. Þá eru til tölur :math:`x_1` og
-:math:`x_2` í :math:`[a,b]` þannig að fyrir allar tölur :math:`x` í
-:math:`[a,b]` er
-
-.. math:: f(x_1)\leq f(x)\leq f(x_2).
-
-Þetta þýðir að samfellt fall :math:`f` á lokuðu og takmörkuðu bili
-:math:`[a,b]` tekur bæði hæsta og lægsta gildi á bilinu. Hæsta gildið er
-þá :math:`f(x_2)` og lægsta gildið er :math:`f(x_1)`.
-
-4.7 Athugasemd Það er mögulegt að fallið taki há/lággildi sitt í fleiri
-en einum punkti.
-
-Milligildissetningin
-
-4.8 Setning Látum :math:`f` vera samfellt fall skilgreint á lokuðu
-takmörkuðu bili :math:`[a,b]`. Gerum ráð fyrir að :math:`s` sé tala sem
-liggur á milli :math:`f(a)` og :math:`f(b)`. Þá er til tala :math:`c`
-sem liggur á milli :math:`a` og :math:`b` þannig að :math:`f(c)=s`.
-
-<iframe scrolling=“no”
-src=“https://tube.geogebra.org/material/iframe/id/zEQQcGcQ/width/1075/height/767/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto”
-width=“1075px” height=“767px” style=“border:0px;”> </iframe>
-
-|image|
-
-4.9 Fylgisetning Ef :math:`P(x)=a_nx^n+a_{n-1}x^{n-1}+\cdots+a_1x+a_0`
-er margliða af oddatölu stigi, þá er til rauntala :math:`c` þannig að
-:math:`P(c)=0`.
-
-Sönnun Gerum ráð fyrir að :math:`a_n>0`. Þá er
-:math:`\lim_{x\to -\infty} P(x) = -\infty` og
-:math:`\lim_{x\to \infty} P(x) = \infty`.Það þýður að til eru tölur
-:math:`a` og :math:`b` þannig að :math:`P(a)<0` og :math:`P(b)>0`. Með
-því að beita Milligildissetningunni á fallið :math:`P` á bilinu
-:math:`[a,b]` og með :math:`s=0` þá fæst að til er núllstöð á bilinu
-:math:`[a,b]`.
-
-Ef :math:`a_n < 0` þá víxlast markgildin að ofan en röksemdafærslan er
-að öðru leyti eins.
-
 .. |image| image:: ./myndir/kafli01/01_NewtonLeibniz.jpg
 .. |image| image:: ./myndir/kafli01/02_Mynd_vorpunar.png
 .. |image| image:: ./myndir/kafli01/02_Samskeyting.png
 .. |image| image:: ./myndir/kafli01/02_Mynd_vorpunar.png
 .. |image| image:: ./myndir/kafli01/02_Andhverfa.png
 .. |image| image:: ./myndir/kafli01/02_Graf.png
-.. |image| image:: ./myndir/kafli01/03_liminf.png
-.. |image| image:: ./myndir/kafli01/04_Milligildissetn.png

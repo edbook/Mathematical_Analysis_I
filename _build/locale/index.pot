@@ -1,0 +1,42 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2015, Benedikt Steinar Magnusson
+# This file is distributed under the same license as the Mathematical Analysis I package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Mathematical Analysis I 0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-06-09 12:15+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../index.rst:7
+msgid "Stærðfræðigreining I (STÆ104G), Háskóli Íslands, vor 2015"
+msgstr ""
+
+#: ../../index.rst:9
+msgid "Efnisyfirlit:"
+msgstr ""
+
+#: ../../index.rst:19
+msgid "Atriðaorðaskrá og fleira"
+msgstr ""
+
+#: ../../index.rst:21
+msgid ":ref:`genindex`"
+msgstr ""
+
+#: ../../index.rst:22
+msgid ":ref:`modindex`"
+msgstr ""
+
+#: ../../index.rst:23
+msgid ":ref:`search`"
+msgstr ""
+

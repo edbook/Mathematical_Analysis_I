@@ -3,10 +3,10 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to Stærðfræðigreining I's documentation!
-================================================
+Stærðfræðigreining I (STÆ104G), Háskóli Íslands, vor 2015 
+=========================================================
 
-Contents:
+Efnisyfirlit:
 
 .. toctree::
    :maxdepth: 2
@@ -15,8 +15,8 @@ Contents:
 
    kafli*
 
-Indices and tables
-==================
+Atriðaorðaskrá og fleira
+========================
 
 * :ref:`genindex`
 * :ref:`modindex`

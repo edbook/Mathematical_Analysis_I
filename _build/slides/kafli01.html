@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>1. Markgildi og samfelldni &mdash; Mathematical Analysis I 0.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/styles.css" type="text/css" />
+    <link rel="stylesheet" href="_static/slides.css" type="text/css" />
+    
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="_static/common.js"></script>
+    
+    <script type="text/javascript" src="_static/slides.js"></script>
+    <script type="text/javascript" src="_static/sync.js"></script>
+    <script type="text/javascript" src="_static/controller.js"></script>
+    <script type="text/javascript" src="_static/init.js"></script>
+    
+    
+    <link rel="top" title="Mathematical Analysis I 0.1 documentation" href="index.html" />
+    <link rel="next" title="2. Section Title" href="kafli99.html" />
+    <link rel="prev" title="Welcome to Stærðfræðigreining I&#39;s documentation!" href="index.html" /> 
+  </head>
+  <body>
+
+<section
+   id="slide_container"
+   class='slides layout-regular'>
+
+
+  
+<article class="slide level-1" id="markgildi-og-samfelldni">
+
+<h1>Markgildi og samfelldni</h1>
+
+
+
+
+
+</article>
+<article class="slide level-2" id="inngangur">
+
+<h2>Inngangur</h2>
+
+<p>Viðfangsefnið</p>
+<p><em>There is a theory which states that if ever anybody discovers exactly
+what the Universe is for and why it is here, it will instantly disappear
+and be replaced by something even more bizarre and inexplicable. There
+is another theory which states that this has already happened.</em> -Douglas
+Adams</p>
+<p>Stærðfræðigreining</p>
+<p>Grunnhugmyndin</p>
+<p>Stærðfræðigreining grundvallast á því að mæla breytingu (oft með tilliti
+til tíma)</p>
+<ul class="simple">
+<li>Eðlisfræði; hraði, hröðun, massi, orka, vinna, afl, þrýstingur</li>
+<li>Rúmmál; flatarmál, rúmmál, lengd, massamiðja</li>
+<li>Hagnýtingar; hagfræði, stofnstærðir, hámörkun/lágmörkun</li>
+<li>Stærðfræði; markgildi, hermun, jafnvægisástand</li>
+</ul>
+<p>Sagan Sett fram samtímis, en óháð, af Isaac Newton og Gottfried Leibniz
+í lok 17.&nbsp;aldar.</p>
+<p><img alt="image" src="_images/04_Milligildissetn.png" /></p>
+<p>Ítarefni Fyrir nánari útlistun á hugtökunum sem við fjöllum um þá er
+hægt að skoða</p>
+<ul class="simple">
+<li><a class="reference external" href="http://stae.is">http://stæ.is</a> (hugtakasafn og orðaskrá)</li>
+<li><a class="reference external" href="http://planetmath.org">http://planetmath.org</a></li>
+<li><a class="reference external" href="http://mathworld.wolfram.com">http://mathworld.wolfram.com</a></li>
+<li><a class="reference external" href="http://en.wikipedia.org">http://en.wikipedia.org</a> (ath.&nbsp;enska útgáfan)</li>
+</ul>
+<p>Forrit</p>
+<ul class="simple">
+<li>GeoGebra <a class="reference external" href="http://www.geogebra.org">http://www.geogebra.org</a></li>
+<li>WolframAlpha <a class="reference external" href="http://www.wolframalpha.com">http://www.wolframalpha.com</a></li>
+</ul>
+
+
+
+
+</article>
+<article class="slide level-2" id="foll">
+
+<h2>Föll</h2>
+
+<p>Tölur</p>
+<p>1.1 Skilgreining</p>
+<ol class="lowerroman simple">
+<li><em>Náttúrlegu tölurnar</em> eru tölurnar <span class="math">\(1, 2, 3, 4, \ldots\)</span> og
+mengi þeirra er táknað með <span class="math">\({{\mathbb  N}}\)</span>.</li>
+<li>Mengi <em>heiltalna</em> er táknað með <span class="math">\({{\mathbb Z}}\)</span>.
+<span class="math">\({{\mathbb Z}}= \ldots,-2,-1,0,1,2,3,\ldots\)</span></li>
+<li>Mengi <em>ræðra talna</em> er táknað með <span class="math">\({{\mathbb Q}}\)</span>.
+<span class="math">\({{\mathbb Q}}= \{ \frac pq ; p,q \in {{\mathbb Z}}\}\)</span>.</li>
+<li>Mengi <em>rauntalna</em> er táknað með <span class="math">\({{\mathbb  R}}\)</span>.</li>
+<li>Mengi <em>tvinntalna</em> er táknað með <span class="math">\({{\mathbb  C}}\)</span>.</li>
+</ol>
+<p>1.2 Athugasemd Margir vilja telja <span class="math">\(0\)</span> með sem náttúrlega tölu. Það
+er eðlilegt ef maður lítur á náttúrlegu tölurnar þannig að þær tákni
+fjölda. Ef maður lítur hins vegar þannig á að þær séu notaðar til að
+númera hluti þá er 0 ekki með.</p>
+<p>1.3 Smíði rauntalna Rauntölur eru smíðaðar úr ræðu tölunum með því að
+fylla upp í götin.</p>
+<p>T.d.&nbsp;eru</p>
+<div class="math">
+\[\begin{split}\begin{aligned}
+\pi &amp;=&amp; 3,1415926\ldots, \qquad \text{og}\\
+\sqrt 2 -4  &amp;=&amp; -2,58578\ldots\end{aligned}\end{split}\]</div>
+<p>ekki ræðar tölur (það er ekki hægt að skrifa þær sem brot
+<span class="math">\(\frac ab\)</span>, þar sem <span class="math">\(a\)</span> og <span class="math">\(b\)</span> eru heilar tölur), en
+þær eru rauntölur.</p>
+<p>1.4 Frumsendan um efra mark Látum <span class="math">\(A\)</span> vera mengi af rauntölum sem
+er þannig að til er tala <span class="math">\(x\)</span>, þannig að fyrir allar tölur
+<span class="math">\(a \in A\)</span> þá er</p>
+<div class="math">
+\[a\leq x.\]</div>
+<p>Þá er til rauntala <span class="math">\(x_0\)</span> sem kallast <em>minnsta efra mark</em> fyrir
+<span class="math">\(A\)</span>, sem er þannig að <span class="math">\(a\leq x_0\)</span> fyrir allar tölur
+<span class="math">\(a\in
+A\)</span> og ef <span class="math">\(x&lt;x_0\)</span> þá er til tala <span class="math">\(a\in A\)</span> þannig að
+<span class="math">\(a&gt;x\)</span>.</p>
+<p>Bil</p>
+<p>1.5 Skilgreining Látum <span class="math">\(a\)</span> og <span class="math">\(b\)</span> vera rauntölur þannig að
+<span class="math">\(a&lt;b\)</span>. Skilgreinum</p>
+<ol class="lowerroman simple">
+<li><em>opið bil</em>&nbsp;&nbsp;<span class="math">\((a,b)=\{x\in {{\mathbb  R}}; a&lt;x&lt;b\}\)</span></li>
+<li><em>lokað bil</em>&nbsp;&nbsp;<span class="math">\([a,b]=\{x\in {{\mathbb  R}}; a\leq x\leq b\}\)</span></li>
+<li><em>hálf opið bil</em>&nbsp;&nbsp;<span class="math">\([a,b)=\{x\in {{\mathbb  R}}; a\leq x&lt;b\}\)</span></li>
+<li><em>hálf opið bil</em>&nbsp;&nbsp;<span class="math">\((a,b]=\{x\in {{\mathbb  R}}; a&lt; x\leq b\}\)</span></li>
+</ol>
+<p>Þessi bil sem er skilgreind hér fyrir ofan eru kölluð endanleg. Til eru
+fleiri gerðir af bilum:</p>
+<p>(v) <em>opið óendanlegt bil</em>
+<span class="math">\((a,\infty)=\{x\in {{\mathbb  R}}; a&lt;x\}\)</span></p>
+<p>(vi) <em>opið óendanlegt bil</em>
+<span class="math">\((-\infty, a)=\{x\in {{\mathbb  R}}; x&lt;a\}\)</span></p>
+<p>(vii) <em>lokað óendanlegt bil</em>
+<span class="math">\([a,\infty)=\{x\in {{\mathbb  R}}; a\leq x\}\)</span></p>
+<p>(viii) <em>lokað óendanlegt bil</em>
+<span class="math">\((-\infty, a]=\{x\in {{\mathbb  R}}; x\leq a\}\)</span></p>
+<ol class="lowerroman simple" start="9">
+<li><em>allur rauntalnaásinn</em>&nbsp;&nbsp; <span class="math">\((-\infty, \infty)\)</span>.</li>
+</ol>
+<p>1.6 Skilgreining Mengi <span class="math">\(A\)</span> af rauntölum kallast bil ef um allar
+tölur <span class="math">\(a&lt;b\)</span> sem eru í menginu <span class="math">\(A\)</span> gildir að ef <span class="math">\(a&lt;x&lt;b\)</span>
+þá er <span class="math">\(x\)</span> líka í menginu <span class="math">\(A\)</span>. Þ.e.&nbsp;<em>engin göt</em>.</p>
+<p>1.7 Athugasemd</p>
+<p>(i) Sérhvert bil á rauntalnaásnum er af einni þeirra gerða sem talin er
+upp í Skilgreiningu 1.5. (Þessi staðhæfing er jafngild frumsendunni um
+efra mark.)</p>
+<ol class="lowerroman simple" start="2">
+<li>Það er jafngilt að segja</li>
+</ol>
+<div class="math">
+\[x \in (a-\eta,a+\eta)\]</div>
+<p>og</p>
+<div class="math">
+\[\begin{split}|x-a| &lt; \eta.\end{split}\]</div>
+<p>Vörpun</p>
+<p>1.8 Skilgreining <em>Vörpun</em> frá mengi <span class="math">\(X\)</span> yfir í mengi <span class="math">\(Y\)</span> er
+regla sem úthlutar sérhverju staki <span class="math">\(x\)</span> í <span class="math">\(X\)</span> nákvæmlega einu
+staki <span class="math">\(f(x)\)</span> í <span class="math">\(Y\)</span>. Táknum þetta með <span class="math">\(f:X \to Y\)</span>.</p>
+<p>Stakið <span class="math">\(f(x)\)</span> kallast <em>gildi</em> vörpunarinnar (í punktinum
+<span class="math">\(x\)</span>).</p>
+<p>1.9 Skilgreining Mengið <span class="math">\(X\)</span> kallast <em>skilgreiningarmengi</em>
+<span class="math">\(f\)</span>, mengið <span class="math">\(Y\)</span> kallast <em>bakmengi</em> <span class="math">\(f\)</span> og mengið
+<span class="math">\(f(X) = \{ f(x); x \in X \}\)</span> kallast <em>myndmengi</em> <span class="math">\(f\)</span>.</p>
+<p><img alt="image" src="_images/04_Milligildissetn.png" /></p>
+<p>Samskeyting</p>
+<p>1.10 Skilgreining Látum <span class="math">\(f:X \to Y\)</span> og <span class="math">\(g:Y \to Z\)</span> vera
+varpanir. Vörpunin <span class="math">\(g\circ f:X \to Z\)</span> sem skilgreind er með
+<span class="math">\((g\circ f)(x)=g(f(x))\)</span> kallast <em>samskeyting</em> <span class="math">\(f\)</span> og
+<span class="math">\(g\)</span>. Stakið <span class="math">\(g(f(x)) \in Z\)</span> fæst með því að beita fyrst
+vörpuninni <span class="math">\(f\)</span> á stakið <span class="math">\(x\)</span> og síðan vörpuninni <span class="math">\(g\)</span> á
+stakið <span class="math">\(f(x)\)</span>.</p>
+<p><img alt="image" src="_images/04_Milligildissetn.png" /></p>
+<p>Eintækni/átækni</p>
+<p>1.11 Athugasemd Það er ekki víst að öll gildin í <span class="math">\(Y\)</span> séu tekin
+(þ.e.&nbsp;<span class="math">\(f(X)\)</span> getur verið minna en <span class="math">\(Y\)</span>). Eins þá er mögulegt
+að <span class="math">\(f\)</span> taki sama gildið oftar en einu sinni.</p>
+<p>1.12 Skilgreining Við segjum að vörpunin <span class="math">\(f\)</span> sé <em>átæk</em> ef
+<span class="math">\(f(X)=Y\)</span>, það þýðir að fyrir sérhvert stak <span class="math">\(y\)</span> í <span class="math">\(Y\)</span>
+þá er til (amk.&nbsp;eitt) stak <span class="math">\(x\)</span> í <span class="math">\(X\)</span> þannig að
+<span class="math">\(f(x)=y\)</span>.</p>
+<p>Segjum að vörpunin <span class="math">\(f\)</span> sé <em>eintæk</em> ef <span class="math">\(f(x_1) = f(x_2)\)</span>
+hefur í för með sér að <span class="math">\(x_1=x_2\)</span>, þ.e.&nbsp;sérhvert gildi sem vörpunin
+tekur er bara tekið einu sinni.</p>
+<p><img alt="image" src="_images/04_Milligildissetn.png" /></p>
+<p>Andhverfa</p>
+<p>1.13 Skilgreining Vörpun sem er bæði eintæk og átæk kallast <em>gagntæk</em>.</p>
+<p>1.14 Setning Látum <span class="math">\(f:X \to Y\)</span> vera vörpun. Sagt er að <span class="math">\(f\)</span>
+sé andhverfanleg ef til er vörpun <span class="math">\(f^{-1}:Y \to X\)</span> þannig að
+samskeyting varpananna <span class="math">\(f\)</span> og <span class="math">\(f^{-1}\)</span> annars vegar og
+<span class="math">\(f^{-1}\)</span> og <span class="math">\(f\)</span> hins vegar sé viðeigandi samsemdarvörpun,
+þ.e.&nbsp;<span class="math">\(f^{-1}\circ f=id_X\)</span> og <span class="math">\(f\circ f^{-1} = id_Y\)</span>.</p>
+<p><img alt="image" src="_images/04_Milligildissetn.png" /></p>
+<p>Graf</p>
+<p>1.15 Athugasemd Venjulega hjá okkur þá eru mengin <span class="math">\(X\)</span> og <span class="math">\(Y\)</span>
+mengi af rauntölum. Þegar <span class="math">\(Y\)</span> er mengi af tölum þá er notast við
+orðið <em>fall</em> í stað orðsins <em>vörpun</em>.</p>
+<p>1.16 Skilgreining Látum <span class="math">\(f:X \to Y\)</span> vera fall þannig að <span class="math">\(X\)</span>
+og <span class="math">\(Y\)</span> eru mengi af rauntölum. <em>Graf</em> fallsins <span class="math">\(f\)</span> er þá
+mengi allra punkta í planinu <span class="math">\({{\mathbb  R}}^2\)</span> af gerðinni
+<span class="math">\((x,f(x))\)</span> þar sem <span class="math">\(x\in X\)</span>. Notum oft <span class="math">\(y\)</span> í stað
+<span class="math">\(f(x)\)</span>.</p>
+<p><img alt="image" src="_images/04_Milligildissetn.png" /></p>
+
+
+
+
+</article>
+<article class="slide level-2" id="markgildi">
+
+<h2>Markgildi</h2>
+
+<p>Markgildi</p>
+<p>1.17 Óformleg skilgreining Segjum að <span class="math">\(f(x)\)</span> <em>stefni á tölu
+:math:`L` þegar :math:`x` stefnir á :math:`a`</em>, og ritum
+<span class="math">\(\lim_{x\rightarrow a} f(x)=L\)</span>, ef við getum tryggt að
+<span class="math">\(f(x)\)</span> sé <em>eins nálægt</em> <span class="math">\(L\)</span> og við viljum bara með því að
+velja <span class="math">\(x\)</span> <em>nógu nálægt</em> <span class="math">\(a\)</span>.</p>
+<p>1.18 Skilgreining Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé skilgreint á opnu
+bili umhverfis punktinn <span class="math">\(a\)</span>, nema hvað hugsanlega er <span class="math">\(f(a)\)</span>
+ekki skilgreint. Við segjum að <span class="math">\(f(x)\)</span> <em>stefni á tölu :math:`L`
+þegar :math:`x` stefnir á :math:`a`</em>, og ritum
+<span class="math">\(\lim_{x\rightarrow a} f(x)=L\)</span>, ef eftirfarandi skilyrði er
+uppfyllt:</p>
+<p><em>Fyrir sérhverja tölu :math:`epsilon&gt;0` er til tala :math:`delta&gt;0`
+þannig að um öll :math:`x` þannig að</em></p>
+<div class="math">
+\[\begin{split}0&lt;|x-a|&lt;\delta,\quad \text{ þá er } \quad |f(x)-L|&lt;\epsilon.\end{split}\]</div>
+<p>1.19 Athugasemd Þegar athugað er hvort markgildið
+<span class="math">\(\lim_{x\rightarrow a} f(x)\)</span> er til og hvert gildi þess er þá
+skiptir ekki máli hvort <span class="math">\(f(a)\)</span> er skilgreint eða ekki.</p>
+<p>Markgildi frá hægri</p>
+<p>1.20 Óformleg skilgreining Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé
+skilgreint á opnu bili <span class="math">\((a,b)\)</span>. Segjum að <span class="math">\(f(x)\)</span> <em>stefni á
+tölu :math:`L` þegar :math:`x` stefnir á :math:`a` frá hægri</em>, og ritum
+<span class="math">\(\lim_{x\rightarrow a^+} f(x)=L\)</span>, ef við getum tryggt að
+<span class="math">\(f(x)\)</span> sé <em>eins nálægt</em> <span class="math">\(L\)</span> og við viljum bara með því að
+velja <span class="math">\(x&gt;a\)</span> <em>nógu nálægt</em> <span class="math">\(a\)</span>.</p>
+<p>1.21 Skilgreining Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé skilgreint á opnu
+bili <span class="math">\((a,b)\)</span>. Við segjum að <span class="math">\(f(x)\)</span> <em>stefni á tölu :math:`L`
+þegar :math:`x` stefnir á :math:`a` frá hægri</em>, og ritum
+<span class="math">\(\lim_{x\rightarrow a^+} f(x)=L\)</span>, ef eftirfarandi skilyrði er
+uppfyllt.</p>
+<p><em>Fyrir sérhverja tölu :math:`epsilon&gt;0` er til tala :math:`delta&gt;0`
+þannig að um öll :math:`x` þannig að</em></p>
+<div class="math">
+\[\begin{split}a&lt;x&lt;a+\delta,\quad \text{ þá er } \quad |f(x)-L|&lt;\epsilon.\end{split}\]</div>
+<p>Markgildi frá vinstri</p>
+<p>1.22 Óformleg skilgreining Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé
+skilgreint á opnu bili <span class="math">\((b,a)\)</span>. Segjum að <span class="math">\(f(x)\)</span> <em>stefni á
+tölu :math:`L` þegar :math:`x` stefnir á :math:`a` frá vinstri</em>, og
+ritum <span class="math">\(\lim_{x\rightarrow a^-} f(x)=L\)</span>, ef við getum tryggt að
+<span class="math">\(f(x)\)</span> sé <em>eins nálægt</em> <span class="math">\(L\)</span> og við viljum bara með því að
+velja <span class="math">\(x&lt;a\)</span> <em>nógu nálægt</em> <span class="math">\(a\)</span>.</p>
+<p>1.23 Skilgreining Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé skilgreint á opnu
+bili <span class="math">\((b,a)\)</span>. Við segjum að <span class="math">\(f(x)\)</span> <em>stefni á tölu :math:`L`
+þegar :math:`x` stefnir á :math:`a` frá vinstri</em>, og ritum
+<span class="math">\(\lim_{x\rightarrow a^-} f(x)=L\)</span>, ef eftirfarandi skilyrði er
+uppfyllt.</p>
+<p><em>Fyrir sérhverja tölu :math:`epsilon&gt;0` er til tala :math:`delta&gt;0`
+þannig að um öll :math:`x` þannig að</em></p>
+<div class="math">
+\[\begin{split}a-\delta&lt;x&lt;a,\quad \text{ þá er } \quad |f(x)-L|&lt;\epsilon.\end{split}\]</div>
+<p>1.24 Setning Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé skilgreint á opnu bili
+umhverfis punktinn <span class="math">\(a\)</span>, nema hvað hugsanlega er <span class="math">\(f(a)\)</span> ekki
+skilgreint. Þá er</p>
+<div class="math">
+\[\lim_{x\rightarrow a} f(x)=L\]</div>
+<p>ef og aðeins ef</p>
+<div class="math">
+\[\lim_{x\rightarrow a^-} f(x)=L=\lim_{x\rightarrow a^+} f(x).\]</div>
+<p>Önnur efnisatriði sem þið þurfið að skoða</p>
+<ul class="simple">
+<li>Jafna línu, P.2</li>
+<li>Jafna hrings, P.3</li>
+<li>Hliðrun og skölun grafs, P.3</li>
+<li>(Stranglega) minnkandi og (stranglega) vaxandi föll, 2.8</li>
+<li>Jafnstæð og oddstæð föll, P.4</li>
+</ul>
+
+
+
+
+</article>
+<article class="slide level-2" id="id1">
+
+<h2>Markgildi</h2>
+
+<p>Algeng markgildi</p>
+<p>2.1 Dæmi</p>
+<ul class="simple">
+<li><span class="math">\(\lim_{x \to a} c = c\)</span>, <span class="math">\(c\)</span> fasti</li>
+<li><span class="math">\(\lim_{x \to a} x = a\)</span></li>
+<li><span class="math">\(\lim_{x \to a} |x| = |a|\)</span></li>
+<li><span class="math">\(\lim_{x \to 0} \frac{|x|}{x}\)</span> er ekki til</li>
+<li><span class="math">\(\lim_{x \to 0^-} \frac{|x|}{x} = -1\)</span></li>
+<li><span class="math">\(\lim_{x \to 0^+} \frac{|x|}{x} = 1\)</span></li>
+</ul>
+<p>Reiknireglur fyrir markgildi</p>
+<p>2.2 Setning Gerum ráð fyrir að <span class="math">\(\lim_{x\rightarrow a}f(x)=L\)</span> og að
+<span class="math">\(\lim_{x\rightarrow a}g(x)=M\)</span>. Þá gildir</p>
+<p>(i)&nbsp;&nbsp;<span class="math">\(\lim_{x\rightarrow a}\Big(f(x)+g(x)\Big)=L+M\)</span>;</p>
+<p>(ii)&nbsp; &nbsp;<span class="math">\(\lim_{x\rightarrow a}\Big(f(x)-g(x)\Big)=L-M\)</span>;</p>
+<p>(iii)&nbsp;&nbsp; <span class="math">\(\lim_{x\rightarrow a}f(x)g(x)=LM\)</span>;</p>
+<p>(iv)&nbsp;&nbsp; <span class="math">\(\lim_{x\rightarrow a}kf(x)=kL\)</span>, þar sem <span class="math">\(k\)</span> fasti;</p>
+<p>(v)&nbsp;&nbsp; <span class="math">\(\lim_{x\rightarrow a}f(x)/g(x)=L/M\)</span>, að því gefnu að
+<span class="math">\(M\neq 0\)</span>;</p>
+<p>(vi)&nbsp;&nbsp;Gerum ráð fyrir að <span class="math">\(m\)</span> og <span class="math">\(n\)</span> séu heiltölur þannig að
+<span class="math">\(f(x)^{m/n}\)</span> sé skilgreint fyrir öll <span class="math">\(x\)</span> á bili
+<span class="math">\((b,c)\)</span> umhverfis <span class="math">\(a\)</span> (en ekki endilega fyrir <span class="math">\(x=a\)</span>)
+og að <span class="math">\(L^{m/n}\)</span> sé skilgreint. Þá er
+<span class="math">\(\lim_{x\rightarrow a}f(x)^{m/n}=L^{m/n}\)</span>.</p>
+<p>(vii)&nbsp;&nbsp; Ef til er bil <span class="math">\((b,c)\)</span> sem inniheldur <span class="math">\(a\)</span> þannig að
+<span class="math">\(f(x)\leq g(x)\)</span> fyrir öll <span class="math">\(x\in (b,c)\)</span>, nema kannski
+<span class="math">\(x=a\)</span>, þá er
+<span class="math">\(\lim_{x\rightarrow a}f(x)=L\leq M=\lim_{x\rightarrow a}g(x)\)</span>.</p>
+<p>VARÚÐ</p>
+<p>2.3 Athugasemd Liður (i) í setningunni á undan segir að ef markgildin
+<span class="math">\(\lim_{x\to a} f(x)\)</span> og <span class="math">\(\lim_{x\to a} g(x)\)</span> eru til þá sé
+markgildið <span class="math">\(\lim_{x\to a} (f(x)+g(x))\)</span> einnig til.</p>
+<p>En hún segir <strong>ekki</strong> að ef <span class="math">\(f\)</span> og <span class="math">\(g\)</span> eru föll þannig að
+markgildið <span class="math">\(\lim_{x\to a} (f(x)+g(x))\)</span> er til, að þá séu
+markgildin <span class="math">\(\lim_{x\to a} f(x)\)</span> og <span class="math">\(\lim_{x\to a} g(x)\)</span>
+einnig til.</p>
+<p>Klemmureglan</p>
+<p>(iv)-liður í setningu 2.2 að ofan Ef til er bil <span class="math">\((b,c)\)</span> sem
+inniheldur <span class="math">\(a\)</span> þannig að <span class="math">\(f(x)\leq g(x)\)</span> fyrir öll
+<span class="math">\(x\in (b,c)\)</span>, nema kannski <span class="math">\(x=a\)</span>, þá er
+<span class="math">\(\lim_{x\rightarrow a}f(x)=L\leq M=\lim_{x\rightarrow a}g(x)\)</span>.</p>
+<p>2.4 Setning. Gerum ráð fyrir að <span class="math">\(f(x)\leq
+h(x)\leq g(x)\)</span> fyrir öll <span class="math">\(x\)</span> á bili <span class="math">\((b, c)\)</span> sem inniheldur
+<span class="math">\(a\)</span>, nema kannski <span class="math">\(x=a\)</span>. Gerum enn fremur ráð fyrir að</p>
+<div class="math">
+\[\lim_{x\rightarrow a}f(x)=\lim_{x\rightarrow a}g(x)=L.\]</div>
+<p>Þá er <span class="math">\(\lim_{x\rightarrow a}h(x)=L\)</span>.</p>
+<p>Skiladæmi</p>
+<p>Frágangur skiladæma</p>
+<ul class="simple">
+<li>Skrifið upp <strong>dæmið</strong> og lausnina snyrtilega</li>
+<li>Vísið í setningar sem þið notið</li>
+<li>Notið ekki rökfræðitákn eins og <span class="math">\(\Leftarrow\)</span>,
+<span class="math">\(\Rightarrow\)</span>, <span class="math">\(\Leftrightarrow\)</span>, <span class="math">\(\wedge\)</span>,
+<span class="math">\(\vee\)</span></li>
+<li>Textinn á að vera samfelldur og læsilegur (lesið hann sjálf yfir)</li>
+<li>Skýrt svar/niðurstaða</li>
+</ul>
+<p>Önnur efnisatriði sem þið þurfið að skoða</p>
+<ul class="simple">
+<li>Margliður; deiling, þáttun og rætur, P.6</li>
+<li>Tölugildisfallið, P.1</li>
+<li>Þríhyrningsójafnan, P.1</li>
+<li>Formerkjafallið, <span class="math">\(sgn(x)\)</span>, P.5</li>
+</ul>
+
+
+
+
+</article>
+<article class="slide level-2" id="mikilvaegt-markgildi">
+
+<h2>Mikilvægt markgildi</h2>
+
+
+
+
+
+</article>
+<article class="slide level-2" id="markgildi-i-og">
+
+<h2>Markgildi í <span class="math">\(-\infty\)</span> og <span class="math">\(\infty\)</span></h2>
+
+<p>Markgildi þegar <span class="math">\(x\)</span> stefnir á <span class="math">\(\infty\)</span></p>
+<p><img alt="image" src="_images/04_Milligildissetn.png" /></p>
+<p>3.1 Óformleg skilgreining Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé
+skilgreint á bili <span class="math">\((a, \infty)\)</span>. Segjum að <span class="math">\(f(x)\)</span> <em>stefni á
+tölu :math:`L` þegar :math:`x` stefnir á :math:`infty`</em>, og ritum
+<span class="math">\(\lim_{x\rightarrow \infty} f(x)=L\)</span>, ef við getum tryggt að
+<span class="math">\(f(x)\)</span> sé eins <em>nálægt</em> <span class="math">\(L\)</span> og við viljum bara með því að
+velja <span class="math">\(x\)</span> <em>nógu stórt</em>.</p>
+<p>Markgildi þegar <span class="math">\(x\)</span> stefnir á <span class="math">\(\infty\)</span> (framh)</p>
+<p>3.2 Skilgreining Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé skilgreint á bili
+<span class="math">\((a,\infty)\)</span>. Við segjum að <span class="math">\(f(x)\)</span> <em>stefni á tölu :math:`L`
+þegar :math:`x` stefnir á :math:`infty`</em>, og ritum
+<span class="math">\(\lim_{x\rightarrow \infty} f(x)=L\)</span>, ef eftirfarandi skilyrði er
+uppfyllt</p>
+<p><em>fyrir sérhverja tölu</em> <span class="math">\(\epsilon&gt;0\)</span> <em>er til tala</em> <span class="math">\(R\)</span> <em>þannig að
+um öll</em> <span class="math">\(R&lt;x\)</span></p>
+<p><em>gildir að</em> <span class="math">\(|f(x)-L|&lt;\epsilon\)</span>.</p>
+<p>Markgildi þegar <span class="math">\(x\)</span> stefnir á <span class="math">\(-\infty\)</span> Fyrir
+<span class="math">\(-\infty\)</span> er þetta gert með sama sniði.</p>
+<p>3.3 Óformlega skilgreining Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé
+skilgreint á bili <span class="math">\((-\infty, a)\)</span>. Segjum að <span class="math">\(f(x)\)</span> <em>stefni á
+tölu :math:`L` þegar :math:`x` stefnir á :math:`-infty`</em>, og ritum
+<span class="math">\(\lim_{x\rightarrow -\infty} f(x)=L\)</span>, ef við getum tryggt að
+<span class="math">\(f(x)\)</span> sé eins <em>nálægt</em> <span class="math">\(L\)</span> og við viljum bara með því að
+velja <span class="math">\(x\)</span> sem <em>nógu stóra</em> mínus tölu.</p>
+<p>3.4 Skilgreining Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé skilgreint á bili
+<span class="math">\((-\infty,a)\)</span>. Við segjum að <span class="math">\(f(x)\)</span> <em>stefni á tölu :math:`L`
+þegar :math:`x` stefnir á :math:`-infty`</em>, og ritum
+<span class="math">\(\lim_{x\rightarrow -\infty} f(x)=L\)</span>, ef eftirfarandi skilyrði er
+uppfyllt</p>
+<p><em>fyrir sérhverja tölu</em> <span class="math">\(\epsilon&gt;0\)</span> <em>er til tala</em> <span class="math">\(R\)</span> <em>þannig að
+um öll</em> <span class="math">\(x&lt;R\)</span></p>
+<p><em>gildir að :math:`|f(x)-L|&lt;epsilon`.</em></p>
+<p><span class="math">\(\infty\)</span> sem markgildi</p>
+<p>3.5 Óformleg skilgreining. Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé
+skilgreint á opnu bili umhverfis punktinn <span class="math">\(a\)</span>, nema hvað
+hugsanlega er <span class="math">\(f(a)\)</span> ekki skilgreint. Segjum að <span class="math">\(f(x)\)</span>
+<em>stefni á :math:`infty` þegar :math:`x` stefnir á :math:`a`</em>, og ritum
+<span class="math">\(\lim_{x\rightarrow a} f(x)=\infty\)</span>, ef við getum tryggt að
+<span class="math">\(f(x)\)</span> sé <em>hversu stórt sem við viljum</em> bara með því að velja
+<span class="math">\(x\)</span> <em>nógu nálægt</em> <span class="math">\(a\)</span>.</p>
+<p>3.6 Skilgreining. Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé skilgreint á opnu
+bili umhverfis punktinn <span class="math">\(a\)</span>, nema hvað hugsanlega er <span class="math">\(f(a)\)</span>
+ekki skilgreint. Við segjum að <span class="math">\(f(x)\)</span> <em>stefni á :math:`infty`
+þegar :math:`x` stefnir á :math:`a`</em>, og ritum
+<span class="math">\(\lim_{x\rightarrow a} f(x)=\infty\)</span>, ef eftirfarandi skilyrði er
+uppfyllt</p>
+<p><em>fyrir sérhverja tölu :math:`B` er til tala :math:`delta&gt;0` þannig að
+um öll :math:`x` þannig að</em></p>
+<p><em>:math:`0&lt;|x-a|&lt;delta` gildir að :math:`f(x)&gt;B`.</em></p>
+<p>Málvenja</p>
+<p>3.7 Athugasemd. Athugið að <span class="math">\(\infty\)</span> er <strong>ekki</strong> tala. Þó að
+<span class="math">\(\lim_{x\rightarrow a} f(x)=\infty\)</span> þá er samt sagt að markgildið
+<span class="math">\(\lim_{x\rightarrow a} f(x)\)</span> sé ekki til.</p>
+<p><span class="math">\(-\infty\)</span> sem markgildi</p>
+<p>3.8 Óformleg skilgreining. Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé
+skilgreint á opnu bili umhverfis punktinn <span class="math">\(a\)</span>, nema hvað
+hugsanlega er <span class="math">\(f(a)\)</span> ekki skilgreint. Segjum að <span class="math">\(f(x)\)</span>
+<em>stefni á :math:`-infty` þegar :math:`x` stefnir á :math:`a`</em>, og ritum
+<span class="math">\(\lim_{x\rightarrow a} f(x)=-\infty\)</span>, ef við getum tryggt að
+<span class="math">\(f(x)\)</span> sé <em>hversu lítið sem við viljum</em> bara með því að velja
+<span class="math">\(x\)</span> <em>nógu nálægt</em> <span class="math">\(a\)</span>.</p>
+<p>3.9 Skilgreining. Gerum ráð fyrir að fall <span class="math">\(f\)</span> sé skilgreint á opnu
+bili umhverfis punktinn <span class="math">\(a\)</span>, nema hvað hugsanlega er <span class="math">\(f(a)\)</span>
+ekki skilgreint. Við segjum að <span class="math">\(f(x)\)</span> <em>stefni á :math:`-infty`
+þegar :math:`x` stefnir á :math:`a`</em>, og ritum
+<span class="math">\(\lim_{x\rightarrow a} f(x)=-\infty\)</span>, ef eftirfarandi skilyrði er
+uppfyllt</p>
+<p><em>fyrir sérhverja tölu :math:`B` er til tala :math:`delta&gt;0` þannig að
+um öll :math:`x` þannig að</em></p>
+<p><em>:math:`0&lt;|x-a|&lt;delta` gildir að :math:`f(x)&lt;B`.</em></p>
+<p>Málvenja</p>
+<p>3.10 Athugasemd. Athugið að <span class="math">\(-\infty\)</span> er <strong>ekki</strong> tala. Þó að
+<span class="math">\(\lim_{x\rightarrow a} f(x)=-\infty\)</span> þá er samt sagt að markgildið
+<span class="math">\(\lim_{x\rightarrow a} f(x)\)</span> sé ekki til.</p>
+<p>Markgildi með <span class="math">\(\sin\)</span></p>
+<p>3.11 Sýnidæmi</p>
+<ul>
+<li><div class="first math">
+\[\lim_{x\to 0} \sin\left(\frac 1x\right) \quad \text{er ekki til}\]</div>
+</li>
+<li><div class="first math">
+\[\lim_{x\to 0} x\sin\left(\frac 1x\right) = 0\]</div>
+</li>
+<li><div class="first math">
+\[\lim_{x \to 0} \frac{\sin(x)}{x} = 1\]</div>
+</li>
+</ul>
+
+
+
+
+</article>
+<article class="slide level-2" id="samfelldni">
+
+<h2>Samfelldni</h2>
+
+<p>Samfelldni</p>
+<p>3.12 Skilgreining. Látum <span class="math">\(A\subseteq {{\mathbb  R}}\)</span> og
+<span class="math">\(x\in A\)</span>. Við segjum að <span class="math">\(x\)</span> sé <em>innri punktur</em> <span class="math">\(A\)</span> ef
+<span class="math">\(A\)</span> inniheldur opið bil umhverfis <span class="math">\(x\)</span>, það er að segja til
+er tala <span class="math">\(\delta&gt;0\)</span> þannig að <span class="math">\((x-\delta, x+\delta)\subseteq
+A\)</span>.</p>
+<p>Ef <span class="math">\(x\)</span> er ekki innri punktur <span class="math">\(A\)</span> og <span class="math">\(x\in A\)</span> þá segjum
+við að <span class="math">\(x\)</span> sé <em>jaðarpunktur</em> <span class="math">\(A\)</span>.</p>
+<p>3.13 Skilgreining. Látum <span class="math">\(f\)</span> vera fall og <span class="math">\(c\)</span> innri punkt
+skilgreiningarsvæðis <span class="math">\(f\)</span>. Sagt er að <span class="math">\(f\)</span> sé <em>samfellt í
+punktinum</em> <span class="math">\(c\)</span> ef</p>
+<div class="math">
+\[\lim_{x\rightarrow c}f(x)=f(c).\]</div>
+<p>3.14 Setning Látum <span class="math">\(f\)</span> og <span class="math">\(g\)</span> vera föll. Gerum ráð fyrir að
+<span class="math">\(c\)</span> sé innri punktur skilgreiningarsvæðis beggja fallanna og að
+bæði föllin séu samfelld í punktinum <span class="math">\(c\)</span>. Þá eru eftirfarandi föll
+samfelld í <span class="math">\(c\)</span>:</p>
+<ul class="simple">
+<li><span class="math">\(f+g\)</span></li>
+<li><span class="math">\(f-g\)</span></li>
+<li><span class="math">\(fg\)</span></li>
+<li><span class="math">\(kf\)</span>, þar sem <span class="math">\(k\)</span> er fasti</li>
+<li><span class="math">\(f/g\)</span>, ef <span class="math">\(g(c)\neq 0\)</span></li>
+<li><span class="math">\(\Big(f(x)\Big)^{1/n}\)</span>, að því gefnu að <span class="math">\(f(c)&gt;0\)</span> ef
+<span class="math">\(n\)</span> er slétt tala og <span class="math">\(f(c)\neq 0\)</span> ef <span class="math">\(n&lt;0\)</span>.</li>
+</ul>
+<p>Samskeyting samfelldra falla</p>
+<p>3.15 Setning Látum <span class="math">\(g\)</span> vera fall sem er skilgreint á opnu bili
+umhverfis <span class="math">\(c\)</span> og samfellt í <span class="math">\(c\)</span> og látum <span class="math">\(f\)</span> vera fall
+sem er skilgreint á opnu bili umhverfis <span class="math">\(g(c)\)</span> og samfellt í
+<span class="math">\(g(c)\)</span>. Þá er fallið <span class="math">\(f\circ g\)</span> skilgreint á opnu bili
+umhverfis <span class="math">\(c\)</span> og er samfellt í <span class="math">\(c\)</span>.</p>
+<p>Hefð</p>
+<p>3.16 Athugasemd Ef fall er skilgreint með formúlu og skilgreingamengið
+er ekki tilgreint sérstaklega, þá er venjan að líta alla þá punkta þar
+sem formúlan gildir sem skilgreingarmengi fallsins</p>
+<p>Samfelld föll</p>
+<p>3.17 Skilgreining Við segjum að fall <span class="math">\(f\)</span> sé <em>samfellt</em> ef það er
+samfellt í sérhverjum punkti skilgreingarmengisins.</p>
+<p>3.18 Dæmi Eftirfarandi föll eru samfelld</p>
+<ul class="simple">
+<li>margliður</li>
+<li>ræð föll</li>
+<li>ræð veldi</li>
+<li>hornaföll; <span class="math">\(\sin\)</span>, <span class="math">\(\cos\)</span>, <span class="math">\(\tan\)</span></li>
+<li>tölugildisfallið <span class="math">\(|x|\)</span></li>
+</ul>
+<p>Að búa til samfelld föll</p>
+<p>3.19 Athugasemd Með því að nota föllin úr Dæmi 3.18 sem efnivið þá getum
+við búið til fjölda samfelldra fall með því að beita aðgerðunum úr
+Setningu 3.14 og Setningu 3.15.</p>
+
+
+
+
+</article>
+<article class="slide level-2" id="id2">
+
+<h2>Samfelldni</h2>
+
+<p>Upprifjun</p>
+<p>4.1 Skilgreining Látum <span class="math">\(f\)</span> vera fall og <span class="math">\(c\)</span> innri punkt
+skilgreiningarsvæðis <span class="math">\(f\)</span>. Sagt er að <span class="math">\(f\)</span> sé <em>samfellt í
+punktinum</em> <span class="math">\(c\)</span> ef</p>
+<div class="math">
+\[\lim_{x\rightarrow c}f(x)=f(c).\]</div>
+<p>4.2 Athugasemd Þessi skilgreining virkað aðeins fyrir innri punkta
+skilgreiningarsvæðisins. Hins vegar getum við útvíkkað skilgreininguna á
+samfelldni fyrir hægri og vinstri endapunkta bila með því að einskorða
+okkur við markgildi frá vinstri og hægri.</p>
+<p>Hægri/vinstri samfelldni</p>
+<p>4.3 Skilgreining (i) Fall <span class="math">\(f\)</span> er <em>samfellt frá hægri í punkti</em>
+<span class="math">\(c\)</span> ef <span class="math">\(\lim_{x\rightarrow c^+}f(x)=f(c)\)</span>.</p>
+<p>Hér er gert ráð fyrir að fallið <span class="math">\(f\)</span> sé amk.&nbsp;skilgreint á bilinu
+<span class="math">\([c, a)\)</span>.</p>
+<p>(ii) Fall <span class="math">\(f\)</span> er <em>samfellt frá vinstri í punkti</em> <span class="math">\(c\)</span> ef
+<span class="math">\(\lim_{x\rightarrow c^-}f(x)=f(c)\)</span>.</p>
+<p>Hér er gert ráð fyrir að fallið <span class="math">\(f\)</span> sé amk.&nbsp;skilgreint á bilinu
+<span class="math">\((a, c]\)</span>.</p>
+<p>Samfelld föll</p>
+<p>4.4 Skilgreining (uppfærð) Gerum ráð fyrir að <span class="math">\(f\)</span> sé fall sem er
+skilgreint á mengi <span class="math">\(A\)</span>, þar sem <span class="math">\(A\)</span> er sammengi endanlega
+margra bila. Við segjum að fallið <span class="math">\(f\)</span> sé <em>samfellt</em> ef það er
+samfellt í öllum innri punktum skilgreingarmengisins, og ef það er
+samfellt frá hægri/vinstri í jaðarpunktum skilgreingarmengisins, eftir
+því sem við á.</p>
+<p>4.5 Athugasemd Ef fall er samfellt á opnu bili <span class="math">\((a,b)\)</span>, og ef
+<span class="math">\(a&lt;c&lt;d&lt;b\)</span>, þá er fallið einnig samfellt á bilinu <span class="math">\([c,d]\)</span>.</p>
+<p>Há- og lággildislögmálið</p>
+<p>4.6 Setning Látum <span class="math">\(f\)</span> vera samfellt fall skilgreint á lokuðu
+takmörkuðu bili <span class="math">\([a,b]\)</span>. Þá eru til tölur <span class="math">\(x_1\)</span> og
+<span class="math">\(x_2\)</span> í <span class="math">\([a,b]\)</span> þannig að fyrir allar tölur <span class="math">\(x\)</span> í
+<span class="math">\([a,b]\)</span> er</p>
+<div class="math">
+\[f(x_1)\leq f(x)\leq f(x_2).\]</div>
+<p>Þetta þýðir að samfellt fall <span class="math">\(f\)</span> á lokuðu og takmörkuðu bili
+<span class="math">\([a,b]\)</span> tekur bæði hæsta og lægsta gildi á bilinu. Hæsta gildið er
+þá <span class="math">\(f(x_2)\)</span> og lægsta gildið er <span class="math">\(f(x_1)\)</span>.</p>
+<p>4.7 Athugasemd Það er mögulegt að fallið taki há/lággildi sitt í fleiri
+en einum punkti.</p>
+<p>Milligildissetningin</p>
+<p>4.8 Setning Látum <span class="math">\(f\)</span> vera samfellt fall skilgreint á lokuðu
+takmörkuðu bili <span class="math">\([a,b]\)</span>. Gerum ráð fyrir að <span class="math">\(s\)</span> sé tala sem
+liggur á milli <span class="math">\(f(a)\)</span> og <span class="math">\(f(b)\)</span>. Þá er til tala <span class="math">\(c\)</span>
+sem liggur á milli <span class="math">\(a\)</span> og <span class="math">\(b\)</span> þannig að <span class="math">\(f(c)=s\)</span>.</p>
+<p>&lt;iframe scrolling=“no”
+src=“<a class="reference external" href="https://tube.geogebra.org/material/iframe/id/zEQQcGcQ/width/1075/height/767/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto">https://tube.geogebra.org/material/iframe/id/zEQQcGcQ/width/1075/height/767/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto</a>”
+width=“1075px” height=“767px” style=“border:0px;”&gt; &lt;/iframe&gt;</p>
+<p><img alt="image" src="_images/04_Milligildissetn.png" /></p>
+<p>4.9 Fylgisetning Ef <span class="math">\(P(x)=a_nx^n+a_{n-1}x^{n-1}+\cdots+a_1x+a_0\)</span>
+er margliða af oddatölu stigi, þá er til rauntala <span class="math">\(c\)</span> þannig að
+<span class="math">\(P(c)=0\)</span>.</p>
+<p>Sönnun Gerum ráð fyrir að <span class="math">\(a_n&gt;0\)</span>. Þá er
+<span class="math">\(\lim_{x\to -\infty} P(x) = -\infty\)</span> og
+<span class="math">\(\lim_{x\to \infty} P(x) = \infty\)</span>.Það þýður að til eru tölur
+<span class="math">\(a\)</span> og <span class="math">\(b\)</span> þannig að <span class="math">\(P(a)&lt;0\)</span> og <span class="math">\(P(b)&gt;0\)</span>. Með
+því að beita Milligildissetningunni á fallið <span class="math">\(P\)</span> á bilinu
+<span class="math">\([a,b]\)</span> og með <span class="math">\(s=0\)</span> þá fæst að til er núllstöð á bilinu
+<span class="math">\([a,b]\)</span>.</p>
+<p>Ef <span class="math">\(a_n &lt; 0\)</span> þá víxlast markgildin að ofan en röksemdafærslan er
+að öðru leyti eins.</p>
+
+
+
+
+</article>
+
+</section>
+
+<section id="slide_notes">
+
+</section>
+
+  </body>
+</html>
