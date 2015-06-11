@@ -1,13 +1,3 @@
-:Date:   10. september 2012
-
-.. role:: math(raw)
-   :format: html latex
-..
-
-.. contents::
-   :depth: 3
-..
-
 Markgildi og samfelldni
 =======================
 
