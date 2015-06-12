@@ -527,11 +527,12 @@ Látum :math:`f` vera samfellt fall skilgreint á lokuðu takmörkuðu bili
 :math:`f(a)` og :math:`f(b)`. Þá er til tala :math:`c` sem liggur á
 milli :math:`a` og :math:`b` þannig að :math:`f(c)=s`.
 
-<iframe scrolling=“no”
-src=“https://tube.geogebra.org/material/iframe/id/zEQQcGcQ/width/1075/height/767/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto”
-width=“1075px” height=“767px” style=“border:0px;”> </iframe>>
+.. ggb:: zEQQcGcQ
+    :width: 1075
+    :height: 767
+    :img: ./myndir/kafli01/04_Milligildissetn.png
+    :imgwidth: 8cm
 
-|image2|
 
 Fylgisetning
 ~~~~~~~~~~~~
@@ -554,4 +555,3 @@ Ef :math:`a_n < 0` þá víxlast markgildin að ofan en röksemdafærslan er
 að öðru leyti eins.
 
 .. |image1| image:: ./myndir/kafli01/03_liminf.png
-.. |image2| image:: ./myndir/kafli01/04_Milligildissetn.png
