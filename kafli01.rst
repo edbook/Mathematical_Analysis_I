@@ -30,7 +30,7 @@ til tíma)
 Sagan Sett fram samtímis, en óháð, af Isaac Newton og Gottfried Leibniz
 í lok 17. aldar.
 
-|image|
+|image1|
 
 Ítarefni Fyrir nánari útlistun á hugtökunum sem við fjöllum um þá er
 hægt að skoða
@@ -191,7 +191,7 @@ Stakið :math:`f(x)` kallast *gildi* vörpunarinnar (í punktinum
 :math:`f`, mengið :math:`Y` kallast *bakmengi* :math:`f` og mengið
 :math:`f(X) = \{ f(x); x \in X \}` kallast *myndmengi* :math:`f`.
 
-|image|
+|image2|
 
 Samskeyting
 
@@ -202,7 +202,7 @@ varpanir. Vörpunin :math:`g\circ f:X \to Z` sem skilgreind er með
 vörpuninni :math:`f` á stakið :math:`x` og síðan vörpuninni :math:`g` á
 stakið :math:`f(x)`.
 
-|image|
+|image3|
 
 Eintækni/átækni
 
@@ -219,7 +219,7 @@ Segjum að vörpunin :math:`f` sé *eintæk* ef :math:`f(x_1) = f(x_2)`
 hefur í för með sér að :math:`x_1=x_2`, þ.e. sérhvert gildi sem vörpunin
 tekur er bara tekið einu sinni.
 
-|image|
+|image4|
 
 Andhverfa
 
@@ -231,7 +231,7 @@ samskeyting varpananna :math:`f` og :math:`f^{-1}` annars vegar og
 :math:`f^{-1}` og :math:`f` hins vegar sé viðeigandi samsemdarvörpun,
 þ.e. \ :math:`f^{-1}\circ f=id_X` og :math:`f\circ f^{-1} = id_Y`.
 
-|image|
+|image5|
 
 Graf
 
@@ -245,11 +245,11 @@ mengi allra punkta í planinu :math:`{{\mathbb  R}}^2` af gerðinni
 :math:`(x,f(x))` þar sem :math:`x\in X`. Notum oft :math:`y` í stað
 :math:`f(x)`.
 
-|image|
+|image6|
 
-.. |image| image:: ./myndir/kafli01/01_NewtonLeibniz.jpg
-.. |image| image:: ./myndir/kafli01/02_Mynd_vorpunar.png
-.. |image| image:: ./myndir/kafli01/02_Samskeyting.png
-.. |image| image:: ./myndir/kafli01/02_Mynd_vorpunar.png
-.. |image| image:: ./myndir/kafli01/02_Andhverfa.png
-.. |image| image:: ./myndir/kafli01/02_Graf.png
+.. |image1| image:: ./myndir/kafli01/01_NewtonLeibniz.jpg
+.. |image2| image:: ./myndir/kafli01/02_Mynd_vorpunar.png
+.. |image3| image:: ./myndir/kafli01/02_Samskeyting.png
+.. |image4| image:: ./myndir/kafli01/02_Mynd_vorpunar.png
+.. |image5| image:: ./myndir/kafli01/02_Andhverfa.png
+.. |image6| image:: ./myndir/kafli01/02_Graf.png

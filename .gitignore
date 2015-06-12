@@ -4,3 +4,5 @@
 *.swp
 venv
 *.gz
+*.doctree
+_build
