@@ -35,7 +35,11 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
     'hieroglyph',
+#    'ggbextension.ggb',
 ]
+
+[extensions]
+todo_include_todos=True
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -119,6 +123,13 @@ pygments_style = 'sphinx'
 #}
 
 html_theme = "sphinx_rtd_theme"
+html_theme_path = ['_themes']
+
+## CLOUD 
+#import cloud_sptheme as csp
+#html_theme = "cloud"
+#html_theme_path = [csp.get_theme_dir()]
+#html_theme_options = {"roottarget": "index" }
 
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
@@ -131,7 +142,6 @@ html_theme = "sphinx_rtd_theme"
 #html_theme_options = {}
 
 # Add any paths that contain custom themes here, relative to this directory.
-html_theme_path = ['_themes']
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".

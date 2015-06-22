@@ -13,10 +13,13 @@
 \newcommand{\Q}{{\mathbb Q}}
 
 \begin{document}
+\setcounter{tocdepth}{2}
+\tableofcontents
+
 \section{Markgildi og samfelldni}
 
-\subsection{Inngangur}
-\subsubsection{Nauðsynleg undirstaða}
+%\subsection*{Inngangur}
+\textbf{Nauðsynleg undirstaða}
 \begin{itemize}
   \item Jafna línu, P.2
   \item Jafna hrings, P.3
@@ -29,14 +32,13 @@
   \item Formerkjafallið, $sgn(x)$, P.5
 \end{itemize}
 
-
 \subsection{Markgildi}
 \subsubsection{Óformleg skilgreining á markgildi}  
 %Gerum ráð fyrir að fall $f$ sé
 %skilgreint á opnu bili umhverfis punktinn $a$, nema hvað hugsanlega er
 %$f(a)$ ekki skilgreint.  
 Segjum að  $f(x)$
-{\it stefni á tölu $L$ þegar $x$ stefnir á $a$}, og ritum
+\emph{stefni á tölu} $L$ \emph{þegar} $x$ \emph{stefnir á} $a$, og ritum
 $\lim_{x\rightarrow a} f(x)=L$, ef við getum tryggt að  $f(x)$ sé \emph{eins nálægt}
 $L$ og við viljum bara með því að velja $x$ \emph{nógu nálægt} $a$.  
 
@@ -46,11 +48,11 @@ $L$ og við viljum bara með því að velja $x$ \emph{nógu nálægt} $a$.
 skilgreint á opnu bili umhverfis punktinn $a$, nema hvað hugsanlega er
 $f(a)$ ekki skilgreint. \pause 
 Við segjum að $f(x)$
-\emph{stefni á tölu $L$ þegar $x$ stefnir á $a$}, og ritum
+\emph{stefni á tölu} $L$ \emph{þegar} $x$ \emph{stefnir á} $a$, og ritum
 $\lim_{x\rightarrow a} f(x)=L$, ef eftirfarandi skilyrði er uppfyllt:
 
-\emph{Fyrir sérhverja tölu $\epsilon>0$ er til tala $\delta>0$ 
-þannig að um öll $x$ þannig að}
+\emph{Fyrir sérhverja tölu} $\epsilon>0$ \emph{er til tala} $\delta>0$ 
+\emph{þannig að um öll} $x$ \emph{þannig að}
 $$
 0<|x-a|<\delta,\quad \text{ þá er } \quad |f(x)-L|<\epsilon.
 $$
@@ -67,7 +69,7 @@ ekki máli hvort $f(a)$ er skilgreint eða ekki.
 \subsubsection{Óformleg skilgreining}   
 Gerum ráð fyrir að fall $f$ sé
 skilgreint á opnu bili $(a,b)$.  Segjum að  $f(x)$
-{\it stefni á tölu $L$ þegar $x$ stefnir á $a$ frá hægri}, og ritum
+\emph{stefni á tölu} $L$ \emph{þegar} $x$ \emph{stefnir á} $a$ \emph{frá hægri}, og ritum
 $\lim_{x\rightarrow a^+} f(x)=L$, ef við getum tryggt að  $f(x)$ sé 
 \emph{eins nálægt}
 $L$ og við viljum bara með því að velja $x>a$ \emph{nógu nálægt} $a$. 
@@ -76,11 +78,11 @@ $L$ og við viljum bara með því að velja $x>a$ \emph{nógu nálægt} $a$.
 
 \subsubsection{Skilgreining (Markgildi frá hægri)} Gerum ráð fyrir að fall $f$ sé
 skilgreint á opnu bili $(a,b)$.  Við segjum að $f(x)$
-{\it stefni á tölu $L$ þegar $x$ stefnir á $a$ frá hægri}, og ritum
+\emph{stefni á tölu} $L$ \emph{þegar} $x$ \emph{stefnir á} $a$ \emph{frá hægri}, og ritum
 $\lim_{x\rightarrow a^+} f(x)=L$, ef eftirfarandi skilyrði er uppfyllt.
 
-{\it Fyrir sérhverja tölu $\epsilon>0$ er til tala $\delta>0$ þannig 
-að um öll $x$ þannig að} 
+\emph{Fyrir sérhverja tölu} $\epsilon>0$ \emph{er til tala} $\delta>0$ \emph{þannig 
+að um öll} $x$ \emph{þannig að} 
 $$
 a<x<a+\delta,\quad \text{ þá er } \quad |f(x)-L|<\epsilon.
 $$
@@ -89,7 +91,7 @@ $$
 \subsubsection{Óformleg skilgreining}   
 Gerum ráð fyrir að fall $f$ sé
 skilgreint á opnu bili $(b,a)$.  Segjum að  $f(x)$
-{\it stefni á tölu $L$ þegar $x$ stefnir á $a$ frá vinstri}, og ritum
+\emph{stefni á tölu} $L$ \emph{þegar} $x$ \emph{stefnir á} $a$ \emph{frá vinstri}, og ritum
 $\lim_{x\rightarrow a^-} f(x)=L$, ef við getum tryggt að  $f(x)$ sé 
 \emph{eins nálægt}
 $L$ og við viljum bara með því að velja $x<a$ \emph{nógu nálægt} $a$. 
@@ -98,11 +100,11 @@ $L$ og við viljum bara með því að velja $x<a$ \emph{nógu nálægt} $a$.
 
 \subsubsection{Skilgreining -- Markgildi frá vinstri} Gerum ráð fyrir að fall $f$ sé
 skilgreint á opnu bili $(b,a)$.  Við segjum að $f(x)$
-{\it stefni á tölu $L$ þegar $x$ stefnir á $a$ frá vinstri}, og ritum
+\emph{stefni á tölu} $L$ \emph{þegar} $x$ \emph{stefnir á} $a$ \emph{frá vinstri}, og ritum
 $\lim_{x\rightarrow a^-} f(x)=L$, ef eftirfarandi skilyrði er uppfyllt.
 
-{\it Fyrir sérhverja tölu $\epsilon>0$ er til tala $\delta>0$ þannig
-  að um öll $x$ þannig að} 
+\emph{Fyrir sérhverja tölu} $\epsilon>0$ \emph{er til tala} $\delta>0$ \emph{þannig
+  að um öll} $x$ \emph{þannig að} 
 $$
 a-\delta<x<a,\quad \text{ þá er } \quad |f(x)-L|<\epsilon.
 $$
@@ -166,109 +168,7 @@ $$\lim_{x\rightarrow a}f(x)=\lim_{x\rightarrow a}h(x)=L.$$
   \item $\lim_{x \to 0^-} \frac{|x|}{x} = -1$
   \item $\lim_{x \to 0^+} \frac{|x|}{x} = 1$
 \end{enumerate}
- 
-%\subsection{Mikilvægt markgildi}
-%\subsection{Markgildi í $-\infty$ og $\infty$}
 
-\subsection{Markgildi þegar $x$ stefnir á $\infty$ og $-\infty$}
-\begin{center}
-  \includegraphics[width=8cm,keepaspectratio=true]{./myndir/kafli01/03_liminf.png}
-  % Mynd_vorpunar.eps: 277x122 pixel, 300dpi, 2.35x1.03 cm, bb=0 0 277 122
-\end{center}
-\pause
-\subsubsection{Óformleg skilgreining}
-Gerum ráð fyrir að fall $f$ sé
-skilgreint á bili $(a, \infty)$.  Segjum að  $f(x)$
-{\it stefni á tölu $L$ þegar $x$ stefnir á $\infty$}, og ritum
-$\lim_{x\rightarrow \infty} f(x)=L$, ef við getum tryggt að  $f(x)$ sé eins
-\emph{nálægt}
-$L$ og við viljum bara með því að velja $x$ \emph{nógu stórt}.
-
-\subsubsection{Skilgreining}
-Gerum ráð fyrir að fall $f$ sé
-skilgreint á bili $(a,\infty)$.  Við segjum að $f(x)$
-{\it stefni á tölu $L$ þegar $x$ stefnir á $\infty$}, og ritum
-$\lim_{x\rightarrow \infty} f(x)=L$, ef eftirfarandi skilyrði er uppfyllt:
-
-{\it Fyrir sérhverja tölu $\epsilon>0$ er til tala $R$ þannig að um öll $x>R$ } 
-\emph{gildir að  $|f(x)-L|<\epsilon$.}
-
-
-Fyrir $-\infty$ er þetta gert með sama sniði.
-
-\subsubsection{Óformlega skilgreining}
-Gerum ráð fyrir að fall $f$ sé
-skilgreint á bili $(-\infty, a)$.  Segjum að  $f(x)$
-{\it stefni á tölu $L$ þegar $x$ stefnir á $-\infty$}, og ritum
-$\lim_{x\rightarrow -\infty} f(x)=L$, ef við getum tryggt að  $f(x)$ sé eins
-\emph{nálægt} $L$ og við viljum bara með því að velja $x$ sem \emph{nógu stóra} mínus tölu.
-
-\pause
- 
-\subsubsection{Skilgreining}
-Gerum ráð fyrir að fall $f$ sé
-skilgreint á bili $(-\infty,a)$.  Við segjum að $f(x)$
-{\it stefni á tölu $L$ þegar $x$ stefnir á $-\infty$}, og ritum
-$\lim_{x\rightarrow -\infty} f(x)=L$, ef eftirfarandi skilyrði er uppfyllt:
-
-{\it Fyrir sérhverja tölu $\epsilon>0$ er til tala $R$ þannig að um öll $x<R$ } 
-\emph{gildir að  $|f(x)-L|<\epsilon$.} 
-
-\subsection{$\infty$ og $-\infty$ sem markgildi}
-\subsubsection{Óformleg skilgreining}
-Gerum ráð fyrir að fall $f$ sé
-skilgreint á opnu bili umhverfis punktinn $a$, nema hvað hugsanlega er
-$f(a)$ ekki skilgreint.  Segjum að  $f(x)$
-{\it stefni á $\infty$ þegar $x$ stefnir á $a$}, og ritum
-$\lim_{x\rightarrow a} f(x)=\infty$, ef við getum tryggt að  $f(x)$ sé {\em
-hversu stórt sem við viljum}  bara með því að velja $x$ \emph{nógu nálægt} $a$.  
- 
-\pause
-\subsubsection{Skilgreining}
-Gerum ráð fyrir að fall $f$ sé
-skilgreint á opnu bili umhverfis punktinn $a$, nema hvað hugsanlega er
-$f(a)$ ekki skilgreint.  Við segjum að $f(x)$
-{\it stefni á $\infty$ þegar $x$ stefnir á $a$}, og ritum
-$\lim_{x\rightarrow a} f(x)=\infty$, ef eftirfarandi skilyrði er uppfyllt
-
-{\it fyrir sérhverja tölu $B$ er til tala $\delta>0$ þannig
-  að um öll $x$ þannig að} 
-\emph{$0<|x-a|<\delta$ 
-gildir að  $f(x)>B$.}
-
-
-\subsubsection{Athugasemd -- Málvenja}  Athugið að $\infty$ er {\bf ekki} tala.  Þó 
-að  $\lim_{x\rightarrow a} f(x)=\infty$ þá er samt sagt að
-markgildið $\lim_{x\rightarrow a} f(x)$ sé ekki til.
-
-\subsection{$-\infty$ sem markgildi}
-\subsubsection{Óformleg skilgreining}  Gerum ráð fyrir að fall $f$ sé
-skilgreint á opnu bili umhverfis punktinn $a$, nema hvað hugsanlega er
-$f(a)$ ekki skilgreint.  Segjum að  $f(x)$
-{\it stefni á $-\infty$ þegar $x$ stefnir á $a$}, og ritum
-$\lim_{x\rightarrow a} f(x)=-\infty$, ef við getum tryggt að  $f(x)$ sé {\em
-  hversu lítið sem við viljum}
- bara með því að velja $x$ \emph{nógu nálægt} $a$.  
- 
-\pause
-\subsubsection{Skilgreining}
- Gerum ráð fyrir að fall $f$ sé
-skilgreint á opnu bili umhverfis punktinn $a$, nema hvað hugsanlega er
-$f(a)$ ekki skilgreint.  Við segjum að $f(x)$
-{\it stefni á $-\infty$ þegar $x$ stefnir á $a$}, og ritum
-$\lim_{x\rightarrow a} f(x)=-\infty$, ef eftirfarandi skilyrði er uppfyllt
-
-{\it fyrir sérhverja tölu $B$ er til tala $\delta>0$ þannig
-  að um öll $x$ þannig að} 
-
-\emph{$0<|x-a|<\delta$ 
-gildir að  $f(x)<B$.}
-
-\subsubsection{Athugasemd -- Málvenja}  Athugið að $-\infty$ er {\bf ekki} tala.  Þó 
-að  $\lim_{x\rightarrow a} f(x)=-\infty$ þá er samt sagt að
-markgildið $\lim_{x\rightarrow a} f(x)$ sé ekki til.
- 
-\subsection{Mikilvæg markgildi}
 \subsubsection{Sýnidæmi -- Markgildi með $\sin$}
 \begin{enumerate}[(i)] 
   \item $$\lim_{x\to 0} \sin\left(\frac 1x\right) \quad \text{er ekki til}$$
@@ -287,6 +187,102 @@ markgildið $\lim_{x\rightarrow a} f(x)$ sé ekki til.
   \item $$\lim_{x\to 0} \frac x{|x|} \quad \text{er ekki til}$$
 \end{enumerate}
 
+\subsection{Markgildi þegar $x$ stefnir á $\infty$ og $-\infty$}
+\begin{center}
+  \includegraphics[width=8cm,keepaspectratio=true]{./myndir/kafli02/06_liminf.png}
+  % Mynd_vorpunar.eps: 277x122 pixel, 300dpi, 2.35x1.03 cm, bb=0 0 277 122
+\end{center}
+
+\subsubsection{Óformleg skilgreining}
+Gerum ráð fyrir að fall $f$ sé
+skilgreint á bili $(a, \infty)$.  Segjum að  $f(x)$
+\emph{stefni á tölu} $L$ \emph{þegar} $x$ \emph{stefnir á} $\infty$, og ritum
+$\lim_{x\rightarrow \infty} f(x)=L$, ef við getum tryggt að  $f(x)$ sé eins
+\emph{nálægt}
+$L$ og við viljum bara með því að velja $x$ \emph{nógu stórt}.
+
+\subsubsection{Skilgreining}
+Gerum ráð fyrir að fall $f$ sé
+skilgreint á bili $(a,\infty)$.  Við segjum að $f(x)$
+\emph{stefni á tölu} $L$ \emph{þegar} $x$ \emph{stefnir á} $\infty$, og ritum
+$\lim_{x\rightarrow \infty} f(x)=L$, ef eftirfarandi skilyrði er uppfyllt:
+
+\emph{Fyrir sérhverja tölu} $\epsilon>0$ \emph{er til tala} $R$ \emph{þannig að um öll} $x>R$
+\emph{gildir að} $|f(x)-L|<\epsilon$.
+
+Fyrir $-\infty$ er þetta gert með sama sniði.
+
+\subsubsection{Óformlega skilgreining}
+Gerum ráð fyrir að fall $f$ sé
+skilgreint á bili $(-\infty, a)$.  Segjum að  $f(x)$
+\emph{stefni á tölu} $L$ \emph{þegar} $x$ \emph{stefnir á} $-\infty$, og ritum
+$\lim_{x\rightarrow -\infty} f(x)=L$, ef við getum tryggt að  $f(x)$ sé eins
+\emph{nálægt} $L$ og við viljum bara með því að velja $x$ sem \emph{nógu stóra} mínus tölu.
+
+\pause
+ 
+\subsubsection{Skilgreining}
+Gerum ráð fyrir að fall $f$ sé
+skilgreint á bili $(-\infty,a)$.  Við segjum að $f(x)$
+\emph{stefni á tölu} $L$ \emph{þegar} $x$ \emph{stefnir á} $-\infty$, og ritum
+$\lim_{x\rightarrow -\infty} f(x)=L$, ef eftirfarandi skilyrði er uppfyllt:
+
+\emph{Fyrir sérhverja tölu} $\epsilon>0$ \emph{er til tala} $R$ \emph{þannig að um öll} $x<R$ 
+\emph{gildir að}  $|f(x)-L|<\epsilon$.
+
+\subsection{$\infty$ og $-\infty$ sem markgildi}
+\subsubsection{$\infty$ sem markgildi -- Óformleg skilgreining}
+Gerum ráð fyrir að fall $f$ sé
+skilgreint á opnu bili umhverfis punktinn $a$, nema hvað hugsanlega er
+$f(a)$ ekki skilgreint.  Segjum að  $f(x)$
+\emph{stefni á} $\infty$ \emph{þegar} $x$ \emph{stefnir á} $a$, og ritum
+$\lim_{x\rightarrow a} f(x)=\infty$, ef við getum tryggt að  $f(x)$ sé 
+\emph{hversu stórt sem við viljum}  bara með því að velja $x$ \emph{nógu nálægt} $a$.  
+ 
+\pause
+\subsubsection{Skilgreining}
+Gerum ráð fyrir að fall $f$ sé
+skilgreint á opnu bili umhverfis punktinn $a$, nema hvað hugsanlega er
+$f(a)$ ekki skilgreint.  Við segjum að $f(x)$
+\emph{stefni á} $\infty$ \emph{þegar} $x$ \emph{stefnir á} $a$, og ritum
+$\lim_{x\rightarrow a} f(x)=\infty$, ef eftirfarandi skilyrði er uppfyllt
+
+\emph{fyrir sérhverja tölu} $B$ \emph{er til tala} $\delta>0$ \emph{þannig
+  að um öll} $x$ \emph{þannig að}
+$0<|x-a|<\delta$ 
+\emph{gildir að} $f(x)>B$.
+
+
+\subsubsection{Athugasemd -- Málvenja}  Athugið að $\infty$ er {\bf ekki} tala.  Þó 
+að  $\lim_{x\rightarrow a} f(x)=\infty$ þá er samt sagt að
+markgildið $\lim_{x\rightarrow a} f(x)$ sé ekki til.
+
+\subsubsection{$-\infty$ sem markgildi -- Óformleg skilgreining}  Gerum ráð fyrir að fall $f$ sé
+skilgreint á opnu bili umhverfis punktinn $a$, nema hvað hugsanlega er
+$f(a)$ ekki skilgreint.  Segjum að  $f(x)$
+\emph{stefni á} $-\infty$ \emph{þegar} $x$ \emph{stefnir á} $a$, og ritum
+$\lim_{x\rightarrow a} f(x)=-\infty$, ef við getum tryggt að  $f(x)$ sé 
+  \emph{hversu lítið sem við viljum}
+ bara með því að velja $x$ \emph{nógu nálægt} $a$.  
+ 
+\pause
+\subsubsection{Skilgreining}
+ Gerum ráð fyrir að fall $f$ sé
+skilgreint á opnu bili umhverfis punktinn $a$, nema hvað hugsanlega er
+$f(a)$ ekki skilgreint.  Við segjum að $f(x)$
+\emph{stefni á} $-\infty$ \emph{þegar} $x$ \emph{stefnir á} $a$, og ritum
+$\lim_{x\rightarrow a} f(x)=-\infty$, ef eftirfarandi skilyrði er uppfyllt
+
+\emph{fyrir sérhverja tölu} $B$ \emph{er til tala} $\delta>0$ \emph{þannig
+  að um öll} $x$ \emph{þannig að}
+
+$0<|x-a|<\delta$ 
+\emph{gildir að} $f(x)<B$.
+
+\subsubsection{Athugasemd -- Málvenja}  Athugið að $-\infty$ er {\bf ekki} tala.  Þó 
+að  $\lim_{x\rightarrow a} f(x)=-\infty$ þá er samt sagt að
+markgildið $\lim_{x\rightarrow a} f(x)$ sé ekki til.
+ 
 
 \subsection{Samfelldni}
 \subsubsection{Skilgreining}
@@ -391,7 +387,6 @@ við markgildi frá vinstri og hægri.
 $\lim_{x\rightarrow c^+}f(x)=f(c)$.
   
 Hér er gert ráð fyrir að fallið $f$ sé amk.~skilgreint á bilinu $[c, a)$.
-\pause
 \item Fall $f$ er \emph{samfellt frá vinstri í punkti} $c$ ef
 $\lim_{x\rightarrow c^-}f(x)=f(c)$.
   
@@ -411,7 +406,7 @@ Uppfærum nú skilgreiningu \ref{skilgr:samfellt_fall}.
 \subsubsection{Athugasemd}
 Ef fall er samfellt á opnu bili $(a,b)$, og ef $a<c<d<b$, þá er fallið einnig samfellt á bilinu $[c,d]$.
 
-\subsection{Setningar um samfelld föll}
+\subsection{Eiginleikar samfelldra falla}
 \subsubsection{Setning -- Há- og lággildislögmálið}
 Látum $f$ vera samfellt fall skilgreint á lokuðu takmörkuðu bili
 $[a,b]$.  Þá eru til tölur $x_1$ og $x_2$ í $[a,b]$ þannig að 
@@ -433,7 +428,7 @@ $f(c)=s$.
  
 <iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/zEQQcGcQ/width/1075/height/767/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="1075px" height="767px" style="border:0px;"> </iframe>>
 \begin{center}
- \includegraphics[width=8cm,keepaspectratio=true]{./myndir/kafli01/04_Milligildissetn.png}
+ \includegraphics[width=8cm,keepaspectratio=true]{./myndir/kafli02/10_Milligildissetn.png}
  % Mynd_vorpunar-eps-converted-to.pdf: 277x122 pixel, 300dpi, 2.35x1.03 cm, bb=0 0 277 122
 \end{center}
 

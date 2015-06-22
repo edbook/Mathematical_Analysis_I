@@ -13,10 +13,13 @@
 \newcommand{\Q}{{\mathbb Q}}
 
 \begin{document}
+\setcounter{tocdepth}{2}
+\tableofcontents
+
 \section{Markgildi og samfelldni}
 
-\subsection{Inngangur}
-\subsubsection{Nauðsynleg undirstaða}
+%\subsection*{Inngangur}
+\subsubsection*{Nauðsynleg undirstaða}
 \begin{itemize}
   \item Jafna línu, P.2
   \item Jafna hrings, P.3
@@ -29,14 +32,13 @@
   \item Formerkjafallið, $sgn(x)$, P.5
 \end{itemize}
 
-
 \subsection{Markgildi}
 \subsubsection{Óformleg skilgreining á markgildi}  
 %Gerum ráð fyrir að fall $f$ sé
 %skilgreint á opnu bili umhverfis punktinn $a$, nema hvað hugsanlega er
 %$f(a)$ ekki skilgreint.  
 Segjum að  $f(x)$
-{\it stefni á tölu $L$ þegar $x$ stefnir á $a$}, og ritum
+\emph{{stefni á tölu} $L$ \emph{þegar} $x$ \emph{stefnir á} $a$, og ritum
 $\lim_{x\rightarrow a} f(x)=L$, ef við getum tryggt að  $f(x)$ sé \emph{eins nálægt}
 $L$ og við viljum bara með því að velja $x$ \emph{nógu nálægt} $a$.  
 
@@ -46,11 +48,11 @@ $L$ og við viljum bara með því að velja $x$ \emph{nógu nálægt} $a$.
 skilgreint á opnu bili umhverfis punktinn $a$, nema hvað hugsanlega er
 $f(a)$ ekki skilgreint. \pause 
 Við segjum að $f(x)$
-\emph{stefni á tölu $L$ þegar $x$ stefnir á $a$}, og ritum
+\emph{stefni á tölu} $L$ \emph{þegar} $x$ \emph{stefnir á} $a$, og ritum
 $\lim_{x\rightarrow a} f(x)=L$, ef eftirfarandi skilyrði er uppfyllt:
 
-\emph{Fyrir sérhverja tölu $\epsilon>0$ er til tala $\delta>0$ 
-þannig að um öll $x$ þannig að}
+\emph{Fyrir sérhverja tölu} $\epsilon>0$ \emph{er til tala} $\delta>0$ 
+\emph{þannig að um öll} $x$ \emph{þannig að}
 $$
 0<|x-a|<\delta,\quad \text{ þá er } \quad |f(x)-L|<\epsilon.
 $$
@@ -166,16 +168,31 @@ $$\lim_{x\rightarrow a}f(x)=\lim_{x\rightarrow a}h(x)=L.$$
   \item $\lim_{x \to 0^-} \frac{|x|}{x} = -1$
   \item $\lim_{x \to 0^+} \frac{|x|}{x} = 1$
 \end{enumerate}
- 
-%\subsection{Mikilvægt markgildi}
-%\subsection{Markgildi í $-\infty$ og $\infty$}
+
+\subsubsection{Sýnidæmi -- Markgildi með $\sin$}
+\begin{enumerate}[(i)] 
+  \item $$\lim_{x\to 0} \sin\left(\frac 1x\right) \quad \text{er ekki til}$$
+  \pause
+  \item $$\lim_{x\to 0} x\sin\left(\frac 1x\right) = 0$$
+  \pause
+  \item $$\lim_{x \to 0} \frac{\sin(x)}{x} = 1$$
+\end{enumerate}
+
+\subsubsection{Sýnidæmi -- Markgildi með $|x|$}
+\begin{enumerate}[(i)] 
+  \item $$\lim_{x\to 0^+} \frac x{|x|} = 1$$
+  \pause
+  \item $$\lim_{x\to 0^-} \frac x{|x|} = -1$$
+  \pause
+  \item $$\lim_{x\to 0} \frac x{|x|} \quad \text{er ekki til}$$
+\end{enumerate}
 
 \subsection{Markgildi þegar $x$ stefnir á $\infty$ og $-\infty$}
 \begin{center}
-  \includegraphics[width=8cm,keepaspectratio=true]{./myndir/kafli01/03_liminf.png}
+  \includegraphics[width=8cm,keepaspectratio=true]{./myndir/kafli02/06_liminf.png}
   % Mynd_vorpunar.eps: 277x122 pixel, 300dpi, 2.35x1.03 cm, bb=0 0 277 122
 \end{center}
-\pause
+
 \subsubsection{Óformleg skilgreining}
 Gerum ráð fyrir að fall $f$ sé
 skilgreint á bili $(a, \infty)$.  Segjum að  $f(x)$
@@ -191,8 +208,7 @@ skilgreint á bili $(a,\infty)$.  Við segjum að $f(x)$
 $\lim_{x\rightarrow \infty} f(x)=L$, ef eftirfarandi skilyrði er uppfyllt:
 
 {\it Fyrir sérhverja tölu $\epsilon>0$ er til tala $R$ þannig að um öll $x>R$ } 
-\emph{gildir að  $|f(x)-L|<\epsilon$.}
-
+\emph{gildir að} $|f(x)-L|<\epsilon$.
 
 Fyrir $-\infty$ er þetta gert með sama sniði.
 
@@ -212,10 +228,10 @@ skilgreint á bili $(-\infty,a)$.  Við segjum að $f(x)$
 $\lim_{x\rightarrow -\infty} f(x)=L$, ef eftirfarandi skilyrði er uppfyllt:
 
 {\it Fyrir sérhverja tölu $\epsilon>0$ er til tala $R$ þannig að um öll $x<R$ } 
-\emph{gildir að  $|f(x)-L|<\epsilon$.} 
+\emph{gildir að}  $|f(x)-L|<\epsilon$.
 
 \subsection{$\infty$ og $-\infty$ sem markgildi}
-\subsubsection{Óformleg skilgreining}
+\subsubsection{$\infty$ sem markgildi -- Óformleg skilgreining}
 Gerum ráð fyrir að fall $f$ sé
 skilgreint á opnu bili umhverfis punktinn $a$, nema hvað hugsanlega er
 $f(a)$ ekki skilgreint.  Segjum að  $f(x)$
@@ -233,16 +249,15 @@ $\lim_{x\rightarrow a} f(x)=\infty$, ef eftirfarandi skilyrði er uppfyllt
 
 {\it fyrir sérhverja tölu $B$ er til tala $\delta>0$ þannig
   að um öll $x$ þannig að} 
-\emph{$0<|x-a|<\delta$ 
-gildir að  $f(x)>B$.}
+$0<|x-a|<\delta$ 
+\emph{gildir að} $f(x)>B$.
 
 
 \subsubsection{Athugasemd -- Málvenja}  Athugið að $\infty$ er {\bf ekki} tala.  Þó 
 að  $\lim_{x\rightarrow a} f(x)=\infty$ þá er samt sagt að
 markgildið $\lim_{x\rightarrow a} f(x)$ sé ekki til.
 
-\subsection{$-\infty$ sem markgildi}
-\subsubsection{Óformleg skilgreining}  Gerum ráð fyrir að fall $f$ sé
+\subsubsection{$-\infty$ sem markgildi -- Óformleg skilgreining}  Gerum ráð fyrir að fall $f$ sé
 skilgreint á opnu bili umhverfis punktinn $a$, nema hvað hugsanlega er
 $f(a)$ ekki skilgreint.  Segjum að  $f(x)$
 {\it stefni á $-\infty$ þegar $x$ stefnir á $a$}, og ritum
@@ -261,32 +276,13 @@ $\lim_{x\rightarrow a} f(x)=-\infty$, ef eftirfarandi skilyrði er uppfyllt
 {\it fyrir sérhverja tölu $B$ er til tala $\delta>0$ þannig
   að um öll $x$ þannig að} 
 
-\emph{$0<|x-a|<\delta$ 
-gildir að  $f(x)<B$.}
+$0<|x-a|<\delta$ 
+\emph{gildir að} $f(x)<B$.
 
 \subsubsection{Athugasemd -- Málvenja}  Athugið að $-\infty$ er {\bf ekki} tala.  Þó 
 að  $\lim_{x\rightarrow a} f(x)=-\infty$ þá er samt sagt að
 markgildið $\lim_{x\rightarrow a} f(x)$ sé ekki til.
  
-\subsection{Mikilvæg markgildi}
-\subsubsection{Sýnidæmi -- Markgildi með $\sin$}
-\begin{enumerate}[(i)] 
-  \item $$\lim_{x\to 0} \sin\left(\frac 1x\right) \quad \text{er ekki til}$$
-  \pause
-  \item $$\lim_{x\to 0} x\sin\left(\frac 1x\right) = 0$$
-  \pause
-  \item $$\lim_{x \to 0} \frac{\sin(x)}{x} = 1$$
-\end{enumerate}
-
-\subsubsection{Sýnidæmi -- Markgildi með $|x|$}
-\begin{enumerate}[(i)] 
-  \item $$\lim_{x\to 0^+} \frac x{|x|} = 1$$
-  \pause
-  \item $$\lim_{x\to 0^-} \frac x{|x|} = -1$$
-  \pause
-  \item $$\lim_{x\to 0} \frac x{|x|} \quad \text{er ekki til}$$
-\end{enumerate}
-
 
 \subsection{Samfelldni}
 \subsubsection{Skilgreining}
@@ -391,7 +387,6 @@ við markgildi frá vinstri og hægri.
 $\lim_{x\rightarrow c^+}f(x)=f(c)$.
   
 Hér er gert ráð fyrir að fallið $f$ sé amk.~skilgreint á bilinu $[c, a)$.
-\pause
 \item Fall $f$ er \emph{samfellt frá vinstri í punkti} $c$ ef
 $\lim_{x\rightarrow c^-}f(x)=f(c)$.
   
@@ -411,60 +406,47 @@ Uppfærum nú skilgreiningu \ref{skilgr:samfellt_fall}.
 \subsubsection{Athugasemd}
 Ef fall er samfellt á opnu bili $(a,b)$, og ef $a<c<d<b$, þá er fallið einnig samfellt á bilinu $[c,d]$.
 
-\subsection{Setningar um samfelld föll}
+\subsection{Eiginleikar samfelldra falla}
 \subsubsection{Setning -- Há- og lággildislögmálið}
 Látum $f$ vera samfellt fall skilgreint á lokuðu takmörkuðu bili
 $[a,b]$.  Þá eru til tölur $x_1$ og $x_2$ í $[a,b]$ þannig að 
 fyrir allar tölur $x$ í $[a,b]$ er $$f(x_1)\leq f(x)\leq f(x_2).$$
 
-\pause
-
 Þetta þýðir að samfellt fall $f$ á lokuðu og takmörkuðu
 bili $[a,b]$ tekur bæði hæsta og lægsta gildi á bilinu. \pause
 Hæsta
 gildið er þá $f(x_2)$ og lægsta gildið er $f(x_1)$.
-
-
-\pause
  
-\subsubsection{4.7 Athugasemd}
- Það er mögulegt að fallið taki há/lággildi
- sitt í fleiri en einum punkti.
+\subsubsection{Athugasemd}
+Það er mögulegt að fallið taki há/lággildi sitt í fleiri en einum punkti.
 
-
-
-\subsection{Milligildissetningin}
- \subsubsection{4.8 Setning}
- Látum $f$ vera samfellt fall skilgreint á lokuðu takmörkuðu bili
+\subsubsection{Setning -- Milligildissetningin}
+Látum $f$ vera samfellt fall skilgreint á lokuðu takmörkuðu bili
 $[a,b]$.  Gerum ráð fyrir að $s$ sé tala sem liggur á milli $f(a)$ og
 $f(b)$.  Þá er til tala $c$ sem liggur á milli $a$ og $b$ þannig að
 $f(c)=s$. 
  
 <iframe scrolling="no" src="https://tube.geogebra.org/material/iframe/id/zEQQcGcQ/width/1075/height/767/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="1075px" height="767px" style="border:0px;"> </iframe>>
-%  {\only{
 \begin{center}
- \includegraphics[width=8cm,keepaspectratio=true]{./myndir/kafli01/04_Milligildissetn.png}
+ \includegraphics[width=8cm,keepaspectratio=true]{./myndir/kafli02/10_Milligildissetn.png}
  % Mynd_vorpunar-eps-converted-to.pdf: 277x122 pixel, 300dpi, 2.35x1.03 cm, bb=0 0 277 122
 \end{center}
-%}<1,2>}
 
-
-\subsubsection{4.9 Fylgisetning}
+\subsubsection{Fylgisetning}
 Ef $P(x)=a_nx^n+a_{n-1}x^{n-1}+\cdots+a_1x+a_0$ er margliða af
 oddatölu stigi, þá er til rauntala $c$ þannig að $P(c)=0$.
- 
-\pause
+
 \subsubsection{Sönnun}
-	Gerum ráð fyrir að $a_n>0$. \pause
-	Þá er $\lim_{x\to -\infty} P(x) = -\infty$ og
-	$\lim_{x\to \infty} P(x) = \infty$.\pause
-	Það þýður að til eru tölur $a$ og $b$ 
-	þannig að $P(a)<0$ og $P(b)>0$. \pause
-	Með því að beita Milligildissetningunni á fallið $P$ á 
-	bilinu $[a,b]$ og með $s=0$ þá fæst að til er núllstöð 
-	á bilinu $[a,b]$.\pause
+Gerum ráð fyrir að $a_n>0$.
+Þá er $\lim_{x\to -\infty} P(x) = -\infty$ og
+$\lim_{x\to \infty} P(x) = \infty$.
+Það þýðir að til eru tölur $a$ og $b$ 
+þannig að $P(a)<0$ og $P(b)>0$.
+Með því að beita Milligildissetningunni á fallið $P$ á 
+bilinu $[a,b]$ og með $s=0$ þá fæst að til er núllstöð 
+á bilinu $[a,b]$.
 	
-	Ef $a_n < 0$ þá víxlast markgildin að ofan en röksemdafærslan er
-	að öðru leyti eins.
-	 %þegar $x\to -\infty$ og $x \to \infty$.
+Ef $a_n < 0$ þá víxlast markgildin að ofan en röksemdafærslan er
+að öðru leyti eins.
+
 \end{document}

@@ -4,36 +4,34 @@ Tölur og föll
 Inngangur
 ---------
 
-Viðfangsefnið
 
-*There is a theory which states that if ever anybody discovers exactly
-what the Universe is for and why it is here, it will instantly disappear
-and be replaced by something even more bizarre and inexplicable. There
-is another theory which states that this has already happened.* -Douglas
-Adams
-
-Stærðfræðigreining
+*There is a theory which states that if ever anyone discovers exactly what the Universe is for and why it is here, it will instantly disappear and be replaced by something even more bizarre and inexplicable.
+There is another theory which states that this has already happened.* 
+- Douglas Adams, The Restaurant at the End of the Universe 
 
 Grunnhugmyndin
+~~~~~~~~~~~~~~
 
 Stærðfræðigreining grundvallast á því að mæla breytingu (oft með tilliti
 til tíma)
 
 -  Eðlisfræði; hraði, hröðun, massi, orka, vinna, afl, þrýstingur
 
--  Rúmmál; flatarmál, rúmmál, lengd, massamiðja
+-  Rúmfræði; flatarmál, rúmmál, lengd, massamiðja
 
 -  Hagnýtingar; hagfræði, stofnstærðir, hámörkun/lágmörkun
 
 -  Stærðfræði; markgildi, hermun, jafnvægisástand
 
-Sagan Sett fram samtímis, en óháð, af Isaac Newton og Gottfried Leibniz
-í lok 17. aldar.
+Sett fram samtímis, en óháð, af Isaac Newton og Gottfried Leibniz
+í lok 17. aldar.
 
-|image|
+.. image:: ./myndir/kafli01/01_NewtonLeibniz.jpg
 
-Ítarefni Fyrir nánari útlistun á hugtökunum sem við fjöllum um þá er
-hægt að skoða
+Ítarefni 
+~~~~~~~~
+
+Fyrir nánari útlistun á hugtökunum sem við fjöllum um þá er hægt að skoða
 
 -  `http://stæ.is <http://stae.is>`__ (hugtakasafn og orðaskrá)
 
@@ -44,10 +42,23 @@ hægt að skoða
 -  http://en.wikipedia.org (ath. enska útgáfan)
 
 Forrit
+~~~~~~
 
 -  GeoGebra http://www.geogebra.org
 
 -  WolframAlpha http://www.wolframalpha.com
+
+-  Matlab http://www.mathworks.com  
+
+   (sjá https://notendur.hi.is/~jonasson/matlab/)
+
+-  Octave http://www.gnu.org/software/octave/ (opið og ókeypis, svipað og Matlab)
+
+-  Sage http://www.sagemath.org/  (opið og ókeypis, byggt á Python)
+
+-  Mathematica http://www.wolfram.com/mathematica/
+
+
 
 Skiladæmi
 ---------
@@ -73,14 +84,14 @@ seven and a half million years’ work?”*
 *“I checked it very thoroughly,” said the computer, “and that quite
 definitely is the answer. I think the problem, to be quite honest with
 you, is that you’ve never actually known what the question is.”*
--Douglas Adams
+
+-Douglas Adams, The Hitchhiker's Guide to the Galaxy 
 
 Tölur
 -----
 
-Tölur
-
-1.1 Skilgreining
+Skilgreining
+~~~~~~~~~~~~
 
 (i)   *Náttúrlegu tölurnar* eru tölurnar :math:`1, 2, 3, 4, \ldots` og
       mengi þeirra er táknað með :math:`{{\mathbb  N}}`.
@@ -95,12 +106,16 @@ Tölur
 
 (v)   Mengi *tvinntalna* er táknað með :math:`{{\mathbb  C}}`.
 
-1.2 Athugasemd Margir vilja telja :math:`0` með sem náttúrlega tölu. Það
-er eðlilegt ef maður lítur á náttúrlegu tölurnar þannig að þær tákni
-fjölda. Ef maður lítur hins vegar þannig á að þær séu notaðar til að
-númera hluti þá er 0 ekki með.
+.. todo::
+    Margir vilja telja :math:`0` með sem náttúrlega tölu. Það
+    er eðlilegt ef maður lítur á náttúrlegu tölurnar þannig að þær tákni
+    fjölda. Ef maður lítur hins vegar þannig á að þær séu notaðar til að
+    númera hluti þá er 0 ekki með.
 
-1.3 Smíði rauntalna Rauntölur eru smíðaðar úr ræðu tölunum með því að
+Smíði rauntalna 
+~~~~~~~~~~~~~~~
+
+Rauntölur eru smíðaðar úr ræðu tölunum með því að
 fylla upp í götin.
 
 T.d. eru
@@ -108,14 +123,17 @@ T.d. eru
 .. math::
 
    \begin{aligned}
-   \pi &=& 3,1415926\ldots, \qquad \text{og}\\
-   \sqrt 2 -4  &=& -2,58578\ldots\end{aligned}
+   \pi &= 3,1415926\ldots, \qquad \text{og}\\
+   \sqrt 2 -4  &= -2,58578\ldots\end{aligned}
 
 ekki ræðar tölur (það er ekki hægt að skrifa þær sem brot
 :math:`\frac ab`, þar sem :math:`a` og :math:`b` eru heilar tölur), en
 þær eru rauntölur.
 
-1.4 Frumsendan um efra mark Látum :math:`A` vera mengi af rauntölum sem
+Frumsendan um efra mark
+~~~~~~~~~~~~~~~~~~~~~~~
+
+Látum :math:`A` vera mengi af rauntölum sem
 er þannig að til er tala :math:`x`, þannig að fyrir allar tölur
 :math:`a \in A` þá er
 
@@ -128,128 +146,143 @@ A` og ef :math:`x<x_0` þá er til tala :math:`a\in A` þannig að
 :math:`a>x`.
 
 Bil
+---
 
-1.5 Skilgreining Látum :math:`a` og :math:`b` vera rauntölur þannig að
+.. _`Skilgreining 1.4.1`:
+
+Skilgreining
+~~~~~~~~~~~~
+
+Látum :math:`a` og :math:`b` vera rauntölur þannig að
 :math:`a<b`. Skilgreinum
 
-(i) *opið bil*  :math:`(a,b)=\{x\in {{\mathbb  R}}; a<x<b\}`
+(i) *opið bil* :math:`(a,b)=\{x\in {{\mathbb  R}}; a<x<b\}`
 
-(ii) *lokað bil*  :math:`[a,b]=\{x\in {{\mathbb  R}}; a\leq x\leq b\}`
+(ii) *lokað bil* :math:`[a,b]=\{x\in {{\mathbb  R}}; a\leq x\leq b\}`
 
-(iii) *hálf opið bil*  :math:`[a,b)=\{x\in {{\mathbb  R}}; a\leq x<b\}`
+(iii) *hálf opið bil* :math:`[a,b)=\{x\in {{\mathbb  R}}; a\leq x<b\}`
 
-(iv) *hálf opið bil*  :math:`(a,b]=\{x\in {{\mathbb  R}}; a< x\leq b\}`
+(iv) *hálf opið bil* :math:`(a,b]=\{x\in {{\mathbb  R}}; a< x\leq b\}`
 
 Þessi bil sem er skilgreind hér fyrir ofan eru kölluð endanleg. Til eru
 fleiri gerðir af bilum:
 
-(v) *opið óendanlegt bil*  
-:math:`(a,\infty)=\{x\in {{\mathbb  R}}; a<x\}`
+(v) *opið óendanlegt bil* :math:`(a,\infty)=\{x\in {{\mathbb  R}}; a<x\}`
 
-(vi) *opið óendanlegt bil*  
-:math:`(-\infty, a)=\{x\in {{\mathbb  R}}; x<a\}`
+(vi) *opið óendanlegt bil* :math:`(-\infty, a)=\{x\in {{\mathbb  R}}; x<a\}`
 
-(vii) *lokað óendanlegt bil*
-  :math:`[a,\infty)=\{x\in {{\mathbb  R}}; a\leq x\}`
+(vii) *lokað óendanlegt bil* :math:`[a,\infty)=\{x\in {{\mathbb  R}}; a\leq x\}`
 
-(viii) *lokað óendanlegt bil*  
-:math:`(-\infty, a]=\{x\in {{\mathbb  R}}; x\leq a\}`
+(viii) *lokað óendanlegt bil* :math:`(-\infty, a]=\{x\in {{\mathbb  R}}; x\leq a\}`
 
-(ix) *allur rauntalnaásinn*   :math:`(-\infty, \infty)`.
+(ix) *allur rauntalnaásinn* :math:`(-\infty, \infty)`.
 
-1.6 Skilgreining Mengi :math:`A` af rauntölum kallast bil ef um allar
+Skilgreining
+~~~~~~~~~~~~
+
+Mengi :math:`A` af rauntölum kallast bil ef um allar
 tölur :math:`a<b` sem eru í menginu :math:`A` gildir að ef :math:`a<x<b`
 þá er :math:`x` líka í menginu :math:`A`. Þ.e. \ *engin göt*.
 
-1.7 Athugasemd
+.. note::
+    Sérhvert bil á rauntalnaásnum er af einni þeirra gerða sem talin er
+    upp í `Skilgreining 1.4.1`_. Þessi staðhæfing er jafngild frumsendunni um
+    efra mark.
 
-(i) Sérhvert bil á rauntalnaásnum er af einni þeirra gerða sem talin er
-upp í Skilgreiningu 1.5. (Þessi staðhæfing er jafngild frumsendunni um
-efra mark.)
+.. note::
+    Það er jafngilt að segja
+    
+    .. math:: x \in (a-\eta,a+\eta)
 
-(ii) Það er jafngilt að segja
+    og
 
-.. math:: x \in (a-\eta,a+\eta)
-
-og
-
-.. math:: |x-a| < \eta.
+    .. math:: |x-a| < \eta.
 
 Föll
 ----
 
-Vörpun
+Skilgreining 
+~~~~~~~~~~~~
 
-1.8 Skilgreining *Vörpun* frá mengi :math:`X` yfir í mengi :math:`Y` er
+*Vörpun* frá mengi :math:`X` yfir í mengi :math:`Y` er
 regla sem úthlutar sérhverju staki :math:`x` í :math:`X` nákvæmlega einu
 staki :math:`f(x)` í :math:`Y`. Táknum þetta með :math:`f:X \to Y`.
 
 Stakið :math:`f(x)` kallast *gildi* vörpunarinnar (í punktinum
 :math:`x`).
 
-1.9 Skilgreining Mengið :math:`X` kallast *skilgreiningarmengi*
+
+Skilgreining 
+~~~~~~~~~~~~
+
+Mengið :math:`X` kallast *skilgreiningarmengi*
 :math:`f`, mengið :math:`Y` kallast *bakmengi* :math:`f` og mengið
 :math:`f(X) = \{ f(x); x \in X \}` kallast *myndmengi* :math:`f`.
 
-|image|
+.. image:: ./myndir/kafli01/02_Mynd_vorpunar.png
 
-Samskeyting
+.. warning:: 
+    Það er ekki víst að öll gildin í :math:`Y` séu tekin
+    (það er :math:`f(X)` getur verið minna en :math:`Y`). Eins þá er mögulegt
+    að :math:`f` taki sama gildið oftar en einu sinni.
 
-1.10 Skilgreining Látum :math:`f:X \to Y` og :math:`g:Y \to Z` vera
+
+Skilgreining 
+~~~~~~~~~~~~
+
+Látum :math:`f:X \to Y` og :math:`g:Y \to Z` vera
 varpanir. Vörpunin :math:`g\circ f:X \to Z` sem skilgreind er með
 :math:`(g\circ f)(x)=g(f(x))` kallast *samskeyting* :math:`f` og
 :math:`g`. Stakið :math:`g(f(x)) \in Z` fæst með því að beita fyrst
 vörpuninni :math:`f` á stakið :math:`x` og síðan vörpuninni :math:`g` á
 stakið :math:`f(x)`.
 
-|image|
+.. image:: ./myndir/kafli01/02_Samskeyting.png
 
-Eintækni/átækni
 
-1.11 Athugasemd Það er ekki víst að öll gildin í :math:`Y` séu tekin
-(þ.e. :math:`f(X)` getur verið minna en :math:`Y`). Eins þá er mögulegt
-að :math:`f` taki sama gildið oftar en einu sinni.
 
-1.12 Skilgreining Við segjum að vörpunin :math:`f` sé *átæk* ef
+
+Skilgreining
+~~~~~~~~~~~~
+
+Við segjum að vörpunin :math:`f` sé *átæk* ef
 :math:`f(X)=Y`, það þýðir að fyrir sérhvert stak :math:`y` í :math:`Y`
 þá er til (amk. eitt) stak :math:`x` í :math:`X` þannig að
 :math:`f(x)=y`.
 
 Segjum að vörpunin :math:`f` sé *eintæk* ef :math:`f(x_1) = f(x_2)`
-hefur í för með sér að :math:`x_1=x_2`, þ.e. sérhvert gildi sem vörpunin
+hefur í för með sér að :math:`x_1=x_2`, það er sérhvert gildi sem vörpunin
 tekur er bara tekið einu sinni.
 
-|image|
+Skilgreining
+~~~~~~~~~~~~
 
-Andhverfa
+Vörpun sem er bæði eintæk og átæk kallast *gagntæk*.
 
-1.13 Skilgreining Vörpun sem er bæði eintæk og átæk kallast *gagntæk*.
+Setning
+~~~~~~~
 
-1.14 Setning Látum :math:`f:X \to Y` vera vörpun. Sagt er að :math:`f`
+Látum :math:`f:X \to Y` vera vörpun. Sagt er að :math:`f`
 sé andhverfanleg ef til er vörpun :math:`f^{-1}:Y \to X` þannig að
 samskeyting varpananna :math:`f` og :math:`f^{-1}` annars vegar og
 :math:`f^{-1}` og :math:`f` hins vegar sé viðeigandi samsemdarvörpun,
 þ.e. \ :math:`f^{-1}\circ f=id_X` og :math:`f\circ f^{-1} = id_Y`.
 
-|image|
+.. image:: ./myndir/kafli01/02_Andhverfa.png
 
-Graf
+.. note:: 
+    Venjulega hjá okkur þá eru mengin :math:`X` og :math:`Y`
+    mengi af rauntölum. Þegar :math:`Y` er mengi af tölum þá er notast við
+    orðið *fall* í stað orðsins *vörpun*.
 
-1.15 Athugasemd Venjulega hjá okkur þá eru mengin :math:`X` og :math:`Y`
-mengi af rauntölum. Þegar :math:`Y` er mengi af tölum þá er notast við
-orðið *fall* í stað orðsins *vörpun*.
+Skilgreining
+~~~~~~~~~~~~
 
-1.16 Skilgreining Látum :math:`f:X \to Y` vera fall þannig að :math:`X`
+Látum :math:`f:X \to Y` vera fall þannig að :math:`X`
 og :math:`Y` eru mengi af rauntölum. *Graf* fallsins :math:`f` er þá
 mengi allra punkta í planinu :math:`{{\mathbb  R}}^2` af gerðinni
-:math:`(x,f(x))` þar sem :math:`x\in X`. Notum oft :math:`y` í stað
+:math:`(x,f(x))` þar sem :math:`x\in X`. Hér notum við oft :math:`y` í stað
 :math:`f(x)`.
 
-|image|
-
-.. |image| image:: ./myndir/kafli01/01_NewtonLeibniz.jpg
-.. |image| image:: ./myndir/kafli01/02_Mynd_vorpunar.png
-.. |image| image:: ./myndir/kafli01/02_Samskeyting.png
-.. |image| image:: ./myndir/kafli01/02_Mynd_vorpunar.png
-.. |image| image:: ./myndir/kafli01/02_Andhverfa.png
-.. |image| image:: ./myndir/kafli01/02_Graf.png
+.. todo:: 
+    mynd

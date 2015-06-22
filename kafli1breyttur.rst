@@ -1,5 +1,5 @@
-Markgildi og samfelldni
-=======================
+Markgildi og samfelldni -- breyttur
+===================================
 
 Inngangur
 ---------
