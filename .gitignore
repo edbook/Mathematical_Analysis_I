@@ -1,0 +1,8 @@
+*.aux
+*.log
+*.out
+*.swp
+venv
+*.gz
+*.doctree
+_build

@@ -28,8 +28,12 @@ Sett fram samtímis, en óháð, af Isaac Newton og Gottfried Leibniz
 
 .. image:: ./myndir/kafli01/01_NewtonLeibniz.jpg
 
+<<<<<<< HEAD
 Ítarefni 
 ~~~~~~~~
+=======
+|image1|
+>>>>>>> 7d57f0a7cfc5be83a8611134c3da2ef1bb01302c
 
 Fyrir nánari útlistun á hugtökunum sem við fjöllum um þá er hægt að skoða
 
@@ -219,6 +223,7 @@ Mengið :math:`X` kallast *skilgreiningarmengi*
 :math:`f`, mengið :math:`Y` kallast *bakmengi* :math:`f` og mengið
 :math:`f(X) = \{ f(x); x \in X \}` kallast *myndmengi* :math:`f`.
 
+<<<<<<< HEAD
 .. image:: ./myndir/kafli01/02_Mynd_vorpunar.png
 
 .. warning:: 
@@ -226,6 +231,9 @@ Mengið :math:`X` kallast *skilgreiningarmengi*
     (það er :math:`f(X)` getur verið minna en :math:`Y`). Eins þá er mögulegt
     að :math:`f` taki sama gildið oftar en einu sinni.
 
+=======
+|image2|
+>>>>>>> 7d57f0a7cfc5be83a8611134c3da2ef1bb01302c
 
 Skilgreining 
 ~~~~~~~~~~~~
@@ -237,7 +245,11 @@ varpanir. Vörpunin :math:`g\circ f:X \to Z` sem skilgreind er með
 vörpuninni :math:`f` á stakið :math:`x` og síðan vörpuninni :math:`g` á
 stakið :math:`f(x)`.
 
+<<<<<<< HEAD
 .. image:: ./myndir/kafli01/02_Samskeyting.png
+=======
+|image3|
+>>>>>>> 7d57f0a7cfc5be83a8611134c3da2ef1bb01302c
 
 
 
@@ -254,8 +266,12 @@ Segjum að vörpunin :math:`f` sé *eintæk* ef :math:`f(x_1) = f(x_2)`
 hefur í för með sér að :math:`x_1=x_2`, það er sérhvert gildi sem vörpunin
 tekur er bara tekið einu sinni.
 
+<<<<<<< HEAD
 Skilgreining
 ~~~~~~~~~~~~
+=======
+|image4|
+>>>>>>> 7d57f0a7cfc5be83a8611134c3da2ef1bb01302c
 
 Vörpun sem er bæði eintæk og átæk kallast *gagntæk*.
 
@@ -268,7 +284,11 @@ samskeyting varpananna :math:`f` og :math:`f^{-1}` annars vegar og
 :math:`f^{-1}` og :math:`f` hins vegar sé viðeigandi samsemdarvörpun,
 þ.e. \ :math:`f^{-1}\circ f=id_X` og :math:`f\circ f^{-1} = id_Y`.
 
+<<<<<<< HEAD
 .. image:: ./myndir/kafli01/02_Andhverfa.png
+=======
+|image5|
+>>>>>>> 7d57f0a7cfc5be83a8611134c3da2ef1bb01302c
 
 .. note:: 
     Venjulega hjá okkur þá eru mengin :math:`X` og :math:`Y`
@@ -284,5 +304,16 @@ mengi allra punkta í planinu :math:`{{\mathbb  R}}^2` af gerðinni
 :math:`(x,f(x))` þar sem :math:`x\in X`. Hér notum við oft :math:`y` í stað
 :math:`f(x)`.
 
+<<<<<<< HEAD
 .. todo:: 
     mynd
+=======
+|image6|
+
+.. |image1| image:: ./myndir/kafli01/01_NewtonLeibniz.jpg
+.. |image2| image:: ./myndir/kafli01/02_Mynd_vorpunar.png
+.. |image3| image:: ./myndir/kafli01/02_Samskeyting.png
+.. |image4| image:: ./myndir/kafli01/02_Mynd_vorpunar.png
+.. |image5| image:: ./myndir/kafli01/02_Andhverfa.png
+.. |image6| image:: ./myndir/kafli01/02_Graf.png
+>>>>>>> 7d57f0a7cfc5be83a8611134c3da2ef1bb01302c

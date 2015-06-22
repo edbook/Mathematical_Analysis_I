@@ -35,7 +35,11 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
     'hieroglyph',
+<<<<<<< HEAD
 #    'ggbextension.ggb',
+=======
+    'ggbextension.ggb',
+>>>>>>> 7d57f0a7cfc5be83a8611134c3da2ef1bb01302c
 ]
 
 [extensions]
