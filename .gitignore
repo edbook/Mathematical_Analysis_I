@@ -5,4 +5,4 @@
 venv
 *.gz
 *.doctree
-_build
+_build/
