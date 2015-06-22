@@ -7,7 +7,8 @@ Inngangur
 
 *There is a theory which states that if ever anyone discovers exactly what the Universe is for and why it is here, it will instantly disappear and be replaced by something even more bizarre and inexplicable.
 There is another theory which states that this has already happened.* 
-- Douglas Adams, The Restaurant at the End of the Universe 
+
+\- Douglas Adams, The Restaurant at the End of the Universe 
 
 Grunnhugmyndin
 ~~~~~~~~~~~~~~
@@ -28,14 +29,11 @@ Sett fram samtímis, en óháð, af Isaac Newton og Gottfried Leibniz
 
 .. image:: ./myndir/kafli01/01_NewtonLeibniz.jpg
 
-<<<<<<< HEAD
 Ítarefni 
 ~~~~~~~~
-=======
-|image1|
->>>>>>> 7d57f0a7cfc5be83a8611134c3da2ef1bb01302c
 
 Fyrir nánari útlistun á hugtökunum sem við fjöllum um þá er hægt að skoða
+auk kennslubókarinnar
 
 -  `http://stæ.is <http://stae.is>`__ (hugtakasafn og orðaskrá)
 
@@ -65,10 +63,9 @@ Forrit
 
 
 Skiladæmi
----------
+~~~~~~~~~
 
-Frágangur skiladæma
-~~~~~~~~~~~~~~~~~~~
+**Frágangur skiladæma**
 
 -  Skrifið upp **dæmið** og lausnina snyrtilega
 
@@ -94,6 +91,16 @@ you, is that you’ve never actually known what the question is.”*
 Tölur
 -----
 
+.. index::
+    seealso: rauntölur; tölur
+    rauntölur
+    tölur; náttúrlegar tölur
+    tölur; heiltölur
+    tölur; ræðar tölur
+    tölur; rauntölur
+    tölur; tvinntölur  
+   
+
 Skilgreining
 ~~~~~~~~~~~~
 
@@ -110,12 +117,13 @@ Skilgreining
 
 (v)   Mengi *tvinntalna* er táknað með :math:`{{\mathbb  C}}`.
 
-.. todo::
+.. note::
     Margir vilja telja :math:`0` með sem náttúrlega tölu. Það
     er eðlilegt ef maður lítur á náttúrlegu tölurnar þannig að þær tákni
     fjölda. Ef maður lítur hins vegar þannig á að þær séu notaðar til að
     númera hluti þá er 0 ekki með.
 
+    
 Smíði rauntalna 
 ~~~~~~~~~~~~~~~
 
@@ -134,6 +142,10 @@ ekki ræðar tölur (það er ekki hægt að skrifa þær sem brot
 :math:`\frac ab`, þar sem :math:`a` og :math:`b` eru heilar tölur), en
 þær eru rauntölur.
 
+
+.. index::
+    rauntölur; frumsendan um efra mark
+    
 Frumsendan um efra mark
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -153,6 +165,8 @@ Bil
 ---
 
 .. _`Skilgreining 1.4.1`:
+
+.. index:: bil
 
 Skilgreining
 ~~~~~~~~~~~~
@@ -181,6 +195,8 @@ fleiri gerðir af bilum:
 
 (ix) *allur rauntalnaásinn* :math:`(-\infty, \infty)`.
 
+.. todo:: Afhverju er númeringin svona skrítin?
+
 Skilgreining
 ~~~~~~~~~~~~
 
@@ -205,6 +221,11 @@ tölur :math:`a<b` sem eru í menginu :math:`A` gildir að ef :math:`a<x<b`
 Föll
 ----
 
+.. index::
+    vörpun
+    fall
+    see: vörpun; fall
+
 Skilgreining 
 ~~~~~~~~~~~~
 
@@ -216,14 +237,19 @@ Stakið :math:`f(x)` kallast *gildi* vörpunarinnar (í punktinum
 :math:`x`).
 
 
+.. index::
+    fall; skilgreiningarmengi
+    fall; bakmengi
+    fall; myndmengi
+
 Skilgreining 
 ~~~~~~~~~~~~
 
 Mengið :math:`X` kallast *skilgreiningarmengi*
-:math:`f`, mengið :math:`Y` kallast *bakmengi* :math:`f` og mengið
+:math:`f`, mengið :math:`Y` kallast *bakmengi*  
+:math:`f` og mengið
 :math:`f(X) = \{ f(x); x \in X \}` kallast *myndmengi* :math:`f`.
 
-<<<<<<< HEAD
 .. image:: ./myndir/kafli01/02_Mynd_vorpunar.png
 
 .. warning:: 
@@ -231,10 +257,10 @@ Mengið :math:`X` kallast *skilgreiningarmengi*
     (það er :math:`f(X)` getur verið minna en :math:`Y`). Eins þá er mögulegt
     að :math:`f` taki sama gildið oftar en einu sinni.
 
-=======
-|image2|
->>>>>>> 7d57f0a7cfc5be83a8611134c3da2ef1bb01302c
-
+    
+.. index::
+    fall; samskeyting
+    
 Skilgreining 
 ~~~~~~~~~~~~
 
@@ -245,14 +271,12 @@ varpanir. Vörpunin :math:`g\circ f:X \to Z` sem skilgreind er með
 vörpuninni :math:`f` á stakið :math:`x` og síðan vörpuninni :math:`g` á
 stakið :math:`f(x)`.
 
-<<<<<<< HEAD
 .. image:: ./myndir/kafli01/02_Samskeyting.png
-=======
-|image3|
->>>>>>> 7d57f0a7cfc5be83a8611134c3da2ef1bb01302c
 
 
-
+.. index::
+    fall; átækt
+    fall; eintækt
 
 Skilgreining
 ~~~~~~~~~~~~
@@ -266,14 +290,17 @@ Segjum að vörpunin :math:`f` sé *eintæk* ef :math:`f(x_1) = f(x_2)`
 hefur í för með sér að :math:`x_1=x_2`, það er sérhvert gildi sem vörpunin
 tekur er bara tekið einu sinni.
 
-<<<<<<< HEAD
+.. index::
+    fall; gagntækt
+
 Skilgreining
 ~~~~~~~~~~~~
-=======
-|image4|
->>>>>>> 7d57f0a7cfc5be83a8611134c3da2ef1bb01302c
 
 Vörpun sem er bæði eintæk og átæk kallast *gagntæk*.
+
+
+.. index::
+    fall; andhverfa
 
 Setning
 ~~~~~~~
@@ -284,17 +311,17 @@ samskeyting varpananna :math:`f` og :math:`f^{-1}` annars vegar og
 :math:`f^{-1}` og :math:`f` hins vegar sé viðeigandi samsemdarvörpun,
 þ.e. \ :math:`f^{-1}\circ f=id_X` og :math:`f\circ f^{-1} = id_Y`.
 
-<<<<<<< HEAD
 .. image:: ./myndir/kafli01/02_Andhverfa.png
-=======
-|image5|
->>>>>>> 7d57f0a7cfc5be83a8611134c3da2ef1bb01302c
 
 .. note:: 
     Venjulega hjá okkur þá eru mengin :math:`X` og :math:`Y`
     mengi af rauntölum. Þegar :math:`Y` er mengi af tölum þá er notast við
     orðið *fall* í stað orðsins *vörpun*.
 
+
+.. index:: 
+    fall; graf
+    
 Skilgreining
 ~~~~~~~~~~~~
 
@@ -304,16 +331,5 @@ mengi allra punkta í planinu :math:`{{\mathbb  R}}^2` af gerðinni
 :math:`(x,f(x))` þar sem :math:`x\in X`. Hér notum við oft :math:`y` í stað
 :math:`f(x)`.
 
-<<<<<<< HEAD
 .. todo:: 
     mynd
-=======
-|image6|
-
-.. |image1| image:: ./myndir/kafli01/01_NewtonLeibniz.jpg
-.. |image2| image:: ./myndir/kafli01/02_Mynd_vorpunar.png
-.. |image3| image:: ./myndir/kafli01/02_Samskeyting.png
-.. |image4| image:: ./myndir/kafli01/02_Mynd_vorpunar.png
-.. |image5| image:: ./myndir/kafli01/02_Andhverfa.png
-.. |image6| image:: ./myndir/kafli01/02_Graf.png
->>>>>>> 7d57f0a7cfc5be83a8611134c3da2ef1bb01302c
