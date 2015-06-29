@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #filename=`echo $1|sed 's/.mp4//g' | tr -d "opidlokad/"`
-kaf=kafli04
+kaf=kafli05
 
 convert $1.eps $kaf/$2.png
 mv $1.ggb $kaf/$2.ggb

@@ -218,7 +218,7 @@ Sýnidæmi
 (iii) :math:`\lim_{x \to a} |x| = |a|`
 
 
-Sýnidæmi – Markgildi með :math:`\sin`
+Sýnidæmi – Markgildi með sínus
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 (i)   
@@ -233,8 +233,8 @@ Sýnidæmi – Markgildi með :math:`\sin`
 
       .. math:: \lim_{x \to 0} \frac{\sin(x)}{x} = 1
 
-Sýnidæmi – Markgildi með :math:`|x|`
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Sýnidæmi – Markgildi með tölugildisfallinu
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 (i)   
 
@@ -249,8 +249,8 @@ Sýnidæmi – Markgildi með :math:`|x|`
       .. math:: \lim_{x\to 0} \frac x{|x|} \quad \text{er ekki til}
 
       
-Markgildi þegar :math:`x` stefnir á :math:`\infty` og :math:`-\infty`
----------------------------------------------------------------------
+Markgildi þegar x stefnir á óendanlegt
+--------------------------------------
 
 
 .. image:: ./myndir/kafli02/06_liminf.png
@@ -305,14 +305,14 @@ uppfyllt:
 Fyrir sérhverja tölu :math:`\epsilon>0` er til tala :math:`R`
 þannig að um öll :math:`x<R` gildir að :math:`|f(x)-L|<\epsilon`.
 
-:math:`\infty` og :math:`-\infty` sem markgildi
+Óendanlegt sem markgildi
 -----------------------------------------------
 
 .. index::
     markgildi; óendanlegt sem markgildi
 
-:math:`\infty` sem markgildi – Óformleg skilgreining
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Óformleg skilgreining
+~~~~~~~~~~~~~~~~~~~~~
 
 Gerum ráð fyrir að fall :math:`f` sé skilgreint á opnu bili umhverfis
 punktinn :math:`a`, nema hvað hugsanlega er :math:`f(a)` ekki
@@ -341,8 +341,8 @@ að um öll :math:`x` þannig að :math:`0<|x-a|<\delta` gildir að
     :math:`\lim_{x\rightarrow a} f(x)=\infty` þá er samt sagt að markgildið
     :math:`\lim_{x\rightarrow a} f(x)` sé ekki til.
 
-:math:`-\infty` sem markgildi – Óformleg skilgreining
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Óformleg skilgreining
+~~~~~~~~~~~~~~~~~~~~~
 
 Gerum ráð fyrir að fall :math:`f` sé skilgreint á opnu bili umhverfis
 punktinn :math:`a`, nema hvað hugsanlega er :math:`f(a)` ekki
@@ -475,7 +475,7 @@ til fjölda samfelldra fall með því að beita aðgerðunum úr Setningu 3.14
 og Setningu 3.15.
 
 .. index::
-    samfelldni, frá hægri/vinstri
+    samfelldni; frá hægri/vinstri
 
 Hægri/vinstri samfelldni
 ------------------------
@@ -517,7 +517,7 @@ Skilgreining
 Uppfærum nú skilgreiningu [skilgr:samfellt:sub:`f`\ all].
 
 .. index:: 
-    samfelldni; samfellt fall
+    fall; samfellt
 
 Skilgreining (uppfærð)
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -569,9 +569,9 @@ Látum :math:`f` vera samfellt fall skilgreint á lokuðu takmörkuðu bili
 milli :math:`a` og :math:`b` þannig að :math:`f(c)=s`.
 
 .. ggb:: zEQQcGcQ
-    :width: 1075
-    :height: 767
-    :img: ./myndir/kafli01/04_Milligildissetn.png
+    :width: 700
+    :height: 500
+    :img: 10_milligildissetn.png
     :imgwidth: 8cm
 
 Fylgisetning

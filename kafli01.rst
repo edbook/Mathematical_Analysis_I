@@ -105,17 +105,17 @@ Skilgreining
 ~~~~~~~~~~~~
 
 (i)   *Náttúrlegu tölurnar* eru tölurnar :math:`1, 2, 3, 4, \ldots` og
-      mengi þeirra er táknað með :math:`{{\mathbb  N}}`.
+      mengi þeirra er táknað með :math:`\mathbb{N}`.
 
-(ii)  Mengi *heiltalna* er táknað með :math:`{{\mathbb Z}}`.
-      :math:`{{\mathbb Z}}= \ldots,-2,-1,0,1,2,3,\ldots`
+(ii)  Mengi *heiltalna* er táknað með :math:`\mathbb{Z}`.
+      :math:`\mathbb{Z}= \ldots,-2,-1,0,1,2,3,\ldots`
 
-(iii) Mengi *ræðra talna* er táknað með :math:`{{\mathbb Q}}`.
-      :math:`{{\mathbb Q}}= \{ \frac pq ; p,q \in {{\mathbb Z}}\}`.
+(iii) Mengi *ræðra talna* er táknað með :math:`\mathbb{Q}`.
+      :math:`\mathbb{Q}= \{ \frac pq ; p,q \in \mathbb{Z}\}`.
 
-(iv)  Mengi *rauntalna* er táknað með :math:`{{\mathbb  R}}`.
+(iv)  Mengi *rauntalna* er táknað með :math:`\mathbb{R}`.
 
-(v)   Mengi *tvinntalna* er táknað með :math:`{{\mathbb  C}}`.
+(v)   Mengi *tvinntalna* er táknað með :math:`\mathbb{C}`.
 
 .. note::
     Margir vilja telja :math:`0` með sem náttúrlega tölu. Það
@@ -174,24 +174,24 @@ Skilgreining
 Látum :math:`a` og :math:`b` vera rauntölur þannig að
 :math:`a<b`. Skilgreinum
 
-(i) *opið bil* :math:`(a,b)=\{x\in {{\mathbb  R}}; a<x<b\}`
+(i) *opið bil* :math:`(a,b)=\{x\in \mathbb{R}; a<x<b\}`
 
-(ii) *lokað bil* :math:`[a,b]=\{x\in {{\mathbb  R}}; a\leq x\leq b\}`
+(ii) *lokað bil* :math:`[a,b]=\{x\in \mathbb{R}; a\leq x\leq b\}`
 
-(iii) *hálf opið bil* :math:`[a,b)=\{x\in {{\mathbb  R}}; a\leq x<b\}`
+(iii) *hálf opið bil* :math:`[a,b)=\{x\in \mathbb{R}; a\leq x<b\}`
 
-(iv) *hálf opið bil* :math:`(a,b]=\{x\in {{\mathbb  R}}; a< x\leq b\}`
+(iv) *hálf opið bil* :math:`(a,b]=\{x\in \mathbb{R}; a< x\leq b\}`
 
 Þessi bil sem er skilgreind hér fyrir ofan eru kölluð endanleg. Til eru
 fleiri gerðir af bilum:
 
-(v) *opið óendanlegt bil* :math:`(a,\infty)=\{x\in {{\mathbb  R}}; a<x\}`
+(v) *opið óendanlegt bil* :math:`(a,\infty)=\{x\in \mathbb{R}; a<x\}`
 
-(vi) *opið óendanlegt bil* :math:`(-\infty, a)=\{x\in {{\mathbb  R}}; x<a\}`
+(vi) *opið óendanlegt bil* :math:`(-\infty, a)=\{x\in \mathbb{R}; x<a\}`
 
-(vii) *lokað óendanlegt bil* :math:`[a,\infty)=\{x\in {{\mathbb  R}}; a\leq x\}`
+(vii) *lokað óendanlegt bil* :math:`[a,\infty)=\{x\in \mathbb{R}; a\leq x\}`
 
-(viii) *lokað óendanlegt bil* :math:`(-\infty, a]=\{x\in {{\mathbb  R}}; x\leq a\}`
+(viii) *lokað óendanlegt bil* :math:`(-\infty, a]=\{x\in \mathbb{R}; x\leq a\}`
 
 (ix) *allur rauntalnaásinn* :math:`(-\infty, \infty)`.
 
@@ -327,7 +327,7 @@ Skilgreining
 
 Látum :math:`f:X \to Y` vera fall þannig að :math:`X`
 og :math:`Y` eru mengi af rauntölum. *Graf* fallsins :math:`f` er þá
-mengi allra punkta í planinu :math:`{{\mathbb  R}}^2` af gerðinni
+mengi allra punkta í planinu :math:`\mathbb{R}^2` af gerðinni
 :math:`(x,f(x))` þar sem :math:`x\in X`. Hér notum við oft :math:`y` í stað
 :math:`f(x)`.
 

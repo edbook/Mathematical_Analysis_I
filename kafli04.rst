@@ -150,6 +150,7 @@ Fyrir tölu :math:`a>0` og rauntölu :math:`x` skilgreinum við
 
 .. index::
     logri; grunntala
+
 Skilgreining
 ~~~~~~~~~~~~
 

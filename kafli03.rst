@@ -38,10 +38,10 @@ Fallið :math:`f(x) = x^2` er diffranlegt í sérhverjum punkti :math:`x`.
     &= \lim_{h\to 0} \frac{2xh+h^2}{h}= \lim_{h\to 0} 2x+h = 2x.\end{aligned}
 
 
-.. ggb:: 1355901
-    :width: 1075
-    :height: 767
-    :img: ./myndir/kafli03/01_afleida.png
+.. ggb:: SUnNEmTG
+    :width: 700
+    :height: 500
+    :img: ./01_afleida.png
     :imgwidth: 8cm
 
 Setning
