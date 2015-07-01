@@ -10,7 +10,7 @@ Rúmmál, massi og massamiðja
 Rúmmál, lengd og flatarmál
 --------------------------
 
-Regla: Rúmmál rúmskika
+Rúmmál rúmskika
 ~~~~~~~~~~~~~~~~~~~~~~
 
 Rúmskiki :math:`D` liggur á milli plananna :math:`x=a` og :math:`x=b`.
@@ -24,7 +24,7 @@ Táknum með :math:`A(x)` flatarmál þversniðs :math:`D` við plan sem sker
 .. index::
     rúmmál; keilu
 
-Regla: Rúmmál keilu
+Rúmmál keilu
 ~~~~~~~~~~~~~~~~~~~
 
 Látum :math:`F` vera takmarkaðan samanhangandi bút af plani og látum
@@ -45,7 +45,7 @@ Formúlan gildir óháð lögun grunnflatar.
 .. index::
     rúmmál; snúðs, snúið um x-ás
 
-Regla: Rúmmál snúðs, snúið um :math:`x`-ás
+Rúmmál snúðs, snúið um :math:`x`-ás
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Látum :math:`f` vera samfellt fall á bili :math:`[a, b]`. Rúmskikinn sem
@@ -58,7 +58,7 @@ myndast þegar svæðinu sem afmarkast af :math:`x`-ás, grafinu
 .. index::
     rúmmál; snúðs með gati
 
-Regla: Rúmmál snúðs með gati
+Rúmmál snúðs með gati
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Látum :math:`f` og :math:`g` vera tvö samfelld föll skilgreind á bilinu
@@ -72,7 +72,7 @@ g(x)`. Þegar svæðinu milli grafa :math:`f` og :math:`g` er snúið
 .. index::
     rúmmál; snúðs, snúið um y-ás
 
-Regla: Rúmmál snúðs, snúið um :math:`y`-ás
+Rúmmál snúðs, snúið um :math:`y`-ás
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Látum :math:`f` vera samfellt fall skilgreint á bili :math:`[a, b]`, með
@@ -86,7 +86,7 @@ og :math:`x=b` um :math:`360^\circ` um :math:`y`-ás er
 .. index::
     fall; lengd grafs
 
-Regla: Lengd grafs
+Lengd grafs
 ~~~~~~~~~~~~~~~~~~
 
 Látum :math:`f` vera samfellt fall skilgreint á bili :math:`[a, b]`.
@@ -98,7 +98,7 @@ skilgreind sem
 .. index::
     flatarmál; yfirborðsflatarmál snúðs, snúið um x-ás
 
-Regla: Yfirborðsflatarmál snúðs, snúið um :math:`x`-ás
+Yfirborðsflatarmál snúðs, snúið um :math:`x`-ás
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Látum :math:`f` vera samfellt fall skilgreint á bili :math:`[a, b]`.
@@ -110,7 +110,7 @@ myndast við það flötur. Flatarmál flatarins er gefið með formúlunni
 .. index::
     flatarmál; yfirborðsflatarmál snúðs, snúið um y-ás
 
-Regla: Yfirborðsflatarmál snúðs, snúið um :math:`y`-ás
+Yfirborðsflatarmál snúðs, snúið um :math:`y`-ás
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Látum :math:`f` vera samfellt fall skilgreint á bili :math:`[a, b]`.
@@ -129,7 +129,7 @@ Massi
     massi; vírs
     massi; massafrymi
 
-Regla: Massi vírs
+Massi vírs
 ~~~~~~~~~~~~~~~~~
 
 Vír liggur eftir ferli :math:`y=f(x)` þar sem :math:`a\leq x\leq b`.
@@ -150,7 +150,7 @@ og massi alls vírsins er
 .. index::
     massi; plötu
 
-Regla: Massi plötu
+Massi plötu
 ~~~~~~~~~~~~~~~~~~
 
 Plata afmarkast af :math:`x`-ás, grafinu :math:`y=f(x)` og línunum
@@ -172,7 +172,7 @@ og massi allrar plötunnar er
 .. index::
     massi; rúmskika
 
-Regla: Massi rúmskika
+Massi rúmskika
 ~~~~~~~~~~~~~~~~~~~~~
 
 Rúmskiki :math:`D` liggur á milli plananna :math:`x=a` og :math:`x=b`.

@@ -1,17 +1,31 @@
-\lecture[22]{22. Runur og raðir}{lecture-text}
-\date{12.~nóvember 2012}
+\documentclass[icelandic,a4paper,12pt]{article}
+\usepackage{beamerarticle}
 
+\input{beamer.tex}\lecture[1]{2. Markgildi og samfelldni}{lecture-text}
+\date{29. ágúst 2015}
+
+\newcommand{\C}{{\mathbb  C}}
+\newcommand{\Z}{{\mathbb Z}}
+\newcommand{\R}{{\mathbb  R}}
+\newcommand{\N}{{\mathbb  N}}
+\newcommand{\Q}{{\mathbb Q}}
+\newcommand{\Sin}{{\text{Sin}}}
+\newcommand{\Tan}{{\text{Tan}}}
+\newcommand{\Cos}{{\text{Cos}}}
+\newcommand{\Cosh}{{\text{Cosh}}}
+\newcommand{\arsinh}{{\text{arsinh}}}
+\newcommand{\arcosh}{{\text{arcosh}}}
+\newcommand{\artanh}{{\text{artanh}}}
 
 \begin{document}
+\setcounter{tocdepth}{2}
+\tableofcontents
 
-\subsection
-	\maketitle
+\section{Runur og raðir}
 
-
-\section*{}
-\subsection[t]{Runur}
- \subsubsection{22.1 Skilgreining}
-{\em Runa} er raðaður listi af tölum. \pause 
+\subsection{Runur}
+\subsubsection{Skilgreining: Runa}
+\emph{Runa} er raðaður listi af tölum.  
 
 Runa hefur fyrsta stak en
 ekkert síðasta stak.  Stökin í runu eru oft númeruð með náttúrlegu
@@ -19,920 +33,280 @@ tölunum $1, 2, 3, \ldots$. Stökin eru þá
 $$
 a_1, a_2, a_3, a_4, a_5, \ldots
 $$
-\pause
- Runur eru táknaðar með 
+
+Runur eru táknaðar með 
 $\{a_n\}_{n\in {\N}}$,
 $\{a_n\}_{n=1}^\infty$ eða bara  $\{a_n\}$.
- 
 
-
-\subsection[t]{Takmarkaðar runur}
- \subsubsection{22.2 Skilgreining}
-  Runa  $\{a_n\}$ er sögð {\em takmörkuð að neðan} ef til er
-  tala $m$ þannig að 
-  $$
+\subsubsection{Skilgreining}
+Runa  $\{a_n\}$ er sögð \emph{takmörkuð að neðan} ef til er tala $m$ þannig að 
+$$
   m\leq a_n
-  $$ 
-  fyrir allar náttúrlegar tölur $n$.  
-  \pause
+$$ 
+fyrir allar náttúrlegar tölur $n$.  
 
-  Runan  er sögð {\em takmörkuð að ofan} ef til er
-  tala $M$ þannig að 
-  $$
-  a_n\leq M
-  $$ fyrir allar náttúrlegar tölur $n$. 
-  \pause
+Runan  er sögð \emph{takmörkuð að ofan} ef til er tala $M$ þannig að 
+$$
+ a_n\leq M
+$$ 
+fyrir allar náttúrlegar tölur $n$. 
   
-  Runa sem er bæði takmörkuð að ofan og neðan er sögð {\em
-  takmörkuð}.
- 
+Runa sem er bæði takmörkuð að ofan og neðan er sögð \emph{takmörkuð}.
 
-
-\subsection[t]{Vöxtur runa}
- \subsubsection{22.3 Skilgreining}  
+\subsubsection{Skilgreining}  
 Runa  $\{a_n\}$ er sögð
-\pause
-\begin{itemize}
-\item {\em vaxandi} ef $a_n\leq a_{n+1}$ fyrir öll $n$,\pause
-\item {\em stranglega vaxandi} ef $a_n< a_{n+1}$ fyrir öll $n$,\pause
-\item {\em minnkandi} ef $a_n\geq a_{n+1}$ fyrir öll $n$,\pause
-\item {\em stranglega minnkandi} ef $a_n> a_{n+1}$ fyrir öll $n$.\pause
-\end{itemize}
+\begin{enumerate}[(i)]
+\item \emph{vaxandi} ef $a_n\leq a_{n+1}$ fyrir öll $n$,
+\item \emph{stranglega vaxandi} ef $a_n< a_{n+1}$ fyrir öll $n$,
+\item \emph{minnkandi} ef $a_n\geq a_{n+1}$ fyrir öll $n$,
+\item \emph{stranglega minnkandi} ef $a_n> a_{n+1}$ fyrir öll $n$.
+\end{enumerate}
 
-
-Runa kallast {\em einhalla} ef hún er annaðhvort vaxandi eða
+Runa kallast \emph{einhalla} ef hún er annaðhvort vaxandi eða
 minnkandi.
- 
 
+\subsubsection{Skilgreining: Víxlmerkjaruna}  
+\emph{Víxlmerkjaruna} er runa þannig að formerki skiptast á, annaðhvort
+$+, -, +, -, \ldots$ eða  $-, +, -, +, \ldots$. 
 
-\subsection[t]{Víxlmerkjarunur}
- \subsubsection{22.4 Skilgreining}  
-{\em Víxlmerkjaruna} er runa þannig að formerki skiptast
-  á, annaðhvort
-  $+, -, +, -, \ldots$ eða  $-, +, -, +, \ldots$. 
-  \pause
-  
-  Einnig má lýsa
-  þessu þannig að runa $\{a_n\}$ sé víxlmerkjaruna ef $a_na_{n+1}<0$
-  fyrir öll $n$.
- 
+Einnig má lýsa þessu þannig að runa $\{a_n\}$ sé víxlmerkjaruna ef $a_na_{n+1}<0$
+fyrir öll $n$.
 
-
-\subsection[t]{Samleitni}
- \subsubsection{22.5 Skilgreining}
-Segjum að $\{a_n\}$ sé {\em samleitin} að tölu $L$ (eða {\em stefni á}
+\subsubsection{Skilgreining}
+Segjum að $\{a_n\}$ sé \emph{samleitin} að tölu $L$ (eða \emph{stefni á}
 $L$) ef fyrir sérhverja tölu $\epsilon>0$ má finna náttúrlega tölu $N$
 þannig að ef $n\geq N$ þá er 
 $$|a_n-L|<\epsilon.$$
-\pause
 
-Ritað
-$\lim_{n\rightarrow \infty}a_n=L$ og talan $L$ kallast 
-\emph{markgildi rununnar}.   \pause
+Ritað $\lim_{n\rightarrow \infty}a_n=L$ og talan $L$ kallast \emph{markgildi rununnar}.   
 
-Sagt er að runa sé {\em samleitin}
-ef $\lim_{n\rightarrow \infty}a_n$ er skilgreint, \pause
-en annars er runan sögð
-{\em ósamleitin}. 
+Sagt er að runa sé \emph{samleitin} ef $\lim_{n\rightarrow \infty}a_n$ er skilgreint, 
+en annars er runan sögð \emph{ósamleitin}. 
 
-
-\subsection[t]{Tengsl runa og falla}
- \subsubsection{22.6 Setning} 
+\subsubsection{Setning} 
 Látum $f$ vera fall skilgreint á $\R$ og látum $\{a_n\}$ vera runu
 þannig að $a_n=f(n)$ fyrir öll $n$.   Ef $\lim_{x\rightarrow
-  \infty}f(x)=L$ þá er $\lim_{n\rightarrow\infty}a_n=L$.
+\infty}f(x)=L$ þá er $\lim_{n\rightarrow\infty}a_n=L$.
  
+.. warning::
+  Þetta gildir ekki í hina áttina, runan getur verið samleitin án þess að fallið sé það.
 
-
-\subsection[t]{Takmarkaðar runur og samleitni}
- \subsubsection{22.7 Setning}  
+\subsubsection{Setning}  
 Látum $\{a_n\}$ vera runu.  Eftirfarandi tvö skilyrði eru jafngild:
+\begin{enumerate}[(i)]
+\item $\lim_{n\rightarrow\infty}a_n=L$, 
+\item fyrir sérhvert $\epsilon>0$ eru aðeins endanlega margir
+liðir rununnar $\{a_n\}$ utan við bilið $(L-\epsilon, L+\epsilon)$.
+\end{enumerate}
 
-\begin{itemize}
-\item[(i)]  $\lim_{n\rightarrow\infty}a_n=L$, \pause
-\item[(ii)] fyrir sérhvert $\epsilon>0$ eru aðeins endanlega margir
-  liðir rununnar $\{a_n\}$ utan við bilið $(L-\epsilon, L+\epsilon)$.
- \end{itemize}
- 
-
-\pause
-
- \subsubsection{22.8 Fylgisetning} 
+\subsubsection{Fylgisetning} 
 Samleitin runa er takmörkuð. 
 
-
-\subsection[t]{Reiknireglur}
- \subsubsection{22.9 Setning}
-Gerum ráð fyrir að 
-runurnar $\{a_n\}$ og $\{b_n\}$ séu samleitnar.  Þá gildir:
-\begin{itemize}
-\item[(i)]  $\lim_{n\rightarrow\infty}(a_n\pm b_n)=
-\lim_{n\rightarrow\infty}a_n\pm\lim_{n\rightarrow\infty}b_n$,\pause
-\item[(ii)]  $\lim_{n\rightarrow\infty}ca_n=
-c\lim_{n\rightarrow\infty}a_n$, þar sem $c$ er fasti,\pause
-\item[(iii)]  $\lim_{n\rightarrow\infty}(a_n b_n)=
-(\lim_{n\rightarrow\infty}a_n)(\lim_{n\rightarrow\infty}b_n)$,\pause
-\item[(iv)] ef $\lim_{n\rightarrow\infty}b_n\neq 0$ þá er
+\subsubsection{Setning}
+Gerum ráð fyrir að runurnar $\{a_n\}$ og $\{b_n\}$ séu samleitnar.  Þá gildir:
+\begin{enumerate}[(i)]
+\item $\lim_{n\rightarrow\infty}(a_n\pm b_n)=
+\lim_{n\rightarrow\infty}a_n\pm\lim_{n\rightarrow\infty}b_n$,
+\item $\lim_{n\rightarrow\infty}ca_n=
+c\lim_{n\rightarrow\infty}a_n$, þar sem $c$ er fasti,
+\item $\lim_{n\rightarrow\infty}(a_n b_n)=
+(\lim_{n\rightarrow\infty}a_n)(\lim_{n\rightarrow\infty}b_n)$,
+\item ef $\lim_{n\rightarrow\infty}b_n\neq 0$ þá er
 $\lim_{n\rightarrow\infty}\frac{a_n}{b_n}=
-\frac{\lim_{n\rightarrow\infty}a_n}{\lim_{n\rightarrow\infty}b_n}$,\pause
-\item[(v)] ef $a_n\leq b_n$ fyrir öll $n$ sem eru nógu stór, þá er 
+\frac{\lim_{n\rightarrow\infty}a_n}{\lim_{n\rightarrow\infty}b_n}$,
+\item ef $a_n\leq b_n$ fyrir öll $n$ sem eru nógu stór, þá er 
 $$\lim_{n\rightarrow\infty}a_n\leq\lim_{n\rightarrow\infty}b_n,$$
 
-(frasinn {\em fyrir öll $n$ sem eru nógu stór} þýðir að til er 
-einhver tala $N$ þannig að skilyrðið gildir fyrir öll $n\geq N$),\pause
+(frasinn \emph{fyrir öll} $n$ \emph{sem eru nógu stór} þýðir að til er 
+einhver tala $N$ þannig að skilyrðið gildir fyrir öll $n\geq N$),
 \item[(vi)]  (Klemmuregla)
 ef $a_n\leq c_n\leq b_n$ fyrir öll $n$ sem eru nógu stór og 
 $\lim_{n\rightarrow\infty}a_n=L=\lim_{n\rightarrow\infty}b_n$ þá er
 runan $\{c_n\}$ samleitin og $$\lim_{n\rightarrow\infty}c_n=L.$$
- \end{itemize}
- 
+\end{enumerate}
 
-
-\subsection[t]{Samleitni einhalla runa}
- \subsubsection{22.8 Setning} 
+\subsubsection{Setning} 
 Takmörkuð einhalla (vaxandi eða minnkandi) runa er samleitin. 
 
-
-
-
-\end{document}
-\lecture[23]{23. Raðir og samleitnipróf fyrir raðir}{lecture-text}
-\date{14.~nóvember 2012}
-
-
-\begin{document}
-
-\subsection
-	\maketitle
-
-
-\section*{Raðír}
-\subsection[t]{Raðir}
- \subsubsection{23.1 Skilgreining}
-Látum $a_1, a_2, \ldots$ vera gefnar tölur. \pause
-{\em Röðin}
-$$\sum_{n=1}^\infty a_n \pause = a_1+a_2+a_3+\cdots$$
+\subsection{Raðir}
+\subsubsection{Skilgreining: Röð}
+Látum $a_1, a_2, \ldots$ vera gefnar tölur. 
+\emph{Röðin}
+$$\sum_{n=1}^\infty a_n  = a_1+a_2+a_3+\cdots$$
 er skilgreind sem formleg summa liðanna $a_1, a_2, a_3, \ldots$.
- 
 
-
-\subsection[t]{Samleitni raða}
- \subsubsection{23.2 Skilgreining} 
-Fáum í hendurnar röð  $\sum_{n=1}^\infty
-a_n$ þar sem $a_1, a_2, \ldots$ eru tölur.  \pause
+\subsubsection{Skilgreining} 
+Fáum í hendurnar röð  $\sum_{n=1}^\infty a_n$ þar sem $a_1, a_2, \ldots$ eru tölur.  
 Skilgreinum 
-$$s_n=a_1+a_2+\cdots+a_n$$
-sem summa fyrstu $n$ liða raðarinnar. \pause 
-Segjum að röðin 
+$$
+  s_n=a_1+a_2+\cdots+a_n
+$$ 
+sem summa fyrstu $n$ liða raðarinnar. Segjum að röðin 
 $\sum_{n=1}^\infty a_n$ sé \emph{samleitin með summu} $s$ ef 
-$$\lim_{n\rightarrow\infty}s_n=s.$$ \pause
+$$\lim_{n\rightarrow\infty}s_n=s.$$ 
 Það er að segja, röðin er samleitin með summu $s$ ef
-$$\lim_{n\rightarrow \infty}(a_1+a_2+\cdots+a_n)=s.$$ \pause
+$$\lim_{n\rightarrow \infty}(a_1+a_2+\cdots+a_n)=s.$$ 
 Ritum þá $$\sum_{n=1}^\infty a_n=s.$$
- 
 
-
-\subsection[t]{}
- \subsubsection{23.3 Setning}
+\subsubsection{Setning}
 Ef $A=\sum_{n=1}^\infty a_n$ og $B=\sum_{n=1}^\infty b_n$, þ.e.~báðar
-raðirnar eru samleitnar, \pause þá gildir að
+raðirnar eru samleitnar,  þá gildir að
 
-\begin{itemize} 
-\item [(i)]  ef $c$ er fasti þá er $\sum_{n=1}^\infty ca_n=cA$, \pause 
-\item [(ii)]  $\sum_{n=1}^\infty (a_n\pm b_n)=A\pm B$, \pause
-\item [(iii)]  ef $a_n\leq b_n$ fyrir öll $n$ þá er $A\leq B$.
-\end{itemize}
- 
-%
+\begin{enumerate}[(i)] 
+\item ef $c$ er fasti þá er $\sum_{n=1}^\infty ca_n=cA$,  
+\item $\sum_{n=1}^\infty (a_n\pm b_n)=A\pm B$, 
+\item ef $a_n\leq b_n$ fyrir öll $n$ þá er $A\leq B$.
+\end{enumerate}
 
-\pause
-
-%\subsection[t]{}
- \subsubsection{23.4 Setning} 
+\subsubsection{Setning} 
 Ef röð  $\sum_{n=1}^\infty a_n$ er samleitin þá er 
 $$\lim_{n\rightarrow\infty}a_n=0.$$
- 
 
-\pause
-
-\subsubsection{23.5 Athugasemd}
- Ef $\lim_{n \to \infty} a_n = 0$ þá  ekki víst að 
+\subsubsection{Athugasemd}
+Ef $\lim_{n \to \infty} a_n = 0$ þá  ekki víst að 
 röðin $\sum_{n=1}^\infty a_n$ sé samleitin.
 
-
-
-
-\section*{Samleitnipróf fyrir raðir}
-
-\subsection[t]{Samleitnipróf I}
- \subsubsection{23.6 Setning}
-Ef $\lim_{n\rightarrow\infty}a_n$ er ekki til eða 
-$\lim_{n\rightarrow\infty}a_n\neq 0$ \pause þá er röðin 
-$\sum_{n=1}^\infty a_n$ ekki samleitin.
- 
-%
-
-%\subsection[t]{}
- \subsubsection{23.7 Setning} 
-Gerum ráð fyrir að $a_n\geq 0$ fyrir allar náttúrlegar tölur $n$. \pause
-Röðin $\sum_{n=1}^\infty a_n$ er þá annaðhvort samleitin eða 
-ósamleitin að $\infty$ (þ.e.a.s.~hlutsummurnar 
-$s_n=a_1+\cdots+a_n$ stefna á
-$\infty$ þegar $n$ stefnir á $\infty$.)
- 
-
-
-\subsection[t]{Samleitnipróf II -- Samanburðarpróf}
- \subsubsection{23.8 Setning} 
-Gerum ráð fyrir að $0\leq a_n\leq b_n$ fyrir allar náttúrlegar tölur
-$n$.  \pause
-
-\begin{itemize}
-\item[(i)]  Ef $\sum_{n=1}^\infty b_n$ er samleitin þá er 
-$\sum_{n=1}^\infty a_n$ líka samleitin. \pause
-\item[(ii)]  Ef $\sum_{n=1}^\infty a_n$ er ósamleitin þá er 
-$\sum_{n=1}^\infty b_n$ líka ósamleitin.
- \end{itemize}
-
-
-
-\subsection[t]{Samleitnipróf III -- Heildispróf}
- \subsubsection{23.9 Setning}
-Látum $f$ vera jákvætt, samfellt og minnkandi fall sem er skilgreint á
-bilinu $[1, \infty)$. \pause  Fyrir sérhverja náttúrlega tölu $n$ setjum við
-$a_n=f(n)$. \pause Þá eru röðin $\sum_{n=1}^\infty a_n$ og óeiginlega
-heildið $\int_1^\infty f(x)\,dx$ annaðhvort bæði samleitin eða bæði
-ósamleitin. 
- 
-
- \subsubsection{23.10 Fylgisetning}
-Röðin $\sum_{n=1}^\infty\frac{1}{n^{p}}$ er samleitin ef $p>1$ en 
-ósamleitin ef
-$p\leq 1$.
- 
-
-
-\subsection[t]{Samleitnipróf IV -- Markgildissamanburðarpróf}
- \subsubsection{23.11 Setning}
-Gerum ráð fyrir að $a_n\geq 0$ og $b_n\geq 0$ fyrir allar náttúrlegar
-tölur $n$ og $\lim_{n\rightarrow\infty}\frac{a_n}{b_n}=L$, þar sem
-$L$ er tala eða $\infty$. \pause
-
-\begin{itemize}
-\item[(i)] Ef $L<\infty$ og  röðin 
-$\sum_{n=1}^\infty b_n$ er samleitin þá er 
-röðin $\sum_{n=1}^\infty a_n$ líka samleitin. \pause
-\item[(ii)] Ef $L>0$ og  röðin 
-$\sum_{n=1}^\infty b_n$ er ósamleitin þá er 
-röðin $\sum_{n=1}^\infty a_n$ líka ósamleitin.
-\end{itemize}
- 
-
-
-
-\end{document}
-\lecture[24]{24. Samleitnipróf -- Alsamleitni}{lecture-text}
-\date{19.~nóvember 2012}
-
-
-\begin{document}
-
-\subsection
-	\maketitle
-
-
-\section*{Samleitnipróf}
-\subsection[t]{Samleitnipróf V -- Kvótapróf}
- \subsubsection{24.1 Setning}
-Gerum ráð fyrir að $a_n>0$ fyrir öll $n$ og að markgildið 
-$\rho=\lim_{n\rightarrow\infty}\frac{a_{n+1}}{a_n}$ sé skilgreint eða
-að sé $\infty$.\pause
-\begin{itemize}
-\item[(i)]  Ef $0\leq\rho<1$ þá er röðin $\sum_{n=1}^\infty a_n$
-  samleitin.\pause
-\item[(ii)]  Ef $1<\rho\leq \infty$ þá er röðin $\sum_{n=1}^\infty a_n$
-  ósamleitin.\pause
-\item[(iii)]  Ef $\rho=1$ þá er ekkert hægt að fullyrða 
-um hvort röðin $\sum_{n=1}^\infty a_n$
-er samleitin eða  ósamleitin, hvor tveggja kemur til greina og nota
-þarf aðrar aðferðir til að skera úr um það.
-\end{itemize}
- 
-
-
-\subsection[t]{Samleitnipróf VI -- Rótarpróf}
- \subsubsection{24.2 Setning}
-Gerum ráð fyrir að $a_n>0$ fyrir öll $n$ og að markgildið 
-$\sigma=\lim_{n\rightarrow\infty}\sqrt[n]{a_n}$ sé skilgreint eða
-að það sé $\infty$.\pause
-\begin{itemize}
-\item[(i)]  Ef $0\leq\sigma<1$ þá er röðin $\sum_{n=1}^\infty a_n$
-  samleitin.\pause
-\item[(ii)]  Ef $1<\sigma\leq \infty$ þá er röðin $\sum_{n=1}^\infty a_n$
-  ósamleitin.\pause
-\item[(iii)]  Ef $\sigma=1$ þá er ekkert hægt að fullyrða 
-um hvort röðin $\sum_{n=1}^\infty a_n$
-er samleitin eða  ósamleitin, hvor tveggja kemur til greina og nota
-þarf aðrar aðferðir til að skera úr um það.
-\end{itemize}
- 
-
-
-\section*{Alsamleitni}
-
-\subsection[t]{Alsamleitni}
- \subsubsection{24.3 Skilgreining}
-Röð $\sum_{n=1}^\infty a_n$ er sögð vera {\em alsamleitin} ef röðin 
-$\sum_{n=1}^\infty |a_n|$ er samleitin.
- 
-
-\pause
-
- \subsubsection{24.4 Setning}
-Röð sem er alsamleitin er samleitin.  
- 
-
-
-\subsection[t]{Skilyrt samleitni}
- \subsubsection{24.5 Athugasemd}
-Til eru samleitnar raðir, t.d.\
-röðin  $\sum_{n=1}^\infty \frac{(-1)^{n-1}}{n}$, sem eru ekki
-alsamleitnar. 
- 
-
-\pause
-
- \subsubsection{24.6 Skilgreining}
-Samleitin röð $\sum_{n=1}^\infty a_n$ er sögð vera {\em skilyrt
-  samleitin} 
-ef röðin $\sum_{n=1}^\infty |a_n|$ er ósamleitin.
- 
-
-
-\subsection[t]{Samleitnipróf VII -- Víxlmerkjaraðapróf}
- \subsubsection{24.7 Setning}
-Gerum ráð fyrir að 
-\begin{itemize}
-\item[(i)]  $a_n\geq 0$ fyrir öll $n$ (frekar jákvæðir liðir),\pause
-\item[(ii)] $a_{n+1}\leq a_n$ fyrir öll $n$ (frekar minnkandi),\pause
-\item[(iii)]  $\lim_{n\rightarrow\infty} a_n=0$ (stefnir á 0).\pause
-\end{itemize}
-Þá er víxlmerkjaröðin 
-$$\sum_{n=1}^\infty (-1)^{n-1}a_n=a_1-a_2+a_3-a_4+\cdots$$
-samleitin.
- 
-
- \subsubsection{24.8 Fylgisetning}
-Gerum ráð fyrir að runa $\{a_n\}$ uppfylli skilyrðin sem gefin eru í
-24.7. \pause
-
-Látum $s_n$ tákna summu $n$ fyrstu liða raðarinnar 
-$\sum_{n=1}^\infty (-1)^{n-1}a_n$ og táknum summu raðarinnar með $s$.
-Þá gildir að $|s-s_n|\leq |a_{n+1}|$.
- 
-
-
-\subsection[t]{Umröðun}
- \subsubsection{24.9 Setning}
-Dæmi um umröðun á liðum raðar $\sum_{n=1}^\infty a_n$ er
-$$a_{10}+a_9+\cdots+a_1+a_{100}+a_{99}+\cdots+a_{11}+
-a_{1000}+a_{999}+\cdots.$$\pause
-\begin{itemize}
-\item[(i)]  Ef röðin $\sum_{n=1}^\infty a_n$ er alsamleitin þá skiptir
-  engu máli hvernig liðum raðarinnar er umraðað, summan verður
-  alltaf sú sama.  \pause
-\item[(ii)]  Ef röðin $\sum_{n=1}^\infty a_n$ er skilyrt samleitin
-og $L$ einhver rauntala, eða $\pm\infty$ þá er hægt að
-umraða liðum raðarinnar þannig að summan eftir umröðun verði
-$L$.
-\end{itemize}
- 
-
-\pause
-\subsubsection{Með öðrum orðum}
- Liðum skilyrt samleitinnar raðar má umraða þannig að summan getur orðið hvað sem
-er, \pause það skiptir því máli í hvaða röð við leggjum saman.
-
-
-
-
-\subsection[t]{Kvótaröð}
- \subsubsection{24.10 Setning}
-  Röðin 
+\subsubsection{Dæmi: Kvótaröð}
+Röðin 
 $$
 \sum_{n=0}^\infty a^n
 $$ 
-kallast \emph{kvótaröð}. \pause Hún er samleitin ef $-1<a<1$ og þá er 
+kallast \emph{kvótaröð}.  Hún er samleitin ef $-1<a<1$ og þá er 
 $$
 \sum_{n=0}^\infty a^n = \frac{1}{1-a}.
 $$ 
- 
 
-
-
-\subsection[t]{Kíkisröð}
- \subsubsection{24.11 Setning}
+\subsubsection{Dæmi: Kíkisröð}
 Röðin 
 $$
 \sum_{n=1}^\infty \frac{1}{n(n-1)}
 $$
-kallast \emph{kíkisröð}. \pause Hún er samleitin og
+kallast \emph{kíkisröð}.  Hún er samleitin og
 $$
 \sum_{n=1}^\infty \frac{1}{n(n-1)} =1.
 $$
 
- 
-
-
-
-\end{document}
-\lecture[25]{25. Veldaraðir}{lecture-text}
-\date{21.~nóvember 2012}
-
-
-\begin{document}
-
-\subsection
-	\maketitle
-
-
-\section*{Veldaraðir}
-\subsection[t]{Veldaraðir}
- \subsubsection{25.1 Skilgreining}  
-Röð á forminu 
-$$\sum_{n=0}^\infty a_n(x-c)^n=a_0+a_1(x-c)+a_2(x-c)^2+\cdots$$
-kallast {\em veldaröð} með {\em miðju} í punktinum $c$.
-
-
-
-\subsection[t]{Samleitnibil}
- \subsubsection{25.2 Setning.} 
-Um sérhverja veldaröð
-$\sum_{n=0}^\infty a_n(x-c)^n$ gildir eitt af þrennu:\pause
-\begin{itemize}
-\item[(i)]   Röðin er aðeins samleitin fyrir $x=c$.\pause
-\item[(ii)]  Til er jákvæð tala $R$ þannig að veldaröðin er alsamleitin
-  fyrir öll $x$ þannig að $|x-c|<R$ og ósamleitin fyrir öll $x$
-  þannig að $|x-c|>R$. \pause Mögulegt að röðin sé samleitin í öðrum eða
-  báðum punktunum $x=c-R$ og $x=c+R$, en það er líka mögulegt að röðin
-  sé ósamleitin í þeim báðum.\pause
-\item[(iii)]  Röðin er samleitin fyrir allar rauntölur $x$.
-\end{itemize}
-
-
-
-\subsection[t]{Miðja og samleitnigeisli}
- \subsubsection{25.3 Skilgreining og útlistun}
-Látum   $\sum_{n=0}^\infty a_n(x-c)^n$ vera veldaröð.\pause
-\begin{itemize}
-\item[(a)]  Talan $c$ kallast {\em miðja} eða {\em samleitnimiðja}
-  veldaraðarinnar. \pause
-\item[(b)]  Í tilviki (ii) í Setningu 25.2 er röðin alsamleitin á
-  bilinu $(c-R, c+R)$ og ósamleitin fyrir utan bilið $[c-R, c+R]$.\pause
-  
-Mögulegt er að röðin sé samleitin (alsamleitin eða skilyrt
-  samleitin)  í öðrum eða báðum punktunum $x=c-R$ og $x=c+R$ (þarf að
-  athuga sérstaklega).  \pause
-
-Talan $R$ er kölluð {\em samleitnigeisli}
-  raðarinnar.  \pause
-
-Í tilfelli 25.2(i) þegar röðin er bara samleitin fyrir
-  $x=c$ setjum við $R=0$ \pause og í tilfelli 25.2(iii) þegar röðin er
-  samleitin fyrir allar rauntölur $x$ þá setjum við $R=\infty$.\pause
-\item[(c)]  {\em Samleitnibil} veldaraðarinnar $\sum_{n=0}^\infty
-  a_n(x-c)^n$ er mengi allra gilda $x$ þannig að röðin er samleitin. \pause
-  Setning 25.2 sýnir að þetta mengi er alltaf bil.
-\end{itemize}
-
-
-
-\subsection[t]{Samleitnibil}
-\subsubsection{25.4 Athugasemd}
-\begin{itemize}
-\item Í tilfelli 25.2(i) er samleitnibilið $\{c\}$.\pause
-\item Í tilfelli 25.2(ii) eru fjórir möguleikar eftir því hvort röðin er
-samleitin í hvorugum, öðrum eða báðum punktunum $x=c-R$ og $x=c+R$.  
-Samleitnibilið getur verið \pause
-\begin{itemize}
- \item[$\bullet$] $(c-R, c+R)$,\pause
-\item[$\bullet$] $[c-R, c+R)$,\pause
-\item[$\bullet$]  $(c-R, c+R]$, \pause 
-\item[$\bullet$] $[c-R, c+R]$.\pause
-\end{itemize}
-\item Í tilfelli 25.2(iii) er samleitnibilið $(-\infty, \infty)$.
-\end{itemize}
-
-
-
-
-\subsection[t]{Samleitnipróf}
- \subsubsection{25.4 Setning}  
-Látum $\sum_{n=0}^\infty a_n(x-c)^n$ vera veldaröð.\pause
-\begin{itemize}
-\item[(i)]  \emph{Kvótapróf:}  Gerum ráð fyrir að 
-$L=\lim_{n\rightarrow\infty}\left|\frac{a_{n+1}}{a_n}\right|$ sé til
-eða $\infty$. \pause 
-
-Þá hefur veldaröðin  $\sum_{n=0}^\infty a_n(x-c)^n$
-samleitnigeisla 
-$$R=\pause \left\{\begin{array}{ll}
-\infty & \mbox{ef }L=0,\pause\\
-\frac{1}{L} & \mbox{ef }0<L<\infty,\pause\\
-0 & \mbox{ef }L=\infty.\\
-\end{array}
-\right.
-$$\pause
-\item[(ii)]  \emph{Rótarpróf:} \pause Gerum ráð fyrir að 
-$L=\lim_{n\rightarrow\infty}\sqrt[n]{|a_n|}$ sé til
-eða $\infty$. \pause 
-Þá hefur veldaröðin  $\sum_{n=0}^\infty a_n(x-c)^n$
-samleitnigeisla 
-$$R=\pause \left\{\begin{array}{ll}
-\infty & \mbox{ef }L=0,\pause\\
-\frac{1}{L} & \mbox{ef }0<L<\infty,\pause\\
-0 & \mbox{ef }L=\infty.\\
-\end{array}
-\right.
-$$
-\end{itemize}
-
-
-\subsection[t]{Setning Abels}
- \subsubsection{25.5 Setning}
-Fallið $f$ skilgreint á samleitnibili með 
-$$
-f(x)=\sum_{n=0}^\infty a_n(x-c)^n
-$$ \pause 
-er samfellt á {\bf öllu}
-samleitnibili veldaraðarinnar.  
-
-Ef samleitnigeislinn er $0<R<\infty$
-og röðin er samleitin í punktinum $x=c+R$ \pause
-þá er 
-$$\lim_{x\rightarrow (c+R)^-}f(x)=f(c+R)=\sum_{n=0}^\infty
-a_n((c+R)-c)^n=\sum_{n=0}^\infty a_nR^n.$$
-
-\pause
-
-Eins ef röðin er samleitin í punktinum $x=c-R$ þá er
-$$\lim_{x\rightarrow (c-R)^+}f(x)=f(c-R)=\sum_{n=0}^\infty
-a_n((c-R)-c)^n=\sum_{n=0}^\infty a_n(-R)^n.$$
- 
-
-
-
-\end{document}
-\lecture[26]{26. Veldaraðir -- Taylorraðir}{lecture-text}
-\date{23.~nóvember 2011}
-
-
-\begin{document}
-
-\subsection
-	\maketitle
-
-
-\section*{}
-\subsection[t]{Diffrað lið fyrir lið}
- \subsubsection{26.1 Setning}
-Látum 
-$\sum_{n=0}^\infty a_n(x-c)^n=a_0+a_1(x-c)+a_2(x-c)^2+a_3(x-c)^3+\cdots$
-vera veldaröð með miðju í $c$ og samleitnigeisla $R$. \pause
-
-Fyrir $x\in(c-R, c+R)$ skilgreinum við 
-$$
-f(x)=\sum_{n=0}^\infty a_n(x-c)^n.$$
-\pause
-
-Fallið $f$ er diffranlegt og 
-$$f'(x)=\sum_{n=1}^\infty
-na_n(x-c)^{n-1}=a_1+2a_2(x-c)+3a_3(x-c)^2+\cdots$$
-\pause og röðin fyrir $f'(x)$ er samleitin fyrir öll
-$x\in(c-R, c+R)$.
-\pause
-
-Þetta þýðir að við getum diffrað veldaraðir lið fyrir lið.
- 
-
-
-\subsection[t]{Samfelldni}
-Þar sem diffranleg föll eru samfelld þá fæst eftirfarandi.
-\pause
- \subsubsection{26.2 Fylgisetning}
-   Fallið $f$ er samfellt á $(c-R, c+R)$.
- 
-
-
-\subsection[t]{Heildað lið fyrir lið}
- \subsubsection{26.3 Setning}
-Látum 
-$\sum_{n=0}^\infty a_n(x-c)^n=a_0+a_1(x-c)+a_2(x-c)^2+a_3(x-c)^3+\cdots$
-vera veldaröð með miðju í $c$ og samleitnigeisla $R$. \pause
-\pause
-
-Fyrir $x\in(c-R, c+R)$ skilgreinum við 
-$f(x)=\sum_{n=0}^\infty a_n(x-c)^n$.
-\pause
-
-Fallið $f$ hefur stofnfall
-\begin{multline*}
-F(x)=\sum_{n=0}^\infty \frac{a_n}{n+1}(x-c)^{n+1} \\
-=a_0(x-c)+\frac{a_1}{2}(x-c)^2+\frac{a_2}{3}(x-c)^3+
-\frac{a_3}{4}(x-c)^4+\cdots
-\end{multline*}
-\pause og röðin fyrir $F(x)$  er samleitin fyrir öll
-$x\in(c-R, c+R)$.
-\pause
-
-Þetta þýðir að við getum heildað veldaraðir lið fyrir lið.
- 
-
-
-
-
-
-\subsection[t]{Tengsl $f$ við $a_n$}
- \subsubsection{26.4 Setning}
-Látum 
-$\sum_{n=0}^\infty a_n(x-c)^n=a_0+a_1(x-c)+a_2(x-c)^2+a_3(x-c)^3+\cdots$
-vera veldaröð með miðju í $c$ og samleitnigeisla $R$. \pause
-
- Fyrir
-$x\in(c-R, c+R)$ skilgreinum við 
-$$f(x)=\sum_{n=0}^\infty a_n(x-c)^n.$$
-\pause
-
-Fallið $f$ er $k$-sinnum diffranlegt fyrir $k=1, 2, 3, \ldots$ og
-$$a_k=\frac{f^{(k)}(c)}{k!}.$$
- 
-
-
-\subsection[t]{Fáguð föll}
- \subsubsection{26.5 Skilgreining}  
-Fall $f$ þannig að til er veldaröð $\sum_{n=0}^\infty a_n(x-c)^n$ með
-samleitnigeisla $R>0$ þannig að 
-$$f(x)=\sum_{n=0}^\infty a_n(x-c)^n$$
-fyrir öll $x\in(c-R, c+R)$ kallast {\em fágað} (raunfágað) í punktinum
-$c$.
- 
-
-\pause
-
-\subsubsection{26.6 Athugasemd}
- Dæmi um raunfáguð föll eru margliður, ræð föll, hornaföll, veldisföll
-og lograr.
-
-
-
-
-
-\subsection[t]{Taylorröð}
- \subsubsection{26.7 Skilgreining}
-Gerum ráð fyrir að fall $f(x)$ sé óendanlega oft diffranlegt í
-punktinum $x=c$, \pause (þ.e.a.s.~$f^{(k)}(c)$ er til fyrir $k=0, 1, 2,
-\ldots$).  
-
-\pause
-
-Veldaröðin 
-\begin{align*}
-\sum_{n=0}^\infty \frac{f^{(n)}(c)}{n!}(x-c)^n = & f(c)+f'(c)(x-c)+
-\frac{f''(c)}{2}(x-c)^2 \\ & + \frac{f'''(c)}{3!}(x-c)^3 
- + \frac{f^{(iv)}(c)}{4!}(x-c)^4 + \cdots 
-\end{align*}
-kallast {\em Taylorröð} með miðju í $x=c$ fyrir $f(x)$. \pause 
-
-Ef svo vill til að $c=0$ þá er oft talað um {\em Maclaurinröð}.
-
-
-
-\subsection[t]{Upprifjun}
- \subsubsection{26.8 Skilgreining og setning}   Taylormargliða með miðju í $c$ fyrir $f$ er
-skilgreind sem margliðan
-\begin{align*}
-	P_n(x)& =\sum_{n=0}^n \frac{f^{(k)}(c)}{n!}(x-c)^n \\
-	&=f(c)+f'(c)(x-c)+ \frac{f''(c)}{2}(x-c)^2+\cdots+\frac{f^{(n)}(c)}{n!}(x-c)^n.
-\end{align*}
-\pause 
-Skekkjan í $n$-ta stigs Taylornálgun er
-$R_n(x)=f(x)-P_n(x)$. \pause 
-
-Til er tala $X$ sem liggur á milli $c$ og $x$
-þannig að 
-$$
-R_n(x)=\frac{f^{(n+1)}(X)}{(n+1)!}(x-c)^{n+1}.
-$$
-
-
-
-\subsection[t]{Taylorröð og skekkjan}
- \subsubsection{26.9 Setning.}  Gerum ráð fyrir að $f$ sé fall sem er óendanlega
-oft diffranlegt í punktinum $c$. 
-\pause
-
-Fyrir fast gildi á $x$ þá er Taylorröðin 
-$$
-\sum_{n=0}^\infty
-\frac{f^{(n)}(c)}{n!}(x-c)^n
-$$ samleitin með summu $f(x)$ \pause ef og aðeins
-ef $$\lim_{n\rightarrow\infty}R_n(x)=0$$
-
-
-
-\subsection[t]{Tvíliðuröðin}
- \subsubsection{26.10 Setning}
-Fyrir $x$ þannig að $|x|<1$ og rauntölu $r$ gildir að \pause
-\begin{align*}
-(1+x)^r =& 1+rx+\frac{r(r-1)}{2!}x^2+
-\frac{r(r-1)(r-2)}{3!}x^3 \\ 
-&+\frac{r(r-1)(r-2)(r-3)}{4!}x^4+\cdots\\
-=& 1+ \sum_{n=1}^\infty \frac{r(r-1)(r-2)\cdots(r-n+1)}{n!}x^n.
-\end{align*}
-\pause
-\subsubsection{26.11 Athugasemd}
- Ef $r \in \N$ þá gefur summan að ofan einfaldlega stuðlanna þegar búið er að 
-margfalda upp úr svigum, og summan er því endanleg því þegar $n \geq r+1$ þá
-verða stuðlarnir 0.
-\pause
-
-Ef hins vegar $r\notin \N$ þá er enginn stuðlanna 0.
-
-
-
-
-
-\subsection[t]{Taylorraðir nokkra falla með miðju $c=0$}
- \subsubsection{26.12 Setning}{\small
-\begin{align*}
-e^x&=\sum_{n=0}^\infty\frac{x^n}{n!}
-    =1+x+\frac{x^2}{2}+\frac{x^3}{3!}
-    +\cdots
-  &\mbox{fyrir öll }x\\
-\sin x&=  \sum_{n=0}^\infty\frac{(-1)^n}{(2n+1)!}x^{2n+1}
-    =x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+\cdots
-     &\mbox{fyrir öll }x\\ 
-\cos x&=  \sum_{n=0}^\infty\frac{(-1)^n}{(2n)!}x^{2n}
-    =1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\cdots
-    &\mbox{fyrir öll }x\\
-\frac{1}{1-x}&=\sum_{n=0}^\infty x^n
-    =1+x+x^2+x^3+\cdots
-&\mbox{fyrir }-1<x<1\\
-\frac{1}{(1-x)^2}&=\sum_{n=1}^\infty nx^{n-1}
-    =1+2x+3x^2+4x^3+\cdots
-&\mbox{fyrir }-1<x<1\\
-\end{align*}}
-
-
-
-\subsection[t]{Fleiri Taylorraðir}
-\subsubsection{26.12 Setning, framhald}{\small
-\begin{align*}
-\ln(1+x)&=  \sum_{n=1}^\infty\frac{(-1)^{n-1}}{n}x^n
-    =x-\frac{x^2}{2}+\frac{x^3}{3}-\frac{x^4}{4}+\cdots
-    &\mbox{fyrir }-1<x\leq 1\\
-\tan^{-1} x&=  \sum_{n=0}^\infty\frac{(-1)^n}{2n+1}x^{2n+1}
-    =x-\frac{x^3}{3}+\frac{x^5}{5}-\frac{x^7}{7}+\cdots
-    &\mbox{fyrir }-1\leq x\leq 1\\\\
-\sinh x&=  \sum_{n=0}^\infty\frac{x^{2n+1}}{(2n+1)!}
-    =x+\frac{x^3}{3!}+\frac{x^5}{5!}+\frac{x^7}{7!}+\cdots
-    &\mbox{fyrir öll } x\\
-\cosh x&=  \sum_{n=0}^\infty\frac{x^{2n}}{(2n)!}
-    =1+\frac{x^2}{2!}+\frac{x^4}{4!}+\frac{x^6}{6!}+\cdots
-    &\mbox{fyrir öll } x\\
-\end{align*} }
- 
-
-
-\end{document}
-\lecture[27]{27. Taylorraðir}{lecture-text}
-\date{28.~nóvember 2011}
-
-
-\begin{document}
-
-\subsection
-	\maketitle
-
-
-\section*{}
-\subsection[t]{Taylorröð}
- \subsubsection{27.1 Skilgreining}
-Gerum ráð fyrir að fall $f(x)$ sé óendanlega oft diffranlegt í
-punktinum $x=c$, \pause þ.e.a.s.~$f^{(k)}(c)$ er til fyrir $k=0, 1, 2,
-\ldots$).  
-
-\pause
-
-Veldaröðin 
-\begin{align*}
-\sum_{n=0}^\infty \frac{f^{(n)}(c)}{n!}(x-c)^n &=f(c)+f'(c)(x-c)+
-\frac{f''(c)}{2}(x-c)^2+\frac{f'''(c)}{3!}(x-c)^3 \\
-& + \frac{f^{(iv)}(c)}{4!}(x-c)^4 + \cdots 
-\end{align*}
-kallast {\em Taylorröð} með miðju í $x=c$ fyrir $f(x)$. \pause 
-
-Ef svo vill til að $c=0$ þá er oft talað um {\em Maclaurinröð}.
-
-
-
-\subsection[t]{Upprifjun}
- \subsubsection{27.2 Skilgreining og setning}   Taylormargliða með miðju í $c$ fyrir $f$ er
-skilgreind sem margliðan
-\begin{align*}
-	P_n(x)& =\sum_{n=0}^n \frac{f^{(k)}(c)}{n!}(x-c)^n \\
-	&=f(c)+f'(c)(x-c)+ \frac{f''(c)}{2}(x-c)^2+\cdots+\frac{f^{(n)}(c)}{n!}(x-c)^n.
-\end{align*}
-\pause 
-Skekkjan í $n$-ta stigs Taylornálgun er
-$R_n(x)=f(x)-P_n(x)$. \pause 
-
-Til er tala $X$ sem liggur á milli $c$ og $x$
-þannig að 
-$$
-R_n(x)=\frac{f^{(n+1)}(X)}{(n+1)!}(x-c)^{n+1}.
-$$
-
-
-
-\subsection[t]{Taylorröð og skekkjan}
- \subsubsection{27.3 Setning.}  Gerum ráð fyrir að $f$ sé fall sem er óendanlega
-oft diffranlegt í punktinum $c$. 
-\pause
-
-Fyrir fast gildi á $x$ þá er Taylorröðin 
-$$
-\sum_{n=0}^\infty
-\frac{f^{(n)}(c)}{n!}(x-c)^n
-$$ samleitin með summu $f(x)$ \pause ef og aðeins
-ef $$\lim_{n\rightarrow\infty}R_n(x)=0$$
-
-
-
-\subsection[t]{Tvíliðuröðin}
- \subsubsection{27.4 Setning}
-Fyrir $x$ þannig að $|x|<1$ og rauntölu $r$ gildir að \pause
-\begin{align*}
-(1+x)^r =& 1+rx+\frac{r(r-1)}{2!}x^2+
-\frac{r(r-1)(r-2)}{3!}x^3 \\ 
-&+\frac{r(r-1)(r-2)(r-3)}{4!}x^4+\cdots\\
-=& 1+ \sum_{n=1}^\infty \frac{r(r-1)(r-2)\cdots(r-n+1)}{n!}x^n.
-\end{align*}
-\pause
-\subsubsection{27.5 Athugasemd}
- Ef $r \in \N$ þá gefur summan að ofan einfaldlega stuðlanna þegar búið er að 
-margfalda upp úr svigum, og summan er því endanleg því þegar $n \geq r+1$ þá
-verða stuðlarnir 0.
-\pause
-
-Ef hins vegar $r\notin \N$ þá er enginn stuðlanna 0.
-
-
-
-
-
-\subsection[t]{Taylorraðir nokkra falla með miðju $c=0$}
- \subsubsection{27.6 Setning}{\small
-\begin{align*}
-e^x&=\sum_{n=0}^\infty\frac{x^n}{n!}
-    =1+x+\frac{x^2}{2}+\frac{x^3}{3!}
-    +\cdots
-  &\mbox{fyrir öll }x\\
-\sin x&=  \sum_{n=0}^\infty\frac{(-1)^n}{(2n+1)!}x^{2n+1}
-    =x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+\cdots
-     &\mbox{fyrir öll }x\\ 
-\cos x&=  \sum_{n=0}^\infty\frac{(-1)^n}{(2n)!}x^{2n}
-    =1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\cdots
-    &\mbox{fyrir öll }x\\
-\frac{1}{1-x}&=\sum_{n=0}^\infty x^n
-    =1+x+x^2+x^3+\cdots
-&\mbox{fyrir }-1<x<1\\
-\frac{1}{(1-x)^2}&=\sum_{n=1}^\infty nx^{n-1}
-    =1+2x+3x^2+4x^3+\cdots
-&\mbox{fyrir }-1<x<1\\
-\end{align*}}
-
-
-
-\subsection[t]{Fleiri Taylorraðir}
-\subsubsection{27.6 Setning, framhald}{\small
-\begin{align*}
-\ln(1+x)&=  \sum_{n=1}^\infty\frac{(-1)^{n-1}}{n}x^n
-    =x-\frac{x^2}{2}+\frac{x^3}{3}-\frac{x^4}{4}+\cdots
-    &\mbox{fyrir }-1<x\leq 1\\
-\tan^{-1} x&=  \sum_{n=0}^\infty\frac{(-1)^n}{2n+1}x^{2n+1}
-    =x-\frac{x^3}{3}+\frac{x^5}{5}-\frac{x^7}{7}+\cdots
-    &\mbox{fyrir }-1\leq x\leq 1\\\\
-\sinh x&=  \sum_{n=0}^\infty\frac{x^{2n+1}}{(2n+1)!}
-    =x+\frac{x^3}{3!}+\frac{x^5}{5!}+\frac{x^7}{7!}+\cdots
-    &\mbox{fyrir öll } x\\
-\cosh x&=  \sum_{n=0}^\infty\frac{x^{2n}}{(2n)!}
-    =1+\frac{x^2}{2!}+\frac{x^4}{4!}+\frac{x^6}{6!}+\cdots
-    &\mbox{fyrir öll } x\\
-\end{align*} }
- 
-
-
-
+\subsection{Samleitnipróf fyrir raðir}
+\subsubsection{Setning}
+Ef $\lim_{n\rightarrow\infty}a_n$ er ekki til eða 
+$\lim_{n\rightarrow\infty}a_n\neq 0$  þá er röðin 
+$\sum_{n=1}^\infty a_n$ ekki samleitin.
+
+\subsubsection{Setning: Samleitnipróf I} 
+Gerum ráð fyrir að $a_n\geq 0$ fyrir allar náttúrlegar tölur $n$. 
+Röðin $\sum_{n=1}^\infty a_n$ er þá annaðhvort samleitin eða 
+ósamleitin að $\infty$ (þ.e.a.s.~hlutsummurnar $s_n=a_1+\cdots+a_n$ stefna á
+$\infty$ þegar $n$ stefnir á $\infty$.)
+
+\subsubsection{Setning: Samleitnipróf II -- Samanburðarpróf} 
+Gerum ráð fyrir að $0\leq a_n\leq b_n$ fyrir allar náttúrlegar tölur
+$n$.  
+\begin{enumerate}[(i)]
+\item Ef $\sum_{n=1}^\infty b_n$ er samleitin þá er 
+$\sum_{n=1}^\infty a_n$ líka samleitin. 
+\item Ef $\sum_{n=1}^\infty a_n$ er ósamleitin þá er 
+$\sum_{n=1}^\infty b_n$ líka ósamleitin.
+\end{enumerate}
+
+\subsubsection{Setning: Samleitnipróf III -- Heildispróf}
+Látum $f$ vera jákvætt, samfellt og minnkandi fall sem er skilgreint á
+bilinu $[1, \infty)$.   Fyrir sérhverja náttúrlega tölu $n$ setjum við
+$a_n=f(n)$.  Þá eru röðin $\sum_{n=1}^\infty a_n$ og óeiginlega
+heildið $\int_1^\infty f(x)\,dx$ annaðhvort bæði samleitin eða bæði
+ósamleitin. 
+
+\subsubsection{Fylgisetning}
+Röðin $\sum_{n=1}^\infty\frac{1}{n^{p}}$ er samleitin ef $p>1$ en 
+ósamleitin ef $p\leq 1$.
+
+\subsubsection{Setning: Samleitnipróf IV -- Markgildissamanburðarpróf}
+Gerum ráð fyrir að $a_n\geq 0$ og $b_n\geq 0$ fyrir allar náttúrlegar
+tölur $n$ og $\lim_{n\rightarrow\infty}\frac{a_n}{b_n}=L$, þar sem
+$L$ er tala eða $\infty$. 
+\begin{enumerate}[(i)]
+\item Ef $L<\infty$ og  röðin 
+$\sum_{n=1}^\infty b_n$ er samleitin þá er 
+röðin $\sum_{n=1}^\infty a_n$ líka samleitin. 
+\item Ef $L>0$ og  röðin 
+$\sum_{n=1}^\infty b_n$ er ósamleitin þá er 
+röðin $\sum_{n=1}^\infty a_n$ líka ósamleitin.
+\end{enumerate}
+
+\subsubsection{Setning: Samleitnipróf V -- Kvótapróf}
+Gerum ráð fyrir að $a_n>0$ fyrir öll $n$ og að markgildið 
+$\rho=\lim_{n\rightarrow\infty}\frac{a_{n+1}}{a_n}$ sé skilgreint eða
+að sé $\infty$.
+\begin{enumerate}[(i)]
+\item Ef $0\leq\rho<1$ þá er röðin $\sum_{n=1}^\infty a_n$ samleitin.
+\item Ef $1<\rho\leq \infty$ þá er röðin $\sum_{n=1}^\infty a_n$ ósamleitin.
+\item Ef $\rho=1$ þá er ekkert hægt að fullyrða um hvort röðin $\sum_{n=1}^\infty a_n$
+er samleitin eða  ósamleitin, hvor tveggja kemur til greina og nota þarf aðrar 
+aðferðir til að skera úr um það.
+\end{enumerate}
+
+\subsubsection{Setning: Samleitnipróf VI -- Rótarpróf}
+Gerum ráð fyrir að $a_n>0$ fyrir öll $n$ og að markgildið 
+$\sigma=\lim_{n\rightarrow\infty}\sqrt[n]{a_n}$ sé skilgreint eða
+að það sé $\infty$. 
+\begin{enumerate}[(i)]
+\item Ef $0\leq\sigma<1$ þá er röðin $\sum_{n=1}^\infty a_n$ samleitin.
+\item Ef $1<\sigma\leq \infty$ þá er röðin $\sum_{n=1}^\infty a_n$ ósamleitin.
+\item Ef $\sigma=1$ þá er ekkert hægt að fullyrða um hvort röðin $\sum_{n=1}^\infty a_n$
+er samleitin eða  ósamleitin, hvor tveggja kemur til greina og nota
+þarf aðrar aðferðir til að skera úr um það.
+\end{enumerate}
+
+\subsection{Alsamleitni}
+\subsubsection{Skilgreining}
+Röð $\sum_{n=1}^\infty a_n$ er sögð vera \emph{alsamleitin} ef röðin 
+$\sum_{n=1}^\infty |a_n|$ er samleitin.
+
+\subsubsection{Setning}
+Röð sem er alsamleitin er samleitin.  
+
+\subsubsection{Athugasemd}
+Til eru samleitnar raðir, t.d. röðin  $\sum_{n=1}^\infty \frac{(-1)^{n-1}}{n}$, sem eru ekki
+alsamleitnar. 
+
+\subsubsection{Skilgreining}
+Samleitin röð $\sum_{n=1}^\infty a_n$ er sögð vera \emph{skilyrt samleitin} 
+ef röðin $\sum_{n=1}^\infty |a_n|$ er ósamleitin.
+
+\subsubsection{Setning: Samleitnipróf VII -- Víxlmerkjaraðapróf}
+Gerum ráð fyrir að  
+\begin{enumerate}[(i)]
+\item $a_n\geq 0$ fyrir öll $n$ (frekar jákvæðir liðir),
+\item $a_{n+1}\leq a_n$ fyrir öll $n$ (frekar minnkandi),
+\item $\lim_{n\rightarrow\infty} a_n=0$ (stefnir á 0).
+\end{enumerate}
+Þá er víxlmerkjaröðin 
+$$\sum_{n=1}^\infty (-1)^{n-1}a_n=a_1-a_2+a_3-a_4+\cdots$$
+samleitin.
+
+\subsubsection{Fylgisetning}
+Gerum ráð fyrir að runa $\{a_n\}$ uppfylli skilyrðin sem gefin eru í
+24.7. 
+
+.. todo::
+  laga tilvísun
+
+Látum $s_n$ tákna summu $n$ fyrstu liða raðarinnar $\sum_{n=1}^\infty (-1)^{n-1}a_n$ 
+og táknum summu raðarinnar með $s$. Þá gildir að $|s-s_n|\leq |a_{n+1}|$.
+
+\subsubsection{Setning: Umröðun}
+Dæmi um umröðun á liðum raðar $\sum_{n=1}^\infty a_n$ er
+$$a_{10}+a_9+\cdots+a_1+a_{100}+a_{99}+\cdots+a_{11}+
+a_{1000}+a_{999}+\cdots.$$
+\begin{enumerate}[(i)]
+\item Ef röðin $\sum_{n=1}^\infty a_n$ er alsamleitin þá skiptir
+engu máli hvernig liðum raðarinnar er umraðað, summan verður alltaf sú sama.  
+\item Ef röðin $\sum_{n=1}^\infty a_n$ er skilyrt samleitin
+og $L$ einhver rauntala, eða $\pm\infty$ þá er hægt að
+umraða liðum raðarinnar þannig að summan eftir umröðun verði $L$.
+\end{enumerate}
+
+\subsubsection{Með öðrum orðum}
+Liðum skilyrt samleitinnar raðar má umraða þannig að summan getur orðið hvað sem
+er, það skiptir því máli í hvaða röð við leggjum saman.
 
 \end{document}
