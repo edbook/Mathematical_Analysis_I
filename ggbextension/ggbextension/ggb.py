@@ -13,7 +13,7 @@ def html_visit_ggb_node(self, node):
     self.body.append("<figure>")
     # ath gildi a breytum (rc, ai, sdz, ofl.)
     # snyrtilegra að nota % til að setja breytur inn
-    self.body.append("<iframe src='https://tube.geogebra.org/material/iframe/id/"+node['id']+"/width/"+node['width']+"/height/"+node['height']+"/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto' width="+node['width']+" height="+node['height']+" frameborder='0'>")
+    self.body.append("<iframe src='https://tube.geogebra.org/material/iframe/id/"+node['id']+"/width/"+node['width']+"/height/"+node['height']+"/border/888888/rc/false/ai/false/sdz/"+node['zoom_drag']+"/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto' width="+node['width']+" height="+node['height']+" frameborder='0'>")
     self.body.append("</iframe>")
     self.body.append("</figure>")
 
@@ -32,8 +32,6 @@ def tex_depart_ggb_node(self, node):
 
 class GGB(Directive):
     has_content = True
-    # verdum ad hafa 
-    # haed, breidd, id, mynd, breidd myndar
     required_arguments = 1
     optional_arguments = 0
     final_argument_whitespace = False
@@ -42,6 +40,7 @@ class GGB(Directive):
         "height": directives.unchanged,
         "img": directives.unchanged,
         "imgwidth": directives.unchanged,
+        "zoom_drag": directives.unchanged,
     }
     
     def run(self):
@@ -51,6 +50,7 @@ class GGB(Directive):
         node["height"] = self.options.get("height")
         node["img"] = self.options.get("img")
         node["imgwidth"] = self.options.get("imgwidth") 
+        node["zoom_drag"] = self.options.get("zoom_drag", "false")
         
         return [node]
 
