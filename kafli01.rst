@@ -174,28 +174,37 @@ Skilgreining
 Látum :math:`a` og :math:`b` vera rauntölur þannig að
 :math:`a<b`. Skilgreinum
 
-(i) *opið bil* :math:`(a,b)=\{x\in \mathbb{R}; a<x<b\}`
+1. *opið bil* :math:`(a,b)=\{x\in \mathbb{R}; a<x<b\}`
 
-(ii) *lokað bil* :math:`[a,b]=\{x\in \mathbb{R}; a\leq x\leq b\}`
+2. *lokað bil* :math:`[a,b]=\{x\in \mathbb{R}; a\leq x\leq b\}`
 
-(iii) *hálf opið bil* :math:`[a,b)=\{x\in \mathbb{R}; a\leq x<b\}`
+3. *hálf opið bil* :math:`[a,b)=\{x\in \mathbb{R}; a\leq x<b\}`
 
-(iv) *hálf opið bil* :math:`(a,b]=\{x\in \mathbb{R}; a< x\leq b\}`
+4. *hálf opið bil* :math:`(a,b]=\{x\in \mathbb{R}; a< x\leq b\}`
 
 Þessi bil sem er skilgreind hér fyrir ofan eru kölluð endanleg. Til eru
 fleiri gerðir af bilum:
 
-(v) *opið óendanlegt bil* :math:`(a,\infty)=\{x\in \mathbb{R}; a<x\}`
+5. *opið óendanlegt bil* :math:`(a,\infty)=\{x\in \mathbb{R}; a<x\}`
 
-(vi) *opið óendanlegt bil* :math:`(-\infty, a)=\{x\in \mathbb{R}; x<a\}`
+6. *opið óendanlegt bil* :math:`(-\infty, a)=\{x\in \mathbb{R}; x<a\}`
 
-(vii) *lokað óendanlegt bil* :math:`[a,\infty)=\{x\in \mathbb{R}; a\leq x\}`
+7. *lokað óendanlegt bil* :math:`[a,\infty)=\{x\in \mathbb{R}; a\leq x\}`
 
-(viii) *lokað óendanlegt bil* :math:`(-\infty, a]=\{x\in \mathbb{R}; x\leq a\}`
+8. *lokað óendanlegt bil* :math:`(-\infty, a]=\{x\in \mathbb{R}; x\leq a\}`
 
-(ix) *allur rauntalnaásinn* :math:`(-\infty, \infty)`.
+9. *allur rauntalnaásinn* :math:`(-\infty, \infty)`.
 
 .. todo:: Afhverju er númeringin svona skrítin?
+.. held það sé út af þemanu: letters and Roman numbers in
+    reST/Sphinx are handled by adding an appropriate class to the list
+    class (for example, <ol class="roman">) and if for whatever reason
+    your current CSS file is missing the appropriate classes, then you'll
+    just get numbers rather than letters/roman numbers.
+    Kemur allt í lagi út ef við notum venjulegar tölur í staðinn, hægt að skoða málið 
+    ef við viljum endilega hafa rómverska stafi.
+    rtd þemað virðist vera í vandræðum m. rómv. stafi sbr. http://sphinx-rtd-theme.readthedocs.org/en/latest/demo.html#enumerated-lists
+    en höndlar bókstafi og tölustafi
 
 Skilgreining
 ~~~~~~~~~~~~

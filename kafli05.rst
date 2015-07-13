@@ -2,9 +2,7 @@ Könnun falla
 ============
 
 .. todo:: 
-    laga myndir, eiga að vera hlið við hlið 
-    letrið á þeim of lítið?
-
+    stækka letur/ása á myndum? 
 Inngangur
 ---------
 
@@ -17,11 +15,14 @@ Inngangur
 Hver er munurinn?
 ~~~~~~~~~~~~~~~~~
 
-.. image:: ./myndir/kafli05/01_f1.png
-    :width:  50 %
-
-.. image:: ./myndir/kafli05/01_g1.png
-    :width:  50 %
++---------------------------------------+--------------------------------------+ 
+|.. _figa:                              |.. _figb:                             | 
+|                                       |                                      | 
+|.. image:: ./myndir/kafli05/01_f1.png  |.. image:: ./myndir/kafli05/01_g1.png | 
+|   :width: 95 %                        |   :width: 95 %                       | 
+|   :align: center                      |   :align: center                     | 
+|                                       |                                      | 
++---------------------------------------+--------------------------------------+ 
 
 Skoðum föllin tvö að ofan, þau eru augljóslega ekki eins, þannig að
 spurningin er hvernig getum við lýst því muninum á þeim?
@@ -40,11 +41,14 @@ spurningin er hvernig getum við lýst því muninum á þeim?
 Drögum sniðil
 ~~~~~~~~~~~~~
 
-.. image:: ./myndir/kafli05/01_f2.png
-    :width:  50 %
-
-.. image:: ./myndir/kafli05/01_g2.png
-    :width:  50 %
++---------------------------------------+--------------------------------------+ 
+|.. _figa:                              |.. _figb:                             | 
+|                                       |                                      | 
+|.. image:: ./myndir/kafli05/01_f2.png  |.. image:: ./myndir/kafli05/01_g2.png | 
+|   :width: 95 %                        |   :width: 95 %                       | 
+|   :align: center                      |   :align: center                     | 
+|                                       |                                      | 
++---------------------------------------+--------------------------------------+ 
 
 Ef við veljum nú tvo punkta á :math:`[A,B]` af handahófi, köllum þá
 :math:`x_1` og :math:`x_2`, og drögum línu (sniðil) í gegnum punktana á
@@ -73,11 +77,15 @@ Eins, ef :math:`g` liggur fyrir ofan sniðilinn þá gildir að
 
 .. math:: g(\alpha x_1+(1-\alpha)x_2)\geq \alpha g(x_1)+(1-\alpha)g(x_2).
 
-.. image:: ./myndir/kafli05/01_f3.png
-    :width:  50 %
 
-.. image:: ./myndir/kafli05/01_g3.png
-    :width:  50 %
++---------------------------------------+--------------------------------------+ 
+|.. _figa:                              |.. _figb:                             | 
+|                                       |                                      | 
+|.. image:: ./myndir/kafli05/01_f3.png  |.. image:: ./myndir/kafli05/01_g3.png | 
+|   :width: 95 %                        |   :width: 95 %                       | 
+|   :align: center                      |   :align: center                     | 
+|                                       |                                      | 
++---------------------------------------+--------------------------------------+ 
 
 Kúpni
 -----
@@ -114,11 +122,14 @@ Látum :math:`f:[a, b]\rightarrow {\mathbb  R}` vera fall.
 Auðkenning á kúpni með afleiðum
 -------------------------------
 
-.. image:: ./myndir/kafli05/01_f1.png
-    :width:  50 %
-
-.. image:: ./myndir/kafli05/01_g1.png
-    :width:  50 %
++---------------------------------------+--------------------------------------+ 
+|.. _figa:                              |.. _figb:                             | 
+|                                       |                                      | 
+|.. image:: ./myndir/kafli05/01_f1.png  |.. image:: ./myndir/kafli05/01_g1.png | 
+|   :width: 95 %                        |   :width: 95 %                       | 
+|   :align: center                      |   :align: center                     | 
+|                                       |                                      | 
++---------------------------------------+--------------------------------------+ 
 
 Athugasemd
 ~~~~~~~~~~
@@ -294,6 +305,27 @@ Að teikna graf falls
 --------------------
 
 .. todo:: þýða og staðfæra
+
+Uppkast að þýðingu:
+
+Þegar teikna á graf fallsins :math:`f` er gagnlegt að fara í gegnum atriðin á eftirfarandi lista:
+
+1. Ákvarðið :math:`f'` og :math:`f''`, og þáttið útkomurnar ef hægt er. 
+2. Kannið :math:`f` til að ákvarða skilgreiningarmengi þess auk eftirfarandi eiginleika:
+    (a) Lóðréttar aðfellur. (Leitið að rótum nefnara)
+    (b) Láréttar aðfellur og skáfellur. (Finnið :math:`\lim_{x \to \pm\infty}f(x)`.)
+    (c) Samhverfa (er :math: `f` jafnstætt eða oddstætt?)
+    (d) Skurðpunktar við ása (punktar með hnit :math:`(x,0)` eða :math:`(0,y)`), endapunktar ferilsins eða aðrir punktar á grafinu þar sem einfalt er að reikna út bæði hnitin.
+3. Kannið :math:`f'` til að ákvarða eftirfarandi:
+    (a) Útgildispunktar.
+    (b) Punktar þar sem :math:`f'` er ekki skilgreint (sérstöðupunktar(?), endapunktar skilgreiningarmengis :math:`f` og lóðfellur)
+    (c) Bilin þar sem :math:`f'` er jákvætt
+        og neikvætt. Það er góð hugmynd að setja þessar upplýsingar fram í töflu. Á töfluna má svo líka merkja inn niðurstöður um hvar :math:`f` er vaxandi og minnkandi og hvort útgildispunktar séu staðbundin hágildi eða lággildi.
+4. Kannið :math:`f''` til að ákvarða eftirfarandi:
+    (a) Punktar þar sem :math:`f''(x)=0`.
+    (b) Punktar þar sem :math:`f''` er ekki skilgreint (sérstöðupunktar, endapunktar skilgreiningarmengis :math:`f` og lóðfellur, e.t.v. auk fleiri punkta þar sem :math:`f'` er skilgreint en ekki :math:`f''`.)
+    (c) Bilin þar sem :math:`f''` er jákvætt og neikvætt og :math:`f` þar af leiðandi kúpt og hvelft. Hér er gagnlegt að teikna töflu.
+    (d) Beygjuskilapunktar.
 
 .. image:: ./myndir/kafli05/08_checklist.png
 

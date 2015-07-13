@@ -55,10 +55,22 @@ def beginToggle_visit(self, node):
 def beginToggle_depart(self, node):
     pass
 
+def tex_beginToggle_visit(self,node): 
+    pass
+
+def tex_beginToggle_depart(self,node):
+    pass
+
 def endToggle_visit(self,node):
     self.body.append("</div>")
 
 def endToggle_depart(self,node):
+    pass
+
+def tex_endToggle_visit(self,node): 
+    pass
+
+def tex_endToggle_depart(self,node):
     pass
 
 class BeginToggleDirective(Directive):
@@ -85,8 +97,8 @@ class EndToggleDirective(Directive):
         return [et]
 
 def setup(app):
-    app.add_node(beginToggle,html = (beginToggle_visit, beginToggle_depart))
-    app.add_node(endToggle,html = (endToggle_visit, endToggle_depart))
+    app.add_node(beginToggle,html = (beginToggle_visit, beginToggle_depart), latex = (tex_beginToggle_visit, tex_beginToggle_depart))
+    app.add_node(endToggle,html = (endToggle_visit, endToggle_depart), latex = (tex_endToggle_visit, tex_endToggle_depart))
     app.add_directive('begin-toggle', BeginToggleDirective)
     app.add_directive('end-toggle', EndToggleDirective)
 
