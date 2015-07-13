@@ -583,8 +583,12 @@ oddatölu stigi, þá er til rauntala :math:`c` þannig að :math:`P(c)=0`.
 .. todo::
     Þarf að setja sannanir undir > takk, show/hide fídus
 
-Sönnun
-~~~~~~
+.. begin-toggle::
+    :label: Sýna/fela sönnun
+
+|
+
+**Sönnun**
 
 Gerum ráð fyrir að :math:`a_n>0`. Þá er
 :math:`\lim_{x\to -\infty} P(x) = -\infty` og
@@ -596,4 +600,10 @@ Gerum ráð fyrir að :math:`a_n>0`. Þá er
 
 Ef :math:`a_n < 0` þá víxlast markgildin að ofan en röksemdafærslan er
 að öðru leyti eins.
+
+|
+
+.. end-toggle::
+
+|
 

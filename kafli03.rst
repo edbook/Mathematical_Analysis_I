@@ -50,8 +50,12 @@ Setning
 Ef fall :math:`f` er diffranlegt í punkti :math:`c` þá er :math:`f`
 samfellt í punktinum :math:`c`.
 
-Sönnun
-~~~~~~
+.. begin-toggle::
+    :label: Sýna/fela sönnun
+
+|
+
+**Sönnun**
 
 Skoðum markgildið :math:`f'(x)=\lim_{h\to 0} \frac{f(c+h)-f(c)}{h}`. Þar
 sem :math:`h\to 0` þá verður teljarinn einnig að stefna á 0. Það er
@@ -59,6 +63,11 @@ sem :math:`h\to 0` þá verður teljarinn einnig að stefna á 0. Það er
 :math:`\lim_{h \to 0} f(c+h) = f(c)`. Þetta má einnig rita
 :math:`\lim_{x \to c} f(x) = f(c)`, sem þýðir að fallið :math:`f` er
 samfellt í :math:`x=c`.
+
+.. end-toggle::
+
+|
+| 
 
 .. note::
     Fall getur verið samfellt í punkti :math:`c` án þess að það sé
@@ -399,9 +408,12 @@ Setning
 Ef fallið :math:`f` hefur staðbundið útgildi í punktinum :math:`x_0` og
 er diffranlegt þá er :math:`f'(x_0)=0`.
 
+.. begin-toggle::
+    :label: Sýna/fela sönnun
 
-Sönnun
-~~~~~~
+|
+
+**Sönnun**
 
 Gerum ráð fyrir að :math:`f` hafi staðbundið hágildi í punktinum :math:`x_0`.
 Þá er :math:`f(x_0)-f(x)\geq 0` ef :math:`x<x_0`, 
@@ -428,6 +440,11 @@ sömu. Eina leiðin til þess að það samræmist ([vinstri]) og ([haegri]) er
 að
 
 .. math:: f'(x_0) = \lim_{x\to x_0} \frac{f(x_0)-f(x)}{x_0-x} = 0.
+
+.. end-toggle::
+
+|
+|
 
 .. warning::
 
@@ -467,8 +484,12 @@ ráð fyrir að :math:`g` sé diffranlegt í öllum punktum í bilinu
 :math:`(a,b)`. Ef :math:`g(a)=g(b)` þá er til punktur :math:`c` á bilinu
 :math:`(a,b)` þannig að :math:`g'(c)=0`.
 
-Sönnun
-~~~~~~
+.. begin-toggle::
+    :label: Sýna/fela sönnun
+
+|
+
+**Sönnun**
 
 Ef :math:`g(x)=c` er fasti, þá er :math:`g'(x)=0`. Ef hins vegar
 :math:`g` er ekki fasti þá er til :math:`x \in (a,b)` þannig að
@@ -478,6 +499,11 @@ lággildislögmálinu (Setning 4.6) þá er tekur fallið :math:`g` sitt hæsta
 gildi í punkti :math:`c` á bilinu :math:`[a,b]`.Þar sem
 :math:`g(c)\geq g(x) > 0 = g(a) = g(b)` þá getur :math:`c` hvorki verið
 :math:`a` né :math:`b`.
+
+.. end-toggle
+
+|
+|
 
 .. index::
     meðalgildissetningin
