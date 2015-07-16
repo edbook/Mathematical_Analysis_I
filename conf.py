@@ -35,7 +35,8 @@ extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.ifconfig',
     'hieroglyph',
-#    'ggbextension.ggb',
+    'ggbextension.ggb',
+    'toggleblock.toggleBlock'
 ]
 
 [extensions]
