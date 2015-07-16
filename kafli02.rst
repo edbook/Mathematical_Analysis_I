@@ -197,8 +197,7 @@ g(x)\leq h(x)` fyrir öll :math:`x` á bili :math:`(b, c)` sem inniheldur
 
 Þá er :math:`\lim_{x\rightarrow a}g(x)=L`.
 
-.. todo::
-    Mynd
+.. image:: ./myndir/kafli02/04_03_klemmuregla.png
 
 
 Algeng markgildi
@@ -574,14 +573,13 @@ milli :math:`a` og :math:`b` þannig að :math:`f(c)=s`.
     :img: 10_milligildissetn.png
     :imgwidth: 8cm
 
+.. todo:: laga mynd þannig að (b,f(b)) sjáist
+
 Fylgisetning
 ~~~~~~~~~~~~
 
 Ef :math:`P(x)=a_nx^n+a_{n-1}x^{n-1}+\cdots+a_1x+a_0` er margliða af
 oddatölu stigi, þá er til rauntala :math:`c` þannig að :math:`P(c)=0`.
-
-.. todo::
-    Þarf að setja sannanir undir > takk, show/hide fídus
 
 .. begin-toggle::
     :label: Sýna/fela sönnun
