@@ -500,7 +500,7 @@ gildi í punkti :math:`c` á bilinu :math:`[a,b]`.Þar sem
 :math:`g(c)\geq g(x) > 0 = g(a) = g(b)` þá getur :math:`c` hvorki verið
 :math:`a` né :math:`b`.
 
-.. end-toggle
+.. end-toggle::
 
 |
 |
