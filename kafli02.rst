@@ -54,8 +54,11 @@ Fyrir sérhverja tölu :math:`\epsilon>0` er til tala :math:`\delta>0`
 Við segjum að talan :math:`L` sé *markgildi* :math:`f(x)` þegar
 :math:`x` stefnir á :math:`a`.
 
-.. todo::
-    Mynd/Geogebra
+.. ggb:: 1425597
+    :width: 700
+    :height: 400
+    :img: 01_markgildi.png
+    :imgwidth: 8cm
 
 .. note:: 
     Þegar athugað er hvort markgildið :math:`\lim_{x\rightarrow a} f(x)` er
@@ -92,8 +95,11 @@ Fyrir sérhverja tölu :math:`\epsilon>0` er til tala :math:`\delta>0`
 
 .. math:: a<x<a+\delta,\quad \text{ þá er } \quad |f(x)-L|<\epsilon.
 
-.. todo::
-    Mynd/Geogebra
+.. ggb:: 1425055
+    :width: 700
+    :height: 400
+    :img: 02_markfrahaegri.png
+    :imgwidth: 8cm
 
 
 Markgildi frá vinstri
@@ -126,8 +132,11 @@ Fyrir sérhverja tölu :math:`\epsilon>0` er til tala :math:`\delta>0`
 
 .. math:: a-\delta<x<a,\quad \text{ þá er } \quad |f(x)-L|<\epsilon.
 
-.. todo::
-    Mynd/Geogebra
+.. ggb:: 1424935
+    :width: 700
+    :height: 400
+    :img: 03_markfravinstri.png
+    :imgwidth: 8cm
 
 Reiknireglur fyrir markgildi
 ----------------------------
