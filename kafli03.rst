@@ -105,11 +105,17 @@ láta svo :math:`h` stefna á :math:`0`.
 Þetta gefur hallatölu snertilsins við graf fallsins í punktinum
 :math:`(a,f(a))`
 
-Snertilsins við graf fallsins er þá línan
+Snertillinn við graf fallsins í punktingum :math: `a` er þá línan
 
 .. math:: y = f'(a)(x-a) + f(a).
 
-.. todo:: Mynd/geogebra
+.. ggb:: 1425869
+    :width: 700
+    :height: 400
+    :img: ./01_05_snertill.png
+    :imgwidth: 8cm
+    :zoom_drag: true 
+
 
 Athugasemd: Hallatalan :math:`\infty` ekki leyfð
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
