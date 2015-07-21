@@ -296,7 +296,7 @@ Aðfellan er þá línan :math:`y=L`.
 
 .. image:: ./myndir/kafli05/06_arctanadfellur.png
 
-*Fallið* :math:`\arctan(x)` *hefur tvær láréttar aðfellur,* :math:`y=\frac{\pi}{2}` *og* :math:`y=\frac{\pi}{2}
+*Fallið* :math:`\arctan(x)` *hefur tvær láréttar aðfellur,* :math:`y=\frac{\pi}{2}` *og* :math:`y=\frac{-\pi}{2}`.
 
 
 Skáfella

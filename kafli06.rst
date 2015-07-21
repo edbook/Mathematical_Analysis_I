@@ -42,7 +42,8 @@ Látum :math:`f` vera fall. Skilgreinum föllin :math:`f_+` og
 
 Athugið að :math:`f(x)=f_+(x)-f_-(x)`.
 
-.. todo:: mynd
+.. image:: ./myndir/kafli06/01_fplusminus.png
+
 
 Skilgreining: Heildi falls
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -302,9 +303,7 @@ Fylgisetning
 ~~~~~~~~~~~~
 
 Látum :math:`f` vera samfellt fall skilgreint á bili :math:`I`. Þá er
-til stofnfall fyrir :math:`f` samkvæmt Setningu 15.10.
-
-.. todo:: laga ref
+til stofnfall fyrir :math:`f` samkvæmt Setningu 6.4.2.
 
 Hjálparsetning
 ~~~~~~~~~~~~~~
@@ -372,9 +371,7 @@ Svo að
 .. math:: F'(x)=f(x).
 
 Látum nú :math:`g` vera fall og skoðum fallið :math:`F\circ g`. Þá fæst
-samkvæmt keðjureglunni að
-
-.. todo:: ref í keðjur.
+samkvæmt keðjureglunni (setning 3.3.6) að
 
 .. math:: \frac{d}{dx}F(g(x))=F'(g(x))g'(x) = f(g(x))g'(x),
 
