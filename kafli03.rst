@@ -612,9 +612,8 @@ Afleiður fastafalla
 Við vitum að ef :math:`f` er fasti, það er :math:`f(x)=c`, þá er
 :math:`f'(x)=0` fyrir öll :math:`x` (Dæmi 5.6).
 
-Nú fáum við einnig eftirfarandi út úr Setningum 7.5 og 7.6.
+Nú fáum við einnig eftirfarandi út frá Setningum 3.8.2 og 3.8.3:
 
-.. todo:: laga tilvísanir
 
 Fylgisetning
 ~~~~~~~~~~~~

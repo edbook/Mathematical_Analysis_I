@@ -281,6 +281,10 @@ Fallið :math:`f` hefur *lóðrétta aðfellu* í punktinum :math:`a` ef
 
 Aðfellan er þá línan :math:`x=a`.
 
+.. image:: ./myndir/kafli05/06_lodfellur.png
+
+*Fallið* :math:`\frac{1}{sin(x)}` *hefur lóðréttar aðfellur í öllum punktum þar sem* :math:`sin(x)=0`. 
+
 Skilgreining: Lárétt aðfella
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -289,6 +293,11 @@ Fallið :math:`f` hefur *lárétta aðfellu* ef
 :math:`\lim_{x\to -\infty} f(x) = L`.
 
 Aðfellan er þá línan :math:`y=L`.
+
+.. image:: ./myndir/kafli05/06_arctanadfellur.png
+
+*Fallið* :math:`\arctan(x)` *hefur tvær láréttar aðfellur,* :math:`y=\frac{\pi}{2}` *og* :math:`y=\frac{\pi}{2}
+
 
 Skáfella
 ~~~~~~~~
@@ -299,7 +308,9 @@ Fallið :math:`f` hefur *skáfellu* ef til eru :math:`a` og :math:`b`
 
 Skáfellan er þá línan :math:`y=ax+b`.
 
-.. todo:: myndir
+.. image:: ./myndir/kafli05/06_lodogskafellur.png
+
+*Fallið* :math:`\frac{x^2}{2x-4}` *hefur skáfelluna* :math:`y=\frac{1}{2}x+1` *auk lóðréttu aðfellunnar* :math:`x=2`.
 
 Að teikna graf falls
 --------------------
