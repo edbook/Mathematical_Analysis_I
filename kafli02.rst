@@ -95,7 +95,7 @@ Fyrir sérhverja tölu :math:`\epsilon>0` er til tala :math:`\delta>0`
 
 .. math:: a<x<a+\delta,\quad \text{ þá er } \quad |f(x)-L|<\epsilon.
 
-.. ggb:: 1425055
+.. ggb:: 1427425
     :width: 700
     :height: 400
     :img: 02_markfrahaegri.png
@@ -132,7 +132,7 @@ Fyrir sérhverja tölu :math:`\epsilon>0` er til tala :math:`\delta>0`
 
 .. math:: a-\delta<x<a,\quad \text{ þá er } \quad |f(x)-L|<\epsilon.
 
-.. ggb:: 1424935
+.. ggb:: 1427429
     :width: 700
     :height: 400
     :img: 03_markfravinstri.png

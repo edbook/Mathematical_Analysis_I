@@ -39,6 +39,8 @@ extensions = [
     'toggleblock.toggleBlock'
 ]
 
+mathjax_path = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+
 [extensions]
 todo_include_todos=True
 
