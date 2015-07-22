@@ -630,8 +630,11 @@ samleitin og þá er
     Það er sama hvað tala :math:`c` er valin hér að ofan, útkoman verður
     alltaf sú sama.
 
-.. todo::
-    mynd
+.. ggb:: 1430547
+    :width: 700
+    :height: 300
+    :img: .myndir/kafli06/07_samleitidheildi.png
+    :imgwidth: 8cm
     
 Setning
 ~~~~~~~
