@@ -105,11 +105,17 @@ láta svo :math:`h` stefna á :math:`0`.
 Þetta gefur hallatölu snertilsins við graf fallsins í punktinum
 :math:`(a,f(a))`
 
-Snertilsins við graf fallsins er þá línan
+Snertillinn við graf fallsins í punktingum :math: `a` er þá línan
 
 .. math:: y = f'(a)(x-a) + f(a).
 
-.. todo:: Mynd/geogebra
+.. ggb:: 1425869
+    :width: 700
+    :height: 400
+    :img: ./01_05_snertill.png
+    :imgwidth: 8cm
+    :zoom_drag: true 
+
 
 Athugasemd: Hallatalan :math:`\infty` ekki leyfð
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -500,7 +506,7 @@ gildi í punkti :math:`c` á bilinu :math:`[a,b]`.Þar sem
 :math:`g(c)\geq g(x) > 0 = g(a) = g(b)` þá getur :math:`c` hvorki verið
 :math:`a` né :math:`b`.
 
-.. end-toggle
+.. end-toggle::
 
 |
 |
@@ -606,9 +612,8 @@ Afleiður fastafalla
 Við vitum að ef :math:`f` er fasti, það er :math:`f(x)=c`, þá er
 :math:`f'(x)=0` fyrir öll :math:`x` (Dæmi 5.6).
 
-Nú fáum við einnig eftirfarandi út úr Setningum 7.5 og 7.6.
+Nú fáum við einnig eftirfarandi út frá Setningum 3.8.2 og 3.8.3:
 
-.. todo:: laga tilvísanir
 
 Fylgisetning
 ~~~~~~~~~~~~

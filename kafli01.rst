@@ -28,6 +28,7 @@ Sett fram samtímis, en óháð, af Isaac Newton og Gottfried Leibniz
 í lok 17. aldar.
 
 .. image:: ./myndir/kafli01/01_NewtonLeibniz.jpg
+    :align: center
 
 Ítarefni 
 ~~~~~~~~
@@ -260,6 +261,7 @@ Mengið :math:`X` kallast *skilgreiningarmengi*
 :math:`f(X) = \{ f(x); x \in X \}` kallast *myndmengi* :math:`f`.
 
 .. image:: ./myndir/kafli01/02_Mynd_vorpunar.png
+    :align: center
 
 .. warning:: 
     Það er ekki víst að öll gildin í :math:`Y` séu tekin
@@ -281,7 +283,7 @@ vörpuninni :math:`f` á stakið :math:`x` og síðan vörpuninni :math:`g` á
 stakið :math:`f(x)`.
 
 .. image:: ./myndir/kafli01/02_Samskeyting.png
-
+    :align: center
 
 .. index::
     fall; átækt
@@ -321,6 +323,7 @@ samskeyting varpananna :math:`f` og :math:`f^{-1}` annars vegar og
 þ.e. \ :math:`f^{-1}\circ f=id_X` og :math:`f\circ f^{-1} = id_Y`.
 
 .. image:: ./myndir/kafli01/02_Andhverfa.png
+    :align: center
 
 .. note:: 
     Venjulega hjá okkur þá eru mengin :math:`X` og :math:`Y`
@@ -340,5 +343,6 @@ mengi allra punkta í planinu :math:`\mathbb{R}^2` af gerðinni
 :math:`(x,f(x))` þar sem :math:`x\in X`. Hér notum við oft :math:`y` í stað
 :math:`f(x)`.
 
-.. todo:: 
-    mynd
+.. image:: ./myndir/kafli01/04_07_GrafFalls.png
+    :align: center
+
