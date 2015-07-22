@@ -6,19 +6,34 @@
 Stærðfræðigreining I (STÆ104G), Háskóli Íslands, vor 2015 
 =========================================================
 
-Efnisyfirlit:
+
+.. todo::
+    **Global**:
+    
+    - setja inn nauðsynlegar undirstöður fyrir hvern kafla
+    
+    - ensk heiti í sviga á eftir skilgreiningum?
+    
+    - liti á allar (sub(sub))sections?
+    
+    - Listi yfir setningar: *index:: setning; .....*
+    
+    - Formúlublað
+    
+    - táknalisti
+
+Efnisyfirlit
+------------
 
 .. toctree::
    :maxdepth: 2
-   :numbered: 
+   :numbered:
    :glob:
 
    kafli*
 
-Atriðaorðaskrá og fleira
-========================
+.. toctree::
+	vidauki
+	todolist
 
 * :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
