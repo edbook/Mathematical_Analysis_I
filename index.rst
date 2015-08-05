@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Stærðfræðigreining I (STÆ104G), Háskóli Íslands, vor 2015 
+Stærðfræðigreining I (STÆ104G), Háskóli Íslands, haust 2015 
 =========================================================
 
 
