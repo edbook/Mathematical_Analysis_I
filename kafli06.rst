@@ -274,6 +274,8 @@ Fallið :math:`F` er samfellt á :math:`[a, b]`.
 .. index::
     undirstöðusetning stærðfræðigreiningar, fyrri hluti
    
+.. _undirstodusetning-fyrri:
+
 Setning: Undirstöðusetning stærðfræðigreiningar, fyrri hluti
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -303,7 +305,7 @@ Fylgisetning
 ~~~~~~~~~~~~
 
 Látum :math:`f` vera samfellt fall skilgreint á bili :math:`I`. Þá er
-til stofnfall fyrir :math:`f` samkvæmt Setningu 6.4.2.
+til stofnfall fyrir :math:`f` samkvæmt :ref:`Setningu 6.4.2 <undirstodusetning-fyrri>`.
 
 Hjálparsetning
 ~~~~~~~~~~~~~~
@@ -371,7 +373,7 @@ Svo að
 .. math:: F'(x)=f(x).
 
 Látum nú :math:`g` vera fall og skoðum fallið :math:`F\circ g`. Þá fæst
-samkvæmt keðjureglunni (setning 3.3.6) að
+samkvæmt :ref:`keðjureglunni <kedjuregla>` að
 
 .. math:: \frac{d}{dx}F(g(x))=F'(g(x))g'(x) = f(g(x))g'(x),
 
@@ -630,8 +632,11 @@ samleitin og þá er
     Það er sama hvað tala :math:`c` er valin hér að ofan, útkoman verður
     alltaf sú sama.
 
-.. todo::
-    mynd
+.. ggb:: 1430547
+    :width: 700
+    :height: 300
+    :img: .myndir/kafli06/07_samleitidheildi.png
+    :imgwidth: 8cm
     
 Setning
 ~~~~~~~

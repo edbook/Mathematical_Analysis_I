@@ -150,6 +150,8 @@ og massi alls vírsins er
 .. index::
     massi; plötu
 
+.. _massi-plotu:
+
 Massi plötu
 ~~~~~~~~~~~~~~~~~~
 
@@ -244,9 +246,7 @@ Massamiðjan er gefin með formúlunni
 Skilgreining: Massamiðja plötu
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Skoðum plötu af sömu gerð og í 19.2.
-
-.. todo:: laga tilvísun
+Skoðum plötu af sömu gerð og í :ref:`7.2.2 <massi-plotu>`.
 
 Vægi plötunnar um :math:`y`- og :math:`x`-ása eru gefin með formúlunum
 

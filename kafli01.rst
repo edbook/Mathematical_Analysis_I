@@ -196,17 +196,6 @@ fleiri gerðir af bilum:
 
 9. *allur rauntalnaásinn* :math:`(-\infty, \infty)`.
 
-.. todo:: Afhverju er númeringin svona skrítin?
-.. held það sé út af þemanu: letters and Roman numbers in
-    reST/Sphinx are handled by adding an appropriate class to the list
-    class (for example, <ol class="roman">) and if for whatever reason
-    your current CSS file is missing the appropriate classes, then you'll
-    just get numbers rather than letters/roman numbers.
-    Kemur allt í lagi út ef við notum venjulegar tölur í staðinn, hægt að skoða málið 
-    ef við viljum endilega hafa rómverska stafi.
-    rtd þemað virðist vera í vandræðum m. rómv. stafi sbr. http://sphinx-rtd-theme.readthedocs.org/en/latest/demo.html#enumerated-lists
-    en höndlar bókstafi og tölustafi
-
 Skilgreining
 ~~~~~~~~~~~~
 

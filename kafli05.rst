@@ -325,16 +325,16 @@ Uppkast að þýðingu:
 2. Kannið :math:`f` til að ákvarða skilgreiningarmengi þess auk eftirfarandi eiginleika:
     (a) Lóðréttar aðfellur. (Leitið að rótum nefnara)
     (b) Láréttar aðfellur og skáfellur. (Finnið :math:`\lim_{x \to \pm\infty}f(x)`.)
-    (c) Samhverfa (er :math: `f` jafnstætt eða oddstætt?)
+    (c) Samhverfa (er :math:`f` jafnstætt eða oddstætt?)
     (d) Skurðpunktar við ása (punktar með hnit :math:`(x,0)` eða :math:`(0,y)`), endapunktar ferilsins eða aðrir punktar á grafinu þar sem einfalt er að reikna út bæði hnitin.
 3. Kannið :math:`f'` til að ákvarða eftirfarandi:
     (a) Útgildispunktar.
-    (b) Punktar þar sem :math:`f'` er ekki skilgreint (sérstöðupunktar(?), endapunktar skilgreiningarmengis :math:`f` og lóðfellur)
+    (b) Punktar þar sem :math:`f'` er ekki skilgreint (sérstöðupunktar(?), endapunktar skilgreiningarmengis :math:`f` og lóðréttar aðfellur)
     (c) Bilin þar sem :math:`f'` er jákvætt
         og neikvætt. Það er góð hugmynd að setja þessar upplýsingar fram í töflu. Á töfluna má svo líka merkja inn niðurstöður um hvar :math:`f` er vaxandi og minnkandi og hvort útgildispunktar séu staðbundin hágildi eða lággildi.
 4. Kannið :math:`f''` til að ákvarða eftirfarandi:
     (a) Punktar þar sem :math:`f''(x)=0`.
-    (b) Punktar þar sem :math:`f''` er ekki skilgreint (sérstöðupunktar, endapunktar skilgreiningarmengis :math:`f` og lóðfellur, e.t.v. auk fleiri punkta þar sem :math:`f'` er skilgreint en ekki :math:`f''`.)
+    (b) Punktar þar sem :math:`f''` er ekki skilgreint (sérstöðupunktar, endapunktar skilgreiningarmengis :math:`f` og lóðréttar aðfellur, e.t.v. auk fleiri punkta þar sem :math:`f'` er skilgreint en ekki :math:`f''`.)
     (c) Bilin þar sem :math:`f''` er jákvætt og neikvætt og :math:`f` þar af leiðandi kúpt og hvelft. Hér er gagnlegt að teikna töflu.
     (d) Beygjuskilapunktar.
 

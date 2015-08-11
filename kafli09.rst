@@ -351,6 +351,8 @@ að það sé :math:`\infty`.
       tveggja kemur til greina og nota þarf aðrar aðferðir til að skera
       úr um það.
 
+.. _vixlmerkjaprof:
+
 Setning: Samleitnipróf VII – Víxlmerkjaraðapróf
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -372,9 +374,7 @@ Fylgisetning
 ~~~~~~~~~~~~
 
 Gerum ráð fyrir að runa :math:`\{a_n\}` uppfylli skilyrðin sem gefin eru
-í setningunni á undan. 
-
-.. todo:: laga tilvísun
+í setningunni á undan :ref:`(9.3.9) <vixlmerkjaprof>`. 
 
 Látum :math:`s_n` tákna summu :math:`n` fyrstu liða raðarinnar
 :math:`\sum_{n=1}^\infty (-1)^{n-1}a_n` og táknum summu raðarinnar með

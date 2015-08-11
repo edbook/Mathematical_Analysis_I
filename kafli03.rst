@@ -311,6 +311,7 @@ Finnum afleiðu margliðunnar :math:`p(x) = 4x^3-2x + 5`. Nú er
 .. index::
     keðjureglan
     
+.. _kedjuregla:
    
 Setning (Keðjureglan)
 ~~~~~~~~~~~~~~~~~~~~~
@@ -576,11 +577,15 @@ Fall :math:`f` er *stranglega minnkandi* (decreasing) á bili
 
 .. math:: f(x_1) > f(x_2).
 
+.. _vaxandieoae:
+
 Setning
 ~~~~~~~
 
 Látum :math:`f` vera diffranlegt fall. Þá er :math:`f` vaxandi þá og því
 aðeins að :math:`f' \geq 0`.
+
+.. _minnkandieoae:
 
 Setning
 ~~~~~~~
@@ -612,7 +617,7 @@ Afleiður fastafalla
 Við vitum að ef :math:`f` er fasti, það er :math:`f(x)=c`, þá er
 :math:`f'(x)=0` fyrir öll :math:`x` (Dæmi 5.6).
 
-Nú fáum við einnig eftirfarandi út frá Setningum 3.8.2 og 3.8.3:
+Nú fáum við einnig eftirfarandi út frá Setningum :ref:`3.8.2 <vaxandieoae>` og :ref:`3.8.3 <minnkandieoae>`:
 
 
 Fylgisetning

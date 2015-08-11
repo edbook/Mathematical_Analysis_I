@@ -174,6 +174,8 @@ Ef :math:`y_2(x)` er ekki fastamargfeldi af :math:`y_1(x)` þá má skrifa
 
 þar sem :math:`A` og :math:`B` eru fastar.
 
+.. _2stigs-ohlidrud:
+
 Setning
 ~~~~~~~
 
@@ -228,12 +230,10 @@ Látum :math:`y_{\rm p}(x)` vera einhverja lausn á hliðruðu jöfnunni
 
 .. math:: ay''+by'+cy=f(x).
 
-Látum :math:`y_1(x)` og :math:`y_2(x)` vera lausnir sem fást úr 21.4 á
+Látum :math:`y_1(x)` og :math:`y_2(x)` vera lausnir sem fást úr :ref:`8.3.4 <2stigs-ohlidrud>` á
 óhliðruðu jöfnunni
 
 .. math:: ay''+by'+cy=0.
-
-.. todo:: laga tilvísun
 
 Sama hvernig fastarnir :math:`A` og :math:`B` eru valdir þá er fallið
 
