@@ -1,12 +1,25 @@
 Heildun
 =======
 
+.. note::
+	**Nauðsynleg undirstaða**
+	
+	- markgildi 
+
+	- afleiður
+
+	- keðjureglan 
+
+	- reiknireglur fyrir afleiður
+
 .. index::
     heildi; jákvæðs falls
     heildi
     heildismörk
     fall; heildanlegt
     flatarmál
+
+-----
 
 Heildun
 -------
@@ -156,7 +169,7 @@ sem
 .. index::
     milligildissetning; fyrir heildi
 
-Setning (Milligildissetning fyrir heildi)
+Setning - Milligildissetning fyrir heildi
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Gerum ráð fyrir að fallið :math:`f` sé **samfellt** á bilinu
@@ -167,6 +180,8 @@ Gerum ráð fyrir að fallið :math:`f` sé **samfellt** á bilinu
 
 Það er að segja, til er punktur :math:`c` í bilinu :math:`[a, b]` þannig
 að :math:`f(c)=\bar{f}`.
+
+------
 
 Undir- og yfirsummur
 --------------------
@@ -181,7 +196,7 @@ flatarmál, til dæmis rétthyrningum.
 
 .. index::
     undirsumma
-    hildun; undirsumma
+    heildun; undirsumma
 
 Skilgreining: Undirsumma
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -206,7 +221,7 @@ táknum hana með :math:`U(n)`, það er :math:`U(n) = \sum_{k=1}^n u_k`.
     yfirsumma
     heildun; yfirsumma
 
-Skilgreining; Yfirsumma
+Skilgreining: Yfirsumma
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 Skiptum bilinu :math:`[a,b]` í :math:`n` parta. Á hverjum parti komum
@@ -235,6 +250,13 @@ fallið :math:`f` heildanlegt á :math:`[a,b]` og
 
 .. math:: I = \int_a^b f(x)\, dx.
 
+.. ggb:: pCuJwqEE
+    :width: 700
+    :height: 400
+    :img: ./03_undirogyfirsumma.png
+    :imgwidth: 8cm
+
+
 .. note::
     Við sögðum ekkert um það hvernig við skiptum bilinu :math:`[a,b]` í
     :math:`n` parta. Það má gera hvernig sem er, það er ekki nauðsynlegt að
@@ -250,8 +272,10 @@ fallið :math:`f` heildanlegt á :math:`[a,b]` og
 
 .. note::
     Einnig er mögulegt að nálga heildið með öðrum formum en rétthyrningum,
-    t.d.trapisum (sjá kafla 6.6), og hentar það hugsanlega betur í
+    t.d.trapisum, og hentar það hugsanlega betur í
     tölulegum útreikningum.
+
+-------
 
 Undirstöðusetning stærðfræðigreiningarinnar
 -------------------------------------------
@@ -290,6 +314,8 @@ fyrir öll :math:`x\in I`.
 
 .. index::
     stofnfall
+
+-------
 
 Stofnföll
 ---------
@@ -346,6 +372,8 @@ Ritháttur
 eða
 
 .. math:: \int_a^b f(x)\,dx=\left[F(x)\right]_a^b= F(b)-F(a).
+
+-------
 
 Aðferðir við að reikna stofnföll
 --------------------------------
@@ -536,6 +564,8 @@ Nánar er fjallað um stofnbrotaliðun í kafla 6.2.
     
 .. index::
     heildi; óeiginleg
+
+------
     
 Óeiginleg heildi
 ----------------
@@ -635,7 +665,7 @@ samleitin og þá er
 .. ggb:: 1430547
     :width: 700
     :height: 300
-    :img: .myndir/kafli06/07_samleitidheildi.png
+    :img: 07_samleitidheildi.png
     :imgwidth: 8cm
     
 Setning

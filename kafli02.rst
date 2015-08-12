@@ -22,6 +22,14 @@ Markgildi og samfelldni
 
     -  Formerkjafallið, :math:`sgn(x)`, P.5
 
+.. warning::
+	Þessi kafli fjallar um tvö afskaplega mikilvæg hugtök, sem eru nátengd,
+	markgildi og samfelldni. Það er nauðsynlegt fyrir nemendur að ná 
+	góðum tökum á þeim því flest hugtök í stærðfræði og hagnýtingum á stærðfræði
+	sem verða á vegi ykkar í framtíðinni byggja á þessum hugtökum.
+ 
+--------
+
 Markgildi
 ---------
 
@@ -31,10 +39,10 @@ Markgildi
 Óformleg skilgreining á markgildi
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Segjum að :math:`f(x)` *stefni á tölu* :math:`L` *þegar* :math:`x`
+Segjum að fall :math:`f(x)` *stefni á tölu* :math:`L` *þegar* :math:`x`
 *stefnir á* :math:`a`, og ritum :math:`\lim_{x\rightarrow a} f(x)=L`, ef
 við getum tryggt að :math:`f(x)` sé "eins nálægt :math:`L`" og við
-viljum bara með því að velja :math:`x` "nógu nálægt* :math:`a`".
+viljum bara með því að velja :math:`x` "nógu nálægt" :math:`a`".
 
 Skilgreining: Markgildi
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -49,7 +57,7 @@ uppfyllt:
 Fyrir sérhverja tölu :math:`\epsilon>0` er til tala :math:`\delta>0`
 þannig að um öll :math:`x` þannig að
 
-.. math:: 0<|x-a|<\delta,\quad \text{ þá er } \quad |f(x)-L|<\epsilon.
+.. math:: 0 < |x-a| < \delta,\quad \text{ þá er } \quad |f(x)-L| <\epsilon.
 
 Við segjum að talan :math:`L` sé *markgildi* :math:`f(x)` þegar
 :math:`x` stefnir á :math:`a`.
@@ -60,10 +68,13 @@ Við segjum að talan :math:`L` sé *markgildi* :math:`f(x)` þegar
     :img: 01_markgildi.png
     :imgwidth: 8cm
 
+
 .. note:: 
     Þegar athugað er hvort markgildið :math:`\lim_{x\rightarrow a} f(x)` er
     til og hvert gildi þess er þá skiptir ekki máli hvort :math:`f(a)` er
     skilgreint eða ekki.
+
+------
 
 Markgildi frá hægri
 -------------------
@@ -79,7 +90,7 @@ Gerum ráð fyrir að fall :math:`f` sé skilgreint á opnu bili
 :math:`x` *stefnir á* :math:`a` *frá hægri*, og ritum
 :math:`\lim_{x\rightarrow a^+} f(x)=L`, ef við getum tryggt að
 :math:`f(x)` sé "eins nálægt :math:`L`" og við viljum bara með því að
-velja :math:`x>a` "nógu nálægt* :math:`a`".
+velja :math:`x>a` "nógu nálægt" :math:`a`".
 
 Skilgreining (Markgildi frá hægri)
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -93,7 +104,7 @@ uppfyllt.
 Fyrir sérhverja tölu :math:`\epsilon>0` er til tala :math:`\delta>0`
 þannig að um öll :math:`x` þannig að
 
-.. math:: a<x<a+\delta,\quad \text{ þá er } \quad |f(x)-L|<\epsilon.
+.. math:: a<x<a+\delta,\quad \text{ þá er } \quad |f(x)-L| <\epsilon.
 
 .. ggb:: 1427425
     :width: 700
@@ -101,6 +112,7 @@ Fyrir sérhverja tölu :math:`\epsilon>0` er til tala :math:`\delta>0`
     :img: 02_markfrahaegri.png
     :imgwidth: 8cm
 
+------
 
 Markgildi frá vinstri
 ---------------------
@@ -116,7 +128,7 @@ Gerum ráð fyrir að fall :math:`f` sé skilgreint á opnu bili
 :math:`x` *stefnir á* :math:`a` *frá vinstri*, og ritum
 :math:`\lim_{x\rightarrow a^-} f(x)=L`, ef við getum tryggt að
 :math:`f(x)` sé "eins nálægt* :math:`L`" og við viljum bara með því að
-velja :math:`x<a` "nógu nálægt* :math:`a`".
+velja :math:`x<a` "nógu nálægt" :math:`a`".
 
 Skilgreining – Markgildi frá vinstri
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -130,13 +142,15 @@ uppfyllt.
 Fyrir sérhverja tölu :math:`\epsilon>0` er til tala :math:`\delta>0`
 þannig að um öll :math:`x` þannig að
 
-.. math:: a-\delta<x<a,\quad \text{ þá er } \quad |f(x)-L|<\epsilon.
+.. math:: a-\delta<x<a,\quad \text{ þá er } \quad |f(x)-L| <\epsilon.
 
 .. ggb:: 1427429
     :width: 700
     :height: 400
     :img: 03_markfravinstri.png
     :imgwidth: 8cm
+
+------
 
 Reiknireglur fyrir markgildi
 ----------------------------
@@ -192,6 +206,36 @@ Gerum ráð fyrir að :math:`\lim_{x\rightarrow a}f(x)=L` og að
     markgildin :math:`\lim_{x\to a} f(x)` og :math:`\lim_{x\to a} g(x)`
     einnig til.
 
+.. begin-toggle::
+    :label: Fela/Sýna sönnun á lið 1.
+
+Við viljum sýna að fyrir :math:`\epsilon>0` þá sé til :math:`\delta>0`
+þannig að ef :math:`|x-a|<\delta` þá sé :math:`|f(x)+g(x) - (L+M)|<\epsilon`.
+Látum nú :math:`\epsilon>0` vera gefið, þá fæst af 
+:math:`\lim_{x\to a} f(x) = L` að til er :math:`\delta_1>0` þannig að 
+
+.. math::  |f(x)-L| < \frac \epsilon 2 
+
+ef :math:`|x-a|<\delta_1`. Eins fæst af :math:`\lim_{x \to a} g(x)=M`
+að til er :math:`\delta_2` þannig að 
+
+.. math::  |g(x)-M| < \frac \epsilon 2 
+
+ef :math:`|x-a|<\delta_2`. 
+
+Ef við setjum :math:`\delta = \min\{\delta_1,\delta_2\}` þá þýðir það að 
+öll :math:`x` sem uppfylla :math:`|x-a|<\delta` uppfylla einnig 
+:math:`|x-a|<\delta_1` og :math:`|x-a|<\delta_2`. Þá gefur þríhyrningsójafnan 
+okkur að fyrir svona :math:`x` þá er
+
+.. math:: 
+	|f(x)+g(x) - (L+M)| = |f(x)-L + g(x)-M| \\
+	< |f(x)-L| + |g(x)-M| < \frac \epsilon 2 + \frac \epsilon 2 = \epsilon,
+
+sem er það sem við vildum sýna.
+
+.. end-toggle::
+
 .. index::
     klemmureglan
     
@@ -208,13 +252,41 @@ g(x)\leq h(x)` fyrir öll :math:`x` á bili :math:`(b, c)` sem inniheldur
 
 .. image:: ./myndir/kafli02/04_03_klemmuregla.png
 
+.. begin-toggle:: 
+    :label: Fela/Sýna sönnun
+
+**Sönnun**
+   
+Látum :math:`\epsilon>0` vera gefið. Við viljum sýna að þá sé til :math:`\delta>0` þannig
+að :math:`|g(x)-L|<\epsilon` fyrir öll :math:`x` sem uppfylla :math:`|x-a|<\delta`.
+
+Þetta má líka skrifa svona: 
+Við viljum sýna að þá sé til :math:`\delta>0` þannig
+að :math:`L-\epsilon<g(x)<L+\epsilon` fyrir öll :math:`x` sem uppfylla :math:`a-\delta < x<a+\delta`.
+
+Við vitum nú að þar sem :math:`\lim_{x\to a} f(x) = L` þá er til :math:`\delta_1` 
+þannig að :math:`L-\epsilon<f(x)<L+\epsilon` fyrir öll :math:`x` sem uppfylla :math:`a-\delta_1 < x<a+\delta_1`.
+
+Eins þá fæst af :math:`\lim_{x\to a} h(x) = L` að til er :math:`\delta_2` 
+þannig að :math:`L-\epsilon<g(x)<L+\epsilon` fyrir öll :math:`x` sem uppfylla :math:`a-\delta_2 < x<a+\delta_2`.
+
+Setjum nú :math:`\delta = \min\{\delta_1,\delta_2\}` og athugum að það þýðir að fyrir sérhvert :math:`x` sem
+uppfyllir :math:`a-\delta < x < a+\delta` uppfyllir einnig :math:`a-\delta_1 < x<a+\delta_1` 
+og :math:`a-\delta_2 < x<a+\delta_2`. Þá gefur :math:`f(x)\leq g(x)\leq h(x)` að 
+
+.. math:: L-\epsilon<f(x) \leq g(x) \leq h(x) < L+\epsilon.
+
+Þar með er :math:`L-\epsilon < g(x) < L+\epsilon` og þá höfum við sýnt að 
+:math:`\lim_{x\to a} g(x) = L`. 
+
+.. end-toggle::
+
+------------
 
 Algeng markgildi
 ----------------
 
-.. todo::
-    Myndir og nokkrar sannanir
-
+.. todo:: myndir og sannanir
 
 Sýnidæmi
 ~~~~~~~~
@@ -225,6 +297,20 @@ Sýnidæmi
 
 (iii) :math:`\lim_{x \to a} |x| = |a|`
 
+.. begin-toggle::
+	:label: Fela/sýna ábendingar
+
+Til að sanna þetta þá er best að teikna mynd til að átta sig á því hvernig
+föllin haga sér. Svo má velja
+
+(i) :math:`\delta` sem hvað sem er.
+
+(ii) :math:`\delta = \epsilon`.
+
+(iii) :math:`\delta=\epsilon`.
+
+
+.. end-toggle::
 
 Sýnidæmi – Markgildi með sínus
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -256,7 +342,8 @@ Sýnidæmi – Markgildi með tölugildisfallinu
 
       .. math:: \lim_{x\to 0} \frac x{|x|} \quad \text{er ekki til}
 
-      
+------      
+
 Markgildi þegar x stefnir á óendanlegt
 --------------------------------------
 
@@ -313,8 +400,10 @@ uppfyllt:
 Fyrir sérhverja tölu :math:`\epsilon>0` er til tala :math:`R`
 þannig að um öll :math:`x<R` gildir að :math:`|f(x)-L|<\epsilon`.
 
+------
+
 Óendanlegt sem markgildi
------------------------------------------------
+------------------------
 
 .. index::
     markgildi; óendanlegt sem markgildi
@@ -384,8 +473,12 @@ að um öll :math:`x` þannig að
     samfelldni
     samfelldni; í punkti
 
+-------
+
 Samfelldni
 ----------
+
+Hér skilgreinum við og skoðum seinna mikilvæga atriðið í þessum kafla.
 
 .. index::
     innri punktur
@@ -485,6 +578,8 @@ og Setningu 3.15.
 .. index::
     samfelldni; frá hægri/vinstri
 
+-------
+
 Hægri/vinstri samfelldni
 ------------------------
 
@@ -540,6 +635,8 @@ hægri/vinstri í jaðarpunktum skilgreingarmengisins, eftir því sem við á.
     Ef fall er samfellt á opnu bili :math:`(a,b)`, og ef :math:`a<c<d<b`, þá
     er fallið einnig samfellt á bilinu :math:`[c,d]`.
 
+-------
+
 Eiginleikar samfelldra falla
 ----------------------------
 
@@ -578,11 +675,9 @@ milli :math:`a` og :math:`b` þannig að :math:`f(c)=s`.
 
 .. ggb:: zEQQcGcQ
     :width: 700
-    :height: 500
+    :height: 400
     :img: 10_milligildissetn.png
     :imgwidth: 8cm
-
-.. todo:: laga mynd þannig að (b,f(b)) sjáist
 
 Fylgisetning
 ~~~~~~~~~~~~

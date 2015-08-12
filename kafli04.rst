@@ -1,6 +1,13 @@
 Torræð föll
 ===========
 
+.. note::
+	**Nauðsynleg undirstaða**
+	
+	- hornaföllin
+
+	- andhverf föll
+
 Náttúrlegi logrinn
 ------------------
 
@@ -21,6 +28,13 @@ Látum :math:`A_{x_0}` tákna flatarmál svæðisins sem afmarkast af
    -A_x & \mbox{ef }0<x<1.
    \end{array}
    \right.
+
+.. ggb:: j2UHkvOM
+    :width: 700
+    :height: 400
+    :img: 01_ln.png
+    :imgwidth: 8cm
+    :zoom_drag: false
 
 Setning
 ~~~~~~~

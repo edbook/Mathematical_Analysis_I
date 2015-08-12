@@ -3,11 +3,20 @@ Afleiður
 .. note::
     **Nauðsynleg undirstaða**
     
-    - todo
+    - markgildi
+
+    - samfelldni
+
+    - samskeytingar falla
+
+    - andhverf föll
+
+    - hornaföll
+
+------
     
 .. index::
     afleiða
-
     
 Skilgreining á afleiðu
 ----------------------
@@ -69,7 +78,7 @@ samfellt í :math:`x=c`.
 |
 | 
 
-.. note::
+.. warning::
     Fall getur verið samfellt í punkti :math:`c` án þess að það sé
     diffranlegt í :math:`c`.
 
@@ -105,7 +114,7 @@ láta svo :math:`h` stefna á :math:`0`.
 Þetta gefur hallatölu snertilsins við graf fallsins í punktinum
 :math:`(a,f(a))`
 
-Snertillinn við graf fallsins í punktingum :math: `a` er þá línan
+Snertillinn við graf fallsins í punktingum :math:`a` er þá línan
 
 .. math:: y = f'(a)(x-a) + f(a).
 
@@ -120,13 +129,13 @@ Snertillinn við graf fallsins í punktingum :math: `a` er þá línan
 Athugasemd: Hallatalan :math:`\infty` ekki leyfð
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Við leyfum ekki að :math:`f'(a) = \infty`. Samanber
+Við leyfum ekki :math:`f'(a) = \infty`. Samanber
 :math:`f(x) = x^{\frac 13}` í :math:`a=0`,
 
 .. math::
 
    \lim_{h \to 0} \frac{f(0+h)-f(0)}h = 
-       \lim_{h \to 0} \frac{h^{\frac 13}}h = 
+	\lim_{h \to 0} \frac{h^{\frac 13}}h = 
        \lim_{h \to 0} h^{-\frac 23} = \infty.
 
 Hér ætti því jafna snertilsins að vera :math:`x=0`.
@@ -136,6 +145,8 @@ Hér ætti því jafna snertilsins að vera :math:`x=0`.
 Við viljum að snertillinn sé nálgun við graf fallsins fyrir :math:`x` nálægt
 :math:`a`, lóðrétt lína er gagnslaus nálgun því hún er ekki skilgreind sem 
 fall af :math:`x`.
+
+-------
 
 Útvíkkun fyrir lokuð bil
 ------------------------
@@ -230,8 +241,12 @@ vegar
 
 sem sýnir að fallið er ekki diffranlegt frá hægri í :math:`x=0`.
 
+--------
+
 Reiknireglur
 ------------
+
+.. _`Setning 3.3.1`:
 
 Setning
 ~~~~~~~
@@ -269,6 +284,8 @@ Nokkrar afleiður
 (iii) :math:`\frac{d}{dx} x^2 = \lim_{h\to 0} \frac{x^2+2xh+h^2-x^2}h
       = \lim_{h\to 0} \frac{2xh + h^2}h = \lim_{h\to 0} 2x+h= 2x`
 
+.. _`Setning 3.3.3`:
+
 Setning
 ~~~~~~~
 
@@ -290,10 +307,10 @@ Afleiður margliða
 ~~~~~~~~~~~~~~~~~
 
 Með því að nota setningarnar að ofan þá eigum við ekki í neinum
-vandræðum með að diffra margliður. Setning [setn:diffreglur] (i) segir
+vandræðum með að diffra margliður. `Setning 3.3.1`_ (i) segir
 að við getum diffrað hvern lið fyrir sig, liður (iii) í sömu setningu
 segir að við getum tekið fastana fram fyrir afleiðuna og loks segir
-setning [setn:diff:sub:`x`\ n] hvernig við diffrum :math:`x^n`.
+setning `Setning 3.3.3`_ hvernig við diffrum :math:`x^n`.
 
 Dæmi
 ~~~~
@@ -313,7 +330,7 @@ Finnum afleiðu margliðunnar :math:`p(x) = 4x^3-2x + 5`. Nú er
     
 .. _kedjuregla:
    
-Setning (Keðjureglan)
+Setning - Keðjureglan
 ~~~~~~~~~~~~~~~~~~~~~
 
 Gerum ráð fyrir að :math:`f` og :math:`g` séu föll þannig að :math:`g`
@@ -321,6 +338,9 @@ er diffranlegt í :math:`x` og :math:`f` er diffranlegt í :math:`g(x)`.
 Þá er samskeytingin :math:`f\circ g` diffranleg í :math:`x` og
 
 .. math:: (f\circ g)'(x) = f'(g(x))\cdot g'(x).
+
+--------
+
    
 Hærri afleiður
 --------------
@@ -328,7 +348,7 @@ Hærri afleiður
 Skilgreining
 ~~~~~~~~~~~~
 
-Látum :math:`f` vera fall. Afleiðan :math:`f'` er fall sem skilgreint er
+Látum :math:`f` vera fall. *Afleiðan* :math:`f'` er fall sem skilgreint er
 í öllum punktum þar sem :math:`f` er diffranlegt.
 
 Ef fallið :math:`f'` er diffranlegt í punkti :math:`x` þá er afleiða
@@ -346,8 +366,11 @@ Dæmi
 ~~~~
 
 Ef :math:`f(x)  = 3x^2`, þá er
-:math:`f'(x) = 3\frac{d}{dx}x^2 = 3\cdot 2x = 6x` og
-:math:`f''(x) = 6 \frac{d}{dx} x = 6`.
+.. math:: f'(x) = 3\frac{d}{dx}x^2 = 3\cdot 2x = 6x 
+
+og
+
+.. math:: f''(x) = 6 \frac{d}{dx} x = 6.
 
 Ritháttur
 ~~~~~~~~~
@@ -383,6 +406,10 @@ og almennt :math:`n`-tu afleiðuna
     afar sjaldgæft að :math:`f''''` sé notað til að tákna fjórðu afleiðu
     :math:`f` og mun algengara að nota :math:`f^{(4)}`.
 
+------
+
+.. _utgildi:
+
 Útgildi
 -------
 
@@ -390,6 +417,7 @@ og almennt :math:`n`-tu afleiðuna
     útgildi
     útgildi; hágildi
     útgildi; lággildi
+
 
 Skilgreining
 ~~~~~~~~~~~~
@@ -458,8 +486,9 @@ að
     Þó að :math:`f'(a)=0` þá er ekki víst að :math:`a` sé útgildi.
 
     Til dæmis þá hefur fallið :math:`f(x) = x^3` ekkert staðbundið útgildi
-    en :math:`f'(x) = 3x^2`, þ.e. \ :math:`f'(0) = 0`.
+    þrátt fyrir að :math:`f'(0) = 0` (athugið að :math:`f'(x) = 3x^2`).
 
+----------
 
 Hornaföll og afleiður þeirra
 ----------------------------
@@ -477,11 +506,15 @@ Setning
 
 (v)   :math:`\displaystyle\frac{d}{dx}\tan x=\frac{1}{\cos^2 x}=1+\tan^2 x`
 
+--------
+
 Meðalgildissetningin
 --------------------
 
 .. index::
     setning Rolle
+
+.. _rolle: 
     
 Setning Rolle
 ~~~~~~~~~~~~~
@@ -525,6 +558,36 @@ að
 
 .. math:: \frac{f(b)-f(a)}{b-a}=f'(c).
 
+.. begin-toggle::
+	:label: Sýna/fela sönnun
+
+**Sönnun**
+
+Skilgreinum nýtt fall 
+
+.. math:: g(x)=f(x)-\left(f(a)+ \frac{f(b)-f(a)}{b-a}(x-a)\right).
+
+Athugið að :math:`g` er bara :math:`f` mínu línan sem liggur í gegnum 
+:math:`(a,f(a))` og :math:`(b,f(b))`. Þetta þýðir að :math:`g` er diffranlegt
+og að :math:`g(a)=g(b)=0`. Þá gefur rolle_ að til er :math:`c` þannig að
+:math:`g'(c)=0`. 
+
+Nú er 
+
+.. math:: 
+	g'(x) = f'(x) - \left(0+\frac{f(b)-f(a)}{b-a}(1-0)\right)
+	= f'(x) - \frac{f(b)-f(a)}{b-a}
+
+þannig að
+
+.. math:: 0 = g'(c) = f'(c) - \frac{f(b)-f(a)}{b-a},
+
+eða
+
+.. math:: f'(c) = \frac{f(b)-f(a)}{b-a}.
+
+.. end-toggle::
+
 Með öðrum orðum
 ~~~~~~~~~~~~~~~
 
@@ -543,6 +606,8 @@ auk þess ráð fyrir að fyrir allar tölur :math:`x` í :math:`(a,b)` sé
 :math:`g'(x)\neq 0`. Þá er til tala :math:`c\in (a,b)` þannig að
 
 .. math:: \frac{f(b)-f(a)}{g(b)-g(a)}=\frac{f'(c)}{g'(c)}.
+
+----------
 
 Vaxandi og minnkandi föll
 -------------------------
@@ -615,17 +680,15 @@ Afleiður fastafalla
 ~~~~~~~~~~~~~~~~~~~
 
 Við vitum að ef :math:`f` er fasti, það er :math:`f(x)=c`, þá er
-:math:`f'(x)=0` fyrir öll :math:`x` (Dæmi 5.6).
+:math:`f'(x)=0` fyrir öll :math:`x`.
 
 Nú fáum við einnig eftirfarandi út frá Setningum :ref:`3.8.2 <vaxandieoae>` og :ref:`3.8.3 <minnkandieoae>`:
-
-
-Fylgisetning
-~~~~~~~~~~~~
 
 Ef :math:`f` er diffranlegt fall á bili :math:`I` sem er þannig að
 :math:`f'(x) = 0` á :math:`I`, þá er :math:`f` fasti,
 þ.e. \ :math:`f(x) = c` fyrir öll :math:`x\in I`.
+
+----------
 
 Fólgin diffrun
 --------------
@@ -643,7 +706,7 @@ við einnig diffrað jöfnu hringsins beint með aðstoð keðjureglunnar,
 .. math::
 
    \begin{aligned}
-   \frac{d}{dx}(x^2+y^2) &=& \frac{d}{dx} 0 \\
+   \frac{d}{dx}(x^2+y^2) &=& \frac{d}{dx} 1\\
        2x + 2y\frac{dy}{dx} &=& 0\\
        y\frac{dy}{dx} &=& -x\\
        \frac{dy}{dx} &=& -\frac xy.\end{aligned}
@@ -680,17 +743,40 @@ Vinnulag
 
 (ii)    Einangrum :math:`y'`
 
-(iii)   Skiptum :math:`y` fyrir :math:`f(x)`.
+(iii)   Skiptum :math:`y` út fyrir :math:`f(x)`.
 
-Setning (Hagnýting á fólginni diffrun)
+Setning - Hagnýting á fólginni diffrun
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Ef :math:`n` og :math:`m` eru heilar tölur þá er
 
 .. math:: \frac{d}{dx} x^{\frac nm} = \frac nm x^{\frac nm -1}.
 
-.. todo:: 
-    Sönnun
+.. begin-toggle:: 
+    :label: Sýna/fela sönnun
+
+**Sönnun**
+
+Punktar á grafi fallsins :math:`x^{n/m}` ákvarðast af jöfnunni :math:`y=x^{n/m}`, það er
+:math:`y^m = x^n`. Skilgreinum því 
+
+.. math:: F(x,y) = x^n-y^m
+
+Sjáum að þá er :math:`\frac d{dx} F(x,y) = nx^{n-1}` og 
+:math:`\frac d{dy} F(x,y) = -my^{m-1}`. Þá fæst að 
+
+.. math:: 
+
+   \begin{aligned}
+   \frac {d}{dx} x^{\frac nm} &= \frac {d}{dx} y = 
+   - \frac{n x^{n-1}}{-m y^{m-1}} = 
+   \frac{n x^{n-1}}{m (x^{\frac nm})^{m-1}} \\
+   &= \frac nm x^{(n-1) - \frac nm(m-1)} 
+   = \frac nm x^{n-1-n+\frac nm} = x^{\frac nm -1}. \end{aligned}
+
+.. end-toggle::
+
+------
 
 Andhverf föll
 -------------
@@ -780,7 +866,7 @@ punktinum :math:`x` og
 
 .. math:: \left(f^{-1}\right)'(x)=\frac{1}{f'(f^{-1}(x))}
 
-
+--------
 
 Línulegar nálganir
 ------------------
@@ -821,8 +907,8 @@ tala :math:`X \in (a,x)` þannig að
 
 .. math:: E_1(x)=\frac{f''(X)}{2}(x-a)^2.
 
-Fylgisetning (Skekkjumat fyrir línulegar nálganir)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Skekkjumat fyrir línulegar nálganir
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Gerum ráð fyrir að :math:`f''(t)` sé skilgreint fyrir öll :math:`t` í
 opnu bili sem inniheldur bæði :math:`a` og :math:`x`. Gerum enn fremur
@@ -841,13 +927,15 @@ sem gefur að
    f(a)+f'(a)(x-a)+\frac{m}{2}(x-a)^2\leq f(x) 
    \leq f(a)+f'(a)(x-a)+\frac{M}{2}(x-a)^2.
 
+------
+
 Taylormargliður
 ---------------
 
 Línuleg nálgun á falli er ekkert annað en nálgun með fyrsta stigs
 margliðu.
 
-Spurningin er því hvort hægt sé að nota margliður af hærra stigi, og fá
+Spurningin er því hvort hægt sé að nota margliður af hærra stigi og fá
 þá betri nálgun?
 
 Hvernig er 0. stigs nálgun á falli?
@@ -878,8 +966,8 @@ táknaður með
 
 .. math:: E_n(x)=f(x)-P_n(x).
 
-Setning (Skekkjumat)
-~~~~~~~~~~~~~~~~~~~~
+Skekkjumat fyrir Taylor margliður
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Gerum ráð fyrir að :math:`n+1`-afleiðan :math:`f^{(n+1)}(t)` sé
 skilgreind fyrir öll :math:`t` í opnu bili sem inniheldur bæði :math:`a`
@@ -958,6 +1046,8 @@ Gerum ráð fyrir að :math:`Q_n(x)` sé margliða af stigi ekki hærra en
 
 .. index::
     regla l’Hôpital
+
+------
 
 Regla l’Hôpital
 ---------------

@@ -1,6 +1,8 @@
 Tölur og föll
 =============
 
+-------
+
 Inngangur
 ---------
 
@@ -20,12 +22,13 @@ til tíma)
 
 -  Rúmfræði; flatarmál, rúmmál, lengd, massamiðja
 
--  Hagnýtingar; hagfræði, stofnstærðir, hámörkun/lágmörkun
+-  Hagnýtingar; hagfræði, stofnstærðir, hámörkun/lágmörkun, hreyfikerfi, hitaflæði
 
 -  Stærðfræði; markgildi, hermun, jafnvægisástand
 
-Sett fram samtímis, en óháð, af Isaac Newton og Gottfried Leibniz
-í lok 17. aldar.
+Sett fram samtímis, en óháð, af 
+`Isaac Newton <http://www.visindavefur.is/svar.php?id=1635>`__ og 
+`Gottfried Leibniz <http://www.visindavefur.is/svar.php?id=59920>`__ í lok 17. aldar.
 
 .. image:: ./myndir/kafli01/01_NewtonLeibniz.jpg
     :align: center
@@ -33,8 +36,8 @@ Sett fram samtímis, en óháð, af Isaac Newton og Gottfried Leibniz
 Ítarefni 
 ~~~~~~~~
 
-Fyrir nánari útlistun á hugtökunum sem við fjöllum um þá er hægt að skoða
-auk kennslubókarinnar
+Fyrir nánari útlistun á hugtökunum sem við fjöllum um þá er hægt að skoða,
+auk kennslubókarinnar,
 
 -  `http://stæ.is <http://stae.is>`__ (hugtakasafn og orðaskrá)
 
@@ -52,7 +55,6 @@ Forrit
 -  WolframAlpha http://www.wolframalpha.com
 
 -  Matlab http://www.mathworks.com  
-
    (sjá https://notendur.hi.is/~jonasson/matlab/)
 
 -  Octave http://www.gnu.org/software/octave/ (opið og ókeypis, svipað og Matlab)
@@ -88,6 +90,8 @@ definitely is the answer. I think the problem, to be quite honest with
 you, is that you’ve never actually known what the question is.”*
 
 -Douglas Adams, The Hitchhiker's Guide to the Galaxy 
+
+---------
 
 Tölur
 -----
@@ -217,6 +221,8 @@ tölur :math:`a<b` sem eru í menginu :math:`A` gildir að ef :math:`a<x<b`
 
     .. math:: |x-a| < \eta.
 
+------
+
 Föll
 ----
 
@@ -332,6 +338,9 @@ mengi allra punkta í planinu :math:`\mathbb{R}^2` af gerðinni
 :math:`(x,f(x))` þar sem :math:`x\in X`. Hér notum við oft :math:`y` í stað
 :math:`f(x)`.
 
-.. image:: ./myndir/kafli01/04_07_GrafFalls.png
-    :align: center
+.. ggb:: 1468111
+    :width: 700
+    :height: 400
+    :img: ./04_Graf_falls.png
+    :zoom_drag: false 
 

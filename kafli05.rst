@@ -1,8 +1,19 @@
 Könnun falla
 ============
 
-.. todo:: 
-    stækka letur/ása á myndum? 
+.. note::
+	**Nauðsynleg undirstaða**
+	
+	- vaxandi/minnkandi föll
+
+	- afleiður
+
+	- útgildi
+
+	- ójöfnur
+
+-------
+
 Inngangur
 ---------
 
@@ -15,14 +26,14 @@ Inngangur
 Hver er munurinn?
 ~~~~~~~~~~~~~~~~~
 
-+---------------------------------------+--------------------------------------+ 
-|.. _figa:                              |.. _figb:                             | 
-|                                       |                                      | 
-|.. image:: ./myndir/kafli05/01_f1.png  |.. image:: ./myndir/kafli05/01_g1.png | 
-|   :width: 95 %                        |   :width: 95 %                       | 
-|   :align: center                      |   :align: center                     | 
-|                                       |                                      | 
-+---------------------------------------+--------------------------------------+ 
++----------------------------------------+---------------------------------------+ 
+| .. _figa:                              | .. _figb:                             | 
+|                                        |                                       | 
+| .. image:: ./myndir/kafli05/01_f1.png  | .. image:: ./myndir/kafli05/01_g1.png | 
+|    :width: 95%                         |    :width: 95%                        | 
+|    :align: center                      |    :align: center                     | 
+|                                        |                                       | 
++----------------------------------------+---------------------------------------+ 
 
 Skoðum föllin tvö að ofan, þau eru augljóslega ekki eins, þannig að
 spurningin er hvernig getum við lýst því muninum á þeim?
@@ -41,22 +52,26 @@ spurningin er hvernig getum við lýst því muninum á þeim?
 Drögum sniðil
 ~~~~~~~~~~~~~
 
-+---------------------------------------+--------------------------------------+ 
-|.. _figa:                              |.. _figb:                             | 
-|                                       |                                      | 
-|.. image:: ./myndir/kafli05/01_f2.png  |.. image:: ./myndir/kafli05/01_g2.png | 
-|   :width: 95 %                        |   :width: 95 %                       | 
-|   :align: center                      |   :align: center                     | 
-|                                       |                                      | 
-+---------------------------------------+--------------------------------------+ 
++----------------------------------------+---------------------------------------+ 
+| .. _figa:                              | .. _figb:                             | 
+|                                        |                                       | 
+| .. image:: ./myndir/kafli05/01_f2.png  | .. image:: ./myndir/kafli05/01_g2.png | 
+|    :width: 95 %                        |    :width: 95 %                       | 
+|    :align: center                      |    :align: center                     | 
+|                                        |                                       | 
++----------------------------------------+---------------------------------------+ 
+
 
 Ef við veljum nú tvo punkta á :math:`[A,B]` af handahófi, köllum þá
 :math:`x_1` og :math:`x_2`, og drögum línu (sniðil) í gegnum punktana á
-grafum :math:`f` og :math:`g` þá sjáum við að sniðillinn lendir fyrir
+gröfum :math:`f` og :math:`g` þá sjáum við að sniðillinn lendir fyrir
 neðan :math:`g` en ofan :math:`f`.
 
-Sérhvern punkt á milli :math:`x_1` og :math:`x_2`, getum við skrifað
-:math:`\alpha x_1 + (1-\alpha)x_2`, :math:`\alpha \in [0,1]`. Þá er
+Athugum nú að sérhvern punkt á milli :math:`x_1` og :math:`x_2`, getum við skrifað
+:math:`\alpha x_1 + (1-\alpha)x_2`, :math:`\alpha \in [0,1]`. En :math:`\alpha=0`
+gefur :math:`x_2` og :math:`\alpha=1` gefur :math:`x_1`. 
+
+Þá er
 :math:`y`-hnit punktsins á sniðlinum með þetta :math:`x`-hnit gefið með
 
 .. math:: \alpha f(x_1) + (1-\alpha) f(x_2), \qquad \alpha \in [0,1],
@@ -78,14 +93,23 @@ Eins, ef :math:`g` liggur fyrir ofan sniðilinn þá gildir að
 .. math:: g(\alpha x_1+(1-\alpha)x_2)\geq \alpha g(x_1)+(1-\alpha)g(x_2).
 
 
-+---------------------------------------+--------------------------------------+ 
-|.. _figa:                              |.. _figb:                             | 
-|                                       |                                      | 
-|.. image:: ./myndir/kafli05/01_f3.png  |.. image:: ./myndir/kafli05/01_g3.png | 
-|   :width: 95 %                        |   :width: 95 %                       | 
-|   :align: center                      |   :align: center                     | 
-|                                       |                                      | 
-+---------------------------------------+--------------------------------------+ 
++----------------------------------------+---------------------------------------+ 
+| .. _figa:                              | .. _figb:                             | 
+|                                        |                                       | 
+| .. image:: ./myndir/kafli05/01_f3.png  | .. image:: ./myndir/kafli05/01_g3.png | 
+|    :width: 95 %                        |    :width: 95 %                       | 
+|    :align: center                      |    :align: center                     | 
+|                                        |                                       | 
++----------------------------------------+---------------------------------------+ 
+
+.. ggb:: JEABXuMZ
+    :width: 700
+    :height: 350
+    :img: myndir/kafli05/01_kupni.png
+    :imgwidth: 8cm
+    :zoom_drag: false 
+
+-----
 
 Kúpni
 -----
@@ -119,17 +143,19 @@ Látum :math:`f:[a, b]\rightarrow {\mathbb  R}` vera fall.
     Hér erum við komin með hugtak sem getur útskýrt muninn á myndunum í byrjun
     kaflans, :math:`f` er kúpt og :math:`g` er hvelft.
 
+-----
+
 Auðkenning á kúpni með afleiðum
 -------------------------------
 
-+---------------------------------------+--------------------------------------+ 
-|.. _figa:                              |.. _figb:                             | 
-|                                       |                                      | 
-|.. image:: ./myndir/kafli05/01_f1.png  |.. image:: ./myndir/kafli05/01_g1.png | 
-|   :width: 95 %                        |   :width: 95 %                       | 
-|   :align: center                      |   :align: center                     | 
-|                                       |                                      | 
-+---------------------------------------+--------------------------------------+ 
++----------------------------------------+---------------------------------------+ 
+| .. _figa:                              | .. _figb:                             | 
+|                                        |                                       | 
+| .. image:: ./myndir/kafli05/01_f1.png  | .. image:: ./myndir/kafli05/01_g1.png | 
+|    :width: 95 %                        |    :width: 95 %                       | 
+|    :align: center                      |    :align: center                     | 
+|                                        |                                       | 
++----------------------------------------+---------------------------------------+ 
 
 Athugasemd
 ~~~~~~~~~~
@@ -180,10 +206,12 @@ Fyrir tvídiffranlegt fall :math:`g` þá er eftirfarandi jafngilt
 
 
 .. warning::
-    Fall þarf eru ekki alltaf annað hvort kúpt eða hvelft alls staðar. Alveg
+    Föll eru ekki alltaf annað hvort kúpt eða hvelft alls staðar. Alveg
     eins og það eru til föll sem eru sums staðar vaxandi og sums staðar
     minnkandi, þá eru mörg föll sums staðar kúpt og sums staðar hveld, til
     dæmis hornaföllin.
+
+-------
 
 Beygjuskilapunktar
 ------------------
@@ -208,7 +236,7 @@ Ef fallið :math:`f` er tvídiffranlegt þá er punkturinn :math:`x_0`
 beygjuskilapunktur fallsins :math:`f` ef og aðeins ef
 :math:`f''(x_0) =0` og :math:`f''` skiptir um formerki í :math:`x_0`.
 
-.. image:: ./myndir/kafli05/05_beygjuskilapunktur.png
+.. image:: ./myndir/kafli05/04_beygjuskilapunktur.png
 
 
 .. index:: 
@@ -220,8 +248,9 @@ beygjuskilapunktur fallsins :math:`f` ef og aðeins ef
 Hvar á að leita útgilda
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Sjá kafla 3 fyrir skilgreinginu á útgildi.
-.. todo::  Búa til tilvísun milli kafla
+:ref:`utgildi`  skoðuðum við í kafla 3.5, en nú ætlum við að skoða
+hvernig önnur afleiðan nýtist til að finna og flokka útgildi.
+
 Punktar sem koma til greina fyrir staðbundin útgildi falls :math:`f` eru
 
 (i)   punktar :math:`x_0` þar sem :math:`f'(x_0)=0`,
@@ -312,24 +341,22 @@ Skáfellan er þá línan :math:`y=ax+b`.
 
 *Fallið* :math:`\frac{x^2}{2x-4}` *hefur skáfelluna* :math:`y=\frac{1}{2}x+1` *auk lóðréttu aðfellunnar* :math:`x=2`.
 
+---------
+
 Að teikna graf falls
 --------------------
 
-.. todo:: þýða og staðfæra
-
-Uppkast að þýðingu:
-
 Þegar teikna á graf fallsins :math:`f` er gagnlegt að fara í gegnum atriðin á eftirfarandi lista:
 
-1. Ákvarðið :math:`f'` og :math:`f''`, og þáttið útkomurnar ef hægt er. 
+1. Ákvarðið :math:`f'` og :math:`f''` og þáttið útkomurnar ef hægt er. 
 2. Kannið :math:`f` til að ákvarða skilgreiningarmengi þess auk eftirfarandi eiginleika:
     (a) Lóðréttar aðfellur. (Leitið að rótum nefnara)
     (b) Láréttar aðfellur og skáfellur. (Finnið :math:`\lim_{x \to \pm\infty}f(x)`.)
     (c) Samhverfa (er :math:`f` jafnstætt eða oddstætt?)
     (d) Skurðpunktar við ása (punktar með hnit :math:`(x,0)` eða :math:`(0,y)`), endapunktar ferilsins eða aðrir punktar á grafinu þar sem einfalt er að reikna út bæði hnitin.
 3. Kannið :math:`f'` til að ákvarða eftirfarandi:
-    (a) Útgildispunktar.
-    (b) Punktar þar sem :math:`f'` er ekki skilgreint (sérstöðupunktar(?), endapunktar skilgreiningarmengis :math:`f` og lóðréttar aðfellur)
+    (a) Útgildispunkta.
+    (b) Punktar þar sem :math:`f'` er ekki skilgreint (sérstöðupunktar, endapunktar skilgreiningarmengis :math:`f` og lóðréttar aðfellur)
     (c) Bilin þar sem :math:`f'` er jákvætt
         og neikvætt. Það er góð hugmynd að setja þessar upplýsingar fram í töflu. Á töfluna má svo líka merkja inn niðurstöður um hvar :math:`f` er vaxandi og minnkandi og hvort útgildispunktar séu staðbundin hágildi eða lággildi.
 4. Kannið :math:`f''` til að ákvarða eftirfarandi:
@@ -338,7 +365,7 @@ Uppkast að þýðingu:
     (c) Bilin þar sem :math:`f''` er jákvætt og neikvætt og :math:`f` þar af leiðandi kúpt og hvelft. Hér er gagnlegt að teikna töflu.
     (d) Beygjuskilapunktar.
 
-.. image:: ./myndir/kafli05/08_checklist.png
+-------
 
 .. index:: 
     útgildisverkefni
@@ -349,9 +376,9 @@ Uppkast að þýðingu:
 Markmiðið
 ~~~~~~~~~
 
-Þessi verkefni sem við skoðum snúast um það að finna fall fyrir stærð
-sem við höfum áhuga á (verð, rúmmál, lengd,...) og hámarka/lágmarka
-hana.
+Útgildiserkefni snúast um það að hámarka/lágmarka tiltekna stærð, t.d. 
+verð, rúmmál, lengd, ... . Þá þarf að finna (helst diffranlegt) fall fyrir stærðina
+sem við höfum áhuga á hámarka/lágmarka en þó með þeim skorðum sem vandamálið setur okkur.
 
 Til þess að þetta sé mögulegt má fallið bara vera háð einni breytu og
 það þarf helst að vera diffranlegt.
@@ -390,11 +417,14 @@ Dæmi: Gosdós
 Hvert er hagkvæmasta formið á sívalningslaga gosdós?
 
 .. image:: ./myndir/kafli05/09_cylinder.png
+    :align: center
+
 
 Dæmi: Kassi
 ~~~~~~~~~~~
 
-Hver er stærsti (mesta rúmmálið) loklausi kassinn sem hægt er búa til úr
+Hvernig er stærsti (mesta rúmmálið) loklausi kassinn sem hægt er búa til úr
 örk sem er :math:`12 \times 12`?
 
 .. image:: ./myndir/kafli05/09_kassi.png
+    :align: center
