@@ -43,8 +43,8 @@ def beginToggle_visit(self, node):
                    'label': node.get('label'), 
                    }
 
-    divheader = ("""<div class="admonition note"><a href="javascript:showhide(document.getElementById('{divname}'))">"""
-                 """{label}</a><br />"""
+    divheader = ("""<div class="admonition note"><p class="first admonition-title"><a href="javascript:showhide(document.getElementById('{divname}'))">"""
+                 """{label}</a></p>"""
                  '''<div id="{divname}" style="display: {startdisplay}"><br/>'''
                  ).format(**fill_header)
 

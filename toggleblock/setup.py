@@ -11,7 +11,7 @@ requires = ['Sphinx>=0.6', 'setuptools']
 
 
 setup(name='toggleblock',
-      version='0.4',
+      version='0.5',
       description='Sphinx extension',
       author='Solrun Einarsdottir',
       author_email='solrun.einarsdottir@gmail.com',
