@@ -1,4 +1,5 @@
 This module defines two directives, 'begin-toggle' and 'end-toggle', to make a section that can be toggled to be shown/hidden.
+The section will have the same style as a note admonition (background color etc)
 
     .. begin-toggle::
     
@@ -19,6 +20,6 @@ Toggleable section
 Installation
 ============
 python(3) setup.py build
-sudo python(3) setup.py install
+sudo python(3) setup.py install  OR  python(3) setup.py install --user
 
 add 'toggleblock.toggleBlock' to extensions list in conf.py
