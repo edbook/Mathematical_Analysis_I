@@ -43,9 +43,9 @@ def beginToggle_visit(self, node):
                    'label': node.get('label'), 
                    }
 
-    divheader = ("""<a href="javascript:showhide(document.getElementById('{divname}'))">"""
+    divheader = ("""<div class="admonition note"><a href="javascript:showhide(document.getElementById('{divname}'))">"""
                  """{label}</a><br />"""
-                 '''<div id="{divname}" style="display: {startdisplay}">'''
+                 '''<div id="{divname}" style="display: {startdisplay}"><br/>'''
                  ).format(**fill_header)
 
     header = js_showhide + divheader
@@ -62,7 +62,7 @@ def tex_beginToggle_depart(self,node):
     pass
 
 def endToggle_visit(self,node):
-    self.body.append("</div>")
+    self.body.append("</div></div>")
 
 def endToggle_depart(self,node):
     pass
