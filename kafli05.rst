@@ -4,13 +4,19 @@ Könnun falla
 .. note::
 	**Nauðsynleg undirstaða**
 	
-	- vaxandi/minnkandi föll
+	- :ref:`vaxandi/minnkandi föll <vaxandiminnkandi>`
 
-	- afleiður
+	- :ref:`afleiður <afleidur>`
 
-	- útgildi
+	- :ref:`útgildi <utgildi>`
 
 	- ójöfnur
+
+
+*"The Guide says there is an art to flying", said Ford, "or rather a knack. 
+The knack lies in learning how to throw yourself at the ground and miss."*
+
+\- Douglas Adams, Life, the Universe and Everything
 
 -------
 
@@ -21,7 +27,7 @@ Inngangur
     **Frávik frá bókinni**
 
     Það sem á eftir kemur er eitt af fáum atriðum þar sem mín nálgun og
-    skilgreiningar eru frábrugðnar þeim í bókinni.
+    skilgreiningar eru frábrugðnar þeim í kennslubókinni eftir Adams.
 
 Hver er munurinn?
 ~~~~~~~~~~~~~~~~~
@@ -36,7 +42,7 @@ Hver er munurinn?
 +----------------------------------------+---------------------------------------+ 
 
 Skoðum föllin tvö að ofan, þau eru augljóslega ekki eins, þannig að
-spurningin er hvernig getum við lýst því muninum á þeim?
+spurningin er hvernig getum við lýst muninum á þeim?
 
 Þau hugtök sem við höfum skoðað hingað til geta ekki greint á milli
 þessara falla:
@@ -47,13 +53,15 @@ spurningin er hvernig getum við lýst því muninum á þeim?
 
 (iii) Þau hafa bæði hágildi í :math:`A` og lággildi í :math:`B`
 
-(iv)  Þau eru bæði minnkandi (neikvæð afleiða)
+(iv)  Þau eru bæði samfelld og diffranleg
+
+(v)  Þau eru bæði minnkandi (neikvæð afleiða)
 
 Drögum sniðil
 ~~~~~~~~~~~~~
 
 +----------------------------------------+---------------------------------------+ 
-| .. _figa:                              | .. _figb:                             | 
+| .. _figa2:                             | .. _figb2:                            | 
 |                                        |                                       | 
 | .. image:: ./myndir/kafli05/01_f2.png  | .. image:: ./myndir/kafli05/01_g2.png | 
 |    :width: 95 %                        |    :width: 95 %                       | 
@@ -67,8 +75,9 @@ Ef við veljum nú tvo punkta á :math:`[A,B]` af handahófi, köllum þá
 gröfum :math:`f` og :math:`g` þá sjáum við að sniðillinn lendir fyrir
 neðan :math:`g` en ofan :math:`f`.
 
-Athugum nú að sérhvern punkt á milli :math:`x_1` og :math:`x_2`, getum við skrifað
-:math:`\alpha x_1 + (1-\alpha)x_2`, :math:`\alpha \in [0,1]`. En :math:`\alpha=0`
+Athugum nú að sérhvern punkt á milli :math:`x_1` og :math:`x_2` getum við skrifað á 
+forminu 
+:math:`\alpha x_1 + (1-\alpha)x_2`, þar sem :math:`\alpha \in [0,1]`. En :math:`\alpha=0`
 gefur :math:`x_2` og :math:`\alpha=1` gefur :math:`x_1`. 
 
 Þá er
@@ -82,19 +91,19 @@ gefur :math:`x_2` og :math:`\alpha=1` gefur :math:`x_1`.
 
 á myndinni fyrir :math:`g`.
 
-Ef :math:`f` liggur fyrir neðan sniðilinn þá þýðir það að fallgildi
+Ef graf :math:`f` liggur fyrir neðan sniðilinn þá þýðir það að fallgildi
 :math:`f` í punktunum :math:`\alpha x_1 + (1-\alpha)x_2` liggur fyrir
 neðan punktinum á sniðlinum, það er
 
 .. math:: f(\alpha x_1+(1-\alpha)x_2)\leq \alpha f(x_1)+(1-\alpha)f(x_2).
 
-Eins, ef :math:`g` liggur fyrir ofan sniðilinn þá gildir að
+Eins, ef graf :math:`g` liggur fyrir ofan sniðilinn þá gildir að
 
 .. math:: g(\alpha x_1+(1-\alpha)x_2)\geq \alpha g(x_1)+(1-\alpha)g(x_2).
 
 
 +----------------------------------------+---------------------------------------+ 
-| .. _figa:                              | .. _figb:                             | 
+| .. _figa3:                             | .. _figb3:                            | 
 |                                        |                                       | 
 | .. image:: ./myndir/kafli05/01_f3.png  | .. image:: ./myndir/kafli05/01_g3.png | 
 |    :width: 95 %                        |    :width: 95 %                       | 
@@ -105,9 +114,9 @@ Eins, ef :math:`g` liggur fyrir ofan sniðilinn þá gildir að
 .. ggb:: JEABXuMZ
     :width: 700
     :height: 350
-    :img: myndir/kafli05/01_kupni.png
-    :imgwidth: 8cm
     :zoom_drag: false 
+    :img: 01_kupni.png
+    :imgwidth: 12cm
 
 -----
 
@@ -119,19 +128,19 @@ Kúpni
     fall; kúpt
     fall; hvelft
 
-Skilgreining
-~~~~~~~~~~~~
+Skilgreining: Kúpt/hvelft
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Látum :math:`f:[a, b]\rightarrow {\mathbb  R}` vera fall.
 
-(i)  Segjum að fallið :math:`f` sé *kúpt* (e. convex, concave up) ef um
+(i)  Segjum að fallið :math:`f` sé :hover:`kúpt*,kúpt fall` ef um
      alla punkta :math:`x_1, x_2\in [a, b]` og sérhverja tölu
      :math:`0\leq
      \alpha\leq 1` gildir að
 
      .. math:: f(\alpha x_1+(1-\alpha)x_2)\leq \alpha f(x_1)+(1-\alpha)f(x_2).
 
-(ii) Segjum að fallið :math:`f` sé *hvelft* (e. concave, concave down)
+(ii) Segjum að fallið :math:`f` sé :hover:`hvelft,hvelft fall`
      ef um alla punkta :math:`x_1, x_2\in [a, b]` og sérhverja tölu
      :math:`0\leq
      \alpha\leq 1` gildir að
@@ -188,6 +197,7 @@ Fyrir tvídiffranlegt fall :math:`f` þá er eftirfarandi jafngilt
 
 (iii) :math:`f'' \geq 0`
 
+.. todo::  Sönnun
 Setning
 ~~~~~~~
 
@@ -208,8 +218,8 @@ Fyrir tvídiffranlegt fall :math:`g` þá er eftirfarandi jafngilt
 .. warning::
     Föll eru ekki alltaf annað hvort kúpt eða hvelft alls staðar. Alveg
     eins og það eru til föll sem eru sums staðar vaxandi og sums staðar
-    minnkandi, þá eru mörg föll sums staðar kúpt og sums staðar hveld, til
-    dæmis hornaföllin.
+    minnkandi, þá eru mörg föll sums staðar kúpt og sums staðar hveld.
+    Þetta á til dæmis við um hornaföllin.
 
 -------
 
@@ -221,8 +231,8 @@ Beygjuskilapunktar
 Skilgreining
 ~~~~~~~~~~~~
 
-Punktur :math:`(x_0, f(x_0))` er sagður vera *beygjuskilapunktur*
-(e. inflection point) grafsins :math:`y=f(x)` ef
+Punktur :math:`(x_0, f(x_0))` er sagður vera :hover:`beygjuskilapunktur,hverfipunktur`
+grafsins :math:`y=f(x)` ef
 
 (i)  grafið hefur snertilínu í :math:`x_0`, og
 
@@ -237,6 +247,8 @@ beygjuskilapunktur fallsins :math:`f` ef og aðeins ef
 :math:`f''(x_0) =0` og :math:`f''` skiptir um formerki í :math:`x_0`.
 
 .. image:: ./myndir/kafli05/04_beygjuskilapunktur.png
+	:align: center
+	:width: 12cm
 
 
 .. index:: 
@@ -308,11 +320,13 @@ Fallið :math:`f` hefur *lóðrétta aðfellu* í punktinum :math:`a` ef
 :math:`\lim_{x\to a^-} f(x) = \pm \infty` og/eða
 :math:`\lim_{x\to a^+} f(x) = \pm \infty`.
 
-Aðfellan er þá línan :math:`x=a`.
+  Aðfellan er þá línan :math:`x=a`.
 
 .. image:: ./myndir/kafli05/06_lodfellur.png
+	:align: center
+	:width: 12cm
 
-*Fallið* :math:`\frac{1}{sin(x)}` *hefur lóðréttar aðfellur í öllum punktum þar sem* :math:`sin(x)=0`. 
+*Fallið* :math:`\frac{1}{\sin(x)}` *hefur lóðréttar aðfellur í öllum punktum þar sem* :math:`\sin(x)=0`. 
 
 Skilgreining: Lárétt aðfella
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -324,6 +338,8 @@ Fallið :math:`f` hefur *lárétta aðfellu* ef
 Aðfellan er þá línan :math:`y=L`.
 
 .. image:: ./myndir/kafli05/06_arctanadfellur.png
+	:align: center
+	:width: 12cm
 
 *Fallið* :math:`\arctan(x)` *hefur tvær láréttar aðfellur,* :math:`y=\frac{\pi}{2}` *og* :math:`y=\frac{-\pi}{2}`.
 
@@ -338,10 +354,18 @@ Fallið :math:`f` hefur *skáfellu* ef til eru :math:`a` og :math:`b`
 Skáfellan er þá línan :math:`y=ax+b`.
 
 .. image:: ./myndir/kafli05/06_lodogskafellur.png
+	:align: center
+	:width: 12cm
 
 *Fallið* :math:`\frac{x^2}{2x-4}` *hefur skáfelluna* :math:`y=\frac{1}{2}x+1` *auk lóðréttu aðfellunnar* :math:`x=2`.
 
 ---------
+
+.. only:: latex
+
+    .. raw:: latex
+
+        \newpage
 
 Að teikna graf falls
 --------------------
@@ -353,7 +377,7 @@ Að teikna graf falls
     (a) Lóðréttar aðfellur. (Leitið að rótum nefnara)
     (b) Láréttar aðfellur og skáfellur. (Finnið :math:`\lim_{x \to \pm\infty}f(x)`.)
     (c) Samhverfa (er :math:`f` jafnstætt eða oddstætt?)
-    (d) Skurðpunktar við ása (punktar með hnit :math:`(x,0)` eða :math:`(0,y)`), endapunktar ferilsins eða aðrir punktar á grafinu þar sem einfalt er að reikna út bæði hnitin.
+    (d) Skurðpunktar við ása (punktar með hnit :math:`(x,0)` eða :math:`(0,y)`), endapunktar skilgreiningamengisins eða aðrir punktar á grafinu þar sem einfalt er að reikna út bæði hnitin.
 3. Kannið :math:`f'` til að ákvarða eftirfarandi:
     (a) Útgildispunkta.
     (b) Punktar þar sem :math:`f'` er ekki skilgreint (sérstöðupunktar, endapunktar skilgreiningarmengis :math:`f` og lóðréttar aðfellur)
@@ -362,10 +386,15 @@ Að teikna graf falls
 4. Kannið :math:`f''` til að ákvarða eftirfarandi:
     (a) Punktar þar sem :math:`f''(x)=0`.
     (b) Punktar þar sem :math:`f''` er ekki skilgreint (sérstöðupunktar, endapunktar skilgreiningarmengis :math:`f` og lóðréttar aðfellur, e.t.v. auk fleiri punkta þar sem :math:`f'` er skilgreint en ekki :math:`f''`.)
-    (c) Bilin þar sem :math:`f''` er jákvætt og neikvætt og :math:`f` þar af leiðandi kúpt og hvelft. Hér er gagnlegt að teikna töflu.
+    (c) Bilin þar sem :math:`f''` er jákvætt og neikvætt og :math:`f` þar af leiðandi kúpt og hvelft. Hér er gagnlegt að útbúa töflu.
     (d) Beygjuskilapunktar.
 
 -------
+
+
+.. raw:: latex
+
+    \newpage
 
 .. index:: 
     útgildisverkefni
@@ -376,7 +405,7 @@ Að teikna graf falls
 Markmiðið
 ~~~~~~~~~
 
-Útgildiserkefni snúast um það að hámarka/lágmarka tiltekna stærð, t.d. 
+Útgildisverkefni snúast um það að hámarka eða lágmarka tiltekna stærð, t.d. 
 verð, rúmmál, lengd, ... . Þá þarf að finna (helst diffranlegt) fall fyrir stærðina
 sem við höfum áhuga á hámarka/lágmarka en þó með þeim skorðum sem vandamálið setur okkur.
 
@@ -389,13 +418,13 @@ okkur upp.
 Að leysa útgildisvandamál
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Sjá einnig bls. 259 (238 í 6. útgáfu) í kennslubók.
+Sjá einnig bls. 260 (8. útg.), 259 (7. útg.) eða 238 (6. útg.) í kennslubókinni.
 
 (i)    Lesið vandamálið vandlega og áttið ykkur á því hvert það er og
        hvað á að finna.
 
 (ii)   Teiknið mynd ef mögulegt er, hún gefur oft upplýsingar um skorður
-       sem hjálpa okkur við að útbúa fallið.
+       sem hjálpa okkur að útbúa fallið.
 
 (iii)  Skilgreinið aukabreytur.
 
@@ -417,7 +446,8 @@ Dæmi: Gosdós
 Hvert er hagkvæmasta formið á sívalningslaga gosdós?
 
 .. image:: ./myndir/kafli05/09_cylinder.png
-    :align: center
+	:align: center
+	:height: 7cm
 
 
 Dæmi: Kassi
@@ -427,4 +457,5 @@ Hvernig er stærsti (mesta rúmmálið) loklausi kassinn sem hægt er búa til �
 örk sem er :math:`12 \times 12`?
 
 .. image:: ./myndir/kafli05/09_kassi.png
-    :align: center
+	:align: center
+	:width: 12cm

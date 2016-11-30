@@ -37,13 +37,14 @@ extensions = [
     'sphinx.ext.ifconfig',
 #    'hieroglyph',
     'ggbextension.ggb',
+    'hoverrole.hoverrole',
     'toggleblock.toggleBlock'
 ]
 
 mathjax_path = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
 
 [extensions]
-todo_include_todos=True
+todo_include_todos=False
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -221,6 +222,18 @@ html_show_copyright = False
 htmlhelp_basename = 'StrfrigreiningIdoc'
 
 
+# -- Options for HTML Slide output ---------------------------------------------------
+
+slide_theme = 'slides2'
+slide_theme_options = {'custom_css':'custom.css'}
+
+#slide_link_html_to_slides = not on_rtd
+#slide_link_html_sections_to_slides = not on_rtd
+#slide_relative_path = "./slides/"
+#
+#slide_link_to_html = True
+#slide_html_relative_path = "../"
+
 # -- Options for LaTeX output ---------------------------------------------
 
 latex_elements = {
@@ -249,13 +262,13 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  ('index', 'StaeI.tex', u'Stærðfræðigreining I',
+  ('index', 'StaeI.tex', u'Stærðfræðigreining I (STÆ104G)',
    u'Benedikt Steinar Magnússon', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
 # the title page.
-latex_logo  = '_static/hi_horiz_raunvisindadeild.png'
+latex_logo  = '_static/hi_vnvs_horiz_raunvisindadeild.jpg'
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
 # not chapters.
@@ -265,7 +278,7 @@ latex_logo  = '_static/hi_horiz_raunvisindadeild.png'
 #latex_show_pagerefs = False
 
 # If true, show URL addresses after external links.
-#latex_show_urls = False
+latex_show_urls = True
 
 # Documents to append as an appendix to all manuals.
 #latex_appendices = []
