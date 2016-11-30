@@ -11,7 +11,7 @@ requires = ['Sphinx>=0.6', 'setuptools']
 
 
 setup(name='ggbextension',
-      version='0.3',
+      version='1.0',
       description='Sphinx geogebra applet extension',
       author='Solrun Einarsdottir',
       author_email='solrun.einarsdottir@gmail.com',
