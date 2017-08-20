@@ -1,0 +1,367 @@
+\select@language {icelandic}
+\contentsline {chapter}{\numberline {1}T\IeC {\"o}lur og f\IeC {\"o}ll}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Inngangur}{3}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Grunnhugmyndin}{3}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}\IeC {\'I}tarefni}{3}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Forrit}{4}{subsection.1.1.3}
+\contentsline {section}{\numberline {1.2}T\IeC {\"o}lur}{4}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Skilgreining: T\IeC {\"o}lur}{4}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Sm\IeC {\'\i }\IeC {\dh }i rauntalna}{4}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Frumsendan um efra mark}{4}{subsection.1.2.3}
+\contentsline {section}{\numberline {1.3}Bil}{5}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Skilgreining: Bil}{5}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Skilgreining: Bil}{5}{subsection.1.3.2}
+\contentsline {section}{\numberline {1.4}F\IeC {\"o}ll}{5}{section.1.4}
+\contentsline {subsection}{\numberline {1.4.1}Skilgreining: V\IeC {\"o}rpun}{5}{subsection.1.4.1}
+\contentsline {subsection}{\numberline {1.4.2}Skilgreining}{6}{subsection.1.4.2}
+\contentsline {subsection}{\numberline {1.4.3}Skilgreining: Samskeyting}{6}{subsection.1.4.3}
+\contentsline {subsection}{\numberline {1.4.4}D\IeC {\ae }mi}{6}{subsection.1.4.4}
+\contentsline {subsection}{\numberline {1.4.5}Skilgreining: \IeC {\'A}t\IeC {\ae }kni og eint\IeC {\ae }kni}{7}{subsection.1.4.5}
+\contentsline {subsection}{\numberline {1.4.6}Skilgreining: Gagnt\IeC {\ae }kni}{7}{subsection.1.4.6}
+\contentsline {subsection}{\numberline {1.4.7}Skilgreining: Andhverfa}{7}{subsection.1.4.7}
+\contentsline {subsection}{\numberline {1.4.8}D\IeC {\ae }mi}{7}{subsection.1.4.8}
+\contentsline {subsection}{\numberline {1.4.9}Skilgreining: Graf}{8}{subsection.1.4.9}
+\contentsline {subsection}{\numberline {1.4.10}Skilgreining: Jafnst\IeC {\ae }tt og oddst\IeC {\ae }tt}{8}{subsection.1.4.10}
+\contentsline {chapter}{\numberline {2}Markgildi og samfelldni}{9}{chapter.2}
+\contentsline {section}{\numberline {2.1}Markgildi}{9}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}\IeC {\'O}formleg skilgreining \IeC {\'a} markgildi}{9}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Skilgreining: Markgildi}{9}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}D\IeC {\ae }mi}{10}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Markgildi fr\IeC {\'a} h\IeC {\ae }gri og vinstri}{10}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}\IeC {\'O}formleg skilgreining}{10}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Skilgreining: Markgildi fr\IeC {\'a} h\IeC {\ae }gri}{11}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}\IeC {\'O}formleg skilgreining}{11}{subsection.2.2.3}
+\contentsline {subsection}{\numberline {2.2.4}Skilgreining: Markgildi fr\IeC {\'a} vinstri}{11}{subsection.2.2.4}
+\contentsline {subsection}{\numberline {2.2.5}Setning}{12}{subsection.2.2.5}
+\contentsline {subsection}{\numberline {2.2.6}D\IeC {\ae }mi: T\IeC {\"o}lugildisfalli\IeC {\dh }}{12}{subsection.2.2.6}
+\contentsline {section}{\numberline {2.3}Reiknireglur fyrir markgildi}{12}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Setning}{12}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Setning: Klemmureglan}{13}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}D\IeC {\ae }mi: Markgildi me\IeC {\dh } s\IeC {\'\i }nus}{14}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Markgildi \IeC {\th }egar x stefnir \IeC {\'a} \IeC {\'o}endanlegt}{15}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}\IeC {\'O}formleg skilgreining}{15}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Skilgreining: Markgildi \IeC {\th }egar \(x \to \infty \)}{15}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}\IeC {\'O}formleg skilgreining}{16}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Skilgreining: Markgildi \IeC {\th }egar \(x \to -\infty \)}{16}{subsection.2.4.4}
+\contentsline {section}{\numberline {2.5}\IeC {\'O}endanlegt sem markgildi}{16}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}\IeC {\'O}formleg skilgreining}{16}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Skilgreining: Markgildi\IeC {\dh } \(\infty \)}{16}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.3}\IeC {\'O}formleg skilgreining}{16}{subsection.2.5.3}
+\contentsline {subsection}{\numberline {2.5.4}Skilgreining: Markgildi\IeC {\dh } \(-\infty \)}{17}{subsection.2.5.4}
+\contentsline {section}{\numberline {2.6}Samfelldni}{17}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Skilgreining: Innri punktur}{17}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Skilgreining: Samfelldni \IeC {\'\i } punkti}{17}{subsection.2.6.2}
+\contentsline {subsection}{\numberline {2.6.3}Setning}{17}{subsection.2.6.3}
+\contentsline {subsection}{\numberline {2.6.4}Setning: Samskeyting samfelldra falla}{18}{subsection.2.6.4}
+\contentsline {subsection}{\numberline {2.6.5}Skilgreining: Samfellt fall}{18}{subsection.2.6.5}
+\contentsline {subsection}{\numberline {2.6.6}D\IeC {\ae }mi}{18}{subsection.2.6.6}
+\contentsline {subsection}{\numberline {2.6.7}A\IeC {\dh } b\IeC {\'u}a til samfelld f\IeC {\"o}ll}{18}{subsection.2.6.7}
+\contentsline {subsection}{\numberline {2.6.8}D\IeC {\ae }mi}{18}{subsection.2.6.8}
+\contentsline {section}{\numberline {2.7}H\IeC {\ae }gri/vinstri samfelldni}{18}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Skilgreining}{18}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.2}Athugasemd}{19}{subsection.2.7.2}
+\contentsline {subsection}{\numberline {2.7.3}Skilgreining: H\IeC {\ae }gri/vinstri samfelldni}{19}{subsection.2.7.3}
+\contentsline {subsection}{\numberline {2.7.4}Uppf\IeC {\ae }r\IeC {\dh } skilgreining: Samfellt fall}{19}{subsection.2.7.4}
+\contentsline {section}{\numberline {2.8}Eiginleikar samfelldra falla}{19}{section.2.8}
+\contentsline {subsection}{\numberline {2.8.1}Setning \IeC {\textendash } H\IeC {\'a}- og l\IeC {\'a}ggildisl\IeC {\"o}gm\IeC {\'a}li\IeC {\dh }}{19}{subsection.2.8.1}
+\contentsline {subsection}{\numberline {2.8.2}Setning: Milligildissetningin}{19}{subsection.2.8.2}
+\contentsline {subsection}{\numberline {2.8.3}Fylgisetning}{20}{subsection.2.8.3}
+\contentsline {chapter}{\numberline {3}Aflei\IeC {\dh }ur}{21}{chapter.3}
+\contentsline {section}{\numberline {3.1}Skilgreining \IeC {\'a} aflei\IeC {\dh }u}{21}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Skilgreining: Aflei\IeC {\dh }a}{21}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}D\IeC {\ae }mi}{21}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Setning}{22}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}D\IeC {\ae }mi}{22}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Snertill}{22}{subsection.3.1.5}
+\contentsline {subsection}{\numberline {3.1.6}Athugasemd: Hallatalan \(\infty \) er ekki leyf\IeC {\dh }}{23}{subsection.3.1.6}
+\contentsline {section}{\numberline {3.2}\IeC {\'U}tv\IeC {\'\i }kkun fyrir loku\IeC {\dh } bil}{23}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Skilgreining: H\IeC {\ae }gri/vinstri aflei\IeC {\dh }a}{24}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Setning}{24}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Skilgreining: Diffranlegt fall}{24}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Rith\IeC {\'a}ttur}{24}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}D\IeC {\ae }mi}{24}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}Reiknireglur}{25}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Setning}{25}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Nokkrar aflei\IeC {\dh }ur}{25}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Setning}{25}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}Aflei\IeC {\dh }ur margli\IeC {\dh }a}{26}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}D\IeC {\ae }mi: Aflei\IeC {\dh }a margli\IeC {\dh }u}{26}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}Setning: Ke\IeC {\dh }jureglan}{26}{subsection.3.3.6}
+\contentsline {subsection}{\numberline {3.3.7}D\IeC {\ae }mi}{26}{subsection.3.3.7}
+\contentsline {section}{\numberline {3.4}H\IeC {\ae }rri aflei\IeC {\dh }ur}{26}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Skilgreining}{26}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}D\IeC {\ae }mi}{26}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Rith\IeC {\'a}ttur}{27}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}\IeC {\'U}tgildi}{27}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Skilgreining: \IeC {\'U}tgildi}{27}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}Setning}{27}{subsection.3.5.2}
+\contentsline {section}{\numberline {3.6}Hornaf\IeC {\"o}ll og aflei\IeC {\dh }ur \IeC {\th }eirra}{28}{section.3.6}
+\contentsline {subsection}{\numberline {3.6.1}Setning}{28}{subsection.3.6.1}
+\contentsline {section}{\numberline {3.7}Me\IeC {\dh }algildissetningin}{28}{section.3.7}
+\contentsline {subsection}{\numberline {3.7.1}Setning Rolle}{28}{subsection.3.7.1}
+\contentsline {subsection}{\numberline {3.7.2}Me\IeC {\dh }algildissetningin}{29}{subsection.3.7.2}
+\contentsline {subsection}{\numberline {3.7.3}Alh\IeC {\ae }f\IeC {\dh }a me\IeC {\dh }algildissetningin}{29}{subsection.3.7.3}
+\contentsline {section}{\numberline {3.8}Vaxandi og minnkandi f\IeC {\"o}ll}{29}{section.3.8}
+\contentsline {subsection}{\numberline {3.8.1}Skilgreining: Vaxandi/minnkandi}{29}{subsection.3.8.1}
+\contentsline {subsection}{\numberline {3.8.2}Setning}{30}{subsection.3.8.2}
+\contentsline {subsection}{\numberline {3.8.3}Setning}{30}{subsection.3.8.3}
+\contentsline {subsection}{\numberline {3.8.4}Setning}{30}{subsection.3.8.4}
+\contentsline {subsection}{\numberline {3.8.5}Setning}{31}{subsection.3.8.5}
+\contentsline {subsection}{\numberline {3.8.6}Aflei\IeC {\dh }ur fastafalla}{31}{subsection.3.8.6}
+\contentsline {section}{\numberline {3.9}F\IeC {\'o}lgin diffrun}{31}{section.3.9}
+\contentsline {subsection}{\numberline {3.9.1}D\IeC {\ae }mi}{31}{subsection.3.9.1}
+\contentsline {subsection}{\numberline {3.9.2}Setning: Andhverfusetningin}{32}{subsection.3.9.2}
+\contentsline {subsection}{\numberline {3.9.3}Me\IeC {\dh } \IeC {\"o}\IeC {\dh }rum or\IeC {\dh }um}{32}{subsection.3.9.3}
+\contentsline {subsection}{\numberline {3.9.4}Vinnulag}{32}{subsection.3.9.4}
+\contentsline {subsection}{\numberline {3.9.5}Setning: Hagn\IeC {\'y}ting \IeC {\'a} f\IeC {\'o}lginni diffrun}{32}{subsection.3.9.5}
+\contentsline {section}{\numberline {3.10}Andhverf f\IeC {\"o}ll}{32}{section.3.10}
+\contentsline {subsection}{\numberline {3.10.1}Athugasemd}{33}{subsection.3.10.1}
+\contentsline {subsection}{\numberline {3.10.2}Setning}{33}{subsection.3.10.2}
+\contentsline {subsection}{\numberline {3.10.3}Eiginleikar}{33}{subsection.3.10.3}
+\contentsline {subsection}{\numberline {3.10.4}Setning: Aflei\IeC {\dh }a andhverfunnar}{33}{subsection.3.10.4}
+\contentsline {section}{\numberline {3.11}L\IeC {\'\i }nulegar n\IeC {\'a}lganir}{33}{section.3.11}
+\contentsline {subsection}{\numberline {3.11.1}Sta\IeC {\dh }bundnar n\IeC {\'a}lganir}{33}{subsection.3.11.1}
+\contentsline {subsection}{\numberline {3.11.2}Skilgreining: L\IeC {\'\i }nuleg n\IeC {\'a}lgun}{34}{subsection.3.11.2}
+\contentsline {subsection}{\numberline {3.11.3}Setning: Skekkjumat}{34}{subsection.3.11.3}
+\contentsline {subsection}{\numberline {3.11.4}Skekkjumat fyrir l\IeC {\'\i }nulegar n\IeC {\'a}lganir}{34}{subsection.3.11.4}
+\contentsline {section}{\numberline {3.12}Taylormargli\IeC {\dh }ur}{34}{section.3.12}
+\contentsline {subsection}{\numberline {3.12.1}Skilgreining: Taylormargli\IeC {\dh }a}{34}{subsection.3.12.1}
+\contentsline {subsection}{\numberline {3.12.2}Skekkjumat fyrir Taylor margli\IeC {\dh }ur}{35}{subsection.3.12.2}
+\contentsline {subsection}{\numberline {3.12.3}Fylgisetning}{35}{subsection.3.12.3}
+\contentsline {subsection}{\numberline {3.12.4}Skilgreining: O}{35}{subsection.3.12.4}
+\contentsline {subsection}{\numberline {3.12.5}Athugasemd}{35}{subsection.3.12.5}
+\contentsline {subsection}{\numberline {3.12.6}Setning}{36}{subsection.3.12.6}
+\contentsline {section}{\numberline {3.13}Regla l\IeC {\textquoteright }H\IeC {\^o}pital}{36}{section.3.13}
+\contentsline {subsection}{\numberline {3.13.1}Regla l\IeC {\textquoteright }H\IeC {\^o}pital, einhli\IeC {\dh }a \IeC {\'u}tg\IeC {\'a}fa}{36}{subsection.3.13.1}
+\contentsline {subsection}{\numberline {3.13.2}Regla l\IeC {\textquoteright }H\IeC {\^o}pital}{36}{subsection.3.13.2}
+\contentsline {subsection}{\numberline {3.13.3}D\IeC {\ae }mi}{37}{subsection.3.13.3}
+\contentsline {subsection}{\numberline {3.13.4}Regla l\IeC {\textquoteright }H\IeC {\^o}pital, \(\infty \)-\IeC {\'u}tg\IeC {\'a}fa}{37}{subsection.3.13.4}
+\contentsline {subsection}{\numberline {3.13.5}Regla l\IeC {\textquoteright }H\IeC {\^o}pital, \IeC {\'u}tg\IeC {\'a}fa 4}{37}{subsection.3.13.5}
+\contentsline {chapter}{\numberline {4}Torr\IeC {\ae }\IeC {\dh } f\IeC {\"o}ll}{39}{chapter.4}
+\contentsline {section}{\numberline {4.1}N\IeC {\'a}tt\IeC {\'u}rlegi logrinn}{39}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Skilgreining: N\IeC {\'a}tt\IeC {\'u}rlegi logrinn}{39}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Setning}{40}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Setning}{40}{subsection.4.1.3}
+\contentsline {section}{\numberline {4.2}Veldisv\IeC {\'\i }sisfalli\IeC {\dh }}{40}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Setning}{40}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Skilgreining: Veldisv\IeC {\'\i }sisfalli\IeC {\dh }}{40}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Skilgreining: Talan \(e\)}{40}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Eiginleikar veldisv\IeC {\'\i }sisfallsins}{41}{subsection.4.2.4}
+\contentsline {section}{\numberline {4.3}\IeC {\"O}nnur veldisv\IeC {\'\i }sisf\IeC {\"o}ll og lograr}{42}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Skilgreining}{42}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Skilgreining}{42}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Athugasemd}{42}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Setning}{42}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Eiginleikar veldisv\IeC {\'\i }sisfalla og logra}{42}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Setning}{42}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Setning}{43}{subsection.4.4.2}
+\contentsline {section}{\numberline {4.5}Andhverfur hornafalla}{43}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Andhverfa s\IeC {\'\i }nus}{43}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Skilgreining: arcsin}{43}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Andhverfa k\IeC {\'o}s\IeC {\'\i }nus}{43}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Skilgreining: arccos}{44}{subsection.4.5.4}
+\contentsline {subsection}{\numberline {4.5.5}Andhverfa tangens}{44}{subsection.4.5.5}
+\contentsline {subsection}{\numberline {4.5.6}Skilgreining: arctan}{44}{subsection.4.5.6}
+\contentsline {subsection}{\numberline {4.5.7}Setning}{44}{subsection.4.5.7}
+\contentsline {section}{\numberline {4.6}Brei\IeC {\dh }bogaf\IeC {\"o}ll}{45}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}Skilgreining: cosh og sinh}{45}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}Setning}{45}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Setning}{45}{subsection.4.6.3}
+\contentsline {subsection}{\numberline {4.6.4}Skilgreining: tanh}{46}{subsection.4.6.4}
+\contentsline {subsection}{\numberline {4.6.5}Setning}{46}{subsection.4.6.5}
+\contentsline {section}{\numberline {4.7}Andhverfur brei\IeC {\dh }bogafalla}{46}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}Andhverfa brei\IeC {\dh }bogas\IeC {\'\i }nussins og brei\IeC {\dh }bogatangensins}{46}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}Skilgreining}{46}{subsection.4.7.2}
+\contentsline {subsection}{\numberline {4.7.3}Andhverfa brei\IeC {\dh }bogak\IeC {\'o}s\IeC {\'\i }nussins}{46}{subsection.4.7.3}
+\contentsline {subsection}{\numberline {4.7.4}Skilgreining}{46}{subsection.4.7.4}
+\contentsline {subsection}{\numberline {4.7.5}\IeC {\'I} framt\IeC {\'\i }\IeC {\dh }inni}{47}{subsection.4.7.5}
+\contentsline {chapter}{\numberline {5}K\IeC {\"o}nnun falla}{49}{chapter.5}
+\contentsline {section}{\numberline {5.1}Inngangur}{49}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Hver er munurinn?}{49}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Dr\IeC {\"o}gum sni\IeC {\dh }il}{50}{subsection.5.1.2}
+\contentsline {section}{\numberline {5.2}K\IeC {\'u}pni}{51}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Skilgreining: K\IeC {\'u}pt/hvelft}{51}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}Au\IeC {\dh }kenning \IeC {\'a} k\IeC {\'u}pni me\IeC {\dh } aflei\IeC {\dh }um}{51}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Athugasemd}{52}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Setning}{52}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Setning}{52}{subsection.5.3.3}
+\contentsline {section}{\numberline {5.4}Beygjuskilapunktar}{52}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Skilgreining}{52}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Setning}{53}{subsection.5.4.2}
+\contentsline {section}{\numberline {5.5}\IeC {\'U}tgildi}{53}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Hvar \IeC {\'a} a\IeC {\dh } leita \IeC {\'u}tgilda}{53}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}H\IeC {\'a}gildi/l\IeC {\'a}gildi \IeC {\'u}t fr\IeC {\'a} formerki aflei\IeC {\dh }u}{53}{subsection.5.5.2}
+\contentsline {subsection}{\numberline {5.5.3}\IeC {\'U}tgildi og \IeC {\"o}nnur aflei\IeC {\dh }an}{53}{subsection.5.5.3}
+\contentsline {section}{\numberline {5.6}A\IeC {\dh }fellur}{54}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}Skilgreining: L\IeC {\'o}\IeC {\dh }r\IeC {\'e}tt a\IeC {\dh }fella}{54}{subsection.5.6.1}
+\contentsline {subsection}{\numberline {5.6.2}Skilgreining: L\IeC {\'a}r\IeC {\'e}tt a\IeC {\dh }fella}{54}{subsection.5.6.2}
+\contentsline {subsection}{\numberline {5.6.3}Sk\IeC {\'a}fella}{54}{subsection.5.6.3}
+\contentsline {section}{\numberline {5.7}A\IeC {\dh } teikna graf falls}{56}{section.5.7}
+\contentsline {section}{\numberline {5.8}\IeC {\'U}tgildisverkefni}{57}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}Markmi\IeC {\dh }i\IeC {\dh }}{57}{subsection.5.8.1}
+\contentsline {subsection}{\numberline {5.8.2}A\IeC {\dh } leysa \IeC {\'u}tgildisvandam\IeC {\'a}l}{57}{subsection.5.8.2}
+\contentsline {subsection}{\numberline {5.8.3}D\IeC {\ae }mi: Gosd\IeC {\'o}s}{57}{subsection.5.8.3}
+\contentsline {subsection}{\numberline {5.8.4}D\IeC {\ae }mi: Kassi}{57}{subsection.5.8.4}
+\contentsline {chapter}{\numberline {6}Heildun}{59}{chapter.6}
+\contentsline {section}{\numberline {6.1}Heildun}{59}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}\IeC {\'O}formleg skilgreining \IeC {\'a} heildi j\IeC {\'a}kv\IeC {\ae }\IeC {\dh }s falls}{59}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Skilgreining}{59}{subsection.6.1.2}
+\contentsline {subsection}{\numberline {6.1.3}\IeC {\'O}formleg skilgreining \IeC {\'a} heildi falls}{60}{subsection.6.1.3}
+\contentsline {section}{\numberline {6.2}Undir- og yfirsummur}{60}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}D\IeC {\ae }mi: A\IeC {\dh } finna heildi}{60}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Skilgreining: Undirsumma}{60}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Skilgreining: Yfirsumma}{61}{subsection.6.2.3}
+\contentsline {subsection}{\numberline {6.2.4}Skilgreining: Heildi}{61}{subsection.6.2.4}
+\contentsline {section}{\numberline {6.3}Eiginleikar heildisins}{62}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Setning}{62}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Setning}{62}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Skilgreining: Heildism\IeC {\"o}rkunum sn\IeC {\'u}i\IeC {\dh } vi\IeC {\dh }}{62}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.4}Setning}{63}{subsection.6.3.4}
+\contentsline {subsection}{\numberline {6.3.5}Setning}{63}{subsection.6.3.5}
+\contentsline {subsection}{\numberline {6.3.6}Setning}{63}{subsection.6.3.6}
+\contentsline {subsection}{\numberline {6.3.7}Fylgisetning}{63}{subsection.6.3.7}
+\contentsline {subsection}{\numberline {6.3.8}Setning}{63}{subsection.6.3.8}
+\contentsline {subsection}{\numberline {6.3.9}Skilgreining}{64}{subsection.6.3.9}
+\contentsline {subsection}{\numberline {6.3.10}Setning: Me\IeC {\dh }algildissetning fyrir heildi}{64}{subsection.6.3.10}
+\contentsline {section}{\numberline {6.4}Undirst\IeC {\"o}\IeC {\dh }usetning st\IeC {\ae }r\IeC {\dh }fr\IeC {\ae }\IeC {\dh }igreiningarinnar}{64}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Skilgreining og setning: Fall skilgreint me\IeC {\dh } heildi}{64}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Setning: Undirst\IeC {\"o}\IeC {\dh }usetning st\IeC {\ae }r\IeC {\dh }fr\IeC {\ae }\IeC {\dh }igreiningar, fyrri hluti}{64}{subsection.6.4.2}
+\contentsline {section}{\numberline {6.5}Stofnf\IeC {\"o}ll}{64}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Skilgreining: Stofnfall}{64}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Fylgisetning}{64}{subsection.6.5.2}
+\contentsline {subsection}{\numberline {6.5.3}Hj\IeC {\'a}lparsetning}{65}{subsection.6.5.3}
+\contentsline {subsection}{\numberline {6.5.4}Setning: Undirst\IeC {\"o}\IeC {\dh }usetning st\IeC {\ae }r\IeC {\dh }fr\IeC {\ae }\IeC {\dh }igreiningar, seinni hluti}{65}{subsection.6.5.4}
+\contentsline {subsection}{\numberline {6.5.5}Rith\IeC {\'a}ttur}{65}{subsection.6.5.5}
+\contentsline {section}{\numberline {6.6}A\IeC {\dh }fer\IeC {\dh }ir vi\IeC {\dh } a\IeC {\dh } reikna stofnf\IeC {\"o}ll}{65}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}Verkf\IeC {\ae }rin}{65}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Athugasemd}{66}{subsection.6.6.2}
+\contentsline {subsection}{\numberline {6.6.3}Innsetning}{66}{subsection.6.6.3}
+\contentsline {subsection}{\numberline {6.6.4}Notkun \IeC {\'a} innsetningu}{66}{subsection.6.6.4}
+\contentsline {subsection}{\numberline {6.6.5}Notkun \IeC {\'a} innsetningu me\IeC {\dh } m\IeC {\"o}rkum}{66}{subsection.6.6.5}
+\contentsline {subsection}{\numberline {6.6.6}\IeC {\"O}fug innsetning}{67}{subsection.6.6.6}
+\contentsline {subsection}{\numberline {6.6.7}Notkun \IeC {\'a} \IeC {\"o}fugri innsetningu}{67}{subsection.6.6.7}
+\contentsline {subsection}{\numberline {6.6.8}\IeC {\"O}fug innsetning me\IeC {\dh } m\IeC {\"o}rkum}{67}{subsection.6.6.8}
+\contentsline {subsection}{\numberline {6.6.9}Hlutheildun}{67}{subsection.6.6.9}
+\contentsline {subsection}{\numberline {6.6.10}Hlutheildun me\IeC {\dh } m\IeC {\"o}rkum}{67}{subsection.6.6.10}
+\contentsline {subsection}{\numberline {6.6.11}Stofnbrotali\IeC {\dh }un}{68}{subsection.6.6.11}
+\contentsline {section}{\numberline {6.7}\IeC {\'O}eiginleg heildi}{68}{section.6.7}
+\contentsline {subsection}{\numberline {6.7.1}Skilgreining: \IeC {\'O}eiginleg heildi I}{68}{subsection.6.7.1}
+\contentsline {subsection}{\numberline {6.7.2}D\IeC {\ae }mi}{68}{subsection.6.7.2}
+\contentsline {subsection}{\numberline {6.7.3}Skilgreining: \IeC {\'O}eiginleg heildi I, framhald}{68}{subsection.6.7.3}
+\contentsline {subsection}{\numberline {6.7.4}Skilgreining: \IeC {\'O}eiginleg heildi II}{69}{subsection.6.7.4}
+\contentsline {subsection}{\numberline {6.7.5}D\IeC {\ae }mi}{69}{subsection.6.7.5}
+\contentsline {subsection}{\numberline {6.7.6}Skilgreining}{69}{subsection.6.7.6}
+\contentsline {subsection}{\numberline {6.7.7}Setning}{69}{subsection.6.7.7}
+\contentsline {chapter}{\numberline {7}R\IeC {\'u}mm\IeC {\'a}l, massi og massami\IeC {\dh }ja}{71}{chapter.7}
+\contentsline {section}{\numberline {7.1}R\IeC {\'u}mm\IeC {\'a}l, lengd og flatarm\IeC {\'a}l}{71}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}R\IeC {\'u}mm\IeC {\'a}l r\IeC {\'u}mskika}{71}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}R\IeC {\'u}mm\IeC {\'a}l keilu}{71}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}R\IeC {\'u}mm\IeC {\'a}l sn\IeC {\'u}\IeC {\dh }s, sn\IeC {\'u}i\IeC {\dh } um \(x\)-\IeC {\'a}s}{71}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.4}R\IeC {\'u}mm\IeC {\'a}l sn\IeC {\'u}\IeC {\dh }s me\IeC {\dh } gati}{72}{subsection.7.1.4}
+\contentsline {subsection}{\numberline {7.1.5}R\IeC {\'u}mm\IeC {\'a}l sn\IeC {\'u}\IeC {\dh }s, sn\IeC {\'u}i\IeC {\dh } um \(y\)-\IeC {\'a}s}{72}{subsection.7.1.5}
+\contentsline {subsection}{\numberline {7.1.6}Lengd grafs}{72}{subsection.7.1.6}
+\contentsline {subsection}{\numberline {7.1.7}Yfirbor\IeC {\dh }sflatarm\IeC {\'a}l sn\IeC {\'u}\IeC {\dh }s, sn\IeC {\'u}i\IeC {\dh } um \(x\)-\IeC {\'a}s}{72}{subsection.7.1.7}
+\contentsline {subsection}{\numberline {7.1.8}Yfirbor\IeC {\dh }sflatarm\IeC {\'a}l sn\IeC {\'u}\IeC {\dh }s, sn\IeC {\'u}i\IeC {\dh } um \(y\)-\IeC {\'a}s}{72}{subsection.7.1.8}
+\contentsline {section}{\numberline {7.2}Massi}{72}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Massi v\IeC {\'\i }rs}{72}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}Massi pl\IeC {\"o}tu}{73}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}Massi r\IeC {\'u}mskika}{73}{subsection.7.2.3}
+\contentsline {section}{\numberline {7.3}Massami\IeC {\dh }ja}{73}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}Skilgreining: Massami\IeC {\dh }ja punktmassa}{73}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Skilgreining: Massami\IeC {\dh }ja}{74}{subsection.7.3.2}
+\contentsline {subsection}{\numberline {7.3.3}Skilgreining: Massami\IeC {\dh }ja pl\IeC {\"o}tu}{74}{subsection.7.3.3}
+\contentsline {subsection}{\numberline {7.3.4}Setning Pappusar, I}{74}{subsection.7.3.4}
+\contentsline {subsection}{\numberline {7.3.5}Setning Pappusar, II}{74}{subsection.7.3.5}
+\contentsline {chapter}{\numberline {8}Diffurj\IeC {\"o}fnur}{75}{chapter.8}
+\contentsline {section}{\numberline {8.1}Diffurj\IeC {\"o}fnur}{75}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Skilgreining: Diffurjafna}{75}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}D\IeC {\ae }mi}{75}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}Skilgreining: A\IeC {\dh }greinanleg diffurjafna}{76}{subsection.8.1.3}
+\contentsline {subsection}{\numberline {8.1.4}D\IeC {\ae }mi um a\IeC {\dh }greinanlega diffurj\IeC {\"o}fnu}{76}{subsection.8.1.4}
+\contentsline {section}{\numberline {8.2}L\IeC {\'\i }nulegar fyrsta stigs diffurj\IeC {\"o}fnur}{76}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Skilgreining: L\IeC {\'\i }nuleg diffurjafna}{76}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}L\IeC {\'\i }nulegar fyrsta stigs diffurj\IeC {\"o}fnur}{77}{subsection.8.2.2}
+\contentsline {section}{\numberline {8.3}L\IeC {\'\i }nulegar annars stigs diffurj\IeC {\"o}fnur me\IeC {\dh } fastastu\IeC {\dh }la}{77}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Skilgreining}{77}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Skilgreining: Kennijafna}{77}{subsection.8.3.2}
+\contentsline {subsection}{\numberline {8.3.3}Setning}{78}{subsection.8.3.3}
+\contentsline {subsection}{\numberline {8.3.4}Setning}{78}{subsection.8.3.4}
+\contentsline {subsection}{\numberline {8.3.5}Setning}{78}{subsection.8.3.5}
+\contentsline {section}{\numberline {8.4}\IeC {\'A}giskanir}{79}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}\IeC {\'A}giskun}{79}{subsection.8.4.1}
+\contentsline {section}{\numberline {8.5}Samantekt}{79}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}A\IeC {\dh }skiljanlegar j\IeC {\"o}fnur}{79}{subsection.8.5.1}
+\contentsline {subsection}{\numberline {8.5.2}L\IeC {\'\i }nulegar fyrsta stigs j\IeC {\"o}fnur}{79}{subsection.8.5.2}
+\contentsline {subsection}{\numberline {8.5.3}L\IeC {\'\i }nulegar annars stigs j\IeC {\"o}fnur me\IeC {\dh } fastastu\IeC {\dh }la}{80}{subsection.8.5.3}
+\contentsline {chapter}{\numberline {9}Runur og ra\IeC {\dh }ir}{81}{chapter.9}
+\contentsline {section}{\numberline {9.1}Runur}{81}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Skilgreining: Runa}{81}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Skilgreining}{81}{subsection.9.1.2}
+\contentsline {subsection}{\numberline {9.1.3}Skilgreining}{81}{subsection.9.1.3}
+\contentsline {subsection}{\numberline {9.1.4}Skilgreining: V\IeC {\'\i }xlmerkjaruna}{82}{subsection.9.1.4}
+\contentsline {subsection}{\numberline {9.1.5}Skilgreining}{82}{subsection.9.1.5}
+\contentsline {subsection}{\numberline {9.1.6}Setning}{82}{subsection.9.1.6}
+\contentsline {subsection}{\numberline {9.1.7}Setning}{82}{subsection.9.1.7}
+\contentsline {subsection}{\numberline {9.1.8}Fylgisetning}{82}{subsection.9.1.8}
+\contentsline {subsection}{\numberline {9.1.9}Setning}{82}{subsection.9.1.9}
+\contentsline {subsection}{\numberline {9.1.10}Setning}{83}{subsection.9.1.10}
+\contentsline {section}{\numberline {9.2}Ra\IeC {\dh }ir}{83}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Skilgreining: R\IeC {\"o}\IeC {\dh }}{83}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}Skilgreining}{83}{subsection.9.2.2}
+\contentsline {subsection}{\numberline {9.2.3}Setning}{83}{subsection.9.2.3}
+\contentsline {subsection}{\numberline {9.2.4}Setning}{83}{subsection.9.2.4}
+\contentsline {subsection}{\numberline {9.2.5}Athugasemd}{83}{subsection.9.2.5}
+\contentsline {subsection}{\numberline {9.2.6}D\IeC {\ae }mi: Kv\IeC {\'o}tar\IeC {\"o}\IeC {\dh }}{84}{subsection.9.2.6}
+\contentsline {subsection}{\numberline {9.2.7}D\IeC {\ae }mi: K\IeC {\'\i }kisr\IeC {\"o}\IeC {\dh }}{84}{subsection.9.2.7}
+\contentsline {section}{\numberline {9.3}Samleitnipr\IeC {\'o}f fyrir ra\IeC {\dh }ir}{84}{section.9.3}
+\contentsline {subsection}{\numberline {9.3.1}Setning}{84}{subsection.9.3.1}
+\contentsline {subsection}{\numberline {9.3.2}Setning: Samleitnipr\IeC {\'o}f I}{84}{subsection.9.3.2}
+\contentsline {subsection}{\numberline {9.3.3}Setning: Samleitnipr\IeC {\'o}f II \IeC {\textendash } Samanbur\IeC {\dh }arpr\IeC {\'o}f}{84}{subsection.9.3.3}
+\contentsline {subsection}{\numberline {9.3.4}Setning: Samleitnipr\IeC {\'o}f III \IeC {\textendash } Heildispr\IeC {\'o}f}{84}{subsection.9.3.4}
+\contentsline {subsection}{\numberline {9.3.5}Fylgisetning}{84}{subsection.9.3.5}
+\contentsline {subsection}{\numberline {9.3.6}Setning: Samleitnipr\IeC {\'o}f IV \IeC {\textendash } Markgildissamanbur\IeC {\dh }arpr\IeC {\'o}f}{85}{subsection.9.3.6}
+\contentsline {subsection}{\numberline {9.3.7}Setning: Samleitnipr\IeC {\'o}f V \IeC {\textendash } Kv\IeC {\'o}tapr\IeC {\'o}f}{85}{subsection.9.3.7}
+\contentsline {subsection}{\numberline {9.3.8}Setning: Samleitnipr\IeC {\'o}f VI \IeC {\textendash } R\IeC {\'o}tarpr\IeC {\'o}f}{85}{subsection.9.3.8}
+\contentsline {subsection}{\numberline {9.3.9}Setning: Samleitnipr\IeC {\'o}f VII \IeC {\textendash } V\IeC {\'\i }xlmerkjara\IeC {\dh }apr\IeC {\'o}f}{85}{subsection.9.3.9}
+\contentsline {subsection}{\numberline {9.3.10}Fylgisetning}{85}{subsection.9.3.10}
+\contentsline {section}{\numberline {9.4}Alsamleitni}{85}{section.9.4}
+\contentsline {subsection}{\numberline {9.4.1}Skilgreining}{85}{subsection.9.4.1}
+\contentsline {subsection}{\numberline {9.4.2}Setning}{86}{subsection.9.4.2}
+\contentsline {subsection}{\numberline {9.4.3}Athugasemd}{86}{subsection.9.4.3}
+\contentsline {subsection}{\numberline {9.4.4}Skilgreining}{86}{subsection.9.4.4}
+\contentsline {subsection}{\numberline {9.4.5}Setning: Umr\IeC {\"o}\IeC {\dh }un}{86}{subsection.9.4.5}
+\contentsline {chapter}{\numberline {10}Veldara\IeC {\dh }ir}{87}{chapter.10}
+\contentsline {section}{\numberline {10.1}Veldara\IeC {\dh }ir}{87}{section.10.1}
+\contentsline {subsection}{\numberline {10.1.1}Skilgreining}{87}{subsection.10.1.1}
+\contentsline {subsection}{\numberline {10.1.2}Setning}{87}{subsection.10.1.2}
+\contentsline {subsection}{\numberline {10.1.3}Skilgreining: Mi\IeC {\dh }ja og samleitnigeisli}{87}{subsection.10.1.3}
+\contentsline {section}{\numberline {10.2}Samleitnipr\IeC {\'o}f}{88}{section.10.2}
+\contentsline {subsection}{\numberline {10.2.1}Setning}{88}{subsection.10.2.1}
+\contentsline {subsection}{\numberline {10.2.2}Setning Abels}{88}{subsection.10.2.2}
+\contentsline {subsection}{\numberline {10.2.3}Setning: Diffra\IeC {\dh } li\IeC {\dh } fyrir li\IeC {\dh }}{88}{subsection.10.2.3}
+\contentsline {subsection}{\numberline {10.2.4}Fylgisetning}{89}{subsection.10.2.4}
+\contentsline {subsection}{\numberline {10.2.5}Setning: Heilda\IeC {\dh } li\IeC {\dh } fyrir li\IeC {\dh }}{89}{subsection.10.2.5}
+\contentsline {subsection}{\numberline {10.2.6}Setning}{89}{subsection.10.2.6}
+\contentsline {subsection}{\numberline {10.2.7}Skilgreining: F\IeC {\'a}ga\IeC {\dh } fall}{89}{subsection.10.2.7}
+\contentsline {subsection}{\numberline {10.2.8}Athugasemd}{90}{subsection.10.2.8}
+\contentsline {section}{\numberline {10.3}Taylorra\IeC {\dh }ir}{90}{section.10.3}
+\contentsline {subsection}{\numberline {10.3.1}Skilgreining: Taylorr\IeC {\"o}\IeC {\dh }}{90}{subsection.10.3.1}
+\contentsline {subsection}{\numberline {10.3.2}Setning}{90}{subsection.10.3.2}
+\contentsline {subsection}{\numberline {10.3.3}Setning}{91}{subsection.10.3.3}
+\contentsline {subsection}{\numberline {10.3.4}D\IeC {\ae }mi: Tv\IeC {\'\i }li\IeC {\dh }ur\IeC {\"o}\IeC {\dh }in}{91}{subsection.10.3.4}
+\contentsline {subsection}{\numberline {10.3.5}Athugasemd}{91}{subsection.10.3.5}
+\contentsline {subsection}{\numberline {10.3.6}Taylorra\IeC {\dh }ir nokkra falla}{92}{subsection.10.3.6}
+\contentsline {chapter}{\numberline {11}Vi\IeC {\dh }auki}{93}{chapter.11}
+\contentsline {section}{\numberline {11.1}Kennslu\IeC {\'a}\IeC {\ae }tlun}{94}{section.11.1}
+\contentsline {section}{\numberline {11.2}Skipulag n\IeC {\'a}mskei\IeC {\dh }sins}{95}{section.11.2}
+\contentsline {section}{\numberline {11.3}Fr\IeC {\'a}gangur skilad\IeC {\ae }ma}{96}{section.11.3}
+\contentsline {section}{\numberline {11.4}\IeC {\'I}tarefni}{97}{section.11.4}
+\contentsline {subsection}{\numberline {11.4.1}Forrit}{97}{subsection.11.4.1}
+\contentsline {section}{\numberline {11.5}A\IeC {\dh } l\IeC {\ae }ra st\IeC {\ae }r\IeC {\dh }fr\IeC {\ae }\IeC {\dh }i}{98}{section.11.5}
+\contentsline {subsection}{\numberline {11.5.1}A\IeC {\dh } lesa}{98}{subsection.11.5.1}
+\contentsline {subsection}{\numberline {11.5.2}A\IeC {\dh } reikna}{98}{subsection.11.5.2}
+\contentsline {subsection}{\numberline {11.5.3}Einbeiting}{98}{subsection.11.5.3}
+\contentsline {subsection}{\numberline {11.5.4}Fr\IeC {\'a}gangur skilad\IeC {\ae }ma}{98}{subsection.11.5.4}
+\contentsline {chapter}{\numberline {12}Or\IeC {\dh }askr\IeC {\'a}}{101}{chapter.12}
+\contentsline {chapter}{\numberline {13}Atri\IeC {\dh }askr\IeC {\'a}}{103}{chapter.13}
+\contentsline {chapter}{Atri{\dh }isor{\dh }askr\'{a}}{105}{section*.20}
