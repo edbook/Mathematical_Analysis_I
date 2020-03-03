@@ -227,7 +227,7 @@ Ef röð :math:`\sum_{n=1}^\infty a_n` er samleitin þá er
 Athugasemd
 ~~~~~~~~~~
 
-Ef :math:`\lim_{n \to \infty} a_n = 0` þá ekki víst að röðin
+Þó svo :math:`\lim_{n \to \infty} a_n = 0` þá er ekki víst að röðin
 :math:`\sum_{n=1}^\infty a_n` sé samleitin.
 
 .. index::
@@ -252,11 +252,11 @@ Dæmi: Kíkisröð
 
 Röðin
 
-.. math:: \sum_{n=1}^\infty \frac{1}{n(n-1)}
+.. math:: \sum_{n=2}^\infty \frac{1}{n(n-1)}
 
 kallast *kíkisröð*. Hún er samleitin og
 
-.. math:: \sum_{n=1}^\infty \frac{1}{n(n-1)} =1.
+.. math:: \sum_{n=2}^\infty \frac{1}{n(n-1)} =1.
 
 .. index::
     röð; samleitnipróf
@@ -444,4 +444,4 @@ Dæmi um umröðun á liðum raðar :math:`\sum_{n=1}^\infty a_n` er
 .. note:: 
 	Með öðrum orðum: 
 	Liðum skilyrt samleitinnar raðar má umraða þannig að summan getur orðið
-	hvað sem er, það jskiptir því máli í hvaða röð við leggjum saman.
+	hvað sem er, það skiptir því máli í hvaða röð við leggjum saman.

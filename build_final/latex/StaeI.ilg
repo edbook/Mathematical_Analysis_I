@@ -1,0 +1,19 @@
+This is makeindex, version 2.15 [TeX Live 2018] (kpathsea + Thai support).
+Scanning style file ./python.ist.......done (7 attributes redefined, 0 ignored).
+Scanning input file StaeI.idx....done (159 entries accepted, 0 rejected).
+Sorting entries....done (1210 comparisons).
+Generating output file StaeI.ind....
+## Warning (input = StaeI.idx, line = 2; output = StaeI.ind, line = 142):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = StaeI.idx, line = 41; output = StaeI.ind, line = 165):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = StaeI.idx, line = 42; output = StaeI.ind, line = 166):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+
+## Warning (input = StaeI.idx, line = 10; output = StaeI.ind, line = 191):
+   -- Conflicting entries: multiple encaps for the same page under same key.
+done (207 lines written, 4 warnings).
+Output written in StaeI.ind.
+Transcript written in StaeI.ilg.

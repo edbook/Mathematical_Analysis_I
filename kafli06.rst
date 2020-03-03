@@ -11,6 +11,7 @@ Heildun
 	- keðjureglan 
 
 	- reiknireglur fyrir afleiður
+
 *It can be very dangerous to see things from somebody else's point of view without the proper training.*
 
 \- Douglas Adams, The Ultimate Hitchhiker's Guide : Five Complete Novels and One Story
@@ -51,10 +52,10 @@ Látum :math:`f` vera fall. Skilgreinum föllin :math:`f_+` og
 
 .. math::
 
-   f_+(x)=\left\{\begin{array}{ll} f(x) & \mbox{ef }f(x)\geq 0,\\
-     0 & \mbox{ef }f(x)<0, \end{array} \right. \qquad
-     f_-(x)=\left\{\begin{array}{ll} 0 & \mbox{ef }f(x)\geq 0,\\
-     -f(x) & \mbox{ef }f(x)<0. \end{array}\right.
+   f_+(x)=\left\{\begin{array}{ll} f(x) & \text{ef }f(x)\geq 0,\\
+     0 & \text{ef }f(x)<0, \end{array} \right. \qquad
+     f_-(x)=\left\{\begin{array}{ll} 0 & \text{ef }f(x)\geq 0,\\
+     -f(x) & \text{ef }f(x)<0. \end{array}\right.
 
 Athugið að :math:`f(x)=f_+(x)-f_-(x)`.
 
@@ -94,9 +95,9 @@ flatarmál, til dæmis rétthyrningum.
 Skilgreining: Undirsumma
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-Skiptum bilinu :math:`[a,b]` í :math:`n` parta. Á hverjum parti komum
-við fyrir rétthyrning sem liggur undir grafi fallsins, þ.e. hæðin á
-honum er lággildi fallsins á þessum tiltekna parti.
+Skiptum bilinu :math:`[a,b]` í :math:`n` hlutbil. Á hverju hlutbili komum
+við fyrir rétthyrningi sem liggur undir grafi fallsins, þ.e. hæðin á
+honum er lággildi fallsins á þessum tiltekna hlutbili.
 
 .. image:: ./myndir/kafli06/03_undirsumma.png
 	:align: center
@@ -119,9 +120,9 @@ táknum hana með :math:`U(n)`, það er :math:`U(n) = \sum_{k=1}^n u_k`.
 Skilgreining: Yfirsumma
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-Skiptum bilinu :math:`[a,b]` í :math:`n` parta. Á hverjum parti komum
+Skiptum bilinu :math:`[a,b]` í :math:`n` hlutbil. Á hverju hlutbili komum
 við fyrir rétthyrning sem er þannig að hæðin á honum er hágildi fallsins
-á þessum tiltekna parti.
+á þessum tiltekna hlutbili.
 
 .. image:: ./myndir/kafli06/03_yfirsumma.png
 	:align: center
@@ -156,14 +157,14 @@ fallið :math:`f` heildanlegt á :math:`[a,b]` og
 
 .. note::
     Við sögðum ekkert um það hvernig við skiptum bilinu :math:`[a,b]` í
-    :math:`n` parta. Það má gera hvernig sem er, það er ekki nauðsynlegt að
-    þeir séu allir jafn stórir. Eina krafan er að stærð allra parta stefni á
+    :math:`n` hlutbil. Það má gera hvernig sem er, það er ekki nauðsynlegt að
+    þau séu öll jafn stór. Eina krafan er að stærð allra hlutbila stefni á
     0 þegar :math:`n\to \infty`. 
 
 .. note::
     Við erum ekki bundin af því að skoða rétthyrninga sem með hæð sem er
-    há/lággildi fallsins á hverjum parti, t.d. má taka miðgildið á hverjum
-    parti, gildið í hægri endapunkti eða gildið í vinstri endapunkti.
+    há/lággildi fallsins á hverju hlutbili, t.d. má taka miðgildið á hveru
+    hlutbili, gildið í hægri endapunkti þess eða gildið í vinstri endapunkti þess.
     
     Niðurstaðan þegar :math:`n\to \infty` verður hins vegar alltaf sú sama,
     þ.e. við nálgumst heildið.
@@ -444,7 +445,8 @@ Svo
 
    \underbrace{\int f(g(x))g'(x)\,dx}_{\text{Viljum finna}}  = 
    \int f(u)\,du  
-   \underbrace{=}_{\text{Getum reiknað}} F(u)+C  =
+   =
+   \underbrace{F(u)+C}_{\text{Getum reiknað}}  =
    \underbrace{F(g(x))+C}_{\text{Svarið}}.
 
 .. warning::
@@ -506,7 +508,9 @@ Sem gefur að
 .. math::
 
    \underbrace{\int f(x)\,dx}_{\text{Viljum finna}}  =
-   \int f(g(u))g'(u)\,du \underbrace{=}_{\text{Getum reiknað}} F(u) + C
+   \int f(g(u))g'(u)\,du 
+   =
+   \underbrace{F(u) + C}_{\text{Getum reiknað}}
    = \underbrace{F(g^{-1}(x)) + C}_{\text{Svarið}}.
 
 Öfug innsetning með mörkum

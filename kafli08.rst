@@ -31,10 +31,10 @@ Ritum :math:`y=y(x)` sem fall af :math:`x`.
 
 .. math:: F(x, y, y', y'', \ldots, y^{(n)})=0
 
-þar sem :math:`F` er fall (formúla) í :math:`n+1` breytistærð.
+þar sem :math:`F` er fall (formúla) í :math:`n+2` breytistærðum.
 
-Jafnan er sögð vera af :math:`n`-ta *stigi* ef hæsta afleiða :math:`y`
-sem kemur fyrir í formúlu er :math:`n`.
+Diffurjafnan er sögð vera af :math:`n`-ta *stigi* ef hæsta afleiða :math:`y`
+sem kemur fyrir í henni er :math:`n`.
 
 Að leysa diffurjöfnu felur í sér að skrifa :math:`y` sem fall 
 af :math:`x`, þ.e. finna formúlu fyrir :math:`y`.
@@ -208,7 +208,7 @@ forminu
 
 .. math:: ay''+by'+cy=f(x)
 
-þar sem :math:`a, b` og :math:`c` eru fastar.
+þar sem :math:`a, b` og :math:`c` eru fastar, :math:`a\neq 0`.
 
 Jafnan er sögð *óhliðruð* ef fallið :math:`f(x)` er
 fastafallið 0.

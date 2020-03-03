@@ -1,5 +1,5 @@
 Rúmmál, massi og massamiðja
-============================
+===========================
 
 *The fact that we live at the bottom of a deep gravity well, on the surface of a 
 gas covered planet going around a nuclear fireball 90 million miles away and think 
@@ -43,7 +43,7 @@ Rúmmál keilunnar er
 
 .. math::
 
-   V=\frac{1}{3}hA=\frac{1}{3}(\mbox{hæð})(\mbox{flatarmál
+   V=\frac{1}{3}hA=\frac{1}{3}(\text{hæð})(\text{flatarmál
    grunnflatar}).
 
 Formúlan gildir óháð lögun grunnflatarins :math:`F`.
@@ -85,7 +85,7 @@ Rúmmál snúðs, snúið um :math:`y`-ás
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Látum :math:`f` vera samfellt fall skilgreint á bili :math:`[a, b]`, með
-:math:`a<b`. Gerum ráð fyrir að :math:`f(x)\geq 0` fyrir öll
+:math:`0\leq a<b`. Gerum ráð fyrir að :math:`f(x)\geq 0` fyrir öll
 :math:`x\in [a, b]`. Rúmmál rúmskikans sem fæst með að snúa svæðinu sem
 afmarkast af :math:`x`-ás, grafinu :math:`y=f(x)` og línunum :math:`x=a`
 og :math:`x=b` um :math:`360^\circ` um :math:`y`-ás er
@@ -102,7 +102,8 @@ eftir `George Katehos <https://www.geogebra.org/b/75281#material/18475>`_ (CC-BY
 Lengd grafs
 ~~~~~~~~~~~~~~~~~~
 
-Látum :math:`f` vera samfellt fall skilgreint á bili :math:`[a, b]`.
+Látum :math:`f` vera fall skilgreint á bili :math:`[a, b]` sem
+hefur samfellda afleiðu.
 Lengd grafsins :math:`y=f(x)` milli :math:`x=a` og :math:`x=b` er
 skilgreind sem
 
@@ -111,8 +112,8 @@ skilgreind sem
 .. index::
     flatarmál; yfirborðsflatarmál snúðs, snúið um x-ás
 
-Yfirborðsflatarmál snúðs, snúið um :math:`x`-ás
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Flatarmál snúðflatar, snúið um :math:`x`-ás
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Látum :math:`f` vera samfellt fall skilgreint á bili :math:`[a, b]`.
 Grafinu :math:`y=f(x)` er snúið :math:`360^\circ` um :math:`x`-ás og
@@ -123,8 +124,8 @@ myndast við það flötur. Flatarmál flatarins er gefið með formúlunni
 .. index::
     flatarmál; yfirborðsflatarmál snúðs, snúið um y-ás
 
-Yfirborðsflatarmál snúðs, snúið um :math:`y`-ás
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Flatarmál snúðflatar, snúið um :math:`y`-ás
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Látum :math:`f` vera samfellt fall skilgreint á bili :math:`[a, b]`.
 Grafinu :math:`y=f(x)` er snúið :math:`360^\circ` um :math:`y`-ás og
@@ -242,7 +243,7 @@ Ef massi er dreifður samkvæmt þéttleika falli :math:`\delta(x)` um bil
 .. math::
 
    m=\int_a^b \delta(x)\,dx 
-   \qquad\mbox{ og }\qquad 
+   \qquad\text{ og }\qquad 
    M_{x=0}= \int_a^b x\delta(x)\,dx.
 
 Massamiðjan er gefin með formúlunni
@@ -266,7 +267,7 @@ Vægi plötunnar um :math:`y`- og :math:`x`-ása eru gefin með formúlunum
 .. math::
 
    M_{x=0}=\int_a^b x\delta(x)f(x)\,dx 
-   \qquad\mbox{og}\qquad
+   \qquad\text{og}\qquad
    M_{y=0}=\frac{1}{2}\int_a^b \delta(x)f(x)^2\,dx,
 
 og hnit massamiðju plötunnar, :math:`(\overline{x}, \overline{y})`, eru
@@ -303,7 +304,7 @@ snúðskiki með rúmmál
 Setning Pappusar, II
 ~~~~~~~~~~~~~~~~~~~~
 
-Látum :math:`C` vera lokaðan feril sem liggur í plani og er allur öðrum
+Látum :math:`C` vera feril sem liggur í plani og er allur öðrum
 megin við línu :math:`L`. Látum :math:`s` tákna lengd :math:`C` og
 :math:`\overline{r}` tákna fjarlægð massamiðju :math:`C` frá :math:`L`.
 Þegar ferlinum :math:`C` er snúið :math:`360^\circ` um :math:`L` myndast

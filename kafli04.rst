@@ -30,8 +30,8 @@ Látum :math:`A_{x_0}` tákna flatarmál svæðisins sem afmarkast af
 .. math::
 
    \ln x_0 =\left\{\begin{array}{ll}
-   A_{x_0} & \mbox{ef }x_0 \geq 1,\\
-   -A_{x_0} & \mbox{ef }0<x_0<1.
+   A_{x_0} & \text{ef }x_0 \geq 1,\\
+   -A_{x_0} & \text{ef }0<x_0<1.
    \end{array}
    \right.
 
@@ -67,7 +67,7 @@ Fyrir allar tölur :math:`x,y>0` gildir að:
 
 (iv)  :math:`\ln(x/y)=\ln x-\ln y`
 
-(v)   :math:`\ln (x^r)=r\ln x`.
+(v)   :math:`\ln (x^r)=r\ln x`, fyrir :math:`r \in mathbb Q`.
 
 .. index::
     veldisvísisfallið
@@ -134,23 +134,23 @@ af því að flatarmál svæðisins milli :math:`x`-ás og grafs
     
     .. math::
     
-        e^{\ln x}=x \mbox{ fyrir allar tölur }x>0\qquad \mbox{og}
-        \qquad \ln(e^x)=x  \mbox{ fyrir allar tölur }x.
+        e^{\ln x}=x \text{ fyrir allar tölur }x>0\qquad \text{og}
+        \qquad \ln(e^x)=x  \text{ fyrir allar tölur }x.
 
 Eiginleikar veldisvísisfallsins
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Út frá eiginleikum lograns fáum við svo eftirfarandi
 
-(i)   :math:`e^0=1`
+(i)   :math:`e^0=1`,
 
-(ii)  :math:`e^{x+y}=e^x e^y`
+(ii)  :math:`e^{x+y}=e^x e^y`,
 
-(iii) :math:`e^{-x}=\frac{1}{e^x}`
+(iii) :math:`e^{-x}=\frac{1}{e^x}`,
 
-(iv)  :math:`e^{x-y}=\frac{e^x}{e^y}`
+(iv)  :math:`e^{x-y}=\frac{e^x}{e^y}`,
 
-(v)   :math:`\left(e^x\right)^y=e^{xy}`
+(v)   :math:`\left(e^x\right)^y=e^{xy}`, fyrir :math:`y \in \mathbb Q`.
 
 .. note::
     **Hænan eða eggið?** Hér höfum við nálgast :math:`\ln` og :math:`\exp`
@@ -430,7 +430,7 @@ Andhverfur breiðbogafalla
 Andhverfa breiðbogasínussins og breiðbogatangensins
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Af Setningum 4.6.1 (2) og 4.6.5 (2) sjáum við að afleiður :math:`\sinh` og
+Af Setningum 4.6.2 (1) og 4.6.5 (2) sjáum við að afleiður :math:`\sinh` og
 :math:`\tanh` eru jákvæðar og föllin því stranglega vaxandi. Þau eru þar
 með eintæk og eiga sér andhverfur.
 

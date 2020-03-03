@@ -112,9 +112,9 @@ Látum :math:`\sum_{n=0}^\infty a_n(x-c)^n` vera veldaröð.
      .. math::
 
         R= \left\{\begin{array}{ll}
-        \infty & \mbox{ef }L=0,\\
-        \frac{1}{L} & \mbox{ef }0<L<\infty,\\
-        0 & \mbox{ef }L=\infty.\\ 
+        \infty & \text{ef }L=0,\\
+        \frac{1}{L} & \text{ef }0<L<\infty,\\
+        0 & \text{ef }L=\infty.\\ 
         \end{array} \right.
 
 (ii) :hover:`Rótarpróf`: Gerum ráð fyrir að
@@ -125,9 +125,9 @@ Látum :math:`\sum_{n=0}^\infty a_n(x-c)^n` vera veldaröð.
      .. math::
 
         R= \left\{\begin{array}{ll}
-        \infty & \mbox{ef }L=0,\\
-        \frac{1}{L} & \mbox{ef }0<L<\infty,\\
-        0 & \mbox{ef }L=\infty.\\
+        \infty & \text{ef }L=0,\\
+        \frac{1}{L} & \text{ef }0<L<\infty,\\
+        0 & \text{ef }L=\infty.\\
         \end{array}
         \right.
 
@@ -242,7 +242,7 @@ fyrir öll :math:`x\in(c-R, c+R)` kallast *fágað* (raunfágað) í punktinum
 Athugasemd
 ~~~~~~~~~~
 
-Dæmi um raunfáguð föll eru margliður, ræð föll, hornaföll, veldisföll og
+Dæmi um fáguð föll eru margliður, ræð föll, hornaföll, veldisföll og
 lograr.
 
 .. index::
@@ -347,31 +347,31 @@ Taylorraðir nokkra falla
    e^x&=\sum_{n=0}^\infty\frac{x^n}{n!}
        =1+x+\frac{x^2}{2}+\frac{x^3}{3!}
        +\cdots
-     &\mbox{fyrir öll }x\\
+     &\text{fyrir öll }x\\
    \sin x&=  \sum_{n=0}^\infty\frac{(-1)^n}{(2n+1)!}x^{2n+1}
        =x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+\cdots
-       &\mbox{fyrir öll }x\\ 
+       &\text{fyrir öll }x\\ 
    \cos x&=  \sum_{n=0}^\infty\frac{(-1)^n}{(2n)!}x^{2n}
        =1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\cdots
-       &\mbox{fyrir öll }x\\
+       &\text{fyrir öll }x\\
    \frac{1}{1-x}&=\sum_{n=0}^\infty x^n
        =1+x+x^2+x^3+\cdots
-   &\mbox{fyrir }-1<x<1\\
+   &\text{fyrir }-1<x<1\\
    \frac{1}{(1-x)^2}&=\sum_{n=1}^\infty nx^{n-1}
        =1+2x+3x^2+4x^3+\cdots
-   &\mbox{fyrir }-1<x<1\\
+   &\text{fyrir }-1<x<1\\
    \ln(1+x)&=  \sum_{n=1}^\infty\frac{(-1)^{n-1}}{n}x^n
        =x-\frac{x^2}{2}+\frac{x^3}{3}-\frac{x^4}{4}+\cdots
-       &\mbox{fyrir }-1<x\leq 1\\
+       &\text{fyrir }-1<x\leq 1\\
    \tan^{-1} x&=  \sum_{n=0}^\infty\frac{(-1)^n}{2n+1}x^{2n+1}
        =x-\frac{x^3}{3}+\frac{x^5}{5}-\frac{x^7}{7}+\cdots
-       &\mbox{fyrir }-1\leq x\leq 1\\\\
+       &\text{fyrir }-1\leq x\leq 1\\\\
    \sinh x&=  \sum_{n=0}^\infty\frac{x^{2n+1}}{(2n+1)!}
        =x+\frac{x^3}{3!}+\frac{x^5}{5!}+\frac{x^7}{7!}+\cdots
-       &\mbox{fyrir öll } x\\
+       &\text{fyrir öll } x\\
    \cosh x&=  \sum_{n=0}^\infty\frac{x^{2n}}{(2n)!}
        =1+\frac{x^2}{2!}+\frac{x^4}{4!}+\frac{x^6}{6!}+\cdots
-       &\mbox{fyrir öll } x\\\end{aligned}
+       &\text{fyrir öll } x\\\end{aligned}
 
 
 

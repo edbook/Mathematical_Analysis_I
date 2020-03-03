@@ -184,7 +184,7 @@ Setning
 ~~~~~~~
 
 Ef :math:`x` er innri punktur í skilgreiningarsvæði fallsins :math:`f`
-þá er :math:`f` diffranlegt í :math:`x` þá og því að eins
+þá er :math:`f` diffranlegt í :math:`x` þá og því aðeins að
 
 .. math::
 
@@ -493,7 +493,6 @@ Gerum ráð fyrir að :math:`f` hafi staðbundið hágildi í punktinum :math:`x
 .. math::
 
    \lim_{x \to x_0^-} = \frac{f(x_0) - f(x)}{x_0-x} \geq 0.
-       \label{vinstri}
 
 Eins þá er :math:`f(x_0)-f(x)\geq 0` og ef :math:`x_0<x`,
 þá er :math:`\frac{f(x_0)-f(x)}{x_0-x} \leq 0`.
@@ -502,7 +501,6 @@ Eins þá er :math:`f(x_0)-f(x)\geq 0` og ef :math:`x_0<x`,
 .. math::
 
    \lim_{x \to x_0^+} = \frac{f(x_0) - f(x)}{x_0-x} \leq 0.
-       \label{haegri}
 
 Við vitum að markgildið
 :math:`\lim_{x\to x_0} \frac{f(x_0)-f(x)}{x_0-x}` er til þar sem fallið
@@ -601,7 +599,7 @@ Skilgreinum nýtt fall
 
 .. math:: h(x)=f(x)-\left(f(a)+ \frac{f(b)-f(a)}{b-a}(x-a)\right).
 
-Athugið að :math:`h` er bara :math:`f` mínus línan sem liggur í gegnum 
+Athugið að :math:`h` er bara :math:`f` mínus :hover:`línufallið,línufall` gegnum punktana
 :math:`(a,f(a))` og :math:`(b,f(b))`. Þetta þýðir að :math:`h` er diffranlegt
 og að :math:`h(a)=h(b)=0`. Þá gefur `Setning Rolle <rolle>`_ að til er :math:`c` þannig að
 :math:`h'(c)=0`. 
@@ -690,7 +688,7 @@ Fall :math:`f` er *stranglega minnkandi* á bili
 Setning
 ~~~~~~~
 
-Látum :math:`f` vera diffranlegt fall. Þá er :math:`f` vaxandi þá og því
+Látum :math:`f` vera diffranlegt fall á bili. Þá er :math:`f` vaxandi þá og því
 aðeins að :math:`f' \geq 0`.
 
 .. begin-toggle::
@@ -736,19 +734,19 @@ Samkvæmt meðalgildissetningunni þá er til punktur :math:`¢` á bilinu :math
 Setning
 ~~~~~~~
 
-Látum :math:`f` vera diffranlegt fall. Þá er :math:`f` minnkandi þá og
+Látum :math:`f` vera diffranlegt fall á bili. Þá er :math:`f` minnkandi þá og
 því aðeins að :math:`f' \leq 0`.
 
 Setning
 ~~~~~~~
 
-Látum :math:`f` vera diffranlegt fall. Ef :math:`f'>0` þá er :math:`f`
+Látum :math:`f` vera diffranlegt fall á bili. Ef :math:`f'>0` þá er :math:`f`
 stranglega vaxandi.
 
 Setning
 ~~~~~~~
 
-Látum :math:`f` vera diffranlegt fall. Ef :math:`f'<0` þá er :math:`f`
+Látum :math:`f` vera diffranlegt fall á bili. Ef :math:`f'<0` þá er :math:`f`
 stranglega minnkandi.
 
 .. warning::
@@ -800,8 +798,8 @@ Setning: Andhverfusetningin
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Látum feril vera gefinn með :math:`F(x,y) =0`, þar sem :math:`F` er
-diffranlegt í bæði :math:`x` og :math:`y`. Í punktum þar sem ferillinn
-er ekki lóðréttur (þ.e. :math:`\frac{d}{dy}F \neq 0`) þá er hægt að
+diffranlegt í bæði :math:`x` og :math:`y`. Í punktum þar sem *snertill* 
+ferilsins er ekki lóðréttur (þ.e. :math:`\frac{d}{dy}F \neq 0`) þá er hægt að
 skrifa :math:`y` sem fall af :math:`x` og þá fæst af keðjureglunni að
 
 .. math:: \frac{d}{dx} F(x,y) + \frac{d}{dy}F(x,y) \frac{dy}{dx} = 0,
@@ -815,14 +813,14 @@ Sjá https://en.wikipedia.org/wiki/Inverse_function_theorem
 Með öðrum orðum
 ~~~~~~~~~~~~~~~
 
-Það kemur á sama stað niður að einangra :math:`y=f(x)`, ef það er
+Það kemur í sama stað niður að einangra :math:`y=f(x)`, ef það er
 mögulegt, og finna :math:`y'` með því að diffra, eins og að diffra
 :math:`F(x,y)=0` og einangra svo :math:`y'=\frac{dy}{dx}`.
 
 Vinnulag
 ~~~~~~~~
 
-(i)     Diffrum beggja vegna jöfnuna með tilliti til :math:`x`, og lítum á
+(i)     Diffrum báðar hliðar jöfnunar með tilliti til :math:`x`, og lítum á
         :math:`y` sem fall af :math:`x` sem við diffrum með aðstoð
         keðjureglunnar (og gleymum ekki :math:`y'`)
 
@@ -876,7 +874,7 @@ Andhverf föll
 Rifjum upp að gagntæk vörpun :math:`f:X\to Y` hefur andhverfu 
 :math:`f^{-1}:Y\to X` sem uppfyllir að
 
-.. math:: y=f(x)\qquad\mbox{þá og því aðeins að}\qquad x=f^{-1}(y).
+.. math:: y=f(x)\qquad\text{þá og því aðeins að}\qquad x=f^{-1}(y).
 
 Sjá :ref:`kafla 1.4 <andhverfa>`.
 
@@ -889,7 +887,7 @@ fyrir að :math:`f` sé eintækt. Með því að einskorða bakmengi :math:`f` v
 myndmengið :math:`\tilde Y = f(X)` þá verður :math:`f:X\to \tilde Y` gagntækt fall. 
 Þá er til andhverfa :math:`f^{-1}:\tilde Y \to X` sem uppfyllir
 
-.. math:: y=f(x)\qquad\mbox{þá og því aðeins að}\qquad x=f^{-1}(y).
+.. math:: y=f(x)\qquad\text{þá og því aðeins að}\qquad x=f^{-1}(y).
 
 
 Setning
@@ -928,7 +926,7 @@ Setning: Afleiða andhverfunnar
 Gerum ráð fyrir að fall :math:`f` hafi andhverfu :math:`f^{-1}`. Látum
 :math:`x` vera á skilgreiningarsvæði :math:`f` og gerum ráð fyrir að
 :math:`f` sé diffranlegt í punktinum :math:`f^{-1}(x)` og að
-:math:`f'(f^{-1}(x))\neq 0`. Þá er :math:`f^{-1}` diffranlegt í
+:math:`f'(f^{-1}(x)) \neq 0`. Þá er :math:`f^{-1}` diffranlegt í
 punktinum :math:`x` og
 
 .. math:: \left(f^{-1}\right)'(x)=\frac{1}{f'(f^{-1}(x))}
@@ -945,8 +943,8 @@ Línulegar nálganir
 Staðbundnar nálganir
 ~~~~~~~~~~~~~~~~~~~~
 
-Skoðum diffranlegt fall :math:`f` í grennd um fastann punkt
-:math:`a`. Látum :math:`x` vera punkt í grennd um :math:`a`
+Skoðum diffranlegt fall :math:`f` í grennd um fastan punkt
+:math:`a`. Látum :math:`x` vera punkt í grennd um :math:`a`.
 Ef graf fallsins er ekki ,,mjög
 sveigt” þá er snertillinn við :math:`(a,f(a))` næstum samsíða
 sniðlinum gegnum :math:`(a,f(a))` og :math:`(x,f(x))`. 
@@ -965,7 +963,7 @@ sniðlinum gegnum :math:`(a,f(a))` og :math:`(x,f(x))`.
 
 .. note:: 
     Einnig er hægt að skrifa þetta á eftirfarandi hátt.
-    Skilgreinum :math:`x` = a + \Delta x` og 
+    Setjum :math:`\Delta x = x-a` og 
     :math:`\Delta y = f(x) - f(a)` þá þýðir þetta að 
     :math:`\Delta y \approx \Delta x f'(a)`.
 
@@ -976,8 +974,8 @@ sniðlinum gegnum :math:`(a,f(a))` og :math:`(x,f(x))`.
 Skilgreining: Línuleg nálgun
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Línuleg nálgun á falli :math:`f` nálægt :math:`a`, eða 1. stigs Taylor
-margliða :math:`f` í :math:`a`, er gefin með
+Línuleg nálgun á falli :math:`f` nálægt :math:`a`, eða 1. stigs 
+Taylor-margliða :math:`f` í :math:`a`, er gefin með
 :math:`P_1(x)=f(a)+f'(a)(x-a)`.
 
 Setning: Skekkjumat
@@ -1010,8 +1008,8 @@ sem gefur að
 
 ------
 
-Taylormargliður
----------------
+Taylor-margliður
+----------------
 
 Línuleg nálgun á falli er ekkert annað en nálgun með fyrsta stigs
 margliðu.
@@ -1024,8 +1022,8 @@ Hvernig er 0. stigs nálgun á falli?
 .. index::
     Taylor margliða
 
-Skilgreining: Taylormargliða
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Skilgreining: Taylor-margliða
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Gerum ráð fyrir að fall :math:`f` sé diffranlegt :math:`n` sinnum í
 punkti :math:`a`, þ.e.a.s. við gerum ráð fyrir að :math:`n`-ta afleiðan
@@ -1039,7 +1037,7 @@ stigi fyrir :math:`f` um :math:`x=a` (oft líka sagt með *miðju* í
        P_n(x)=f(a)+f'(a)(x-a)+\frac{f''(a)}{2}(x-a)^2+ \\
        \frac{f'''(a)}{3!}(x-a)^3+\cdots+\frac{f^{(n)}(a)}{n!}(x-a)^n.\end{gathered}
 
-Talað er um :math:`n`-ta stigs Taylor nálgun þegar gildið :math:`P_n(x)`
+Talað er um :math:`n`-ta stigs Taylor-nálgun þegar gildið :math:`P_n(x)`
 er notað sem nálgun fyrir :math:`f(x)`.
 
 Skekkjan í nálguninni (munurinn á réttu fallgildi og nálgunargildi) er
@@ -1047,7 +1045,7 @@ táknaður með
 
 .. math:: E_n(x)=f(x)-P_n(x).
 
-Skekkjumat fyrir Taylor margliður
+Skekkjumat fyrir Taylor-margliður
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Gerum ráð fyrir að :math:`n+1`-afleiðan :math:`f^{(n+1)}(t)` sé
@@ -1079,7 +1077,8 @@ Fylgisetning
 
 Gerum ráð fyrir að :math:`f` sé :math:`n+1` diffranlegt á bili sem
 inniheldur bæði :math:`a` og :math:`x`. Gerum enn fremur ráð fyrir að
-:math:`m` og :math:`M` séu tölur þannig að fyrir öll :math:`t\in (a, x)`
+:math:`m` og :math:`M` séu tölur þannig að fyrir öll :math:`t` 
+á milli `a` og `x`
 gildi að :math:`m\leq f^{(n+1)}(t)\leq M`. Þá er
 
 .. math::
@@ -1090,24 +1089,24 @@ gildi að :math:`m\leq f^{(n+1)}(t)\leq M`. Þá er
 .. index::
     O-ritháttur
    
-Skilgreining: O
-~~~~~~~~~~~~~~~
+Ritháttur
+~~~~~~~~~
 
 Við ritum
 
 .. math::
 
-   f(x)=O(u(x)) \mbox{ þegar } x\rightarrow a
+   f(x)=O(u(x)) \text{ þegar } x\rightarrow a
 
 ef til er fasti :math:`K` og tala :math:`\delta>0` þannig að
 
-.. math:: |f(x)|<K|u(x)|\quad\mbox{ fyrir öll}\quad x\in(a-\delta, a+\delta).
+.. math:: |f(x)|<K|u(x)|\quad\text{ fyrir öll}\quad x\in(a-\delta, a+\delta).
 
-Einnig ritað
+Einnig er ritað
 
 .. math::
 
-   f(x)=g(x)+O(u(x)) \mbox{ þegar }x\rightarrow a
+   f(x)=g(x)+O(u(x)) \text{ þegar }x\rightarrow a
 
 ef :math:`f(x)-g(x)=O(u(x))` þegar :math:`x\rightarrow a`.
 
@@ -1119,7 +1118,7 @@ Athugasemd
 
 Við sjáum að
 
-.. math:: f(x) = P_n(x) + O((x-a)^{n+1}) \mbox{ þegar } x\rightarrow a,
+.. math:: f(x) = P_n(x) + O((x-a)^{n+1}) \text{ þegar } x\rightarrow a,
 
 því hægt er að nota :math:`K = \frac{\max\{-m,M\}}{(n+1)!}` í skilgreiningunni
 hér á undan.
@@ -1130,7 +1129,7 @@ Setning
 Gerum ráð fyrir að :math:`Q_n(x)` sé margliða af stigi ekki hærra en
 :math:`n`. Ef :math:`f(x)=Q_n(x)+O((x-a)^{n+1})` þegar
 :math:`x\rightarrow a` þá er :math:`Q_n(x)=P_n(x)` þar sem
-:math:`P_n(x)` er :math:`n`-ta stigs Taylor margliða :math:`f` með miðju
+:math:`P_n(x)` er :math:`n`-ta stigs Taylor-margliða :math:`f` með miðju
 í :math:`a`.
 
 Með öðrum orðum, :math:`P_n` er sú margliða af stigi :math:`\leq n` sem 
@@ -1141,11 +1140,11 @@ nálgar :math:`f` best.
 
 ------
 
-Regla l’Hôpital
----------------
+Regla de l’Hôpital
+------------------
 
-Regla l’Hôpital, einhliða útgáfa
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Regla de l’Hôpital, einhliða útgáfa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Gerum ráð fyrir að föllin :math:`f` og :math:`g` séu diffranleg á opnu
 bili :math:`(a,
@@ -1155,7 +1154,7 @@ fremur ráð fyrir að
 .. math::
 
    \lim_{x\rightarrow a^+}f(x)=0, \quad \lim_{x\rightarrow a^+}g(x)=0
-   \quad\mbox{og}\quad \lim_{x\rightarrow a^+}\frac{f'(x)}{g'(x)}=L.
+   \quad\text{og}\quad \lim_{x\rightarrow a^+}\frac{f'(x)}{g'(x)}=L.
 
 (Hér má :math:`L` vera rauntala, :math:`\infty` eða :math:`-\infty`.)
 
@@ -1191,8 +1190,8 @@ einnig til og er jafnt og :math:`L`.
 
 .. end-toggle::
 
-Regla l’Hôpital
-~~~~~~~~~~~~~~~
+Regla de l’Hôpital
+~~~~~~~~~~~~~~~~~~
 
 Gerum ráð fyrir að föllin :math:`f` og :math:`g` séu diffranleg á bilum
 :math:`(x_1, a)` og :math:`(a, x_2)` og að :math:`g'(x)\neq 0` fyrir öll
@@ -1202,7 +1201,7 @@ Gerum enn fremur ráð fyrir að
 .. math::
 
    \lim_{x\rightarrow a}f(x)=0, \quad \lim_{x\rightarrow a}g(x)=0
-   \quad\mbox{og}\quad \lim_{x\rightarrow a}\frac{f'(x)}{g'(x)}=L.
+   \quad\text{og}\quad \lim_{x\rightarrow a}\frac{f'(x)}{g'(x)}=L.
 
 (Hér má :math:`L` vera rauntala, :math:`\infty` eða :math:`-\infty`.)
 
@@ -1214,7 +1213,7 @@ Dæmi
 ~~~~
 
 Við höfum áður séð að :math:`\lim_{x\to 0} \sin(x)/x = 1`. 
-Skoðum hvernig hægt er að sýna þetta með lítilli fyrirhöfn og reglu l’Hôpital.
+Skoðum hvernig hægt er að sýna þetta með lítilli fyrirhöfn og reglu de l’Hôpital.
 
 Sjáum að :math:`f(x) = \sin(x)` og :math:`g(x)` eru diffranleg í grennd um 0
 og að :math:`g'(x) = 1 \neq 0`. Þá fæst að 
@@ -1222,8 +1221,8 @@ og að :math:`g'(x) = 1 \neq 0`. Þá fæst að
 .. math::
     \lim_{x \to 0} \frac{\sin(x)}{x} = \lim_{x \to 0} \frac{\cos(x)}{1} = 1.
 
-Regla l’Hôpital, :math:`\infty`-útgáfa
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Regla de l’Hôpital, :math:`\infty`-útgáfa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Gerum ráð fyrir að föllin :math:`f` og :math:`g` séu diffranleg á bilum
 :math:`(x_1, \infty)` og að :math:`g'(x)\neq 0` fyrir öll
@@ -1232,7 +1231,7 @@ Gerum ráð fyrir að föllin :math:`f` og :math:`g` séu diffranleg á bilum
 .. math::
 
    \lim_{x\rightarrow \infty}f(x)=0, \quad \lim_{x\rightarrow \infty}g(x)=0
-   \quad\mbox{og}\quad \lim_{x\rightarrow \infty}\frac{f'(x)}{g'(x)}=L.
+   \quad\text{og}\quad \lim_{x\rightarrow \infty}\frac{f'(x)}{g'(x)}=L.
 
 (Hér má :math:`L` vera rauntala, :math:`\infty` eða :math:`-\infty`.)
 
@@ -1240,8 +1239,8 @@ Gerum ráð fyrir að föllin :math:`f` og :math:`g` séu diffranleg á bilum
 
 .. math:: \lim_{x\rightarrow \infty}\frac{f(x)}{g(x)}=L.
 
-Regla l’Hôpital, útgáfa 4
-~~~~~~~~~~~~~~~~~~~~~~~~~
+Regla de l’Hôpital, tvíhliða útgáfa
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Gerum ráð fyrir að föllin :math:`f` og :math:`g` séu diffranleg á bilum
 :math:`(x_1, a)` og :math:`(a, x_2)` og að :math:`g'(x)\neq 0` fyrir öll
@@ -1250,7 +1249,7 @@ Gerum ráð fyrir að föllin :math:`f` og :math:`g` séu diffranleg á bilum
 .. math::
 
    \lim_{x\rightarrow a}g(x)=\pm\infty
-   \quad\mbox{og}\quad \lim_{x\rightarrow a}\frac{f'(x)}{g'(x)}=L.
+   \quad\text{og}\quad \lim_{x\rightarrow a}\frac{f'(x)}{g'(x)}=L.
 
 (Hér má :math:`L` vera rauntala, :math:`\infty` eða :math:`-\infty`.)
 

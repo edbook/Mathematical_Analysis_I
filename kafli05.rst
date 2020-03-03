@@ -198,6 +198,7 @@ Fyrir tvídiffranlegt fall :math:`f` þá er eftirfarandi jafngilt
 (iii) :math:`f'' \geq 0`
 
 .. todo::  Sönnun
+
 Setning
 ~~~~~~~
 

@@ -61,9 +61,9 @@ skilgreint. Við segjum að :math:`f(x)` *stefni á tölu* :math:`L` *þegar*
 uppfyllt:
 
 Fyrir sérhverja tölu :math:`\epsilon>0` er til tala :math:`\delta>0`
-þannig að um öll :math:`x` sem eru þannig að
+sem fullnægir eftirfarandi skilyrði: 
 
-.. math:: 0 < |x-a| < \delta,\quad \text{ þá gildir } \quad |f(x)-L| <\epsilon.
+.. math:: \text{fyrir öll $x$ sem uppfylla} \qquad 0 < |x-a| < \delta \qquad \text{gildir} \qquad |f(x)-L| <\epsilon.
 
 Við segjum að talan :math:`L` sé :hover:`markgildi,markgildi` :math:`f(x)` þegar
 :math:`x` stefnir á :math:`a`.
@@ -90,6 +90,10 @@ Dæmi
 (ii)  :math:`\lim_{x \to a} x = a`
 
 (iii) :math:`\lim_{x \to a} |x| = |a|`
+
+.. only:: latex
+
+    Sönnun á lið 2.
 
 .. begin-toggle::
     :label: Sýna sönnun á lið 2
@@ -296,7 +300,7 @@ Gerum ráð fyrir að :math:`\lim_{x\rightarrow a}f(x)=L` og að
       :math:`\lim_{x\rightarrow a}f(x)=L\leq M=\lim_{x\rightarrow a}g(x)`.
 
 .. warning::
-    Liður (i) í setningunni á undan segir að ef markgildin
+    Liður (1) í setningunni á undan segir að ef markgildin
     :math:`\lim_{x\to a} f(x)` og :math:`\lim_{x\to a} g(x)` eru til þá sé
     markgildið :math:`\lim_{x\to a} (f(x)+g(x))` einnig til.
 
@@ -399,6 +403,10 @@ Dæmi: Markgildi með sínus
 (iii) 
 
       .. math:: \lim_{x \to 0} \frac{\sin(x)}{x} = 1
+
+.. only:: latex
+
+        Sönnun á lið 1.
 
 .. begin-toggle::
         :label: Sýna sönnun á 1.
@@ -826,20 +834,20 @@ fyrir :math:`S`. Við viljum sýna að :math:`f(c)=s`.
 
 Ef :math:`f(c)>s` þá segir samfelldni :math:`f`
 okkur að til sé lítið bil kringum :math:`c` þar sem fallið er stærra en :math:`s`. Sér í lagi er
-til tala minni en :math:`c` sem er ekki í menginu :math:`A`. Þetta þýðir að :math:`c` er 
-ekki minnsta efra mark :math:`A`. Orðum þetta aðeins nákvæmar.
+til tala minni en :math:`c` sem er ekki í menginu :math:`S`. Þetta þýðir að :math:`c` er 
+ekki efra mark :math:`S`. Orðum þetta aðeins nákvæmar.
 
 Veljum :math:`0<\epsilon < f(c)-s` þá er til :math:`\delta>0` þannig að ef :math:`x\in ]c-\delta,c+\delta[`
 þá er :math:`|f(c)-f(x)|<\epsilon < f(c) -s`. Þetta hefur í för með sér að :math:`f(c) - f(x) < f(c) -s`, 
-það er :math:`f(x)>s`. Þetta þýðir að öll :math:`x\in]c-\delta,c[` eru "minni" efri mörk fyrir :math:`A`
+það er :math:`f(x)>s`. Þetta þýðir að öll :math:`x\in]c-\delta,c[` eru "minni" efri mörk fyrir :math:`S`
 en :math:`c` sem gengur ekki og er því mótsögn.
 
 Ef :math:`f(c)<s` þá segir samfelldni :math:`f` okkur að til sé lítið bil kringum :math:`c`
 þar sem fallið er minna en :math:`s`. Sér í lagi  er til tala stærri en :math:`c` sem er í menginu
-:math:`A`. Þetta þýðir að :math:`c` er ekki efra mark, því efra mark á að vera stærra eða jafnt
-og öll stök í :math:`A`. Þetta er einnig mótsögn.
+:math:`S`. Þetta þýðir að :math:`c` er ekki efra mark, því efra mark á að vera stærra eða jafnt
+og öll stök í :math:`S`. Þetta er einnig mótsögn.
 
-Þá er bara eftir möguleikinn :math:`f(c)=s`, sem nákvæmlega það sem við vildum.
+Þá er bara eftir möguleikinn :math:`f(c)=s`, sem er nákvæmlega það sem við vildum.
 
 .. end-toggle::
 

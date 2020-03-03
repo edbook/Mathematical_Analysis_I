@@ -3,13 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Stærðfræðigreining I (STÆ104G), Háskóli Íslands, haust 2017 
+Stærðfræðigreining I (STÆ104G), Háskóli Íslands, haust 2019
 ===========================================================
 
-Kennarar: Benedikt Steinar Magnússon, bsm@hi.is, og 
-Auðunn Skúta Snæbjarnarson, audunnskuta@hi.is.
+Kennari: Jón Ingólfur Magnússon, jim@hi.is.
 
-Höfundur efnis: Benedikt Steinar Magnússon.
+Höfundur efnis: Benedikt Steinar Magnússon, bsm@hi.is.
 
 .. todo::
     **Global**:

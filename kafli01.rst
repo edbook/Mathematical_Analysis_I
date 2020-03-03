@@ -92,7 +92,7 @@ Skilgreining: Tölur
       :math:`\mathbb{Z}= \ldots,-2,-1,0,1,2,3,\ldots`
 
 (iii) Mengi :hover:`ræðra talna,ræð tala` er táknað með :math:`\mathbb{Q}`.
-      :math:`\mathbb{Q}= \{ \frac pq ; p,q \in \mathbb{Z}\}`.
+      :math:`\mathbb{Q}= \{ \frac pq ; p,q \in \mathbb{Z}, q\neq 0\}`.
 
 (iv)  Mengi :hover:`rauntalna,rauntala` er táknað með :math:`\mathbb{R}`.
 
@@ -347,7 +347,7 @@ Látum :math:`X=[0,2]`, :math:`Y=[0,4]` og :math:`f:X \to Y, f(x) = x^2`.
     :math:`X` inniheldur ekki bæði :math:`a` og :math:`-a`, :math:`a\neq 0`,
     því þá er :math:`f` ekki lengur eintæk.
     
-    Mengið :math:`Y` er svo valið sem myndmengið :math:`f(Y)`.
+    Mengið :math:`Y` er svo valið sem myndmengið :math:`f(X)`.
     
     
 Skilgreining: Graf
