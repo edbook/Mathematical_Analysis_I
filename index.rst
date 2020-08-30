@@ -3,12 +3,12 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Stærðfræðigreining I (STÆ104G), Háskóli Íslands, haust 2019
-===========================================================
-
-Kennari: Jón Ingólfur Magnússon, jim@hi.is.
+Stærðfræðigreining I (STÆ104G), Háskóli Íslands
+===============================================
 
 Höfundur efnis: Benedikt Steinar Magnússon, bsm@hi.is.
+
+Síðast uppfært: 2020-08-21
 
 .. todo::
     **Global**:

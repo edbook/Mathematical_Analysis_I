@@ -16,9 +16,9 @@ This has made a lot of people very angry and been widely regarded as a bad move.
    
    * `GeoGebru skrárnar <http://edbook.hi.is/stae104g/stae104g_geogebra.zip>`_ sem eru notaðar.
    
-   * Námskeiðið á `Uglu <https://ugla.hi.is/kv/index2.php?sid=219&namsknr=09101120196>`_.
-   
-   * Námskeiðið í `kennsluskrá <https://ugla.hi.is/kennsluskra/index.php?tab=nam&chapter=namskeid&id=09101120196&kennsluar=2019>`_.
+   * Námskeiðisvefur í `Canvas <https://haskoliislands.instructure.com/courses/1248>`_.
+
+   * Námskeiðið í `kennsluskrá <https://ugla.hi.is/kennsluskra/index.php?tab=nam&chapter=namskeid&id=09101120196&kennsluar=2020>`_.
 
 .. only:: latex
 
@@ -28,8 +28,8 @@ This has made a lot of people very angry and been widely regarded as a bad move.
    
    * GeoGebru skrárnar sem eru notaðar, http://edbook.hi.is/stae104g/stae104g_geogebra.zip. 
       
-   * Námskeiðið á Uglu https://ugla.hi.is/kv/index2.php?sid=219&namsknr=09101120196.
-   
+   * Námskeiðisvefur í `Canvas <https://haskoliislands.instructure.com/courses/1248>`_.
+
    * Námskeiðið í kennsluskrá, https://ugla.hi.is/kennsluskra/index.php?tab=nam&chapter=namskeid&id=09101120196&kennsluar=2019.
 
 .. raw:: latex
@@ -38,8 +38,19 @@ This has made a lot of people very angry and been widely regarded as a bad move.
 
 ---------
 
-Kennsluáætlun
--------------
+Viðfangsefni
+------------
+Viðfangsefnið er  stærðfræðigreining í einni
+breytistærð, þ.e. markgildi, samfelldni, diffrun, heildun, diffurjöfnur,
+runur og raðir, ásamt hagnýtingum á þessum hlutum.
+
+
+Samanburður á köflum í nótunum og Adams Calculus
+------------------------------------------------
+
+Þessar nóturnar hafa verið kenndar samhliða bókinni *Calculus: A Complete Course* eftir
+Robert Adams og Christopher Essex. Hér fyrir grófur samanburður 
+á köflunum í nótunum og tilsvarandi köflum í bókinni.
 
 *Reality is frequently inaccurate.*
 
@@ -52,169 +63,66 @@ Kennsluáætlun
 
 .. only:: html
 
-  +----------+----------------------------------+-----------+------------------------------+
-  | Dags.    | Efni                             | Nótur     | Adams Calculus               |
-  +==========+==================================+===========+==============================+
-  | 26.08.19 | 1\. Tölur og föll                | 1.1-1.4   | P.1, P.2, P.4,P.5, P.6, P.7  |
-  +          +                                  +           +                              +
-  | 28.08.19 | 2\. Markgildi og samfelldni      | 2.1-2.3   | 1.2, 1.5                     |
-  +----------+----------------------------------+-----------+------------------------------+
-  | 02.09.19 | 3\. Markgildi og samfelldni      | 2.4-2.6   | 1.3                          |
-  +          +                                  +           +                              +
-  | 04.09.19 | 3.\ Markgildi og samfelldni      | 2.7-2.8   | 1.4                          |
-  +----------+----------------------------------+-----------+------------------------------+
-  | 09.09.19 | 3\. Afleiður                     | 3.1-3.3   | 2.1, 2.2, 2.3                |
-  +          +                                  +           +                              +
-  | 11.09.19 | 3\. Afleiður                     | 3.4-3.6   | 2.4, 2.5, 2.6                |
-  +----------+----------------------------------+-----------+------------------------------+
-  | 16.09.19 | 3\. Afleiður                     | 3.7-3.10  | 2.8, 2.9, 3.1                |
-  +          +                                  +           +                              +
-  | 18.09.19 | 3\. Afleiður                     | 3.11-3.13 | 2.7, 4.3, 4.9, 4.10          |
-  +----------+----------------------------------+-----------+------------------------------+
-  | 23.09.19 | 4\. Torræð föll                  | 4.1-4.4   | 3.2, 3.3, 3.4                |
-  +          +                                  +           +                              +
-  | 25.09.19 | 4\. Torræð föll                  | 4.5-4.7   | 3.5, 3.6                     |
-  +----------+----------------------------------+-----------+------------------------------+
-  | 30.09.19 | 5\. Könnun falla                 | 5.1-5.3   | 4.5                          |
-  +          +                                  +           +                              +
-  | 02.10.19 | 5\. Könnun falla                 | 5.4-5.6   | 4.4, 4.6                     |
-  +----------+----------------------------------+-----------+------------------------------+
-  | 07.10.19 | 5\. Könnun falla                 | 5.7-5.8   | 4.6, 4.8                     |
-  +          +                                  +           +                              +
-  | \-       | **Próf úr lesnu efni**           | \-        | \-                           |
-  +          +                                  +           +                              +
-  | 09.10.19 | 6.\ Heildun                      | 6.1-6.3   | 5.1, 5.2, 5.3, 5.4           |
-  +----------+----------------------------------+-----------+------------------------------+
-  | 14.10.19 | 6\. Heildun                      | 6.4-6.5   | 5.5, 2.10                    |
-  +          +                                  +           +                              +
-  | 16.10.19 | 6\. Heildun                      | 6.6       | 5.6, 6.1, 6.2, 6.3, 6.4      |
-  +----------+----------------------------------+-----------+------------------------------+
-  | 21.10.19 | 6\. Heildun                      | 6.7       | 6.5                          |
-  +          +                                  +           +                              +
-  | 23.10.19 | 7\. Rúmmál, massi og massamiðjur | 7.1       | 7.1, 7.2, 7.3                |
-  +----------+----------------------------------+-----------+------------------------------+
-  | 28.10.19 | 7\. Rúmmál, massi og massamiðjur | 7.2-7.3   | 7.4, 7.5                     |
-  +          +                                  +           +                              +
-  | 30.10.19 | 8\. Diffurjöfnur                 | 8.1-8.2   | 7.9, 18.1, 18.2              |
-  +----------+----------------------------------+-----------+------------------------------+
-  | 04.11.19 | 8\. Diffurjöfnur                 | 8.3-8.5   | 3.7, 18.4, 18.5              |
-  +          +                                  +           +                              +
-  | \-       | **Próf úr heimadæmum**           | \-        | \-                           |
-  +          +                                  +           +                              +
-  | 06.11.19 | Hagnýtingar                      | \-        | ítarefni                     |
-  +----------+----------------------------------+-----------+------------------------------+
-  | 11.11.19 | 9\. Runur og raðir               | 9.1-9.2   | 9.1, 9.2                     |
-  +          +                                  +           +                              +
-  | 13.11.19 | 9\. Runur og raðir               | 9.3-9.4   | 9.2, 9.3                     |
-  +----------+----------------------------------+-----------+------------------------------+
-  | 18.11.19 | 10\. Veldaraðir                  | 10.1      | 9.3, 9.5                     |
-  +          +                                  +           +                              +
-  | 20.11.19 | 10\. Veldaraðir                  | 10.2      | 9.5                          |
-  +----------+----------------------------------+-----------+------------------------------+
-  | 25.11.19 | 10\. Veldaraðir                  | 10.3      | 9.6                          |
-  +          +                                  +           +                              +
-  | 27.11.19 | Samantekt og prófundirbúningur   | \-        | gamalt próf                  |   
-  +----------+----------------------------------+-----------+------------------------------+
++----------------------------------+-----------+------------------------------+
+| Efni                             | Nótur     | Adams Calculus               |
++==================================+===========+==============================+
+| 1\. Tölur og föll                | 1.1-1.4   | P.1, P.2, P.4,P.5, P.6, P.7  |
++                                  +           +                              +
+| 2\. Markgildi og samfelldni      | 2.1-2.3   | 1.2, 1.5                     |
++                                  +           +                              +
+| 3\. Markgildi og samfelldni      | 2.4-2.6   | 1.3                          |
++                                  +           +                              +
+| 3.\ Markgildi og samfelldni      | 2.7-2.8   | 1.4                          |
++                                  +           +                              +
+| 3\. Afleiður                     | 3.1-3.3   | 2.1, 2.2, 2.3                |
++                                  +           +                              +
+| 3\. Afleiður                     | 3.4-3.6   | 2.4, 2.5, 2.6                |
++                                  +           +                              +
+| 3\. Afleiður                     | 3.7-3.10  | 2.8, 2.9, 3.1                |
++                                  +           +                              +
+| 3\. Afleiður                     | 3.11-3.13 | 2.7, 4.3, 4.9, 4.10          |
++                                  +           +                              +
+| 4\. Torræð föll                  | 4.1-4.4   | 3.2, 3.3, 3.4                |
++                                  +           +                              +
+| 4\. Torræð föll                  | 4.5-4.7   | 3.5, 3.6                     |
++                                  +           +                              +
+| 5\. Könnun falla                 | 5.1-5.3   | 4.5                          |
++                                  +           +                              +
+| 5\. Könnun falla                 | 5.4-5.6   | 4.4, 4.6                     |
++                                  +           +                              +
+| 5\. Könnun falla                 | 5.7-5.8   | 4.6, 4.8                     |
++                                  +           +                              +
+| 6.\ Heildun                      | 6.1-6.3   | 5.1, 5.2, 5.3, 5.4           |
++                                  +           +                              +
+| 6\. Heildun                      | 6.4-6.5   | 5.5, 2.10                    |
++                                  +           +                              +
+| 6\. Heildun                      | 6.6       | 5.6, 6.1, 6.2, 6.3, 6.4      |
++                                  +           +                              +
+| 6\. Heildun                      | 6.7       | 6.5                          |
++                                  +           +                              +
+| 7\. Rúmmál, massi og massamiðjur | 7.1       | 7.1, 7.2, 7.3                |
++                                  +           +                              +
+| 7\. Rúmmál, massi og massamiðjur | 7.2-7.3   | 7.4, 7.5                     |
++                                  +           +                              +
+| 8\. Diffurjöfnur                 | 8.1-8.2   | 7.9, 18.1, 18.2              |
++                                  +           +                              +
+| 8\. Diffurjöfnur                 | 8.3-8.5   | 3.7, 18.4, 18.5              |
++                                  +           +                              +
+| 9\. Runur og raðir               | 9.1-9.2   | 9.1, 9.2                     |
++                                  +           +                              +
+| 9\. Runur og raðir               | 9.3-9.4   | 9.2, 9.3                     |
++                                  +           +                              +
+| 10\. Veldaraðir                  | 10.1      | 9.3, 9.5                     |
++                                  +           +                              +
+| 10\. Veldaraðir                  | 10.2      | 9.5                          |
++                                  +           +                              +
+| 10\. Veldaraðir                  | 10.3      | 9.6                          |
++----------------------------------+-----------+------------------------------+
 
 Kaflanúmer í Adam’s Calculus miðast við 9. útgáfu kennslubókarinnar.
 
 
 ---------
-
-.. raw:: latex
-
-    \newpage
-
-Skipulag námskeiðsins
----------------------
-
-*You know," said Arthur, "it's at times like this, when I'm trapped in a 
-Vogon airlock with a man from Betelgeuse, and about to die of asphyxiation 
-in deep space that I really wish I'd listened to what my mother told me when I was young."*
-
-*"Why, what did she tell you?"*
-
-*"I don't know, I didn't listen.”*
-
--- Douglas Adams, The Hitchhiker's Guide to the Galaxy
-
-Námsefni
-~~~~~~~~
-Viðfangsefni námskeiðsins er stærðfræðigreining í einni
-breytistærð, þ.e. markgildi, samfelldni, diffrun, heildun, diffurjöfnur,
-runur og raðir, ásamt hagnýtingum á þessum hlutum.
-
-Kennslubók
-~~~~~~~~~~
-Kennslubókin er *Calculus: A Complete Course*, eftir
-Robert Adams, 9. útgáfa. Við munum fara í gegnum kafla 1-7, 9 og
-18. Einnig er hægt að nota 8., 7. eða 6. útgáfu, þær eru að mestu leyti eins og sú 9.
-
-Fyrirlestrar og dæmatímar
-~~~~~~~~~~~~~~~~~~~~~~~~~
-Fyrirlestrar verða á mánudögum og á miðvikudögum, sjá stundaskrá á Uglu. 
-Auk þess er nemendum skipt
-í dæmahópa sem hittast einu sinni í viku ásamt dæmatímakennara.
-  
-Dæmablöð
-~~~~~~~~
-Fyrir hverja viku er gefið út dæmablað sem
-verður sett í *Verkefnamöppuna* á Uglu. Á dæmablaðinu eru sett fyrir
-skiladæmi og dæmi fyrir dæmatíma.
-
-Skiladæmi
-~~~~~~~~~
-Í hverri viku, nema þegar próf er, þá eru sett fyrir
-skiladæmi. Í fyrsta dæmatíma eiga nemendur að mynda þriggja manna hópa, 
-sem  vinna saman að skilaverkefnum og skila sameiginlegri lausn á þeim.
-Skiladæmunum á að skila fyrir kl. 16:00 á fimmtudögum í hólf
-dæmatímakennara, en þau eru staðsett í anddyri VRII. Lausnirnar eiga að
-vera snyrtilega uppsettar, ekki í möppu og merktar nafni ykkar og
-dæmatímakennara á **fremstu síðu**. Lausnir á
-skiladæmum verða settar í möppuna *Lausnir* á Uglu.
-
-.. centered::
-    **Til að öðlast próftökurétt þarf að skila fullnægjandi lausnum á 
-    að minnsta kosti 7 af 10 heimadæmum.**
-
-Undanþágur frá þessari reglu fást eingöngu fyrir atbeina Náms- og starfsráðgjafar Háskólans.
-
-Frekari leiðbeiningar um frágang og framsetningu skiladæma er að finna 
-hér fyrir :ref:`neðan <FragangurSkiladaema>`. 
-
-Skil teljast **fullnægjandi** ef verkefnin eru leyst að minnsta kostu til
-hálfs (þ.e. upp á 5 af 10 a.m.k.) og frágangur er vandaður, sjá 
-:ref:`Frágangur Skiladæma <FragangurSkiladaema>`. 
-
-Námsmat
-~~~~~~~
-Á misserinu verða tvö stutt próf, annað úr lesnu efni og
-hitt úr skiladæmum. Þessi próf gilda hvort um sig 15% af lokaeinkunn, en
-þó eingöngu til hækkunar. Fyrra prófið verður 7. október og verður þá
-spurt úr lesnu efni, þ.e. skilgreiningum, setningum og sönnunum. Seinna
-prófið er 4. nóvember og verður þá spurt beint upp úr skiladæmum.
-
-Svindl á prófum verður
-tilkynnt deildarforseta viðkomandi nemanda og sett í 
-farveg innan sviðsins (sbr. 
-`51. gr. rgl. 569/2009 HÍ <http://www.hi.is/adalvefur/reglur_fyrir_haskola_islands#51>`_).
-
-Lokaprófið er þriggja tíma skriflegt próf og gildir það 70% á móti
-misserisprófunum tveimur. Nauðsynlegt og nægjanlegt er að fá 5 á
-lokaprófinu til þess að ná áfanganum. Engin hjálpargögn eru
-leyfileg í prófinu, en með því fylgir formúlublað. 
-*Vasareiknar eru ekki leyfðir í prófinu*.
-
-Viðtalstímar
-~~~~~~~~~~~~
-Jón Ingólfur er með skrifstofu á þriðju hæð í Tæknigarði
-og verður með viðtalstíma á milli 10:00 og 12:00 á
-mánudögum. Persónuleg málefni má ræða í viðtalstímum eða í 
-tölvupósti (jim@hi.is) en vinsamlegast sendið allar almennar fyrirspurnir vegna
-námsefnisins, fyrirkomulagsins, heimadæma og þess háttar inn á 
-"Almennar fyrirspurningar varðandi námskeiðið" á Uglu.
-
--------------
 
 .. raw:: latex
 
@@ -272,7 +180,7 @@ you, is that you’ve never actually known what the question is.”*
 Fyrir nánari útskýringar á hugtökum sem við fjöllum um þá er hægt að skoða,
 auk kennslubókarinnar,
 
--  http://edbook.hi.is/undirbuningur, upprifjunarefni fyrir þá sem eru að hefja nám
+-  http://edbook.hi.is/undirbuningur_stae, upprifjunarefni fyrir þá sem eru að hefja nám
 
 -  http://stae.is/os, íslensk-ensk og ensk-íslensk stærðfræðiorðaskrá
 

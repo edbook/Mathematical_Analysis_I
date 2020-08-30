@@ -68,7 +68,7 @@ sem fullnægir eftirfarandi skilyrði:
 Við segjum að talan :math:`L` sé :hover:`markgildi,markgildi` :math:`f(x)` þegar
 :math:`x` stefnir á :math:`a`.
 
-.. ggb:: 1425597
+.. ggb:: sYHVajyE
     :width: 700
     :height: 400
     :img: 01_markgildi.png

@@ -34,11 +34,11 @@ extensions = [
     'sphinx.ext.ifconfig',
     'sphinx.ext.intersphinx',
     'sphinx.ext.todo',
-#    'sphinx.ext.mathjax',
+    'sphinx.ext.mathjax',
 
     # Katex is a substitute for mathjax, renders math much faster
     # Note: katex extension must come before sagecell to work properly
-    'katex.katex',
+#    'katex.katex',
 
     # hieroglyph is used to generate html slides, needs to be installed for use,
     # see https://github.com/nyergler/hieroglyph
