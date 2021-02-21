@@ -62,7 +62,7 @@ myndast þegar svæðinu sem afmarkast af :math:`x`-ás, grafinu
 .. math:: V=\pi\int_a^b f(x)^2\,dx.
 
 Sjá  `3D volume by rotation of a function <https://www.geogebra.org/m/40798>`_
-eftir `George Katehos <https://www.geogebra.org/material/show/id/40798>`_ (CC-BY-SA).
+eftir `George Katehos <https://www.geogebra.org/u/george.katehos>`_ (CC-BY-SA).
 
 .. index::
     rúmmál; snúðs með gati
@@ -95,8 +95,8 @@ og :math:`x=b` um :math:`360^\circ` um :math:`y`-ás er
 .. index::
     fall; lengd grafs
 
-Sjá `Solids and volumes of revolution (rotation about y_axis) <https://www.geogebra.org/b/75281#material/18475>`_
-eftir `George Katehos <https://www.geogebra.org/b/75281#material/18475>`_ (CC-BY-SA).
+Sjá `Solids and volumes of revolution (rotation about y_axis) <https://www.geogebra.org/m/nvRvzKys>`_
+eftir `Daniel Mentrard <https://www.geogebra.org/m/nvRvzKys>`_.
 
 
 Lengd grafs
